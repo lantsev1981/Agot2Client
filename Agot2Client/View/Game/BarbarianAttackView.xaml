@@ -1,0 +1,51 @@
+﻿<UserControl x:Class="Agot2Client.BarbarianAttackView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:res="clr-namespace:Agot2Client.Properties"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.Style>
+            <Style>
+                <Setter Property="Grid.Visibility" Value="Collapsed"/>
+                <Style.Triggers>
+                    <MultiDataTrigger>
+                        <MultiDataTrigger.Conditions>
+                            <Condition Binding="{Binding ClientInfo.ClientGame.ClientStep.WCFStep.StepType}" Value="Железный_трон"/>
+                            <Condition Binding="{Binding ClientInfo.ClientGame.VisibilityNextBarbarian}" Value="True"/>
+                        </MultiDataTrigger.Conditions>
+                        <MultiDataTrigger.Setters>
+                            <Setter Property="Grid.Visibility" Value="Visible"/>
+                        </MultiDataTrigger.Setters>
+                    </MultiDataTrigger>
+                </Style.Triggers>
+            </Style>
+        </Grid.Style>
+
+        <Grid Style="{StaticResource infoGrid}"/>
+        <StackPanel VerticalAlignment="Center" Grid.Row="1">
+            <TextBlock Style="{StaticResource textStyle}" Text="{Binding ClientInfo.ClientGame.VesterosLastViewStep.WCFStep.Message[0]}" FontSize="36" HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="Wrap" Margin="2.5"/>
+            <Image Source="{Binding ClientInfo.ClientGame.NextBarbarian}" Stretch="Uniform" Margin="2.5" MaxHeight="450"/>
+            <StackPanel>
+                <TextBlock Style="{StaticResource textStyle}" Text="{x:Static res:Resources.text_homeSelect}" FontSize="28" HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="Wrap" Margin="2.5"/>
+                <ItemsControl ItemsSource="{Binding ClientInfo.ClientGame.ViewGameUserInfo}" HorizontalAlignment="Center">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Horizontal"/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding Step.ExtGameUser.ExtHomeType.InfluenceImageName}" 
+                                   Visibility="{Binding BarbarianVisibility}"
+                                   Margin="2.5"  
+                                   MouseUp="Image_MouseUp"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>

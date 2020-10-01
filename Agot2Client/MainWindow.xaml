@@ -1,0 +1,83 @@
+﻿<Window x:Class="Agot2Client.MainWindow"
+        Style="{StaticResource windowStyle}"
+        xmlns:local="clr-namespace:Agot2Client"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:TransitionEffects="clr-namespace:TransitionEffects;assembly=EffectsLib"
+        xmlns:res="clr-namespace:Agot2Client.Properties"
+        mc:Ignorable="d" 
+        d:DesignHeight="600" d:DesignWidth="800"
+        MinHeight="690" MinWidth="980"
+        WindowState="Maximized" WindowStartupLocation="CenterScreen" 
+        Closing="Window_Closing" Loaded="Window_Loaded">
+    <Window.Resources>
+        <Storyboard x:Key="Show">
+            <DoubleAnimation Storyboard.TargetProperty="Progress" Storyboard.TargetName="effect" From="-53" To="0" Duration="0:0:1"/>
+            <DoubleAnimation Storyboard.TargetProperty="Progress" Storyboard.TargetName="effect" From="0" To="1.6" BeginTime="0:0:1" Duration="0:0:0.4"/>
+            <DoubleAnimation Storyboard.TargetProperty="Opacity" Storyboard.TargetName="image" From="0" To="0.1" Duration="0:0:0.5"/>
+            <DoubleAnimation Storyboard.TargetProperty="Opacity" Storyboard.TargetName="image" From="0.1" To="1" BeginTime="0:0:0.5" Duration="0:0:0.5"/>
+        </Storyboard>
+    </Window.Resources>
+
+    <Grid>
+        <Grid Name="mediaGrid" Visibility="Collapsed">
+            <MediaElement x:Name="mainTitle" Source="{Binding Vols[0].FileName}" LoadedBehavior="Manual" Volume="{Binding Vols[0].Value}"/>
+            <MediaElement x:Name="notify" Source="{Binding Vols[1].FileName}" LoadedBehavior="Manual" Volume="{Binding Vols[1].Value}"/>
+            <MediaElement x:Name="chatMessage" Source="{Binding Vols[2].FileName}" LoadedBehavior="Manual" Volume="{Binding Vols[2].Value}"/>
+            <MediaElement x:Name="gameChatMessage" Source="{Binding Vols[3].FileName}" LoadedBehavior="Manual" Volume="{Binding Vols[3].Value}"/>
+            <MediaElement x:Name="stepTimer" Source="{Binding Vols[4].FileName}" LoadedBehavior="Manual" Volume="{Binding Vols[4].Value}"/>            
+        </Grid>
+
+        <local:CloudsView x:Name="cloudsView" Visibility="Hidden" Opacity="0"/>
+        <local:LobbyView x:Name="lobbyView" Visibility="Hidden" Opacity="0"/>
+        <local:GameView x:Name="gameView" Visibility="Hidden" Opacity="0"/>
+
+        <local:LeftPanelView2 x:Name="leftPanelView"/>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top">
+            <Grid>
+                <Grid.Style>
+                    <Style>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding GamePortal.IsAdmin}" Value="False">
+                                <Setter Property="UIElement.Visibility" Value="Collapsed"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Grid.Style>
+                <Button  Height="24" Width="24" Margin="5" ToolTip="Ограничить создание новых игр" Click="DisableNewGame">
+                    <Image >
+                        <Image.Style>
+                            <Style>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding IsDisableNewGame}" Value="False">
+                                        <Setter Property="Image.Source" Value="/Image/stop.png"/>
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding IsDisableNewGame}" Value="True">
+                                        <Setter Property="Image.Source" Value="/Image/play.png"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Image.Style>
+                    </Image>
+                </Button>
+            </Grid>
+            
+            <Button  Height="24" Width="24"  Margin="5" ToolTip="{x:Static res:Resources.hint_settings}" Click="Settings_Button_Click">
+                <Image Source="/Image/Settings.png"/>
+            </Button>
+        </StackPanel>
+
+        <!--<local:InfoView x:Name="infoView"/>-->
+        <local:SendMessageView x:Name="sendMessageView" Visibility="Collapsed"/>
+        <local:SettingsView x:Name="settingsView" Visibility="Collapsed"/>
+        <local:HomeSelectView x:Name="homeSelectView" Visibility="Collapsed"/>
+        <local:AwardsForm x:Name="awardsForm" Visibility="Collapsed"/>
+        <local:HomesForm x:Name="homesForm" Visibility="Collapsed"/>
+        <local:QuestionView x:Name="questionView" Visibility="Collapsed"/>
+        <local:UpdatingProfile x:Name="updatingProfile" Visibility="Collapsed"/>
+        <local:ErrorView x:Name="errorView" Visibility="Collapsed" HorizontalAlignment="Stretch" VerticalAlignment="Bottom"/>
+    </Grid>
+</Window>

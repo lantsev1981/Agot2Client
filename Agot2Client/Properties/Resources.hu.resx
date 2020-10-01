@@ -1,0 +1,1935 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="actionType_Борьба_за_влияние" xml:space="preserve">
+    <value>Királyok csatája</value>
+  </data>
+  <data name="actionType_Набег" xml:space="preserve">
+    <value>Fosztogatási parancs nem adható ki</value>
+  </data>
+  <data name="actionType_Нашествие_одичалых" xml:space="preserve">
+    <value>Támadnak a Vadak</value>
+  </data>
+  <data name="actionType_Ничего_не_происходит" xml:space="preserve">
+    <value>Eseménytelen időszak</value>
+  </data>
+  <data name="actionType_Оборона" xml:space="preserve">
+    <value>Védekezési parancs nem adható ki</value>
+  </data>
+  <data name="actionType_Подмога" xml:space="preserve">
+    <value>Támogatási parancs nem adható ki</value>
+  </data>
+  <data name="actionType_Поход_1_специальный" xml:space="preserve">
+    <value>A különleges menetparancs nem használható</value>
+  </data>
+  <data name="actionType_Сбор_власти" xml:space="preserve">
+    <value>Trónok Harca</value>
+  </data>
+  <data name="actionType_Сбор_войск" xml:space="preserve">
+    <value>Toborzás</value>
+  </data>
+  <data name="actionType_Снабжение_войск" xml:space="preserve">
+    <value>Utánpótlás</value>
+  </data>
+  <data name="actionType_Усиление_власти" xml:space="preserve">
+    <value>Uralom megszilárdítása parancsok nem adhatók ki</value>
+  </data>
+  <data name="awardsType_AllHouseVictory" xml:space="preserve">
+    <value>Győzelem az összes Ház felett</value>
+  </data>
+  <data name="awardsType_MaxDurationHours" xml:space="preserve">
+    <value>Leghosszabb játékban töltött idő</value>
+  </data>
+  <data name="awardsType_SerLoras" xml:space="preserve">
+    <value>"Ser Loras Futó lábai" citromdíj. A játékból kilépő kapja.</value>
+  </data>
+  <data name="awardsType_SerLorasMax" xml:space="preserve">
+    <value>"Ser Loras Leggyorsabb cipője" citromdíj. A játékból legtöbbször kilépő kapja.</value>
+  </data>
+  <data name="dictionary_empty" xml:space="preserve">
+    <value>Néző</value>
+  </data>
+  <data name="dictionary_game" xml:space="preserve">
+    <value>Játék</value>
+  </data>
+  <data name="dictionary_home" xml:space="preserve">
+    <value>Ház</value>
+  </data>
+  <data name="dynamic_barbarianThreat" xml:space="preserve">
+    <value>Vadak aktivitási szintje {0}</value>
+  </data>
+  <data name="dynamic_batsCount" xml:space="preserve">
+    <value>Tét: {0} ({1} hatalomjelző maradt)</value>
+  </data>
+  <data name="dynamic_bladePower" xml:space="preserve">
+    <value>Valyriai acélkard használata ({0})</value>
+  </data>
+  <data name="dynamic_clashOfKings" xml:space="preserve">
+    <value>Licit a "{0}"-ért</value>
+  </data>
+  <data name="dynamic_consolidatePower" xml:space="preserve">
+    <value>A hatalmi pozíció megszilárdítása "{0}"-ban/ben. ({1} hatalomjelződ lett)</value>
+  </data>
+  <data name="dynamic_consolidatePowerLoses" xml:space="preserve">
+    <value>A hatalmi pozíció elvesztése "{0}"-ban/ben. Ezzel ({1} hatalomjelződ lett)</value>
+  </data>
+  <data name="dynamic_errorStep" xml:space="preserve">
+    <value>Lehetetlen a Ház {0}: {1} lépése</value>
+  </data>
+  <data name="dynamic_Exile" xml:space="preserve">
+    <value>{1} ({0}) száműzve!</value>
+  </data>
+  <data name="dynamic_ExileEarlier" xml:space="preserve">
+    <value>{0}! Korábban már száműzve voltál.</value>
+  </data>
+  <data name="dynamic_gameOver" xml:space="preserve">
+    <value>A játék véget ért!</value>
+  </data>
+  <data name="dynamic_garrisonRemove" xml:space="preserve">
+    <value>"{0}" helyőrség lerombolva</value>
+  </data>
+  <data name="dynamic_hiLord" xml:space="preserve">
+    <value>{0}! Üdvözlöm {1} nagyuram!</value>
+  </data>
+  <data name="dynamic_homeCardReturn" xml:space="preserve">
+    <value>A "{0}" Ház-kártya visszakerül a játékba</value>
+  </data>
+  <data name="dynamic_homeCardSelect" xml:space="preserve">
+    <value>Ház-kártya kiválasztása...</value>
+  </data>
+  <data name="dynamic_homeSupport" xml:space="preserve">
+    <value>Támogatás a "{0}" Háznak</value>
+  </data>
+  <data name="dynamic_kingClaim" xml:space="preserve">
+    <value>A Vastrón birtokosa dönti el a döntetlent</value>
+  </data>
+  <data name="dynamic_leftGame" xml:space="preserve">
+    <value>{1} ({0}) kilépett a játékból! {2} kísérlet maradt a visszatéréshez.</value>
+  </data>
+  <data name="dynamic_MaxEfficiency" xml:space="preserve">
+    <value>Maximális győzelmi ráta "{0}"-ért</value>
+  </data>
+  <data name="dynamic_MaxTotalVictory1" xml:space="preserve">
+    <value>Legtöbb győzelem</value>
+  </data>
+  <data name="dynamic_MaxTotalVictory2" xml:space="preserve">
+    <value>Maximális győzelmi szám "{0}"-ért</value>
+  </data>
+  <data name="dynamic_newGame" xml:space="preserve">
+    <value>{0} zászlóhordozók összehívása</value>
+  </data>
+  <data name="dynamic_newTurn" xml:space="preserve">
+    <value>{0}. Kör</value>
+  </data>
+  <data name="dynamic_orderCancel" xml:space="preserve">
+    <value>"{0}"-nél kiadott parancs törlése</value>
+  </data>
+  <data name="dynamic_passwordDenied" xml:space="preserve">
+    <value>{0}! Hozzáférés csak jelszóval.</value>
+  </data>
+  <data name="dynamic_planning" xml:space="preserve">
+    <value>"{0}"</value>
+  </data>
+  <data name="dynamic_powerEstablishes" xml:space="preserve">
+    <value>A Hatalom megszerzése "{0}" felett</value>
+  </data>
+  <data name="dynamic_powerLoses" xml:space="preserve">
+    <value>A Hatalom elvesztése "{0}" felett</value>
+  </data>
+  <data name="dynamic_raided" xml:space="preserve">
+    <value>Portyázás "{0}"-nál/nél</value>
+  </data>
+  <data name="dynamic_Renly_Baratheon" xml:space="preserve">
+    <value>Renly Baratheon: Az egység nem vesz részt az ütközetben, vagy nem nyújt támogatást, vagy nincs gyalogság.</value>
+  </data>
+  <data name="dynamic_resetDeck" xml:space="preserve">
+    <value>Pakli dobása "{0} #{1}"</value>
+  </data>
+  <data name="dynamic_resetWildlingsDeck" xml:space="preserve">
+    <value>Pakli megkeverése "{0}"</value>
+  </data>
+  <data name="dynamic_retreatsCount" xml:space="preserve">
+    <value>A visszavonulók minimális száma = {0}</value>
+  </data>
+  <data name="dynamic_samePC" xml:space="preserve">
+    <value>FIGYELEM! Ezek a játékosok egyazon PC-ről játszanak: {0}</value>
+  </data>
+  <data name="dynamic_shipCouldDestroy" xml:space="preserve">
+    <value>Az elfoglalt flotta elsüllyedhet "{0}"-nál</value>
+  </data>
+  <data name="dynamic_shipDestroy" xml:space="preserve">
+    <value>A hajó elsüllyedt (maximum hajószám)</value>
+  </data>
+  <data name="dynamic_shipLost" xml:space="preserve">
+    <value>A hajó eltűnt</value>
+  </data>
+  <data name="dynamic_shipTaken" xml:space="preserve">
+    <value>A hajó elfoglalva</value>
+  </data>
+  <data name="dynamic_supplyLimit" xml:space="preserve">
+    <value>Az utánpótlás elégtelen volta miatt sereg feloszlatva</value>
+  </data>
+  <data name="dynamic_theEnd" xml:space="preserve">
+    <value>{0}-dik helyezett</value>
+  </data>
+  <data name="dynamic_theEndWinner" xml:space="preserve">
+    <value>GYŐZTES</value>
+  </data>
+  <data name="dynamic_vesterosEvent" xml:space="preserve">
+    <value>Westeros-i Események: "{0}"</value>
+  </data>
+  <data name="dynamic_voting" xml:space="preserve">
+    <value>A "{0}" befolyási sáv #{1} pozíciójába lép</value>
+  </data>
+  <data name="dynamic_wildBuries" xml:space="preserve">
+    <value>A felső Vadak lapot áthelyezzük alulra</value>
+  </data>
+  <data name="dynamic_wildFail" xml:space="preserve">
+    <value>Az Éjjeli Őrség győzelme!</value>
+  </data>
+  <data name="dynamic_wildlingsAttack" xml:space="preserve">
+    <value>A Vadak támadó-ereje {0}</value>
+  </data>
+  <data name="dynamic_wildlingsCategory0" xml:space="preserve">
+    <value>mindenki más</value>
+  </data>
+  <data name="dynamic_wildlingsCategory1" xml:space="preserve">
+    <value>legalacsonyabb licit</value>
+  </data>
+  <data name="dynamic_wildlingsCategory2" xml:space="preserve">
+    <value>legmagasabb licit</value>
+  </data>
+  <data name="dynamic_wildlingsResult" xml:space="preserve">
+    <value>{0}: besorolásod "{1}"</value>
+  </data>
+  <data name="dynamic_wildVictory" xml:space="preserve">
+    <value>Vadak győzelme!</value>
+  </data>
+  <data name="error_checkBlacklist" xml:space="preserve">
+    <value>Tiltólista ellenőrzése</value>
+  </data>
+  <data name="error_checkHomeStatus" xml:space="preserve">
+    <value>A Ház adatainak ellenőrzése sikertelen:</value>
+  </data>
+  <data name="error_clearProfile" xml:space="preserve">
+    <value>Besorolásod nem nullázható le</value>
+  </data>
+  <data name="error_connection" xml:space="preserve">
+    <value>Nem lehet a játékhoz csatlakozni:</value>
+  </data>
+  <data name="error_createGame1" xml:space="preserve">
+    <value>Nem lehet új játékot létrehozni:</value>
+  </data>
+  <data name="error_createGame2" xml:space="preserve">
+    <value>Nem hozhatsz létre új játékot, amíg aktív játékban érdekelt vagy.</value>
+  </data>
+  <data name="error_criticalError" xml:space="preserve">
+    <value>Kritikus hiba</value>
+  </data>
+  <data name="error_decodeText" xml:space="preserve">
+    <value>Hiba a szöveg visszafejtésében!</value>
+  </data>
+  <data name="error_getLangs" xml:space="preserve">
+    <value>Nem sikerült megállapítani a rendszer nyelvét. Szabvány nyelv az angol (en).</value>
+  </data>
+  <data name="error_getLinkAccount" xml:space="preserve">
+    <value>Nem tölthetők be a profiljaid</value>
+  </data>
+  <data name="error_inviteUser" xml:space="preserve">
+    <value>Nem sikerült a meghívót elküldeni:</value>
+  </data>
+  <data name="error_linkAccount" xml:space="preserve">
+    <value>Nem sikerült a profilok egyesítése. (Vagy a jelszó hibás, vagy a profil volt aktív az elmúlt 2 napban.)</value>
+  </data>
+  <data name="error_logEvent" xml:space="preserve">
+    <value>Nem sikerült az eseményt törölni: indexOf =</value>
+  </data>
+  <data name="error_notifyLoad" xml:space="preserve">
+    <value>A link nem nyitható meg, vagy nem futtatható:</value>
+  </data>
+  <data name="error_password" xml:space="preserve">
+    <value>Téves jelszó!</value>
+  </data>
+  <data name="error_profileLoad" xml:space="preserve">
+    <value>A profil nem frissült</value>
+  </data>
+  <data name="error_profileSave" xml:space="preserve">
+    <value>A profil nem menthető</value>
+  </data>
+  <data name="error_profilesLoad" xml:space="preserve">
+    <value>A profilok nem töltődtek be, vagy nem frissültek:</value>
+  </data>
+  <data name="error_profileUpdate1" xml:space="preserve">
+    <value>A profilod nem módosítható. Vedd fel a kapcsolatot a programfejlesztővel!</value>
+  </data>
+  <data name="error_profileUpdate2" xml:space="preserve">
+    <value>Profilod frissítése közben hiba lépett fel: a funkció nem elérhető, próbálkozz később.</value>
+  </data>
+  <data name="error_propertyChanged" xml:space="preserve">
+    <value>A grafikai elemek nem jeleníthetőek meg:</value>
+  </data>
+  <data name="error_rateChange" xml:space="preserve">
+    <value>A besorolás változása nem történt meg:</value>
+  </data>
+  <data name="error_sendMessage" xml:space="preserve">
+    <value>Üzenet az ismeretlen játékosnak nem küldhető el.</value>
+  </data>
+  <data name="error_sendStep" xml:space="preserve">
+    <value>A lépés nem befejezett:</value>
+  </data>
+  <data name="error_specialUsers" xml:space="preserve">
+    <value>A játékosok speciális listája nem frissül:</value>
+  </data>
+  <data name="error_syncSteps1" xml:space="preserve">
+    <value>A lépés szinkronizálása nem történt meg (link):</value>
+  </data>
+  <data name="error_syncSteps2" xml:space="preserve">
+    <value>A lépés szinkronizálása nem történt meg (szerver):</value>
+  </data>
+  <data name="error_syncSteps3" xml:space="preserve">
+    <value>A lépés szinkronizálása nem történt meg (elévült adat):</value>
+  </data>
+  <data name="error_syncUsers1" xml:space="preserve">
+    <value>A játékosok szinkronizálása nem történt meg (link):</value>
+  </data>
+  <data name="error_syncUsers2" xml:space="preserve">
+    <value>A játékosok szinkronizálása nem történt meg (szerver):</value>
+  </data>
+  <data name="error_translateLng" xml:space="preserve">
+    <value>({0}) nem támogatott. Szabvány nyelv az angol (en).</value>
+  </data>
+  <data name="error_undetectedLang" xml:space="preserve">
+    <value>Nem azonosítható a rendszer nyelve ({0}). Szabvány nyelv az angol (en).</value>
+  </data>
+  <data name="error_unknownError" xml:space="preserve">
+    <value>Ismeretlen hiba</value>
+  </data>
+  <data name="error_vkAuth" xml:space="preserve">
+    <value>Azonosítatlan felhasználó. Próbáld meg ismét.</value>
+  </data>
+  <data name="event_a_king_beyond_the_wall" xml:space="preserve">
+    <value>A Falon Túli Király</value>
+  </data>
+  <data name="event_a_throne_of_blades" xml:space="preserve">
+    <value>Vastrón</value>
+  </data>
+  <data name="event_clash_of_kings" xml:space="preserve">
+    <value>Királyok csatája</value>
+  </data>
+  <data name="event_crow_killers" xml:space="preserve">
+    <value>Koncold fel!</value>
+  </data>
+  <data name="event_dark_wings_dark_words" xml:space="preserve">
+    <value>Sötét szárnyak, sötét szavak</value>
+  </data>
+  <data name="event_feast_for_crows" xml:space="preserve">
+    <value>Varjak lakomája</value>
+  </data>
+  <data name="event_game_of_thrones" xml:space="preserve">
+    <value>Trónok harca</value>
+  </data>
+  <data name="event_last_days_of_summer_1" xml:space="preserve">
+    <value>A nyár utolsó napjai</value>
+  </data>
+  <data name="event_last_days_of_summer_2" xml:space="preserve">
+    <value>A nyár utolsó napjai</value>
+  </data>
+  <data name="event_mammoth_riders" xml:space="preserve">
+    <value>Mamutlovasok</value>
+  </data>
+  <data name="event_massing_on_the_milkwater" xml:space="preserve">
+    <value>Gyülekező a Tejfolyónál</value>
+  </data>
+  <data name="event_mustering" xml:space="preserve">
+    <value>Toborzás</value>
+  </data>
+  <data name="event_preemptive_raid" xml:space="preserve">
+    <value>Portyázás</value>
+  </data>
+  <data name="event_put_to_the_sword" xml:space="preserve">
+    <value>Kard használata</value>
+  </data>
+  <data name="event_rains_of_autumn" xml:space="preserve">
+    <value>Őszi esők</value>
+  </data>
+  <data name="event_rattleshirts_raiders" xml:space="preserve">
+    <value>Zörgővért portyázói</value>
+  </data>
+  <data name="event_sea_of_storms" xml:space="preserve">
+    <value>Háborgó-tenger</value>
+  </data>
+  <data name="event_silence_at_the_wall" xml:space="preserve">
+    <value>Hallgat a Fal</value>
+  </data>
+  <data name="event_skinchanger_scout" xml:space="preserve">
+    <value>A bőrváltó felderítő</value>
+  </data>
+  <data name="event_storm_of_swords" xml:space="preserve">
+    <value>Kardok Vihara</value>
+  </data>
+  <data name="event_supply" xml:space="preserve">
+    <value>Utánpótlás</value>
+  </data>
+  <data name="event_the_horde_descends" xml:space="preserve">
+    <value>Horda támadása</value>
+  </data>
+  <data name="event_web_of_lies" xml:space="preserve">
+    <value>Hazugságok hálója</value>
+  </data>
+  <data name="event_wildlings_attack" xml:space="preserve">
+    <value>Támadnak a vadak</value>
+  </data>
+  <data name="event_winter_is_coming_1" xml:space="preserve">
+    <value>Közeleg a tél</value>
+  </data>
+  <data name="event_winter_is_coming_2" xml:space="preserve">
+    <value>Közeleg a tél</value>
+  </data>
+  <data name="gameType_classic" xml:space="preserve">
+    <value>{0} résztvevős játék</value>
+  </data>
+  <data name="gameType_continues" xml:space="preserve">
+    <value>A csata folytatódik</value>
+  </data>
+  <data name="gameType_dragon" xml:space="preserve">
+    <value>Sárkányok tánca</value>
+  </data>
+  <data name="gameType_findUser" xml:space="preserve">
+    <value>Új hőst keresünk…</value>
+  </data>
+  <data name="gameType_homerules_classic_1" xml:space="preserve">
+    <value>5 résztvevős játék (5-dik résztvevő Martell-lel)</value>
+  </data>
+  <data name="gameType_new" xml:space="preserve">
+    <value>Zászlók hadba hívása</value>
+  </data>
+  <data name="gameType_over" xml:space="preserve">
+    <value>A játék véget ért!</value>
+  </data>
+  <data name="hero_dragon_Aeron_Damphair" xml:space="preserve">
+    <value>Hínárhajú Aeron</value>
+  </data>
+  <data name="hero_dragon_Big_Man" xml:space="preserve">
+    <value>Hegy</value>
+  </data>
+  <data name="hero_dragon_Euron_Crows_Eye" xml:space="preserve">
+    <value>Varjúszemű Euron</value>
+  </data>
+  <data name="hero_dragon_Jon_Snow" xml:space="preserve">
+    <value>Havas Jon</value>
+  </data>
+  <data name="hero_dragon_Nymeria_Sand" xml:space="preserve">
+    <value>Homoki Nymeria</value>
+  </data>
+  <data name="hero_dragon_Queen_of_Thorns" xml:space="preserve">
+    <value>Töviskirálynő</value>
+  </data>
+  <data name="hero_dragon_Reek" xml:space="preserve">
+    <value>Bűzös</value>
+  </data>
+  <data name="hero_dragon_Ser_Davos_Seaworth" xml:space="preserve">
+    <value>Ser Tengerjáró Davos</value>
+  </data>
+  <data name="hero_Нимерия_Сэнд" xml:space="preserve">
+    <value>Homoki Nymeria</value>
+  </data>
+  <data name="hero_Обара_Сэнд" xml:space="preserve">
+    <value>Homoki Obara</value>
+  </data>
+  <data name="hero_Сер_Давос_Сиворт" xml:space="preserve">
+    <value>Ser Tengerjáró Davos</value>
+  </data>
+  <data name="hint_absoluteSortUsers" xml:space="preserve">
+    <value>Játékosok sorbarendezése az "Abszolút" érték alapján (default). "Abszolút" az összes besorolásból számított középérték.</value>
+  </data>
+  <data name="hint_addBlackList" xml:space="preserve">
+    <value>Tiltólistára helyezés. Nem csatlakozhat a játékos a játékaidhoz, illetve figyelmeztet, ha ilyen játékoshoz lépnél be. Elérhető "Lovag" besorolástól.</value>
+  </data>
+  <data name="hint_addFavoriteList" xml:space="preserve">
+    <value>Kijelölt listára helyezés. Üzenetet küld a játékos cselekményeiről. Elérhető "Kereskedő" besorolástól.</value>
+  </data>
+  <data name="hint_battleCard" xml:space="preserve">
+    <value>Klikkel a kártyák megjelenítéséhez.</value>
+  </data>
+  <data name="hint_battleTab" xml:space="preserve">
+    <value>A folyamatban lévő (utolsó) csata</value>
+  </data>
+  <data name="hint_blade" xml:space="preserve">
+    <value>A valyriai acélkard ebben a fordulóban nem volt használatban</value>
+  </data>
+  <data name="hint_brainSortUsers" xml:space="preserve">
+    <value>A játékosokat a győzelm és összes lejátszott játék aránya szerint szerint rendezi</value>
+  </data>
+  <data name="hint_chatTab" xml:space="preserve">
+    <value>Publikus chat</value>
+  </data>
+  <data name="hint_clearLike" xml:space="preserve">
+    <value>Szimpátia-döntés törlése</value>
+  </data>
+  <data name="hint_closeTab" xml:space="preserve">
+    <value>Bezár</value>
+  </data>
+  <data name="hint_defence" xml:space="preserve">
+    <value>Védekezési parancs</value>
+  </data>
+  <data name="hint_donate" xml:space="preserve">
+    <value>Programfejlesztő támogatása, rangok és speciális beállítások.</value>
+  </data>
+  <data name="hint_findUsers" xml:space="preserve">
+    <value>Elveszett játékosok keresése. Írd be a szövegtöredéket és nyomj Entert.</value>
+  </data>
+  <data name="hint_game" xml:space="preserve">
+    <value>Belépés a játékba. A játék 6 óra hosszat is tarthat. Idő előtti kilépés büntetéssel járhat!</value>
+  </data>
+  <data name="hint_gameChatTab" xml:space="preserve">
+    <value>Játék chatje</value>
+  </data>
+  <data name="hint_gameUsersTab" xml:space="preserve">
+    <value>Játékosok és nézők</value>
+  </data>
+  <data name="hint_garrison" xml:space="preserve">
+    <value>Az erőd védi a helyőrséget</value>
+  </data>
+  <data name="hint_goodGame" xml:space="preserve">
+    <value>Az összes besorolás frissítve</value>
+  </data>
+  <data name="hint_homeCardTab" xml:space="preserve">
+    <value>Ház-kártyák</value>
+  </data>
+  <data name="hint_honorSortUsers" xml:space="preserve">
+    <value>A játékosokat a lejátszott és összes játék aránya szerint szerint rendezi</value>
+  </data>
+  <data name="hint_horizontalMap" xml:space="preserve">
+    <value>Térkép vízszintesen középre</value>
+  </data>
+  <data name="hint_ignoreHonor" xml:space="preserve">
+    <value>Az elhagyott játék ellenére nincs szankció, a besorolás változatlan marad.</value>
+  </data>
+  <data name="hint_ignoreMind" xml:space="preserve">
+    <value>Játékoscsere. "Megbízhatóság" figyelembe véve,  "Csata" csak kérésre.</value>
+  </data>
+  <data name="hint_like" xml:space="preserve">
+    <value>Játékos linkelése</value>
+  </data>
+  <data name="hint_likeSortUsers" xml:space="preserve">
+    <value>A játékosokat a lájkok és dislájkok különbsége szerint rendezi</value>
+  </data>
+  <data name="hint_linkAccounts" xml:space="preserve">
+    <value>A profil egyesítéséhez klikkelj a "{0}"  profilra</value>
+  </data>
+  <data name="hint_linkPassword" xml:space="preserve">
+    <value>Add meg a profilhoz tartozó jelszót</value>
+  </data>
+  <data name="hint_log" xml:space="preserve">
+    <value>Részletek az esemény-listában</value>
+  </data>
+  <data name="hint_marchOrder" xml:space="preserve">
+    <value>Menetelés parancs</value>
+  </data>
+  <data name="hint_meetUsers" xml:space="preserve">
+    <value>Az ellenfeleid listája. Ne feledd el minősíteni őket (like vagy diszlike), ami kihat a "Charm" besorolásukra. A szavazás anonim.</value>
+  </data>
+  <data name="hint_mindZero" xml:space="preserve">
+    <value>A jéték elhagyva. A "Megbízhatóság" és "Csata" besorolás beszámítva.</value>
+  </data>
+  <data name="hint_mute" xml:space="preserve">
+    <value>Grownok megfojtása. A játékos némítása a játék chatjében a program újraindításáig. Elérhető "Lovag" besorolástól.</value>
+  </data>
+  <data name="hint_newGame" xml:space="preserve">
+    <value>Új játék beállításai. Egyedi név alapján könnyebben megkereshető, Besorolás szűrésével változatossá tehető..</value>
+  </data>
+  <data name="hint_onlineUsers" xml:space="preserve">
+    <value>Online játékosok. Elérhető "Farmer" besorolástól.</value>
+  </data>
+  <data name="hint_passRate" xml:space="preserve">
+    <value>Klikkelj a "Csata" besorolás felülírásához (nem visszavonható!).</value>
+  </data>
+  <data name="hint_password" xml:space="preserve">
+    <value>Add meg a jelszót a zárt játékhoz</value>
+  </data>
+  <data name="hint_privateGame" xml:space="preserve">
+    <value>Zárt játék</value>
+  </data>
+  <data name="hint_randomCard" xml:space="preserve">
+    <value>Csatamező</value>
+  </data>
+  <data name="hint_reconectGame" xml:space="preserve">
+    <value>Frissítés. Normál esetben szükségtelen, lefagyás gyanúja esetén használatos.</value>
+  </data>
+  <data name="hint_screenShot" xml:space="preserve">
+    <value>Monitorkép mentése a "..\Screenshot" mappába. A játék végeztével ez automatikusan megtörténik.</value>
+  </data>
+  <data name="hint_sendInvite" xml:space="preserve">
+    <value>Meghívó (hirdetmény) elküldése. Elérhető "Kereskedő" besorolástól.</value>
+  </data>
+  <data name="hint_settings" xml:space="preserve">
+    <value>Beállítások. (Hang, nyelv, profil, statisztika.) Hozzáférés "Farmer" rangtól.</value>
+  </data>
+  <data name="hint_skullGame" xml:space="preserve">
+    <value>Játékban a "Csata hullámzása" kártyák is használatban vannak.</value>
+  </data>
+  <data name="hint_sms" xml:space="preserve">
+    <value>Üzenet elküldése</value>
+  </data>
+  <data name="hint_smsCreator" xml:space="preserve">
+    <value>Üzenet a fejlesztőknek a Vkontakte közösségi hálón.</value>
+  </data>
+  <data name="hint_smsVK" xml:space="preserve">
+    <value>Üzenet a felhasználónak a Vkontakte közösségi hálón.</value>
+  </data>
+  <data name="hint_status" xml:space="preserve">
+    <value>Profil státusza (on/off line). Elérhető "Farmer" besorolástól.</value>
+  </data>
+  <data name="hint_stopGame" xml:space="preserve">
+    <value>A játék elhagyása. FIGYELEM! Ez kihat a "Megbízhatóság" besorolásodra. Amennyiben parallel másik játokban is részt akarsz venni, vagy belenézni, futtass egy második klienst.</value>
+  </data>
+  <data name="hint_supportAttak" xml:space="preserve">
+    <value>Ezek a házak támogatják a támadót.</value>
+  </data>
+  <data name="hint_supportCancel" xml:space="preserve">
+    <value>Senkit nem támogat</value>
+  </data>
+  <data name="hint_supportDefence" xml:space="preserve">
+    <value>Ezek a házak támogatják a védekezőt.</value>
+  </data>
+  <data name="hint_supportUnknow" xml:space="preserve">
+    <value>Ezek a házak semlegesek.</value>
+  </data>
+  <data name="hint_timerTab" xml:space="preserve">
+    <value>Az idő letelte után ki leszel dobva a játékból.</value>
+  </data>
+  <data name="hint_translate" xml:space="preserve">
+    <value>Lefordítsuk a használt nyelvre?</value>
+  </data>
+  <data name="hint_unLike" xml:space="preserve">
+    <value>A játékos dislike-olása</value>
+  </data>
+  <data name="hint_updateUsers" xml:space="preserve">
+    <value>Profil lista frissítése. Alap esetben legalább 48 óra játék és 10 befejezett játék után kerül fel a játékos a listára. 7 és több passzív nap elteltével a játékos lekerül a listáról. A lista hossza max. 100 játékos.</value>
+  </data>
+  <data name="hint_userGames" xml:space="preserve">
+    <value>A játékaid listája. Klikkelj a részletekért a játékra.</value>
+  </data>
+  <data name="hint_userProfileTab" xml:space="preserve">
+    <value>A profilod</value>
+  </data>
+  <data name="hint_usersTab" xml:space="preserve">
+    <value>Pontok</value>
+  </data>
+  <data name="hint_userUpdate" xml:space="preserve">
+    <value>Profilod manuális frissítése</value>
+  </data>
+  <data name="hint_verticalMap" xml:space="preserve">
+    <value>Térkép függőlegesen középre</value>
+  </data>
+  <data name="hint_vesteros" xml:space="preserve">
+    <value>Átlagos (total) besorolások. A Házak opciónál egy adott Ház győzelmi statisztikái.</value>
+  </data>
+  <data name="hint_vesterosCardTab" xml:space="preserve">
+    <value>Westeros kártyák</value>
+  </data>
+  <data name="hint_viewGame" xml:space="preserve">
+    <value>Játék megtekintése</value>
+  </data>
+  <data name="image_a_king_beyond_the_wall" xml:space="preserve">
+    <value>/Image/VesterosCard/hu/1F67FC24-0F8B-40DA-95F2-904F5A783245.png</value>
+  </data>
+  <data name="image_a_throne_of_blades" xml:space="preserve">
+    <value>/Image/VesterosCard/hu/244AF531-89B8-4550-A288-F5E9476AF58C.png</value>
+  </data>
+  <data name="image_clash_of_kings" xml:space="preserve">
+    <value>/Image/VesterosCard/hu/1C76A8E3-887C-4221-B6AF-DB04C700BFE8.png</value>
+  </data>
+  <data name="image_crow_killers" xml:space="preserve">
+    <value>/Image/VesterosCard/hu/68B86F0D-736A-48C7-9039-A427F616D773.png</value>
+  </data>
+  <data name="image_dark_wings_dark_words" xml:space="preserve">
+    <value>/Image/VesterosCard/hu/6F13EA17-5D65-4A8E-BBBD-C05105C1FAC8.png</value>
+  </data>
+  <data name="image_feast_for_crows" xml:space="preserve">
+    <value>/Image/VesterosCard/hu/1A682C77-9AE2-4BCB-9346-3F103F743B41.png</value>
+  </data>
+  <data name="image_game_of_thrones" xml:space="preserve">
+    <value>/Image/VesterosCard/hu/CE03E9A1-4B64-4372-9160-7C1F78B7E734.png</value>
+  </data>
+  <data name="image_last_days_of_summer_1" xml:space="preserve">
+    <value>/Image/VesterosCard/hu/EE09317A-4B62-4A19-A1FF-8FA22C1E9EAD.png</value>
+  </data>
+  <data name="image_last_days_of_summer_2" xml:space="preserve">
+    <value>/Image/VesterosCard/hu/8851F7CE-1AD9-4A39-8D51-215865892C18.png</value>
+  </data>
+  <data name="image_mammoth_riders" xml:space="preserve">
+    <value>/Image/VesterosCard/hu/28540A09-C86A-407D-BF27-5CCB5D62E269.png</value>
+  </data>
+  <data name="image_map" xml:space="preserve">
+    <value>/Image/map_hu.jpg</value>
+  </data>
+  <data name="image_massing_on_the_milkwater" xml:space="preserve">
+    <value>/Image/VesterosCard/hu/95F74531-EA32-4377-9DF5-85815B095EFD.png</value>
+  </data>
+  <data name="image_mustering" xml:space="preserve">
+    <value>/Image/VesterosCard/hu/5EFE71DD-83D5-4AC0-962C-205C7C3DD84D.png</value>
+  </data>
+  <data name="image_preemptive_raid" xml:space="preserve">
+    <value>/Image/VesterosCard/hu/6153F487-8CE5-40CF-AA2B-98F1751CB36C.png</value>
+  </data>
+  <data name="image_put_to_the_sword" xml:space="preserve">
+    <value>/Image/VesterosCard/hu/3CB42653-6E23-4D1D-BF08-C44E715C3FFB.png</value>
+  </data>
+  <data name="image_rains_of_autumn" xml:space="preserve">
+    <value>/Image/VesterosCard/hu/1FF1AE31-6492-4B17-9336-EDEB4E245883.png</value>
+  </data>
+  <data name="image_rattleshirts_raiders" xml:space="preserve">
+    <value>/Image/VesterosCard/hu/E65C1F90-487F-4977-8734-2CEF4AB76A55.png</value>
+  </data>
+  <data name="image_sea_of_storms" xml:space="preserve">
+    <value>/Image/VesterosCard/hu/6455BBD0-515E-40C3-9348-21155134D27F.png</value>
+  </data>
+  <data name="image_silence_at_the_wall" xml:space="preserve">
+    <value>/Image/VesterosCard/hu/5F70E7A3-0D39-4561-B928-1C0DA2694C88.png</value>
+  </data>
+  <data name="image_skinchanger_scout" xml:space="preserve">
+    <value>/Image/VesterosCard/hu/0673B3DD-B0F2-49CA-BB6B-107179A52F0D.png</value>
+  </data>
+  <data name="image_storm_of_swords" xml:space="preserve">
+    <value>/Image/VesterosCard/hu/34F1DEB6-141D-472A-B654-9F11B93E7FAA.png</value>
+  </data>
+  <data name="image_supply" xml:space="preserve">
+    <value>/Image/VesterosCard/hu/F905AA6A-8662-46FF-8465-B41FB19F3A14.png</value>
+  </data>
+  <data name="image_the_horde_descends" xml:space="preserve">
+    <value>/Image/VesterosCard/hu/AF22FEDF-F5BA-42F2-8815-0EE36D77104B.png</value>
+  </data>
+  <data name="image_web_of_lies" xml:space="preserve">
+    <value>/Image/VesterosCard/hu/A103CB57-729F-4758-A3A7-A12AC7204860.png</value>
+  </data>
+  <data name="image_wildlings_attack" xml:space="preserve">
+    <value>/Image/VesterosCard/hu/539DA0F1-29D3-4A84-9987-101679C887E4.png</value>
+  </data>
+  <data name="image_winter_is_coming_1" xml:space="preserve">
+    <value>/Image/VesterosCard/hu/393DE3D7-3AD2-4BEA-BCC3-DECC8C040756.png</value>
+  </data>
+  <data name="image_winter_is_coming_2" xml:space="preserve">
+    <value>/Image/VesterosCard/hu/544FE0BD-288B-4981-B536-18C0517D71FA.png</value>
+  </data>
+  <data name="image_Алистер_Флорент" xml:space="preserve">
+    <value>/Image/HomeCard/hu/alester_florent.png</value>
+  </data>
+  <data name="image_Арео_Хота" xml:space="preserve">
+    <value>/Image/HomeCard/hu/areo_hotah.png</value>
+  </data>
+  <data name="image_Арианна_Мартелл" xml:space="preserve">
+    <value>/Image/HomeCard/hu/arianne_martell.png</value>
+  </data>
+  <data name="image_Аша_Грейджой" xml:space="preserve">
+    <value>/Image/HomeCard/hu/asha_greyjoy.png</value>
+  </data>
+  <data name="image_Бейлон_Грейджой" xml:space="preserve">
+    <value>/Image/HomeCard/hu/balon_greyjoy.png</value>
+  </data>
+  <data name="image_Большой_Джон_Амбер" xml:space="preserve">
+    <value>/Image/HomeCard/hu/greation_umber.png</value>
+  </data>
+  <data name="image_Бриенна_из_Тарта" xml:space="preserve">
+    <value>/Image/HomeCard/hu/brienne_of_tarth.png</value>
+  </data>
+  <data name="image_Бринден_Чёрная_Рыба" xml:space="preserve">
+    <value>/Image/HomeCard/hu/the_blackfish.png</value>
+  </data>
+  <data name="image_Виктарион_Грейджой" xml:space="preserve">
+    <value>/Image/HomeCard/hu/victarion_greyjoy.png</value>
+  </data>
+  <data name="image_Герольд_Тёмная_Звезда" xml:space="preserve">
+    <value>/Image/HomeCard/hu/darkstar.png</value>
+  </data>
+  <data name="image_Дагмер_Битый_Рот" xml:space="preserve">
+    <value>/Image/HomeCard/hu/dagmar_cleftjaw.png</value>
+  </data>
+  <data name="image_Доран_Мартелл" xml:space="preserve">
+    <value>/Image/HomeCard/hu/doran_martell.png</value>
+  </data>
+  <data name="image_Кейтилин_Старк" xml:space="preserve">
+    <value>/Image/HomeCard/hu/catelyn_stark.png</value>
+  </data>
+  <data name="image_Королева_Шипов" xml:space="preserve">
+    <value>/Image/HomeCard/hu/queen_of_thorns.png</value>
+  </data>
+  <data name="image_Маргери_Тирелл" xml:space="preserve">
+    <value>/Image/HomeCard/hu/margaery_tyrell.png</value>
+  </data>
+  <data name="image_Мейс_Тирелл" xml:space="preserve">
+    <value>/Image/HomeCard/hu/mace_tyrell.png</value>
+  </data>
+  <data name="image_Мелисандра" xml:space="preserve">
+    <value>/Image/HomeCard/hu/melisandre.png</value>
+  </data>
+  <data name="image_Нимерия_Сэнд" xml:space="preserve">
+    <value>/Image/HomeCard/hu/nymeria_sand.png</value>
+  </data>
+  <data name="image_Обара_Сэнд" xml:space="preserve">
+    <value>/Image/HomeCard/hu/obara_sand.png</value>
+  </data>
+  <data name="image_Оберин_Красная_Гадюка" xml:space="preserve">
+    <value>/Image/HomeCard/hu/the_red_viper.png</value>
+  </data>
+  <data name="image_Пёс" xml:space="preserve">
+    <value>/Image/HomeCard/hu/the_hound.png</value>
+  </data>
+  <data name="image_Пестряк" xml:space="preserve">
+    <value>/Image/HomeCard/hu/patchface.png</value>
+  </data>
+  <data name="image_Ренли_Баратеон" xml:space="preserve">
+    <value>/Image/HomeCard/hu/renly_baratheon.png</value>
+  </data>
+  <data name="image_Робб_Старк" xml:space="preserve">
+    <value>/Image/HomeCard/hu/robb_stark.png</value>
+  </data>
+  <data name="image_Русе_Болтон" xml:space="preserve">
+    <value>/Image/HomeCard/hu/roose_bolton.png</value>
+  </data>
+  <data name="image_Рэндилл_Тарли" xml:space="preserve">
+    <value>/Image/HomeCard/hu/randyll_tarly.png</value>
+  </data>
+  <data name="image_Салладор_Саан" xml:space="preserve">
+    <value>/Image/HomeCard/hu/salladhor_saan.png</value>
+  </data>
+  <data name="image_Сер_Гарлан_Тирелл" xml:space="preserve">
+    <value>/Image/HomeCard/hu/ser_garlan_tyrell.png</value>
+  </data>
+  <data name="image_Сер_Грегор_Клиган" xml:space="preserve">
+    <value>/Image/HomeCard/hu/ser_gregor_clegane.png</value>
+  </data>
+  <data name="image_Сер_Давос_Сиворт" xml:space="preserve">
+    <value>/Image/HomeCard/hu/ser_davos_seaworth.png</value>
+  </data>
+  <data name="image_Сер_Джейме_Ланнистер" xml:space="preserve">
+    <value>/Image/HomeCard/hu/ser_jaime_lannister.png</value>
+  </data>
+  <data name="image_Сер_Киван_Ланнистер" xml:space="preserve">
+    <value>/Image/HomeCard/hu/ser_kevan_lannister.png</value>
+  </data>
+  <data name="image_Сер_Лорас_Тирелл" xml:space="preserve">
+    <value>/Image/HomeCard/hu/ser_loras_tyrell.png</value>
+  </data>
+  <data name="image_Сер_Родрик_Кассель" xml:space="preserve">
+    <value>/Image/HomeCard/hu/ser_rodrick_cassel.png</value>
+  </data>
+  <data name="image_Серсея_Ланнистер" xml:space="preserve">
+    <value>/Image/HomeCard/hu/cersei_lannister.png</value>
+  </data>
+  <data name="image_Станис_Баратеон" xml:space="preserve">
+    <value>/Image/HomeCard/hu/stannis_baratheon.png</value>
+  </data>
+  <data name="image_Тайвин_Ланнистер" xml:space="preserve">
+    <value>/Image/HomeCard/hu/tywin_lannister.png</value>
+  </data>
+  <data name="image_Теон_Грейджой" xml:space="preserve">
+    <value>/Image/HomeCard/hu/theon_greyjoy.png</value>
+  </data>
+  <data name="image_Тирион_Ланнистер" xml:space="preserve">
+    <value>/Image/HomeCard/hu/tyrion_lannister.png</value>
+  </data>
+  <data name="image_Эддард_Старк" xml:space="preserve">
+    <value>/Image/HomeCard/hu/eddard_stark.png</value>
+  </data>
+  <data name="image_Эйерон_Сыровласый" xml:space="preserve">
+    <value>/Image/HomeCard/hu/aeron_damphair.png</value>
+  </data>
+  <data name="image_Эурон_Вороний_Глаз" xml:space="preserve">
+    <value>/Image/HomeCard/hu/euron_crows_eye.png</value>
+  </data>
+  <data name="notify_connectionGame" xml:space="preserve">
+    <value>Jelenleg nem tudsz a játékba becsatlakozni, mert folyamatban lévő játékban szerepelsz, és besorolásod nem éri el a "Lord" szintet, vagy a tapasztalatod 48 óránál kevesebb.</value>
+  </data>
+  <data name="notify_connectionGame2" xml:space="preserve">
+    <value>Nincs elérhető Ház, vagy már választottál.</value>
+  </data>
+  <data name="notify_inviteUser" xml:space="preserve">
+    <value>Az üzenet nem lett elküldve. A játékosok nem fogadnak hirdetményeket.</value>
+  </data>
+  <data name="notify_Loading" xml:space="preserve">
+    <value>Betöltés…</value>
+  </data>
+  <data name="notify_mapRender" xml:space="preserve">
+    <value>Térkép generálása…</value>
+  </data>
+  <data name="notify_stepSyncProgress" xml:space="preserve">
+    <value>Lépések frissítése…</value>
+  </data>
+  <data name="orderType_Набег_0" xml:space="preserve">
+    <value>Portyázás/fosztogatás</value>
+  </data>
+  <data name="orderType_Набег_0_специальный" xml:space="preserve">
+    <value>Portyázás/fosztogatás (Különleges jelzővel)</value>
+  </data>
+  <data name="orderType_Оборона_1" xml:space="preserve">
+    <value>+1 védőerő</value>
+  </data>
+  <data name="orderType_Оборона_2_специальный" xml:space="preserve">
+    <value>+2 védőerő</value>
+  </data>
+  <data name="orderType_Подмога_0" xml:space="preserve">
+    <value>Támogatás</value>
+  </data>
+  <data name="orderType_Подмога_1_специальный" xml:space="preserve">
+    <value>+1 támogatás</value>
+  </data>
+  <data name="orderType_Поход_0" xml:space="preserve">
+    <value>Menetparancs</value>
+  </data>
+  <data name="orderType_Поход_1_специальный" xml:space="preserve">
+    <value>+1 menetparancs</value>
+  </data>
+  <data name="orderType_Поход__1" xml:space="preserve">
+    <value>-1 menetparancs</value>
+  </data>
+  <data name="orderType_Усиление_власти_0" xml:space="preserve">
+    <value>Uralom megszilárdítása</value>
+  </data>
+  <data name="orderType_Усиление_власти_0_специальный" xml:space="preserve">
+    <value>Uralom megszilárdítása (Különleges jelzővel)</value>
+  </data>
+  <data name="rageEffect_0" xml:space="preserve">
+    <value>A támogatás elfogása</value>
+  </data>
+  <data name="rageEffect_1" xml:space="preserve">
+    <value>= +{0} erőd ikon</value>
+  </data>
+  <data name="rageEffect_10" xml:space="preserve">
+    <value>2-szeres védőerő</value>
+  </data>
+  <data name="rageEffect_11" xml:space="preserve">
+    <value>Az ellenfél Házkártyájának csataereje = 0</value>
+  </data>
+  <data name="rageEffect_12" xml:space="preserve">
+    <value>2-szeres erő (hajó)</value>
+  </data>
+  <data name="rageEffect_13" xml:space="preserve">
+    <value>2-szeres erő (gyalogos)</value>
+  </data>
+  <data name="rageEffect_14" xml:space="preserve">
+    <value>az összes nem-Baratheon-hajó ereje = 0</value>
+  </data>
+  <data name="rageEffect_15" xml:space="preserve">
+    <value>Ellenfél eldobja a kártyalapot</value>
+  </data>
+  <data name="rageEffect_16" xml:space="preserve">
+    <value>Parancsjelző levétele</value>
+  </data>
+  <data name="rageEffect_17" xml:space="preserve">
+    <value>Lovaggá fejlesztés</value>
+  </data>
+  <data name="rageEffect_18" xml:space="preserve">
+    <value>nincs hatás</value>
+  </data>
+  <data name="rageEffect_19" xml:space="preserve">
+    <value>Csata hullámzása kártya cseréje</value>
+  </data>
+  <data name="rageEffect_2" xml:space="preserve">
+    <value>= +{0} kard ikon</value>
+  </data>
+  <data name="rageEffect_20" xml:space="preserve">
+    <value>Az ellenfélnek nincs Házkártyája</value>
+  </data>
+  <data name="rageEffect_21" xml:space="preserve">
+    <value>Vadak hatásának változtatása</value>
+  </data>
+  <data name="rageEffect_22" xml:space="preserve">
+    <value>"{0}" Házkártya blokkolása</value>
+  </data>
+  <data name="rageEffect_23" xml:space="preserve">
+    <value>Az ellenfél "{0}" parancsának levétele</value>
+  </data>
+  <data name="rageEffect_24" xml:space="preserve">
+    <value>Az ellenfél "{0}" Házkártyájának eldobása</value>
+  </data>
+  <data name="rageEffect_25" xml:space="preserve">
+    <value>megfutamodás</value>
+  </data>
+  <data name="rageEffect_26" xml:space="preserve">
+    <value>Vadak hatásának növelése</value>
+  </data>
+  <data name="rageEffect_27" xml:space="preserve">
+    <value>Vadak hatásának csökkentése</value>
+  </data>
+  <data name="rageEffect_28" xml:space="preserve">
+    <value>Lovag erőssége +1</value>
+  </data>
+  <data name="rageEffect_29" xml:space="preserve">
+    <value>az ellenfeled végső csataerőssége = 2</value>
+  </data>
+  <data name="rageEffect_3" xml:space="preserve">
+    <value>Uralom megszilárdítása</value>
+  </data>
+  <data name="rageEffect_30" xml:space="preserve">
+    <value>a mondottak felülbírálva</value>
+  </data>
+  <data name="rageEffect_31" xml:space="preserve">
+    <value>A hős ereje = {0}</value>
+  </data>
+  <data name="rageEffect_4" xml:space="preserve">
+    <value>veszteség nélkül</value>
+  </data>
+  <data name="rageEffect_5" xml:space="preserve">
+    <value>sereg átcsoportosítása</value>
+  </data>
+  <data name="rageEffect_6" xml:space="preserve">
+    <value>1 gyalogság megsemmisül</value>
+  </data>
+  <data name="rageEffect_7" xml:space="preserve">
+    <value>ellenséges egységek visszaverése</value>
+  </data>
+  <data name="rageEffect_8" xml:space="preserve">
+    <value>Pakli megkeverése</value>
+  </data>
+  <data name="rageEffect_9" xml:space="preserve">
+    <value>= +1 csataerő</value>
+  </data>
+  <data name="ratingType_honor" xml:space="preserve">
+    <value>Megbízhatóság</value>
+  </data>
+  <data name="ratingType_like" xml:space="preserve">
+    <value>Báj</value>
+  </data>
+  <data name="ratingType_mind" xml:space="preserve">
+    <value>Csata</value>
+  </data>
+  <data name="ratingType_total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="settings_Главная_тема" xml:space="preserve">
+    <value>Kezdő oldal</value>
+  </data>
+  <data name="settings_Новое_сообщение" xml:space="preserve">
+    <value>Üzenet</value>
+  </data>
+  <data name="settings_Новый_ход" xml:space="preserve">
+    <value>Lépés</value>
+  </data>
+  <data name="settings_Таймер" xml:space="preserve">
+    <value>Idő</value>
+  </data>
+  <data name="stepType_dragon_Aeron_Damphair" xml:space="preserve">
+    <value>Hínárhajú Aeron</value>
+  </data>
+  <data name="stepType_dragon_Jon_Snow" xml:space="preserve">
+    <value>Havas Jon</value>
+  </data>
+  <data name="stepType_dragon_Reek" xml:space="preserve">
+    <value>Bűzös</value>
+  </data>
+  <data name="stepType_Борьба_за_влияние" xml:space="preserve">
+    <value>Hatás elérése</value>
+  </data>
+  <data name="stepType_Валирийский_меч" xml:space="preserve">
+    <value>Valyriai acélkard</value>
+  </data>
+  <data name="stepType_Железный_трон" xml:space="preserve">
+    <value>Vastrón</value>
+  </data>
+  <data name="stepType_Замысел" xml:space="preserve">
+    <value>Tervezési szakasz</value>
+  </data>
+  <data name="stepType_Королева_Шипов" xml:space="preserve">
+    <value>Töviskirálynő</value>
+  </data>
+  <data name="stepType_Король_за_Стеной" xml:space="preserve">
+    <value>A Falon Túli Király</value>
+  </data>
+  <data name="stepType_Набег" xml:space="preserve">
+    <value>Portyázás/fosztogatás</value>
+  </data>
+  <data name="stepType_Наездники_на_мамонтах" xml:space="preserve">
+    <value>Mammutlovasok</value>
+  </data>
+  <data name="stepType_Наездники_на_мамонтах_роспуск_войск" xml:space="preserve">
+    <value>Mammutlovasok</value>
+  </data>
+  <data name="stepType_Наступление_орды" xml:space="preserve">
+    <value>A Horda megindul</value>
+  </data>
+  <data name="stepType_Наступление_орды_Усиление_власти" xml:space="preserve">
+    <value>A Horda megindul (toborzás)</value>
+  </data>
+  <data name="stepType_Неожиданный_шаг" xml:space="preserve">
+    <value>Váratlan lépés</value>
+  </data>
+  <data name="stepType_Отступление" xml:space="preserve">
+    <value>Visszavonulás</value>
+  </data>
+  <data name="stepType_Передовой_отряд" xml:space="preserve">
+    <value>Portyázás</value>
+  </data>
+  <data name="stepType_Пестряк" xml:space="preserve">
+    <value>Foltosképű</value>
+  </data>
+  <data name="stepType_Победа" xml:space="preserve">
+    <value>Győzelem</value>
+  </data>
+  <data name="stepType_Подмога" xml:space="preserve">
+    <value>Támogatás</value>
+  </data>
+  <data name="stepType_Посыльный_ворон" xml:space="preserve">
+    <value>Hírvívő holló</value>
+  </data>
+  <data name="stepType_Поход" xml:space="preserve">
+    <value>Menetparancs</value>
+  </data>
+  <data name="stepType_Разведка_за_стеной" xml:space="preserve">
+    <value>Falon túli felderítés (Vadak kártya megtekintése)</value>
+  </data>
+  <data name="stepType_Роспуск_войск" xml:space="preserve">
+    <value>Sereg szélnek eresztése</value>
+  </data>
+  <data name="stepType_Сбор_на_Молоководной" xml:space="preserve">
+    <value>Gyülekező a Tejfolyónál</value>
+  </data>
+  <data name="stepType_Событие_Вестероса" xml:space="preserve">
+    <value>Westeros-i Esemény</value>
+  </data>
+  <data name="stepType_Сражение" xml:space="preserve">
+    <value>Csata</value>
+  </data>
+  <data name="stepType_Убийцы_ворон" xml:space="preserve">
+    <value>Varjúölők</value>
+  </data>
+  <data name="stepType_Усиление_власти" xml:space="preserve">
+    <value>Uralom megszilárdítása</value>
+  </data>
+  <data name="stepType_Усиление_власти_Вестерос" xml:space="preserve">
+    <value>Toborzás</value>
+  </data>
+  <data name="stepType_Эйерон_Сыровласый" xml:space="preserve">
+    <value>Hínárhajú Aeron</value>
+  </data>
+  <data name="terrain_Арбор" xml:space="preserve">
+    <value>Arbor</value>
+  </data>
+  <data name="terrain_Белая_Гавань" xml:space="preserve">
+    <value>Fehérrév</value>
+  </data>
+  <data name="terrain_Близнецы" xml:space="preserve">
+    <value>Az Ikrek</value>
+  </data>
+  <data name="terrain_Вдовий_Дозор" xml:space="preserve">
+    <value>Özvegy-fok</value>
+  </data>
+  <data name="terrain_Винтерфел" xml:space="preserve">
+    <value>Deres</value>
+  </data>
+  <data name="terrain_Восточное_Летнее_море" xml:space="preserve">
+    <value>Keleti Nyár-tenger</value>
+  </data>
+  <data name="terrain_Губительные_Валы" xml:space="preserve">
+    <value>Hajózúzó-öböl</value>
+  </data>
+  <data name="terrain_Дорнские_марки" xml:space="preserve">
+    <value>Dorne-i határvidék</value>
+  </data>
+  <data name="terrain_Дорнское_море" xml:space="preserve">
+    <value>Dorne-i-tenger</value>
+  </data>
+  <data name="terrain_Драконий_Камень" xml:space="preserve">
+    <value>Sárkánykő</value>
+  </data>
+  <data name="terrain_Дрожащее_море" xml:space="preserve">
+    <value>Reszkető-tenger</value>
+  </data>
+  <data name="terrain_Закатное_море" xml:space="preserve">
+    <value>Napnyugati-tenger</value>
+  </data>
+  <data name="terrain_Залив_Железных_Людей" xml:space="preserve">
+    <value>Vasember-öböl</value>
+  </data>
+  <data name="terrain_Западное_Летнее_море" xml:space="preserve">
+    <value>Nyugati Nyár-tenger</value>
+  </data>
+  <data name="terrain_Звездопад" xml:space="preserve">
+    <value>Csillagvölgy</value>
+  </data>
+  <data name="terrain_Золотой_пролив" xml:space="preserve">
+    <value>Arany-öböl</value>
+  </data>
+  <data name="terrain_Каменная_Септа" xml:space="preserve">
+    <value>Lépőkövek</value>
+  </data>
+  <data name="terrain_Каменный_берег" xml:space="preserve">
+    <value>Kövespart</value>
+  </data>
+  <data name="terrain_Клешня" xml:space="preserve">
+    <value>Crackclaw-fok</value>
+  </data>
+  <data name="terrain_Королевская_гавань" xml:space="preserve">
+    <value>Királyvár</value>
+  </data>
+  <data name="terrain_Королевский_лес" xml:space="preserve">
+    <value>Királyerdő</value>
+  </data>
+  <data name="terrain_Костяной_путь" xml:space="preserve">
+    <value>Csontút</value>
+  </data>
+  <data name="terrain_Кремень" xml:space="preserve">
+    <value>Flintujja</value>
+  </data>
+  <data name="terrain_Ланиспорт" xml:space="preserve">
+    <value>Lannisrév</value>
+  </data>
+  <data name="terrain_Ледовый_залив" xml:space="preserve">
+    <value>Jég-öböl</value>
+  </data>
+  <data name="terrain_Лунные_горы" xml:space="preserve">
+    <value>Holdhegység</value>
+  </data>
+  <data name="terrain_Орлиное_Гнездо" xml:space="preserve">
+    <value>Sasfészek</value>
+  </data>
+  <data name="terrain_Персты" xml:space="preserve">
+    <value>Ujjak</value>
+  </data>
+  <data name="terrain_Порт_Белой_Гавани" xml:space="preserve">
+    <value>Fehérrév kikötő</value>
+  </data>
+  <data name="terrain_Порт_Винтерфела" xml:space="preserve">
+    <value>Deres kikötő</value>
+  </data>
+  <data name="terrain_Порт_Драконьего_Каменя" xml:space="preserve">
+    <value>Sárkánykő kikötő</value>
+  </data>
+  <data name="terrain_Порт_Ланиспорта" xml:space="preserve">
+    <value>Lannisrév kikötő</value>
+  </data>
+  <data name="terrain_Порт_Пайка" xml:space="preserve">
+    <value>Pyke kikötő</value>
+  </data>
+  <data name="terrain_Порт_Солнечного_Копья" xml:space="preserve">
+    <value>Napdárda kikötő</value>
+  </data>
+  <data name="terrain_Порт_Староместа" xml:space="preserve">
+    <value>Óváros kikötő</value>
+  </data>
+  <data name="terrain_Порт_Штормового_Предела" xml:space="preserve">
+    <value>Viharvég kikötő</value>
+  </data>
+  <data name="terrain_Приморские_марки" xml:space="preserve">
+    <value>Tengeri Határvidék</value>
+  </data>
+  <data name="terrain_Принцев_перевал" xml:space="preserve">
+    <value>Herceghágó</value>
+  </data>
+  <data name="terrain_Пролив_Редвин" xml:space="preserve">
+    <value>Redwyne-szoros</value>
+  </data>
+  <data name="terrain_Простор" xml:space="preserve">
+    <value>Síkvidék</value>
+  </data>
+  <data name="terrain_Риверан" xml:space="preserve">
+    <value>Zúgó</value>
+  </data>
+  <data name="terrain_Ров_Кейлин" xml:space="preserve">
+    <value>Calin-árok</value>
+  </data>
+  <data name="terrain_Сероводье" xml:space="preserve">
+    <value>Zavarosrév</value>
+  </data>
+  <data name="terrain_Сигард" xml:space="preserve">
+    <value>Tengerszem</value>
+  </data>
+  <data name="terrain_Солёный_берег" xml:space="preserve">
+    <value>Sóspart</value>
+  </data>
+  <data name="terrain_Солнечное_Копьё" xml:space="preserve">
+    <value>Napdárda</value>
+  </data>
+  <data name="terrain_Старомест" xml:space="preserve">
+    <value>Óváros</value>
+  </data>
+  <data name="terrain_Три_Башни" xml:space="preserve">
+    <value>Háromtorony</value>
+  </data>
+  <data name="terrain_Узкое_море" xml:space="preserve">
+    <value>Keskeny-tenger</value>
+  </data>
+  <data name="terrain_Хайгарден" xml:space="preserve">
+    <value>Égikert</value>
+  </data>
+  <data name="terrain_Чёрный_замок" xml:space="preserve">
+    <value>Fekete Vár</value>
+  </data>
+  <data name="terrain_Черноводная" xml:space="preserve">
+    <value>Feketevíz</value>
+  </data>
+  <data name="terrain_Черноводный_залив" xml:space="preserve">
+    <value>Feketevíz-öböl</value>
+  </data>
+  <data name="terrain_Штормовой_Предел" xml:space="preserve">
+    <value>Viharvég</value>
+  </data>
+  <data name="text_accessDenied" xml:space="preserve">
+    <value>Nem hajtható végre!</value>
+  </data>
+  <data name="text_accessDenied1" xml:space="preserve">
+    <value>Nem hajtható végre! Az egyik játékos tiltólistáján vagy.</value>
+  </data>
+  <data name="text_accessDenied2" xml:space="preserve">
+    <value>Valamelyik játékos a tiltólistádon van. Folytatod?</value>
+  </data>
+  <data name="text_accessDenied3" xml:space="preserve">
+    <value>Csak "Lord" besorolású, 48 óránál több játékidővel rendelkező játékos futtathat több klienst egyidőben.</value>
+  </data>
+  <data name="text_addTime" xml:space="preserve">
+    <value>A lépésre hátralévő idő</value>
+  </data>
+  <data name="text_apiSelect" xml:space="preserve">
+    <value>Válaszd ki az azonosítás módját</value>
+  </data>
+  <data name="text_attackPower" xml:space="preserve">
+    <value>Támadóerő</value>
+  </data>
+  <data name="text_awards" xml:space="preserve">
+    <value>Díjak</value>
+  </data>
+  <data name="text_awardsType1" xml:space="preserve">
+    <value>Ideiglenes díjak</value>
+  </data>
+  <data name="text_barbarianBury" xml:space="preserve">
+    <value>Helyezd alulra</value>
+  </data>
+  <data name="text_barbarianLeave" xml:space="preserve">
+    <value>Helyezd felülre</value>
+  </data>
+  <data name="text_barbarianStrength" xml:space="preserve">
+    <value>Vadak támadóereje «{0}»</value>
+  </data>
+  <data name="text_battle" xml:space="preserve">
+    <value>Csata «{0}»-ért</value>
+  </data>
+  <data name="text_battleTab" xml:space="preserve">
+    <value>Csata</value>
+  </data>
+  <data name="text_browserCache" xml:space="preserve">
+    <value>Amennyiben hitelesítési probléma lép fel, ki kell üríteni a böngésző cache-memóriáját. Kiürítsük? (Böngésző legalább IE7)</value>
+  </data>
+  <data name="text_cancel" xml:space="preserve">
+    <value>Vissza</value>
+  </data>
+  <data name="text_clearRating" xml:space="preserve">
+    <value>Biztosan törölni akarod a besorolásod? Játékaid, lájkok és dislajkok törlésre kerülnek, de a többi játékossal a viszonyod megmarad.</value>
+  </data>
+  <data name="text_clientStep" xml:space="preserve">
+    <value>Lépésed: "{0}"</value>
+  </data>
+  <data name="text_closeApp" xml:space="preserve">
+    <value>Az applikáció bezárul!</value>
+  </data>
+  <data name="text_confirm" xml:space="preserve">
+    <value>Jóváhagyás</value>
+  </data>
+  <data name="text_confirm_text" xml:space="preserve">
+    <value>Figyelem! Csak a Trónok harca társasjáték (Második kiadás) vásárlóinak. A belépéssel megerősíted, hovy rendelkezel ezzel a társasjátékkal.</value>
+  </data>
+  <data name="text_defancePower" xml:space="preserve">
+    <value>Védőerő</value>
+  </data>
+  <data name="text_deleteEvent" xml:space="preserve">
+    <value>- ez az üzenet törlődik</value>
+  </data>
+  <data name="text_deleteEvents" xml:space="preserve">
+    <value>- ez az üzenet és az alatta levők is törlődnek</value>
+  </data>
+  <data name="text_disconnect" xml:space="preserve">
+    <value>Kilépés ebből a játékból:</value>
+  </data>
+  <data name="text_donate" xml:space="preserve">
+    <value>Adomány…</value>
+  </data>
+  <data name="text_donateComment" xml:space="preserve">
+    <value>Megjegyzés: {0}</value>
+  </data>
+  <data name="text_email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="text_error" xml:space="preserve">
+    <value>Hiba</value>
+  </data>
+  <data name="text_eventsTab" xml:space="preserve">
+    <value>Cselekmények</value>
+  </data>
+  <data name="text_exit" xml:space="preserve">
+    <value>Kilépés</value>
+  </data>
+  <data name="text_findUsers" xml:space="preserve">
+    <value>keresése (szűrő)</value>
+  </data>
+  <data name="text_gameDate" xml:space="preserve">
+    <value>Játék dátuma</value>
+  </data>
+  <data name="text_gameEndTime" xml:space="preserve">
+    <value>Játék vége:</value>
+  </data>
+  <data name="text_gameStartTime" xml:space="preserve">
+    <value>Játék kezdete:</value>
+  </data>
+  <data name="text_gameType" xml:space="preserve">
+    <value>Játék típusa</value>
+  </data>
+  <data name="text_help" xml:space="preserve">
+    <value>Segítség</value>
+  </data>
+  <data name="text_homeCardSelect" xml:space="preserve">
+    <value>- a folyamatban lévő csatában a Házkártya kiválasztása</value>
+  </data>
+  <data name="text_homeSelect" xml:space="preserve">
+    <value>Válassz Házat!</value>
+  </data>
+  <data name="text_homeSelectContract" xml:space="preserve">
+    <value>Játékosok "Lord" ranggal választhatnak házat. A többiek véletlenszerűen lesznek kijelölve.</value>
+  </data>
+  <data name="text_homeSelectWarning" xml:space="preserve">
+    <value>FIGYELEM! A Házad lecserélése tiltott. Kilépés esetén nem térhetsz vissza.</value>
+  </data>
+  <data name="text_homesTab" xml:space="preserve">
+    <value>Házak</value>
+  </data>
+  <data name="text_lastCardBarbarian" xml:space="preserve">
+    <value>Az utoljára kijátszott vadak kártya</value>
+  </data>
+  <data name="text_lastDonateInfo" xml:space="preserve">
+    <value>Utolsó támogatás {0}₽ {1:yyyy\/MM\/dd HH:mm}-kor érkezett</value>
+  </data>
+  <data name="text_leaveGame" xml:space="preserve">
+    <value>Kilépés a játékból?|Igen - Azonnali kilépés a játékból.|Nem - {0} másodperced van, hogy visszatérj a játékba.|Törlés - Vissza a játékba.</value>
+  </data>
+  <data name="text_linkAccountCompleted" xml:space="preserve">
+    <value>A profillal végzett művelet befejeződött.</value>
+  </data>
+  <data name="text_login" xml:space="preserve">
+    <value>Belépés</value>
+  </data>
+  <data name="text_maxTime" xml:space="preserve">
+    <value>A lépésre rendelkezésre álló maximális idő</value>
+  </data>
+  <data name="text_minTotalRatio" xml:space="preserve">
+    <value>Min. besorolás (Abszolút)</value>
+  </data>
+  <data name="text_msgInput" xml:space="preserve">
+    <value>Írd be az üzenet szövegét</value>
+  </data>
+  <data name="text_name" xml:space="preserve">
+    <value>Név</value>
+  </data>
+  <data name="text_NewGame" xml:space="preserve">
+    <value>új játék</value>
+  </data>
+  <data name="text_no" xml:space="preserve">
+    <value>Nem</value>
+  </data>
+  <data name="text_noSupport" xml:space="preserve">
+    <value>Semlegesség</value>
+  </data>
+  <data name="text_notify" xml:space="preserve">
+    <value>Értesítés</value>
+  </data>
+  <data name="text_NoTimer" xml:space="preserve">
+    <value>Hosszú játék, csak jelszóval levédett játéknál. Hozzáférés megszűnik a csatlkozástól számított 2 nap elteltével passzivitás esetén. A játék törlésre kerül és nem számít bele a besorolásodba, ha nincsenek meg a szükséges Házak játékosai.</value>
+  </data>
+  <data name="text_notUseBlade" xml:space="preserve">
+    <value>Nem kiválasztott</value>
+  </data>
+  <data name="text_onlineOnly" xml:space="preserve">
+    <value>Csak online</value>
+  </data>
+  <data name="text_openFile" xml:space="preserve">
+    <value>Fájl megnyitása</value>
+  </data>
+  <data name="text_orderFree" xml:space="preserve">
+    <value>Nem az összes egység kapott parancsjelzőt. Ennek ellenére befejezed?</value>
+  </data>
+  <data name="text_password" xml:space="preserve">
+    <value>Jelszó</value>
+  </data>
+  <data name="text_postCanceled" xml:space="preserve">
+    <value>Nem adtál engedélyt a hozzászólásra!</value>
+  </data>
+  <data name="text_postComplete" xml:space="preserve">
+    <value>Hozzászólás közzétéve!</value>
+  </data>
+  <data name="text_profileTab" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="text_publicDonate" xml:space="preserve">
+    <value>Nyilvános?</value>
+  </data>
+  <data name="text_randomPower" xml:space="preserve">
+    <value>Csatamódosító kártya ereje</value>
+  </data>
+  <data name="text_ratingsCondition" xml:space="preserve">
+    <value>Szükséges minimális besorolás:</value>
+  </data>
+  <data name="text_ratingTab" xml:space="preserve">
+    <value>Besorolás</value>
+  </data>
+  <data name="text_registration_info" xml:space="preserve">
+    <value>Add meg az e-mail címed (és a jelszavad). Ez abban az esetben lesz használva, ha az azonosításod a közösségi hálózatból nem sikerül, illetve ha elfelejtenéd a belépő jelszavad.</value>
+  </data>
+  <data name="text_RequestSupport" xml:space="preserve">
+    <value>Kérjünk támogatást?</value>
+  </data>
+  <data name="text_RequestSupport2" xml:space="preserve">
+    <value>Támogatást kér…</value>
+  </data>
+  <data name="text_RequestSupport3" xml:space="preserve">
+    <value>Nem szükséges támogatás!</value>
+  </data>
+  <data name="text_RequestSupport4" xml:space="preserve">
+    <value>Támogatás szükséges!</value>
+  </data>
+  <data name="text_returnToGame" xml:space="preserve">
+    <value>Visszatérés a játékba…</value>
+  </data>
+  <data name="text_saveError" xml:space="preserve">
+    <value>Elmentsük a hiba-kódot?</value>
+  </data>
+  <data name="text_screenPost" xml:space="preserve">
+    <value>Közzétegyük a hozzászólást?</value>
+  </data>
+  <data name="text_scrollEvents" xml:space="preserve">
+    <value>Lépések listája (max. 20)</value>
+  </data>
+  <data name="text_selectedOrder" xml:space="preserve">
+    <value>Kiválasztva a "{0}" parancs.</value>
+  </data>
+  <data name="text_skull" xml:space="preserve">
+    <value>"Csata hullámzása" kártyák is használatban</value>
+  </data>
+  <data name="text_sloganBaratheon" xml:space="preserve">
+    <value>MIÉNK A HARAG</value>
+  </data>
+  <data name="text_sloganBolton" xml:space="preserve">
+    <value>A PENGÉINK ÉLESEK</value>
+  </data>
+  <data name="text_sloganGreyjoy" xml:space="preserve">
+    <value>MI NEM VETÜNK</value>
+  </data>
+  <data name="text_sloganLannister" xml:space="preserve">
+    <value>HALLD ÜVÖLTÉSEM!</value>
+  </data>
+  <data name="text_sloganMartell" xml:space="preserve">
+    <value>MEG NEM HAJOL, MEG NEM ROGY, MEG NEM TÖRIK</value>
+  </data>
+  <data name="text_sloganRandom" xml:space="preserve">
+    <value>CSAK AZOK ÉRHETIK EL A LEHETETLENT, AKIK MEGPRÓBÁLJÁK AZ ELKÉPZELHETETLENT</value>
+  </data>
+  <data name="text_sloganStark" xml:space="preserve">
+    <value>KÖZELEG A TÉL</value>
+  </data>
+  <data name="text_sloganTyrell" xml:space="preserve">
+    <value>ERŐSSÉ NÖVÜNK</value>
+  </data>
+  <data name="text_soundSettings" xml:space="preserve">
+    <value>Hang beállítása</value>
+  </data>
+  <data name="text_specialPassword" xml:space="preserve">
+    <value>Írd be a kiegészítő jelszavad</value>
+  </data>
+  <data name="text_specialPasswordAttention" xml:space="preserve">
+    <value>FIGYELEM! Ne használd a Facebook vagy Vkontakte jelszavad</value>
+  </data>
+  <data name="text_specialPasswordText" xml:space="preserve">
+    <value>Adataid megváltoztak, az azonosításhoz másodlagos jelszó szükséges. Bármit megadhatsz, csak NE FELEJTSD EL! Ez a jelszó szükséges, ha másik számítógépről jelentkezel be, vagy a közösségi hálózati profilod megváltozik.</value>
+  </data>
+  <data name="text_stepPerform" xml:space="preserve">
+    <value>Lépés végrehajtása</value>
+  </data>
+  <data name="text_supplyLimit" xml:space="preserve">
+    <value>Utánpótlás-limit</value>
+  </data>
+  <data name="text_supportUser" xml:space="preserve">
+    <value>Támogatás</value>
+  </data>
+  <data name="text_textPost" xml:space="preserve">
+    <value>Hozzáadjuk a leírást?</value>
+  </data>
+  <data name="text_updatingProfile" xml:space="preserve">
+    <value>Várjon... A játékosok profiljának frissítése folyik...</value>
+  </data>
+  <data name="text_uriError" xml:space="preserve">
+    <value>Az alábbi URL-link nem nyitható meg:</value>
+  </data>
+  <data name="text_useBlade" xml:space="preserve">
+    <value>Hogy kell használni az acélkardot?</value>
+  </data>
+  <data name="text_userBet" xml:space="preserve">
+    <value>A téted:</value>
+  </data>
+  <data name="text_userEndGameCount" xml:space="preserve">
+    <value>Befejezett játék:</value>
+  </data>
+  <data name="text_userExperienceDay" xml:space="preserve">
+    <value>Tapasztalat (nap):</value>
+  </data>
+  <data name="text_userExperienceHour" xml:space="preserve">
+    <value>Tapasztalat (óra):</value>
+  </data>
+  <data name="text_userGameCount" xml:space="preserve">
+    <value>Összes játék:</value>
+  </data>
+  <data name="text_userGames" xml:space="preserve">
+    <value>Játékaid</value>
+  </data>
+  <data name="text_userHomeRate" xml:space="preserve">
+    <value>Házanként</value>
+  </data>
+  <data name="text_userPower" xml:space="preserve">
+    <value>Uralom megerősítése elérhető:</value>
+  </data>
+  <data name="text_usersContract" xml:space="preserve">
+    <value>A westeros-i játékosok statisztikái a negyedéves eredményeken alapul.</value>
+  </data>
+  <data name="text_usersMeet" xml:space="preserve">
+    <value>Azok a játékosok, akikkel már játszottál</value>
+  </data>
+  <data name="text_usersTab" xml:space="preserve">
+    <value>Játékosok</value>
+  </data>
+  <data name="text_useSpecialization" xml:space="preserve">
+    <value>Használod a képességet?</value>
+  </data>
+  <data name="text_vesterosCardSelect" xml:space="preserve">
+    <value>Válassz eseményt</value>
+  </data>
+  <data name="text_vesterosSthanks" xml:space="preserve">
+    <value>Westeros hálás neked!</value>
+  </data>
+  <data name="text_vkAuthReset" xml:space="preserve">
+    <value>Visszatérés az azonosításhoz</value>
+  </data>
+  <data name="text_vkid" xml:space="preserve">
+    <value>Profilod: {0} {1}</value>
+  </data>
+  <data name="text_voting" xml:space="preserve">
+    <value>Licit «{0}»-ért</value>
+  </data>
+  <data name="text_warning" xml:space="preserve">
+    <value>FIGYELEM!</value>
+  </data>
+  <data name="text_wildlings" xml:space="preserve">
+    <value>Vadak</value>
+  </data>
+  <data name="text_yes" xml:space="preserve">
+    <value>Igen</value>
+  </data>
+  <data name="text_yourAccounts" xml:space="preserve">
+    <value>Profilod?</value>
+  </data>
+  <data name="titleType_Архимейстер" xml:space="preserve">
+    <value>Főmester</value>
+  </data>
+  <data name="titleType_Бездомный" xml:space="preserve">
+    <value>Zsellér</value>
+  </data>
+  <data name="titleType_корольВестероса" xml:space="preserve">
+    <value>Westeros Királya</value>
+  </data>
+  <data name="titleType_Купец" xml:space="preserve">
+    <value>Kereskedő</value>
+  </data>
+  <data name="titleType_лордКомандующий" xml:space="preserve">
+    <value>Hadvezér</value>
+  </data>
+  <data name="titleType_мастерНадЗаконами" xml:space="preserve">
+    <value>Törvény-mester</value>
+  </data>
+  <data name="titleType_мастерНадМонетой" xml:space="preserve">
+    <value>Pénzmester</value>
+  </data>
+  <data name="titleType_мастерНадШептунами" xml:space="preserve">
+    <value>Suttogók mestere</value>
+  </data>
+  <data name="titleType_Мейстер" xml:space="preserve">
+    <value>Mester</value>
+  </data>
+  <data name="titleType_Мейстер_Бард" xml:space="preserve">
+    <value>Dalnok</value>
+  </data>
+  <data name="titleType_Мейстер_Толмач" xml:space="preserve">
+    <value>Tolmács</value>
+  </data>
+  <data name="titleType_Рыцарь" xml:space="preserve">
+    <value>Lovag</value>
+  </data>
+  <data name="titleType_Создатель" xml:space="preserve">
+    <value>Programfejlesztő</value>
+  </data>
+  <data name="unitRemoveType_destroyed" xml:space="preserve">
+    <value>megsemmisült</value>
+  </data>
+  <data name="unitRemoveType_disbanding0" xml:space="preserve">
+    <value>szélnek eresztve</value>
+  </data>
+  <data name="unitRemoveType_disbanding1" xml:space="preserve">
+    <value>elsüllyesztve</value>
+  </data>
+  <data name="unitRemoveType_finished" xml:space="preserve">
+    <value>befejezve</value>
+  </data>
+  <data name="unitRemoveType_noRetreats" xml:space="preserve">
+    <value>elvágva a menekülési út</value>
+  </data>
+  <data name="unitRemoveType_retreats" xml:space="preserve">
+    <value>visszavonul</value>
+  </data>
+  <data name="unitRemoveType_thrown" xml:space="preserve">
+    <value>odalett</value>
+  </data>
+  <data name="unitType_Корабль" xml:space="preserve">
+    <value>Hajó</value>
+  </data>
+  <data name="unitType_Осадная_башня" xml:space="preserve">
+    <value>Ostromtorony</value>
+  </data>
+  <data name="unitType_Пеший_воин" xml:space="preserve">
+    <value>Gyalogos</value>
+  </data>
+  <data name="unitType_Рыцарь" xml:space="preserve">
+    <value>Lovag</value>
+  </data>
+  <data name="validation_consolidate1" xml:space="preserve">
+    <value>Hiba: a toborzási érték túllépése</value>
+  </data>
+  <data name="validation_consolidate2" xml:space="preserve">
+    <value>Hiba: szárazföldi haderő toborzása csak az adott területen engedélyezett</value>
+  </data>
+  <data name="validation_consolidate3" xml:space="preserve">
+    <value>Hiba: tengerészeti haderő toborzása csak a szomszédos tengerrészre vagy kikötőbe engedélyezett</value>
+  </data>
+  <data name="validation_consolidate4" xml:space="preserve">
+    <value>Hiba: a szomszédos tengerrészt más játékos birtokolja</value>
+  </data>
+  <data name="validation_consolidate5" xml:space="preserve">
+    <value>Hiba: szárazföldi haderő felfejlesztése csak az adott területen engedélyezett</value>
+  </data>
+  <data name="validation_consolidate6" xml:space="preserve">
+    <value>Hiba: felfejleszteni csak gyalogost lehet</value>
+  </data>
+  <data name="validation_consolidate7" xml:space="preserve">
+    <value>Szabálytalan: felfejleszteni gyalogosá nem lehet</value>
+  </data>
+  <data name="validation_consolidate8" xml:space="preserve">
+    <value>Hiba: haderő nemet megváltoztatni nem lehet</value>
+  </data>
+  <data name="validation_homeCard" xml:space="preserve">
+    <value>Hiba: Házat választani kötelező!</value>
+  </data>
+  <data name="validation_homeCard2" xml:space="preserve">
+    <value>Hiba: a Ház nem elérhető.</value>
+  </data>
+  <data name="validation_lordFalse" xml:space="preserve">
+    <value>A védő ellenállása nem győzetett le: támadóerő  {0}, védőerő {1}.</value>
+  </data>
+  <data name="validation_lordTrue" xml:space="preserve">
+    <value>A védő ellenállása megtört: támadóerő  {0}, védőerő {1}.</value>
+  </data>
+  <data name="validation_march" xml:space="preserve">
+    <value>Hiba: egy menetparanccsal csak egy támadás hajtható végre</value>
+  </data>
+  <data name="validation_move1" xml:space="preserve">
+    <value>Hiba: a hajók csak a vízen mozoghatnak.</value>
+  </data>
+  <data name="validation_move10" xml:space="preserve">
+    <value>Hiba: Nem lehet idegen uralom alatt álló területre visszavonulni.</value>
+  </data>
+  <data name="validation_move2" xml:space="preserve">
+    <value>Hiba: a szárazföldi csapatok nem mozoghatnak vízen (folyón át).</value>
+  </data>
+  <data name="validation_move3" xml:space="preserve">
+    <value>Hiba: hajók csak egy mezőt haladhatnak egy fordulóban</value>
+  </data>
+  <data name="validation_move4" xml:space="preserve">
+    <value>Hiba: nincs szabályos átcsoportosítási lehetőség</value>
+  </data>
+  <data name="validation_move5" xml:space="preserve">
+    <value>Hiba: Kikötőben max. 3 hajó lehet egyszerre</value>
+  </data>
+  <data name="validation_move6" xml:space="preserve">
+    <value>Hiba: Nem lehet idegen hatalom alatt álló kikötőbe behajózni</value>
+  </data>
+  <data name="validation_move7" xml:space="preserve">
+    <value>Hiba: Max. 4 egység lehet egy területen</value>
+  </data>
+  <data name="validation_move8" xml:space="preserve">
+    <value>Hiba: Az összes egység együtt, egyazon területre vonulhat vissza</value>
+  </data>
+  <data name="validation_move9" xml:space="preserve">
+    <value>Hiba: Nem lehet a támadás kiinduló mezejére visszavonulni</value>
+  </data>
+  <data name="validation_order" xml:space="preserve">
+    <value>Hiba: Köteles vagy választani egy parancsjelzőt</value>
+  </data>
+  <data name="validation_power" xml:space="preserve">
+    <value>Hiba: Csak ugyanakkora licitet tartó Házzal cserélhetsz</value>
+  </data>
+  <data name="validation_ranly1" xml:space="preserve">
+    <value>Hiba: Csak gyalogos választható</value>
+  </data>
+  <data name="validation_ranly2" xml:space="preserve">
+    <value>Hiba: Az egység nem vett részt a csatában</value>
+  </data>
+  <data name="validation_supply" xml:space="preserve">
+    <value>Hiba: Túllépted az utánpótlási limited</value>
+  </data>
+  <data name="validation_Track" xml:space="preserve">
+    <value>Hiba: Választanod kell a befolyásjelzőkből</value>
+  </data>
+  <data name="voting_Вотчины" xml:space="preserve">
+    <value>Valyriai acélkard</value>
+  </data>
+  <data name="voting_Железный_трон" xml:space="preserve">
+    <value>Vastrón</value>
+  </data>
+  <data name="voting_Королевский_двор" xml:space="preserve">
+    <value>Hírvívő holló</value>
+  </data>
+  <data name="voting_Одичалые" xml:space="preserve">
+    <value>Támadnak a vadak</value>
+  </data>
+  <data name="dynamic_heroRage" xml:space="preserve">
+    <value>{0} beavatkozása ({1})</value>
+  </data>
+  <data name="hero_dragon_Black_Walder" xml:space="preserve">
+    <value>Fekete Walder</value>
+  </data>
+  <data name="text_IsGarrisonUp" xml:space="preserve">
+    <value>Helyőrségek ereje</value>
+  </data>
+  <data name="text_IsGarrisonUpDesc" xml:space="preserve">
+    <value>Minden forduló a helyőrség erejét +1-gyel megnöveli</value>
+  </data>
+  <data name="text_MyLangOnly" xml:space="preserve">
+    <value>Csak adott nyelven</value>
+  </data>
+  <data name="text_withoutChange" xml:space="preserve">
+    <value>Halál mód</value>
+  </data>
+  <data name="text_withoutChangeDesc" xml:space="preserve">
+    <value>Ha az otthoni tartomány elveszett és nem lép be cserejátékos, a jétékos erői átalakulnak helyőrségekké.</value>
+  </data>
+  <data name="hero_dragon_Steelshanks_Walton" xml:space="preserve">
+    <value>Acéllábú Walton</value>
+  </data>
+</root>

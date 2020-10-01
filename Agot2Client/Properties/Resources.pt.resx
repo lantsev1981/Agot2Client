@@ -1,0 +1,1524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="actionType_Борьба_за_влияние" xml:space="preserve">
+    <value>Fúria dos Reis</value>
+  </data>
+  <data name="actionType_Набег" xml:space="preserve">
+    <value>Ordens de Invasão não podem ser jogadas</value>
+  </data>
+  <data name="actionType_Нашествие_одичалых" xml:space="preserve">
+    <value>Ataque dos Selvagens</value>
+  </data>
+  <data name="actionType_Ничего_не_происходит" xml:space="preserve">
+    <value>Nada acontece</value>
+  </data>
+  <data name="actionType_Оборона" xml:space="preserve">
+    <value>Ordens de Defese não podem ser jogadas</value>
+  </data>
+  <data name="actionType_Подмога" xml:space="preserve">
+    <value>Ordens de Suporte não podem ser jogadas</value>
+  </data>
+  <data name="actionType_Поход_1_специальный" xml:space="preserve">
+    <value>Ordens de Marcha Especiais (estreladas) não podem ser jogadas</value>
+  </data>
+  <data name="actionType_Сбор_власти" xml:space="preserve">
+    <value>Guerra dos Tronos</value>
+  </data>
+  <data name="actionType_Сбор_войск" xml:space="preserve">
+    <value>Recrutamento</value>
+  </data>
+  <data name="actionType_Снабжение_войск" xml:space="preserve">
+    <value>Suprimento</value>
+  </data>
+  <data name="actionType_Усиление_власти" xml:space="preserve">
+    <value>Ordens de Consolidar Poder não podem ser jogadas</value>
+  </data>
+  <data name="awardsType_AllHouseVictory" xml:space="preserve">
+    <value>Ganhou com todas as Casas</value>
+  </data>
+  <data name="awardsType_MaxDurationHours" xml:space="preserve">
+    <value>Maior tempo de jogo</value>
+  </data>
+  <data name="dictionary_empty" xml:space="preserve">
+    <value>Espectador</value>
+  </data>
+  <data name="dictionary_game" xml:space="preserve">
+    <value>Jogo</value>
+  </data>
+  <data name="dictionary_home" xml:space="preserve">
+    <value>Casa</value>
+  </data>
+  <data name="dynamic_barbarianThreat" xml:space="preserve">
+    <value>Ameaça Selvagem aumenta para {0}</value>
+  </data>
+  <data name="dynamic_batsCount" xml:space="preserve">
+    <value>Aposta {0} ({1} fichas de poder sobrando)</value>
+  </data>
+  <data name="dynamic_bladePower" xml:space="preserve">
+    <value>Lâmina de Aço Valiriano ({0})</value>
+  </data>
+  <data name="dynamic_clashOfKings" xml:space="preserve">
+    <value>Junta-se à luta para "{0}"</value>
+  </data>
+  <data name="dynamic_consolidatePower" xml:space="preserve">
+    <value>Consolida poder em "{0}" ({1} fichas de poder disponíveis)</value>
+  </data>
+  <data name="dynamic_consolidatePowerLoses" xml:space="preserve">
+    <value>Perde poder em "{0}" ({1} fichas de poder disponíveis)</value>
+  </data>
+  <data name="dynamic_errorStep" xml:space="preserve">
+    <value>Não é possível realizar o passo para a Casa {0}: {1}</value>
+  </data>
+  <data name="dynamic_Exile" xml:space="preserve">
+    <value>{1} ({0}) ao exílio!</value>
+  </data>
+  <data name="dynamic_ExileEarlier" xml:space="preserve">
+    <value>{0}! Você foi expulso antes.</value>
+  </data>
+  <data name="dynamic_gameOver" xml:space="preserve">
+    <value>Fim de jogo!</value>
+  </data>
+  <data name="dynamic_garrisonRemove" xml:space="preserve">
+    <value>Guarnição em "{0}" é destruída</value>
+  </data>
+  <data name="dynamic_heroRage" xml:space="preserve">
+    <value>{0} enraivece ({1})</value>
+  </data>
+  <data name="dynamic_hiLord" xml:space="preserve">
+    <value>{0}! Seja bem-vindo, Lorde {1}.</value>
+  </data>
+  <data name="dynamic_homeCardDiscards" xml:space="preserve">
+    <value>Descarta "{0}"</value>
+  </data>
+  <data name="dynamic_homeCardReturn" xml:space="preserve">
+    <value>Retorna sua carta da casa "{0}" para sua mão</value>
+  </data>
+  <data name="dynamic_homeCardSelect" xml:space="preserve">
+    <value>Seleciona uma carta de casa...</value>
+  </data>
+  <data name="dynamic_homeSupport" xml:space="preserve">
+    <value>Declara suporta à Casa "{0}"</value>
+  </data>
+  <data name="dynamic_kingClaim" xml:space="preserve">
+    <value>Detentor da ficha do Trono de Ferro quebra o empate</value>
+  </data>
+  <data name="dynamic_leftGame" xml:space="preserve">
+    <value>{1} ({0}) saiu do jogo! Continuei {2} a tentar regressar.</value>
+  </data>
+  <data name="dynamic_MaxEfficiency" xml:space="preserve">
+    <value>Maior taxa de vitórias para "{0}"</value>
+  </data>
+  <data name="dynamic_MaxTotalVictory1" xml:space="preserve">
+    <value>Maior número de vitórias</value>
+  </data>
+  <data name="dynamic_MaxTotalVictory2" xml:space="preserve">
+    <value>Maior número de vitórias para "{0}"</value>
+  </data>
+  <data name="dynamic_newGame" xml:space="preserve">
+    <value>{0} está reunindo os vassalos</value>
+  </data>
+  <data name="dynamic_orderCancel" xml:space="preserve">
+    <value>Cancela a ordem em "{0}"</value>
+  </data>
+  <data name="dynamic_passwordDenied" xml:space="preserve">
+    <value>{0}! Área restrita. Senha requerida.</value>
+  </data>
+  <data name="dynamic_planning" xml:space="preserve">
+    <value>Começa seu "{0}"</value>
+  </data>
+  <data name="dynamic_powerEstablishes" xml:space="preserve">
+    <value>Toma controle sobre "{0}"</value>
+  </data>
+  <data name="dynamic_powerLoses" xml:space="preserve">
+    <value>Perde controle sobre "{0}"</value>
+  </data>
+  <data name="dynamic_raided" xml:space="preserve">
+    <value>Pilha "{0}"</value>
+  </data>
+  <data name="dynamic_Renly_Baratheon" xml:space="preserve">
+    <value>Renly Baratheon: A unidade não pode tomar parte no combate ou declarar suporte, ou não é um soldado.</value>
+  </data>
+  <data name="dynamic_resetDeck" xml:space="preserve">
+    <value>Reembaralha o deck "{0} #{1}"</value>
+  </data>
+  <data name="dynamic_resetWildlingsDeck" xml:space="preserve">
+    <value>Reembaralha o deck "{0}"</value>
+  </data>
+  <data name="dynamic_retreatsCount" xml:space="preserve">
+    <value>O número mínimo de unidades recuadas = {0}</value>
+  </data>
+  <data name="dynamic_samePC" xml:space="preserve">
+    <value>ATENÇÃO! Esses usuários jogam pelo mesmo PC: {0}</value>
+  </data>
+  <data name="dynamic_shipCouldDestroy" xml:space="preserve">
+    <value>Decide se afunda a frota capturada em "{0}"</value>
+  </data>
+  <data name="dynamic_shipDestroy" xml:space="preserve">
+    <value>O navio é afundado (limita máximo de navios)</value>
+  </data>
+  <data name="dynamic_shipLost" xml:space="preserve">
+    <value>Navio é perdido</value>
+  </data>
+  <data name="dynamic_shipTaken" xml:space="preserve">
+    <value>O navio é capturado</value>
+  </data>
+  <data name="dynamic_supplyLimit" xml:space="preserve">
+    <value>Tem que debandar tropas que não podem suprir com alimentos</value>
+  </data>
+  <data name="dynamic_theEnd" xml:space="preserve">
+    <value>Toma o {0} lugar</value>
+  </data>
+  <data name="dynamic_theEndWinner" xml:space="preserve">
+    <value>VENCE</value>
+  </data>
+  <data name="dynamic_vesterosEvent" xml:space="preserve">
+    <value>Evento de Westeros: "{0}"</value>
+  </data>
+  <data name="dynamic_voting" xml:space="preserve">
+    <value>Toma a posição #{1} na trilha "{0}"</value>
+  </data>
+  <data name="dynamic_wildBuries" xml:space="preserve">
+    <value>Coloca a carta Selvagem embaixo do deck Selvagem</value>
+  </data>
+  <data name="dynamic_wildFail" xml:space="preserve">
+    <value>Vitória da Patrulha da Noite!</value>
+  </data>
+  <data name="dynamic_wildlingsAttack" xml:space="preserve">
+    <value>Os Selvagens atacam com poder de {0}</value>
+  </data>
+  <data name="dynamic_wildlingsCategory0" xml:space="preserve">
+    <value>todo o resto</value>
+  </data>
+  <data name="dynamic_wildlingsCategory1" xml:space="preserve">
+    <value>menor apostador</value>
+  </data>
+  <data name="dynamic_wildlingsCategory2" xml:space="preserve">
+    <value>maior apostador</value>
+  </data>
+  <data name="dynamic_wildlingsResult" xml:space="preserve">
+    <value>{0}: categoria "{1}"</value>
+  </data>
+  <data name="dynamic_wildVictory" xml:space="preserve">
+    <value>Vitória Selvagem!</value>
+  </data>
+  <data name="error_checkBlacklist" xml:space="preserve">
+    <value>Checar lista negra!</value>
+  </data>
+  <data name="error_checkHomeStatus" xml:space="preserve">
+    <value>Falha ao checar disponibilidade da Casa:</value>
+  </data>
+  <data name="error_clearProfile" xml:space="preserve">
+    <value>Não pode resetar sua classificação.</value>
+  </data>
+  <data name="error_connection" xml:space="preserve">
+    <value>Falha ao conectar ao servidor do jogo (link):</value>
+  </data>
+  <data name="error_createGame1" xml:space="preserve">
+    <value>Falha ao criar um novo jogo:</value>
+  </data>
+  <data name="error_createGame2" xml:space="preserve">
+    <value>Você não é autorizado a criar um jogo no momento, já que você é um criador ou participante de um jogo ainda não terminado.</value>
+  </data>
+  <data name="error_criticalError" xml:space="preserve">
+    <value>Erro crítico</value>
+  </data>
+  <data name="error_decodeText" xml:space="preserve">
+    <value>Erro decodificando texto!</value>
+  </data>
+  <data name="error_getLangs" xml:space="preserve">
+    <value>Falha ao conseguir a lista de idiomas suportados pelo sistema de auto-tradução. Idioma de tradução colocado no padrão (en)</value>
+  </data>
+  <data name="error_getLinkAccount" xml:space="preserve">
+    <value>Falha ao conseguir a lista de suas contas.</value>
+  </data>
+  <data name="error_inviteUser" xml:space="preserve">
+    <value>Falha ao enviar o convite:</value>
+  </data>
+  <data name="error_linkAccount" xml:space="preserve">
+    <value>O server negou a junção de contas! Talvez você errou a senha ou as contas adicionais usadas no momento (conta pode não ser usada dentro dos 2 últimos dias).</value>
+  </data>
+  <data name="error_logEvent" xml:space="preserve">
+    <value>Falha ao deletar evento: indexOf =</value>
+  </data>
+  <data name="error_notifyLoad" xml:space="preserve">
+    <value>Falha ao conectar or executar sistema de notificação</value>
+  </data>
+  <data name="error_password" xml:space="preserve">
+    <value>Senha incorretos!</value>
+  </data>
+  <data name="error_profileLoad" xml:space="preserve">
+    <value>Falha ao atualizar o perfil:</value>
+  </data>
+  <data name="error_profileSave" xml:space="preserve">
+    <value>Falha ao salvar seu perfil:</value>
+  </data>
+  <data name="error_profilesLoad" xml:space="preserve">
+    <value>Falha ao carregar ou atualizar todos os perfis:</value>
+  </data>
+  <data name="error_profileUpdate1" xml:space="preserve">
+    <value>Falha ao atualizar seu perfil: Por favor contate o desenvolvedor!</value>
+  </data>
+  <data name="error_profileUpdate2" xml:space="preserve">
+    <value>Falha em atualizar seu perfil: o serviço não está disponível, cheque as permissões do aplicativo para acesso à internet, ou tente novamente mais tarde.</value>
+  </data>
+  <data name="error_propertyChanged" xml:space="preserve">
+    <value>Não é possível mostrar os elementos:</value>
+  </data>
+  <data name="error_rateChange" xml:space="preserve">
+    <value>Falha ao modificar a classificação:</value>
+  </data>
+  <data name="error_sendMessage" xml:space="preserve">
+    <value>Não é possível enviar mensagem pois o dono da Casa é desconhecido.</value>
+  </data>
+  <data name="error_sendStep" xml:space="preserve">
+    <value>Falha ao completar passo:</value>
+  </data>
+  <data name="error_specialUsers" xml:space="preserve">
+    <value>Falha ao modificar a lista especial de jogadores:</value>
+  </data>
+  <data name="error_syncSteps1" xml:space="preserve">
+    <value>Falha ao sincronizar os passos (link):</value>
+  </data>
+  <data name="error_syncSteps2" xml:space="preserve">
+    <value>Falha ao sincronizar os passos (server):</value>
+  </data>
+  <data name="error_syncSteps3" xml:space="preserve">
+    <value>Falha ao sincronizar passos (obsoleto):</value>
+  </data>
+  <data name="error_syncUsers1" xml:space="preserve">
+    <value>Falha ao sincronizar os jogadores (link):</value>
+  </data>
+  <data name="error_syncUsers2" xml:space="preserve">
+    <value>Falha ao sincronizar os jogadores (server):</value>
+  </data>
+  <data name="error_translateLng" xml:space="preserve">
+    <value>Seu idioma ({0}) não é suportado pelo sistema. Tradução de idioma posto no padrão (en).</value>
+  </data>
+  <data name="error_undetectedLang" xml:space="preserve">
+    <value>Falha ao reconhecer seu idioma ({0}). Tradução de idioma posto no padrão (en).</value>
+  </data>
+  <data name="error_unknownError" xml:space="preserve">
+    <value>Erro desconhecido</value>
+  </data>
+  <data name="error_vkAuth" xml:space="preserve">
+    <value>O usuários não é identificado. Tente novamente.</value>
+  </data>
+  <data name="event_a_king_beyond_the_wall" xml:space="preserve">
+    <value>Um Rei-para-lá-da-Muralha</value>
+  </data>
+  <data name="event_a_throne_of_blades" xml:space="preserve">
+    <value>Um Trono de Lâminas</value>
+  </data>
+  <data name="event_clash_of_kings" xml:space="preserve">
+    <value>Fúria dos Reis</value>
+  </data>
+  <data name="event_crow_killers" xml:space="preserve">
+    <value>Matadores de Corvo</value>
+  </data>
+  <data name="event_dark_wings_dark_words" xml:space="preserve">
+    <value>Asas Escuras, Palavras Escuras</value>
+  </data>
+  <data name="event_feast_for_crows" xml:space="preserve">
+    <value>Festim dos Corvos</value>
+  </data>
+  <data name="event_game_of_thrones" xml:space="preserve">
+    <value>Guerra dos Tronos</value>
+  </data>
+  <data name="event_last_days_of_summer_1" xml:space="preserve">
+    <value>Últimos Dias de Verão</value>
+  </data>
+  <data name="event_last_days_of_summer_2" xml:space="preserve">
+    <value>Últimos Dias de Verão</value>
+  </data>
+  <data name="event_mammoth_riders" xml:space="preserve">
+    <value>Montadores de Mamutes</value>
+  </data>
+  <data name="event_massing_on_the_milkwater" xml:space="preserve">
+    <value>Concentração no Guadeleite</value>
+  </data>
+  <data name="event_mustering" xml:space="preserve">
+    <value>Recrutamento</value>
+  </data>
+  <data name="event_preemptive_raid" xml:space="preserve">
+    <value>Invasão Preventiva</value>
+  </data>
+  <data name="event_put_to_the_sword" xml:space="preserve">
+    <value>Condenado à Espada</value>
+  </data>
+  <data name="event_rains_of_autumn" xml:space="preserve">
+    <value>Chuvas de Outono</value>
+  </data>
+  <data name="event_rattleshirts_raiders" xml:space="preserve">
+    <value>Invasores do Camisa-de-Chocalhos</value>
+  </data>
+  <data name="event_sea_of_storms" xml:space="preserve">
+    <value>Mar de Tormentas</value>
+  </data>
+  <data name="event_silence_at_the_wall" xml:space="preserve">
+    <value>Silêncio na Muralha</value>
+  </data>
+  <data name="event_skinchanger_scout" xml:space="preserve">
+    <value>Batedor Troca-Peles</value>
+  </data>
+  <data name="event_storm_of_swords" xml:space="preserve">
+    <value>Tormenta de Espadas</value>
+  </data>
+  <data name="event_supply" xml:space="preserve">
+    <value>Suprimento</value>
+  </data>
+  <data name="event_the_horde_descends" xml:space="preserve">
+    <value>A Horda Desce</value>
+  </data>
+  <data name="event_web_of_lies" xml:space="preserve">
+    <value>Rede de Mentiras</value>
+  </data>
+  <data name="event_wildlings_attack" xml:space="preserve">
+    <value>Ataque dos Selvagens</value>
+  </data>
+  <data name="event_winter_is_coming_1" xml:space="preserve">
+    <value>O Inverno está Chegando</value>
+  </data>
+  <data name="event_winter_is_coming_2" xml:space="preserve">
+    <value>O Inverno está Chegando</value>
+  </data>
+  <data name="gameType_classic" xml:space="preserve">
+    <value>Clássico ({0} jogadores)</value>
+  </data>
+  <data name="gameType_continues" xml:space="preserve">
+    <value>A batalha continua</value>
+  </data>
+  <data name="gameType_dragon" xml:space="preserve">
+    <value>Dança dos Dragões</value>
+  </data>
+  <data name="gameType_findUser" xml:space="preserve">
+    <value>Precisa de um novo herói</value>
+  </data>
+  <data name="gameType_new" xml:space="preserve">
+    <value>Reunindo os vassalos</value>
+  </data>
+  <data name="gameType_over" xml:space="preserve">
+    <value>Fim de jogo</value>
+  </data>
+  <data name="hero_Большой_Джон_Амбер" xml:space="preserve">
+    <value>Grande Jon Umber</value>
+  </data>
+  <data name="hero_Бриенна_из_Тарта" xml:space="preserve">
+    <value>Brienne de Tarth</value>
+  </data>
+  <data name="hero_Бринден_Чёрная_Рыба" xml:space="preserve">
+    <value>O Peixe Negro</value>
+  </data>
+  <data name="hero_Герольд_Тёмная_Звезда" xml:space="preserve">
+    <value>Estrela Negra</value>
+  </data>
+  <data name="hero_Дагмер_Битый_Рот" xml:space="preserve">
+    <value>Dagmer Boca-Rachada</value>
+  </data>
+  <data name="hero_Королева_Шипов" xml:space="preserve">
+    <value>Rainha dos Espinhos</value>
+  </data>
+  <data name="hero_Оберин_Красная_Гадюка" xml:space="preserve">
+    <value>A Víbora Vermelha</value>
+  </data>
+  <data name="hero_Пёс" xml:space="preserve">
+    <value>O Cão de Caça</value>
+  </data>
+  <data name="hero_Пестряк" xml:space="preserve">
+    <value>Cara-Malhada</value>
+  </data>
+  <data name="hero_Эйерон_Сыровласый" xml:space="preserve">
+    <value>Aeron Cabelo-Molhado</value>
+  </data>
+  <data name="hero_Эурон_Вороний_Глаз" xml:space="preserve">
+    <value>Euron Olho-de-Corvo</value>
+  </data>
+  <data name="hint_absoluteSortUsers" xml:space="preserve">
+    <value>Organizar jogadores por "Absoluto" (padrão). "Absoluto" é uma média entre todas as classificações.</value>
+  </data>
+  <data name="hint_addBlackList" xml:space="preserve">
+    <value>Adicionar à lista negra. Torna esse jogador impossibilitado de entrar em um jogo com você. Notifica-o quando entrando em um jogo com ele. Função disponível para jogadores com título "Cavaleiro" ou maior.</value>
+  </data>
+  <data name="hint_addFavoriteList" xml:space="preserve">
+    <value>Adicionar à "Lista Seleta". Permite você receber mensagens via o sistema de notificação sobre as ações deste jogador (online, offline, jogando, sai de um jogo, entra em um jogo). Função disponível para jogadores com título "Mercador" ou maior.</value>
+  </data>
+  <data name="hint_battleCard" xml:space="preserve">
+    <value>Clique para trocar para o menu "Cartas".</value>
+  </data>
+  <data name="hint_battleTab" xml:space="preserve">
+    <value>Último ou atual combate</value>
+  </data>
+  <data name="hint_blade" xml:space="preserve">
+    <value>A Lâmina não foi usada neste round</value>
+  </data>
+  <data name="hint_brainSortUsers" xml:space="preserve">
+    <value>Organizar jogadores por classificação de "Mente" (relação de vitórias por jogos terminados)</value>
+  </data>
+  <data name="hint_chatTab" xml:space="preserve">
+    <value>Chat público</value>
+  </data>
+  <data name="hint_clearLike" xml:space="preserve">
+    <value>Limpar like</value>
+  </data>
+  <data name="hint_closeTab" xml:space="preserve">
+    <value>Minimizar menu</value>
+  </data>
+  <data name="hint_defence" xml:space="preserve">
+    <value>Ordem de Defesa</value>
+  </data>
+  <data name="hint_donate" xml:space="preserve">
+    <value>Ajude o criador, receba um "Título" e habilidades especiais.</value>
+  </data>
+  <data name="hint_findUsers" xml:space="preserve">
+    <value>Use este campo para procurar jogadores que não estão em uma lista de líderes. Digite o texto de busca e aperte Enter para começar a busca.</value>
+  </data>
+  <data name="hint_game" xml:space="preserve">
+    <value>Entre no jogo. O jogo pode durar até 6 horas. Você pagaria o "Preço do Ferro" por sair do jogo.</value>
+  </data>
+  <data name="hint_gameChatTab" xml:space="preserve">
+    <value>Chat do jogo</value>
+  </data>
+  <data name="hint_gameUsersTab" xml:space="preserve">
+    <value>Lista de jogadores e observadores</value>
+  </data>
+  <data name="hint_garrison" xml:space="preserve">
+    <value>Fortaleza é defendida por uma guarnição</value>
+  </data>
+  <data name="hint_goodGame" xml:space="preserve">
+    <value>Todas as classificações contadas</value>
+  </data>
+  <data name="hint_homeCardTab" xml:space="preserve">
+    <value>Cartas das Casas</value>
+  </data>
+  <data name="hint_honorSortUsers" xml:space="preserve">
+    <value>Organizar jogadores por classificação de "Honra" (relação entre jogos terminados com jogos totais)</value>
+  </data>
+  <data name="hint_horizontalMap" xml:space="preserve">
+    <value>Centralize o mapa e oriente-o horizontalmente</value>
+  </data>
+  <data name="hint_ignoreHonor" xml:space="preserve">
+    <value>O jogo foi abandonado, mas Westeros proclama anistia. Todas as classificações são ignoradas.</value>
+  </data>
+  <data name="hint_ignoreMind" xml:space="preserve">
+    <value>Substituição de jogador. Classificação "Honra" contada, e "Mente" será contada se você quiser.</value>
+  </data>
+  <data name="hint_like" xml:space="preserve">
+    <value>Dê um like ao jogador</value>
+  </data>
+  <data name="hint_likeSortUsers" xml:space="preserve">
+    <value>Organizar jogadores por classificação de "Charme" (diferença entre likes e dislikes)</value>
+  </data>
+  <data name="hint_linkAccounts" xml:space="preserve">
+    <value>Clique para juntar a conta "{0}"</value>
+  </data>
+  <data name="hint_linkPassword" xml:space="preserve">
+    <value>Coloque outra senha para esta conta</value>
+  </data>
+  <data name="hint_log" xml:space="preserve">
+    <value>Veja detalhes na lista de eventos</value>
+  </data>
+  <data name="hint_marchOrder" xml:space="preserve">
+    <value>Ordem de Marcha</value>
+  </data>
+  <data name="hint_meetUsers" xml:space="preserve">
+    <value>Lista de jogadores que você jogou em determinado jogo. Não esqueça de dar "likes" ou "dislikes" aos jogadores que merecem. Sua decisão influenciará a classificação de "Charme" deles. Votação anônima!</value>
+  </data>
+  <data name="hint_mindZero" xml:space="preserve">
+    <value>Jogo abandonado. Classificações de "Honra" e "Mente" contadas.</value>
+  </data>
+  <data name="hint_mute" xml:space="preserve">
+    <value>Calar. Deixa o chat deste jogador mudo até um reboot do client. Função disponível para jogadores com título "Cavaleiro" ou maior.</value>
+  </data>
+  <data name="hint_newGame" xml:space="preserve">
+    <value>Configurações para novo jogo. Escolha um título de jogo interessante, para que seja mais fácil achar na lista de jogos. Coloque as classificações mínimas para os jogadores se desejar, para cirar um jogo mais difícil e interessante.</value>
+  </data>
+  <data name="hint_onlineUsers" xml:space="preserve">
+    <value>Mostre jogadores online. Função disponível para jogadores com título "Fazendeiro" ou maior.</value>
+  </data>
+  <data name="hint_passRate" xml:space="preserve">
+    <value>Clica para adicionar resultado para a classificação de "Mente" (não pode ser desfeito).</value>
+  </data>
+  <data name="hint_password" xml:space="preserve">
+    <value>Digite a senha antes de entrar ou criar um jogo privado</value>
+  </data>
+  <data name="hint_privateGame" xml:space="preserve">
+    <value>Jogo privado</value>
+  </data>
+  <data name="hint_randomCard" xml:space="preserve">
+    <value>Progresso de Batalha</value>
+  </data>
+  <data name="hint_reconectGame" xml:space="preserve">
+    <value>Reiniciar o jogo. Essa função não necessária sob condições normais. Use apenas em casos extremos, por exemplo, se você tem certeza que é seu turno mas o botão "Completar passo" não está visível.</value>
+  </data>
+  <data name="hint_screenShot" xml:space="preserve">
+    <value>Tirar uma screenshot do tabuleiro e salvar na pasta "...\Screenshot".</value>
+  </data>
+  <data name="hint_sendInvite" xml:space="preserve">
+    <value>Enviar um convite (notificação). Função disponível para jogadores com título "Mercador" ou maior.</value>
+  </data>
+  <data name="hint_settings" xml:space="preserve">
+    <value>Configurações: Inclui ajuste do áudio, escolha do idioma, mescla da conta, reiniciar estatísticas. Disponível para jogadores com o título de "Camponês" e acima!</value>
+  </data>
+  <data name="hint_skullGame" xml:space="preserve">
+    <value>Jogo com "caveiras" nas cartas do Progresso de Batalha.</value>
+  </data>
+  <data name="hint_sms" xml:space="preserve">
+    <value>Enviar uma mensagem.</value>
+  </data>
+  <data name="hint_smsCreator" xml:space="preserve">
+    <value>Envie uma mensagem para o "Criador" no VKontakte.</value>
+  </data>
+  <data name="hint_smsVK" xml:space="preserve">
+    <value>Envie uma mensagem ao usuário no VKontakte.</value>
+  </data>
+  <data name="hint_status" xml:space="preserve">
+    <value>Status do Perfil (online/offline). Função disponível para jogadores com título "Fazendeiro" ou maior.</value>
+  </data>
+  <data name="hint_stopGame" xml:space="preserve">
+    <value>Sair do jogo. ATENÇÃO! Sair de um jogo que começou e não terminou irá influencia sua classificação de "Honra". Se você quer assistir a outro jogo, abra outro client.</value>
+  </data>
+  <data name="hint_supportAttak" xml:space="preserve">
+    <value>Casas apoiando o atacante</value>
+  </data>
+  <data name="hint_supportCancel" xml:space="preserve">
+    <value>Recuse o suporte de alguém</value>
+  </data>
+  <data name="hint_supportDefence" xml:space="preserve">
+    <value>Casas apoiando o defensor</value>
+  </data>
+  <data name="hint_supportUnknow" xml:space="preserve">
+    <value>Casas neutras sobre o suporte</value>
+  </data>
+  <data name="hint_timerTab" xml:space="preserve">
+    <value>Após a conclusão do temporizador, você será excluído da festa do jogo!</value>
+  </data>
+  <data name="hint_translate" xml:space="preserve">
+    <value>Traduzir para seu idioma local</value>
+  </data>
+  <data name="hint_unLike" xml:space="preserve">
+    <value>Dê um dislike no usuário</value>
+  </data>
+  <data name="hint_updateUsers" xml:space="preserve">
+    <value>Atulizar a lista de perfis. Apenas jogadores com mais de 48 horas de experiência e 10 jogos terminados estão na lista. Jogadores que não participaram de um jogo por uma semana são ignorados! Use "Procura de jogador (filtro)" para procurar outros jogadores. List limitada à 100 entradas.</value>
+  </data>
+  <data name="hint_userGames" xml:space="preserve">
+    <value>Mostra uma lista de seus jogos. Clique em um jogo para classificar usuários com quem você jogou.</value>
+  </data>
+  <data name="hint_userProfileTab" xml:space="preserve">
+    <value>Seu perfil</value>
+  </data>
+  <data name="hint_usersTab" xml:space="preserve">
+    <value>Conquistas</value>
+  </data>
+  <data name="hint_userUpdate" xml:space="preserve">
+    <value>Renove seu perfil manualmente</value>
+  </data>
+  <data name="hint_verticalMap" xml:space="preserve">
+    <value>Centraliza o mapa e o posiciona verticalmente</value>
+  </data>
+  <data name="hint_vesteros" xml:space="preserve">
+    <value>Mostra média (total) de classificação e posição no ranking de todos os jogadores. A guia "Casas" mostra estatísticas de vitória para cada casa.</value>
+  </data>
+  <data name="hint_vesterosCardTab" xml:space="preserve">
+    <value>Cartas de Westeros</value>
+  </data>
+  <data name="hint_viewGame" xml:space="preserve">
+    <value>Assista o jogo</value>
+  </data>
+  <data name="notify_connectionGame" xml:space="preserve">
+    <value>Você não pode se conectar ao jogo no momento, pois você é um membro de outro jogo não terminado e não tem o título "Lorde" ou experiência de mais de 48 horas.</value>
+  </data>
+  <data name="notify_connectionGame2" xml:space="preserve">
+    <value>Não há mais Casas disponíveis ou você já tentou isso neste jogo.</value>
+  </data>
+  <data name="notify_inviteUser" xml:space="preserve">
+    <value>Essa mensagem não foi enviada! O sistema de notificações do usuário está desativado.</value>
+  </data>
+  <data name="notify_Loading" xml:space="preserve">
+    <value>Carregando...</value>
+  </data>
+  <data name="notify_mapRender" xml:space="preserve">
+    <value>Desenhando mapa...</value>
+  </data>
+  <data name="notify_stepSyncProgress" xml:space="preserve">
+    <value>Sincronizando passos...</value>
+  </data>
+  <data name="orderType_Набег_0" xml:space="preserve">
+    <value>Invasão</value>
+  </data>
+  <data name="orderType_Набег_0_специальный" xml:space="preserve">
+    <value>Invasão Especial</value>
+  </data>
+  <data name="orderType_Оборона_1" xml:space="preserve">
+    <value>Defesa +1</value>
+  </data>
+  <data name="orderType_Оборона_2_специальный" xml:space="preserve">
+    <value>Defesa +2</value>
+  </data>
+  <data name="orderType_Подмога_0" xml:space="preserve">
+    <value>Suporte</value>
+  </data>
+  <data name="orderType_Подмога_1_специальный" xml:space="preserve">
+    <value>Suporte +1</value>
+  </data>
+  <data name="orderType_Поход_0" xml:space="preserve">
+    <value>Marcha</value>
+  </data>
+  <data name="orderType_Поход_1_специальный" xml:space="preserve">
+    <value>Marcha +1</value>
+  </data>
+  <data name="orderType_Поход__1" xml:space="preserve">
+    <value>Marcha -1</value>
+  </data>
+  <data name="orderType_Усиление_власти_0" xml:space="preserve">
+    <value>Consolidar Poder</value>
+  </data>
+  <data name="orderType_Усиление_власти_0_специальный" xml:space="preserve">
+    <value>Consolidar Poder Especial</value>
+  </data>
+  <data name="rageEffect_0" xml:space="preserve">
+    <value>Atraindo o suporte</value>
+  </data>
+  <data name="rageEffect_1" xml:space="preserve">
+    <value> = +{0} ícone de fortaleza</value>
+  </data>
+  <data name="rageEffect_10" xml:space="preserve">
+    <value>Ordem de Defesa x2</value>
+  </data>
+  <data name="rageEffect_11" xml:space="preserve">
+    <value>Força de combate da carta de Casa oponente = 0</value>
+  </data>
+  <data name="rageEffect_12" xml:space="preserve">
+    <value>força dos navios x2</value>
+  </data>
+  <data name="rageEffect_13" xml:space="preserve">
+    <value>força dos soldados x2</value>
+  </data>
+  <data name="rageEffect_14" xml:space="preserve">
+    <value>todos os navios, exceto Baratheon, têm força = 0</value>
+  </data>
+  <data name="rageEffect_15" xml:space="preserve">
+    <value>oponente descarta uma carta</value>
+  </data>
+  <data name="rageEffect_16" xml:space="preserve">
+    <value>remove uma ordem inimiga</value>
+  </data>
+  <data name="rageEffect_17" xml:space="preserve">
+    <value>promova a cavaleiro</value>
+  </data>
+  <data name="rageEffect_18" xml:space="preserve">
+    <value>sem efeito</value>
+  </data>
+  <data name="rageEffect_19" xml:space="preserve">
+    <value>troca carta de Progresso de Batalha</value>
+  </data>
+  <data name="rageEffect_2" xml:space="preserve">
+    <value> = +{0} ícone de espada</value>
+  </data>
+  <data name="rageEffect_20" xml:space="preserve">
+    <value>Inimigo não tem mais cartas de Casa</value>
+  </data>
+  <data name="rageEffect_21" xml:space="preserve">
+    <value>Mudar a influência dos Selvagens</value>
+  </data>
+  <data name="rageEffect_22" xml:space="preserve">
+    <value>bloqueia carta de Casa "{0}"</value>
+  </data>
+  <data name="rageEffect_23" xml:space="preserve">
+    <value>remove ordem inimiga "{0}"</value>
+  </data>
+  <data name="rageEffect_24" xml:space="preserve">
+    <value>descarta a carta de Casa oponente "{0}"</value>
+  </data>
+  <data name="rageEffect_25" xml:space="preserve">
+    <value>escapa</value>
+  </data>
+  <data name="rageEffect_26" xml:space="preserve">
+    <value>Para aumentar o impacto dos Selvagens</value>
+  </data>
+  <data name="rageEffect_27" xml:space="preserve">
+    <value>Para reduzir o impacto dos Selvagens</value>
+  </data>
+  <data name="rageEffect_28" xml:space="preserve">
+    <value>Força de cavaleiro +1</value>
+  </data>
+  <data name="rageEffect_29" xml:space="preserve">
+    <value>A força final de combate do seu oponente = 2</value>
+  </data>
+  <data name="rageEffect_3" xml:space="preserve">
+    <value>consolida poder</value>
+  </data>
+  <data name="rageEffect_30" xml:space="preserve">
+    <value>ignorando dito</value>
+  </data>
+  <data name="rageEffect_31" xml:space="preserve">
+    <value>força do herói = {0}</value>
+  </data>
+  <data name="rageEffect_4" xml:space="preserve">
+    <value>sem perdas</value>
+  </data>
+  <data name="rageEffect_5" xml:space="preserve">
+    <value>reagrupamento de tropas</value>
+  </data>
+  <data name="rageEffect_6" xml:space="preserve">
+    <value>destrói 1 soldado</value>
+  </data>
+  <data name="rageEffect_7" xml:space="preserve">
+    <value>empurra o inimigo de volta</value>
+  </data>
+  <data name="rageEffect_8" xml:space="preserve">
+    <value>atualiza o deck</value>
+  </data>
+  <data name="rageEffect_9" xml:space="preserve">
+    <value> = +1 força de combate</value>
+  </data>
+  <data name="ratingType_honor" xml:space="preserve">
+    <value>Honra</value>
+  </data>
+  <data name="ratingType_like" xml:space="preserve">
+    <value>Charme</value>
+  </data>
+  <data name="ratingType_mind" xml:space="preserve">
+    <value>Mente</value>
+  </data>
+  <data name="settings_Главная_тема" xml:space="preserve">
+    <value>Título principal</value>
+  </data>
+  <data name="settings_Новое_сообщение" xml:space="preserve">
+    <value>Mensagem</value>
+  </data>
+  <data name="settings_Новый_ход" xml:space="preserve">
+    <value>Passo</value>
+  </data>
+  <data name="settings_Таймер" xml:space="preserve">
+    <value>Contador</value>
+  </data>
+  <data name="stepType_Борьба_за_влияние" xml:space="preserve">
+    <value>Luta por Influência</value>
+  </data>
+  <data name="stepType_Валирийский_меч" xml:space="preserve">
+    <value>Lâmina de Aço Valiriano</value>
+  </data>
+  <data name="stepType_Железный_трон" xml:space="preserve">
+    <value>Trono de Ferro</value>
+  </data>
+  <data name="stepType_Замысел" xml:space="preserve">
+    <value>Fase de Planejamento</value>
+  </data>
+  <data name="stepType_Королева_Шипов" xml:space="preserve">
+    <value>Rainha dos Espinhos</value>
+  </data>
+  <data name="stepType_Король_за_Стеной" xml:space="preserve">
+    <value>Um Rei-para-lá-da-Muralha</value>
+  </data>
+  <data name="stepType_Набег" xml:space="preserve">
+    <value>Invasão</value>
+  </data>
+  <data name="stepType_Наездники_на_мамонтах" xml:space="preserve">
+    <value>Montadores de Mamutes</value>
+  </data>
+  <data name="stepType_Наездники_на_мамонтах_роспуск_войск" xml:space="preserve">
+    <value>Montadores de Mamutes (debandamento de tropas).</value>
+  </data>
+  <data name="stepType_Наступление_орды" xml:space="preserve">
+    <value>A Horda Desce</value>
+  </data>
+  <data name="stepType_Наступление_орды_Усиление_власти" xml:space="preserve">
+    <value>A Horda Desce (recrutamento)</value>
+  </data>
+  <data name="stepType_Неожиданный_шаг" xml:space="preserve">
+    <value>O movimento inesperado</value>
+  </data>
+  <data name="stepType_Отступление" xml:space="preserve">
+    <value>Retirada</value>
+  </data>
+  <data name="stepType_Передовой_отряд" xml:space="preserve">
+    <value>Invasão Preventiva</value>
+  </data>
+  <data name="stepType_Пестряк" xml:space="preserve">
+    <value>Cara-Malhada</value>
+  </data>
+  <data name="stepType_Победа" xml:space="preserve">
+    <value>Vitória</value>
+  </data>
+  <data name="stepType_Подмога" xml:space="preserve">
+    <value>Suporte</value>
+  </data>
+  <data name="stepType_Посыльный_ворон" xml:space="preserve">
+    <value>Corvo Mensageiro</value>
+  </data>
+  <data name="stepType_Поход" xml:space="preserve">
+    <value>Marcha</value>
+  </data>
+  <data name="stepType_Разведка_за_стеной" xml:space="preserve">
+    <value>Espiar Carta Selvagem do Topo</value>
+  </data>
+  <data name="stepType_Роспуск_войск" xml:space="preserve">
+    <value>Debandar Tropas</value>
+  </data>
+  <data name="stepType_Сбор_на_Молоководной" xml:space="preserve">
+    <value>Concentração no Guadeleite</value>
+  </data>
+  <data name="stepType_Событие_Вестероса" xml:space="preserve">
+    <value>Evento de Westeros</value>
+  </data>
+  <data name="stepType_Сражение" xml:space="preserve">
+    <value>Batalha</value>
+  </data>
+  <data name="stepType_Убийцы_ворон" xml:space="preserve">
+    <value>Matadores de Corvo</value>
+  </data>
+  <data name="stepType_Усиление_власти" xml:space="preserve">
+    <value>Consolidar Poder</value>
+  </data>
+  <data name="stepType_Усиление_власти_Вестерос" xml:space="preserve">
+    <value>Recrutamento</value>
+  </data>
+  <data name="stepType_Эйерон_Сыровласый" xml:space="preserve">
+    <value>Aeron Cabelo-Molhado</value>
+  </data>
+  <data name="terrain_Порт_Белой_Гавани" xml:space="preserve">
+    <value>Porto de White Harbor</value>
+  </data>
+  <data name="terrain_Порт_Винтерфела" xml:space="preserve">
+    <value>Porto de Winterfell</value>
+  </data>
+  <data name="terrain_Порт_Драконьего_Каменя" xml:space="preserve">
+    <value>Porto de Dragonstone</value>
+  </data>
+  <data name="terrain_Порт_Ланиспорта" xml:space="preserve">
+    <value>Porto de Lannisport</value>
+  </data>
+  <data name="terrain_Порт_Пайка" xml:space="preserve">
+    <value>Porto de Pyke</value>
+  </data>
+  <data name="terrain_Порт_Солнечного_Копья" xml:space="preserve">
+    <value>Porto de Sunspear</value>
+  </data>
+  <data name="terrain_Порт_Староместа" xml:space="preserve">
+    <value>Porto de Oldtown</value>
+  </data>
+  <data name="terrain_Порт_Штормового_Предела" xml:space="preserve">
+    <value>Porto de Storm's End</value>
+  </data>
+  <data name="text_accessDenied" xml:space="preserve">
+    <value>Acesso negado!</value>
+  </data>
+  <data name="text_accessDenied1" xml:space="preserve">
+    <value>Acesso negado! Você está na lista negra de um dos jogadores.</value>
+  </data>
+  <data name="text_accessDenied2" xml:space="preserve">
+    <value>Um dos jogadores está na sua lista negra. Você ainda quer entrar?</value>
+  </data>
+  <data name="text_accessDenied3" xml:space="preserve">
+    <value>Apenas jogadores com título "Lorde" e com mais de 48 horas de experiência podem executar múltiplos clients ao mesmo tempo.</value>
+  </data>
+  <data name="text_addTime" xml:space="preserve">
+    <value>Tempo adicionado por etapa</value>
+  </data>
+  <data name="text_apiSelect" xml:space="preserve">
+    <value>Selecione o método de autorização</value>
+  </data>
+  <data name="text_attackPower" xml:space="preserve">
+    <value>Força de Ataque</value>
+  </data>
+  <data name="text_awards" xml:space="preserve">
+    <value>Prêmios</value>
+  </data>
+  <data name="text_awardsType1" xml:space="preserve">
+    <value>Prêmios temporários</value>
+  </data>
+  <data name="text_barbarianBury" xml:space="preserve">
+    <value>Colocar embaixo</value>
+  </data>
+  <data name="text_barbarianLeave" xml:space="preserve">
+    <value>Deixar no topo</value>
+  </data>
+  <data name="text_barbarianStrength" xml:space="preserve">
+    <value>Força dos Selvagens «{0}»</value>
+  </data>
+  <data name="text_battle" xml:space="preserve">
+    <value>Batalha por «{0}»</value>
+  </data>
+  <data name="text_battleTab" xml:space="preserve">
+    <value>Batalha</value>
+  </data>
+  <data name="text_browserCache" xml:space="preserve">
+    <value>Se você encontrar erros durante a autorização, verifique se você tem instalado a versão 7, 9, 10 ou 11 do iexplorer. Também limpe o cache do browser.</value>
+  </data>
+  <data name="text_cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="text_clearRating" xml:space="preserve">
+    <value>Tem certeza que deixar limpar sua classificação? Seus jogos serão marcados como obsoletos, e todos seus likes e dislikes serão removidos. Sua relação com outros jogadores serão salvas.</value>
+  </data>
+  <data name="text_clientStep" xml:space="preserve">
+    <value>Seu passo "{0}"</value>
+  </data>
+  <data name="text_closeApp" xml:space="preserve">
+    <value>A aplicação será fechada!</value>
+  </data>
+  <data name="text_confirm" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="text_confirm_text" xml:space="preserve">
+    <value>Atenção! Apenas donos de um tabuleiro "Guerra dos Tronos: O Tabuleiro (Segunda Edição)" podem logar. Usando este produto, você concorda que adquiriu uma versão licenciada do tabuleiro.</value>
+  </data>
+  <data name="text_defancePower" xml:space="preserve">
+    <value>Força de Defesa</value>
+  </data>
+  <data name="text_deleteEvent" xml:space="preserve">
+    <value>- deleta este evento</value>
+  </data>
+  <data name="text_deleteEvents" xml:space="preserve">
+    <value>- deleta este evento e todos os eventos abaixo</value>
+  </data>
+  <data name="text_disconnect" xml:space="preserve">
+    <value>Desconectar:</value>
+  </data>
+  <data name="text_donateComment" xml:space="preserve">
+    <value>Comentar: {0}</value>
+  </data>
+  <data name="text_error" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="text_eventsTab" xml:space="preserve">
+    <value>Eventos</value>
+  </data>
+  <data name="text_exit" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="text_findUsers" xml:space="preserve">
+    <value>Procurar usuário (filtro)</value>
+  </data>
+  <data name="text_gameDate" xml:space="preserve">
+    <value>Data do jogo</value>
+  </data>
+  <data name="text_gameEndTime" xml:space="preserve">
+    <value>Hora do Término de Jogo:</value>
+  </data>
+  <data name="text_gameStartTime" xml:space="preserve">
+    <value>Hora do Início de Jogo</value>
+  </data>
+  <data name="text_gameType" xml:space="preserve">
+    <value>Tipo de Jogo</value>
+  </data>
+  <data name="text_help" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="text_homeCardSelect" xml:space="preserve">
+    <value>- seleciona a carta de Casa para a atual batalha</value>
+  </data>
+  <data name="text_homeSelect" xml:space="preserve">
+    <value>Selecione uma Casa!</value>
+  </data>
+  <data name="text_homeSelectContract" xml:space="preserve">
+    <value>Jogadores intitulados "Lorde" podem escolher a Casa que desejam liderar à vitória. Outros jogadores devem deixar os deuses de Westeros escolherem. Casa indisponíveis estão sem cores; clique em uma Casa para checar sua disponibilidade.</value>
+  </data>
+  <data name="text_homeSelectWarning" xml:space="preserve">
+    <value>ATENÇÃO! Você não pode trocar de Casa ao fazer sua escolha.</value>
+  </data>
+  <data name="text_homesTab" xml:space="preserve">
+    <value>Casas</value>
+  </data>
+  <data name="text_lastCardBarbarian" xml:space="preserve">
+    <value>Última carta Selvagem jogada</value>
+  </data>
+  <data name="text_lastDonateInfo" xml:space="preserve">
+    <value>O último pagamento no valor de {0}₽ foi feito em {1:MM\/dd\/yyyy HH:mm}</value>
+  </data>
+  <data name="text_leaveGame" xml:space="preserve">
+    <value>Sair do grupo?|Sim - Você será expulso instantaneamente do grupo.|Não - Você terá {0} segundos para retornar|Cancelar - Continue a Guerra dos Tronos.</value>
+  </data>
+  <data name="text_linkAccountCompleted" xml:space="preserve">
+    <value>Ação na sua conta completa com sucesso.</value>
+  </data>
+  <data name="text_maxTime" xml:space="preserve">
+    <value>Tempo máximo por turno</value>
+  </data>
+  <data name="text_minTotalRatio" xml:space="preserve">
+    <value>Class. mínima (Total)</value>
+  </data>
+  <data name="text_msgInput" xml:space="preserve">
+    <value>Escreva sua mensagem aqui</value>
+  </data>
+  <data name="text_name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="text_NewGame" xml:space="preserve">
+    <value>Novo jogo</value>
+  </data>
+  <data name="text_no" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="text_noSupport" xml:space="preserve">
+    <value>Neutralidade</value>
+  </data>
+  <data name="text_notify" xml:space="preserve">
+    <value>Notificar</value>
+  </data>
+  <data name="text_notUseBlade" xml:space="preserve">
+    <value>Não Usar Lâmina</value>
+  </data>
+  <data name="text_onlineOnly" xml:space="preserve">
+    <value>Apenas online</value>
+  </data>
+  <data name="text_orderFree" xml:space="preserve">
+    <value>Nem todas as tropas receberam ordens.|Completar a fase de planejamento?</value>
+  </data>
+  <data name="text_password" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="text_postCanceled" xml:space="preserve">
+    <value>Você não deu permissão para sua parede!</value>
+  </data>
+  <data name="text_postComplete" xml:space="preserve">
+    <value>O post publicado!</value>
+  </data>
+  <data name="text_profileTab" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="text_publicDonate" xml:space="preserve">
+    <value>Publicamente?</value>
+  </data>
+  <data name="text_randomPower" xml:space="preserve">
+    <value>Força das cartas de Progresso de Combate</value>
+  </data>
+  <data name="text_ratingsCondition" xml:space="preserve">
+    <value>Classificação mínima exigida:</value>
+  </data>
+  <data name="text_ratingTab" xml:space="preserve">
+    <value>Classificações</value>
+  </data>
+  <data name="text_saveError" xml:space="preserve">
+    <value>Código de erro de salve?</value>
+  </data>
+  <data name="text_screenPost" xml:space="preserve">
+    <value>Postar uma entrada?</value>
+  </data>
+  <data name="text_scrollEvents" xml:space="preserve">
+    <value>- role a lista de eventos (até 20)</value>
+  </data>
+  <data name="text_selectedOrder" xml:space="preserve">
+    <value>Ordem selecionada: "{0}".</value>
+  </data>
+  <data name="text_skull" xml:space="preserve">
+    <value>Perdas adicionais (Caveiras)</value>
+  </data>
+  <data name="text_sloganBaratheon" xml:space="preserve">
+    <value>NOSSA É A FÚRIA</value>
+  </data>
+  <data name="text_sloganBolton" xml:space="preserve">
+    <value>NOSSAS LÂMINAS SÃO AFIADAS</value>
+  </data>
+  <data name="text_sloganGreyjoy" xml:space="preserve">
+    <value>NÓS NÃO SEMEAMOS</value>
+  </data>
+  <data name="text_sloganLannister" xml:space="preserve">
+    <value>OUÇA-ME RUGIR</value>
+  </data>
+  <data name="text_sloganMartell" xml:space="preserve">
+    <value>NÃO CURVADOS, NÃO DOBRADOS, NÃO QUEBRADOS</value>
+  </data>
+  <data name="text_sloganRandom" xml:space="preserve">
+    <value>APENAS AQUELES QUE TENTAM O ABSURDO PODEM ATINGIR O IMPOSSÍVEL</value>
+  </data>
+  <data name="text_sloganStark" xml:space="preserve">
+    <value>O INVERNO ESTÁ CHEGANDO</value>
+  </data>
+  <data name="text_sloganTyrell" xml:space="preserve">
+    <value>CRESCENDO FORTES</value>
+  </data>
+  <data name="text_soundSettings" xml:space="preserve">
+    <value>Configurações de som</value>
+  </data>
+  <data name="text_specialPassword" xml:space="preserve">
+    <value>Digite sua senha especial</value>
+  </data>
+  <data name="text_specialPasswordAttention" xml:space="preserve">
+    <value>ATENÇÃO! Não use sua senha do VKotankte ou Facebook!</value>
+  </data>
+  <data name="text_specialPasswordText" xml:space="preserve">
+    <value>Sua senha de acesso foi mudada, você tem que digitar sua senha especial para aceitar essa mudança. Se essa senha é requerida pela primeira vez, então use qualquer senha e LEMBRE-SE! Você precisará dela para logar de diferentes computadores, ou seu perfil social muda.</value>
+  </data>
+  <data name="text_stepPerform" xml:space="preserve">
+    <value>Realizar Passo</value>
+  </data>
+  <data name="text_supplyLimit" xml:space="preserve">
+    <value>limite de suprimento</value>
+  </data>
+  <data name="text_donate" xml:space="preserve">
+    <value>Doar...</value>
+  </data>
+  <data name="text_supportUser" xml:space="preserve">
+    <value>Suporte</value>
+  </data>
+  <data name="text_textPost" xml:space="preserve">
+    <value>Adicione uma descrição?</value>
+  </data>
+  <data name="text_updatingProfile" xml:space="preserve">
+    <value>POR FAVOR ESPERE! Atualizando perfis dos jogadores...</value>
+  </data>
+  <data name="text_uriError" xml:space="preserve">
+    <value>Desculpe, não pudemos ir para esta URL:</value>
+  </data>
+  <data name="text_useBlade" xml:space="preserve">
+    <value>Como usar a Lâmina?</value>
+  </data>
+  <data name="text_userBet" xml:space="preserve">
+    <value>Sua aposta:</value>
+  </data>
+  <data name="text_userEndGameCount" xml:space="preserve">
+    <value>Jogos terminados:</value>
+  </data>
+  <data name="text_userExperienceDay" xml:space="preserve">
+    <value>Experiência (dias):</value>
+  </data>
+  <data name="text_userExperienceHour" xml:space="preserve">
+    <value>Experiência (horas):</value>
+  </data>
+  <data name="text_userGameCount" xml:space="preserve">
+    <value>Jogos (total):</value>
+  </data>
+  <data name="text_userGames" xml:space="preserve">
+    <value>Seus Jogos</value>
+  </data>
+  <data name="text_userHomeRate" xml:space="preserve">
+    <value>Por Casas:</value>
+  </data>
+  <data name="text_userPower" xml:space="preserve">
+    <value>Fichas de poder disponíveis:</value>
+  </data>
+  <data name="text_usersContract" xml:space="preserve">
+    <value>A classificação dos jogadores e as estatísticas de Westeros são calculadas baseadas em suas atividades durante os últimos três meses.</value>
+  </data>
+  <data name="text_usersMeet" xml:space="preserve">
+    <value>Jogadores com quem você tem jogado</value>
+  </data>
+  <data name="text_usersTab" xml:space="preserve">
+    <value>Usuários</value>
+  </data>
+  <data name="text_useSpecialization" xml:space="preserve">
+    <value>Usar habilidade?</value>
+  </data>
+  <data name="text_vesterosCardSelect" xml:space="preserve">
+    <value>Escolha um evento</value>
+  </data>
+  <data name="text_vesterosSthanks" xml:space="preserve">
+    <value>Westeros é grata!</value>
+  </data>
+  <data name="text_vkAuthReset" xml:space="preserve">
+    <value>De volta à página de autorização</value>
+  </data>
+  <data name="text_vkid" xml:space="preserve">
+    <value>Seu perfil: {0} {1}</value>
+  </data>
+  <data name="text_voting" xml:space="preserve">
+    <value>Apostando pelo(a) «{0}»</value>
+  </data>
+  <data name="text_warning" xml:space="preserve">
+    <value>Atenção!</value>
+  </data>
+  <data name="text_wildlings" xml:space="preserve">
+    <value>Selvagens</value>
+  </data>
+  <data name="text_yes" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="text_yourAccounts" xml:space="preserve">
+    <value>Suas contas?</value>
+  </data>
+  <data name="titleType_Архимейстер" xml:space="preserve">
+    <value>Arquimeistre</value>
+  </data>
+  <data name="titleType_Бездомный" xml:space="preserve">
+    <value>Sem terra</value>
+  </data>
+  <data name="titleType_корольВестероса" xml:space="preserve">
+    <value>Rei de Westeros</value>
+  </data>
+  <data name="titleType_Крестьянин" xml:space="preserve">
+    <value>Camponês</value>
+  </data>
+  <data name="titleType_Купец" xml:space="preserve">
+    <value>Mercador</value>
+  </data>
+  <data name="titleType_Лорд" xml:space="preserve">
+    <value>Lorde</value>
+  </data>
+  <data name="titleType_лордКомандующий" xml:space="preserve">
+    <value>Lorde Comandante</value>
+  </data>
+  <data name="titleType_мастерНадЗаконами" xml:space="preserve">
+    <value>Mestre das Leis</value>
+  </data>
+  <data name="titleType_мастерНадМонетой" xml:space="preserve">
+    <value>Mestre da Moeda</value>
+  </data>
+  <data name="titleType_мастерНадШептунами" xml:space="preserve">
+    <value>Mestre dos Sussuros</value>
+  </data>
+  <data name="titleType_Мейстер" xml:space="preserve">
+    <value>Meistre</value>
+  </data>
+  <data name="titleType_Мейстер_Бард" xml:space="preserve">
+    <value>Meistre Bardo</value>
+  </data>
+  <data name="titleType_Мейстер_Толмач" xml:space="preserve">
+    <value>Meistre Tradutor</value>
+  </data>
+  <data name="titleType_Рыцарь" xml:space="preserve">
+    <value>Cavaleiro</value>
+  </data>
+  <data name="titleType_Создатель" xml:space="preserve">
+    <value>Criador</value>
+  </data>
+  <data name="unitRemoveType_destroyed" xml:space="preserve">
+    <value>destruído</value>
+  </data>
+  <data name="unitRemoveType_disbanding0" xml:space="preserve">
+    <value>debandando</value>
+  </data>
+  <data name="unitRemoveType_disbanding1" xml:space="preserve">
+    <value>afundado</value>
+  </data>
+  <data name="unitRemoveType_finished" xml:space="preserve">
+    <value>terminado</value>
+  </data>
+  <data name="unitRemoveType_noRetreats" xml:space="preserve">
+    <value>caminho de retirada está cortado</value>
+  </data>
+  <data name="unitRemoveType_retreats" xml:space="preserve">
+    <value>recua</value>
+  </data>
+  <data name="unitRemoveType_thrown" xml:space="preserve">
+    <value>destruído</value>
+  </data>
+  <data name="unitType_Корабль" xml:space="preserve">
+    <value>Navio</value>
+  </data>
+  <data name="unitType_Осадная_башня" xml:space="preserve">
+    <value>Torre de cerco</value>
+  </data>
+  <data name="unitType_Пеший_воин" xml:space="preserve">
+    <value>Soldado</value>
+  </data>
+  <data name="unitType_Рыцарь" xml:space="preserve">
+    <value>Cavaleiro</value>
+  </data>
+  <data name="validation_consolidate1" xml:space="preserve">
+    <value>Violação de regras: Você excedeu o número de pontos de recrutamento.</value>
+  </data>
+  <data name="validation_consolidate2" xml:space="preserve">
+    <value>Violação de regras: Forças terrestres só poden ser recrutadas no território da ordem.</value>
+  </data>
+  <data name="validation_consolidate3" xml:space="preserve">
+    <value>Violação de regras: Navios só podem ser recrutados em territórios marítimos ou portos adjacentes ao território da ordem.</value>
+  </data>
+  <data name="validation_consolidate4" xml:space="preserve">
+    <value>Violação de regras: O território marítimo é controlado por outro jogador.</value>
+  </data>
+  <data name="validation_consolidate5" xml:space="preserve">
+    <value>Violação de regras: Tropas só podem ser promovidas no território da ordem.</value>
+  </data>
+  <data name="validation_consolidate6" xml:space="preserve">
+    <value>Violação de regras: Apenas soldados podem ser promovidos.</value>
+  </data>
+  <data name="validation_consolidate7" xml:space="preserve">
+    <value>Violação de regras: Não pode promover para um soldado.</value>
+  </data>
+  <data name="validation_consolidate8" xml:space="preserve">
+    <value>Violação de regras: Você não pode trocar entre unidades de terra e mar.</value>
+  </data>
+  <data name="validation_homeCard" xml:space="preserve">
+    <value>Violação de regras: Você tem que escolher uma carta de Casa.</value>
+  </data>
+  <data name="validation_homeCard2" xml:space="preserve">
+    <value>Violação de regras: Carta de Casa não disponível.</value>
+  </data>
+  <data name="validation_lordFalse" xml:space="preserve">
+    <value>A resistência do defensor não foi vencida: Sua força {0}, a deles {1}.</value>
+  </data>
+  <data name="validation_lordTrue" xml:space="preserve">
+    <value>A resistência do defensor foi destruída: Sua força {0}, a deles {1}.</value>
+  </data>
+  <data name="validation_march" xml:space="preserve">
+    <value>Violação de regras: Não é possível conduzir múltiplos ataques.</value>
+  </data>
+  <data name="validation_move1" xml:space="preserve">
+    <value>Violação de regras: Navios só se movem sobre a água.</value>
+  </data>
+  <data name="validation_move10" xml:space="preserve">
+    <value>Violação de regras: Não pode recuar para uma área controlada pelo inimigo.</value>
+  </data>
+  <data name="validation_move2" xml:space="preserve">
+    <value>Violação de regras: Forças terrestres só podem se mover sobre a terra ou através de navios.</value>
+  </data>
+  <data name="validation_move3" xml:space="preserve">
+    <value>Violação de regras: Navios só podem se mover um campo.</value>
+  </data>
+  <data name="validation_move4" xml:space="preserve">
+    <value>Violação de regras: Sem opção encontrada para o movimento desta tropa.</value>
+  </data>
+  <data name="validation_move5" xml:space="preserve">
+    <value>Violação de regras: Máximo de 3 navios por porto.</value>
+  </data>
+  <data name="validation_move6" xml:space="preserve">
+    <value>Violação de regras: Não pode entrar em portos inimigos.</value>
+  </data>
+  <data name="validation_move7" xml:space="preserve">
+    <value>Violação de regras: Máximo de 4 unidades qualquer área.</value>
+  </data>
+  <data name="validation_move8" xml:space="preserve">
+    <value>Violação de regras: Recuar é possível em apenas uma direção.</value>
+  </data>
+  <data name="validation_move9" xml:space="preserve">
+    <value>Violação de regras: Não pode recuar para onde o ataque foi iniciado.</value>
+  </data>
+  <data name="validation_order" xml:space="preserve">
+    <value>Violação de regras: Você deve escolher uma ordem executável.</value>
+  </data>
+  <data name="validation_power" xml:space="preserve">
+    <value>Violação de regras: Você só pode reorganizar Casas com a mesma aposta.</value>
+  </data>
+  <data name="validation_ranly1" xml:space="preserve">
+    <value>Violação de regras: Você pode selecionar apenas soldados.</value>
+  </data>
+  <data name="validation_ranly2" xml:space="preserve">
+    <value>Violação de regras: A unidade não participou da batalha.</value>
+  </data>
+  <data name="validation_supply" xml:space="preserve">
+    <value>Violação de regras: Você excedeu o limite de suprimento!</value>
+  </data>
+  <data name="validation_Track" xml:space="preserve">
+    <value>Violação de regras: Você deve escolher uma trilha de influência.</value>
+  </data>
+  <data name="voting_Вотчины" xml:space="preserve">
+    <value>Lâmina de Aço Valiriano</value>
+  </data>
+  <data name="voting_Железный_трон" xml:space="preserve">
+    <value>Trono de Ferro</value>
+  </data>
+  <data name="voting_Королевский_двор" xml:space="preserve">
+    <value>Corvo Mensageiro</value>
+  </data>
+  <data name="voting_Одичалые" xml:space="preserve">
+    <value>Ataque dos Selvagens</value>
+  </data>
+</root>

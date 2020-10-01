@@ -1,0 +1,69 @@
+﻿<UserControl x:Class="Agot2Client.GameListView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Agot2Client"
+             xmlns:animation="clr-namespace:AnimationTemplate"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300"  Loaded="UserControl_Loaded" Width="700">
+    <UserControl.Resources>
+        <Storyboard x:Key="Hide">
+            <animation:GridLengthAnimation  Storyboard.TargetProperty="Height" Storyboard.TargetName="tabRow" To="150" Duration="0:0:0.5"/>
+        </Storyboard>
+        <Storyboard x:Key="Collapsed">
+            <animation:GridLengthAnimation  Storyboard.TargetProperty="Height" Storyboard.TargetName="tabRow" To="0" Duration="0:0:0.5"/>
+        </Storyboard>
+        <Storyboard x:Key="View">
+            <animation:GridLengthAnimation  Storyboard.TargetProperty="Height" Storyboard.TargetName="tabRow" To="700" Duration="0:0:0.5"/>
+        </Storyboard>
+    </UserControl.Resources>
+
+    <UserControl.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.MouseEnter" SourceName="newGameMenuView">
+            <BeginStoryboard Storyboard="{StaticResource View}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="FrameworkElement.MouseLeave" SourceName="newGameMenuView">
+            <BeginStoryboard Storyboard="{StaticResource Hide}"/>
+        </EventTrigger>
+    </UserControl.Triggers>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition x:Name="tabRow" Height="0"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Background="#7F000000" Grid.RowSpan="3" HorizontalAlignment="Center" Width="535"/>
+
+        <local:DonateInfoView Grid.Row="1" Width="525">
+            <local:DonateInfoView.Style>
+                <Style>
+                    <Setter Property="UserControl.Visibility" Value="Visible"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding GamePortal.MasterOfDonate}" Value="{x:Null}">
+                            <Setter Property="UserControl.Visibility" Value="Collapsed"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </local:DonateInfoView.Style>
+        </local:DonateInfoView>
+        
+        <ScrollViewer Grid.Row="2" ScrollViewer.VerticalScrollBarVisibility="Visible" HorizontalAlignment="Center" Width="525">
+            <ItemsControl  x:Name="itemsControl">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <local:GameItemView2 Margin="0,0,0,2"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
+
+        <local:NewGameMenuView x:Name="newGameMenuView" Grid.Row="0" VerticalAlignment="Bottom"/>
+    </Grid>
+</UserControl>

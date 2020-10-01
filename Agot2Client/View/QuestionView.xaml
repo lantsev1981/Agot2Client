@@ -1,0 +1,28 @@
+﻿<UserControl x:Class="Agot2Client.QuestionView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Agot2Client"
+             xmlns:res="clr-namespace:Agot2Client.Properties"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="600">
+    <Grid Style="{StaticResource infoGrid}">
+        <StackPanel Background="#1B1C24" HorizontalAlignment="Center" VerticalAlignment="Center" Width="380">
+            <TextBlock Style="{StaticResource textStyle}" FontSize="32" TextAlignment="Center" Margin="5" Text="{x:Static res:Resources.text_warning}"/>
+            <TextBlock x:Name="text" TextAlignment="Justify" FontSize="16" Margin="5"/>
+            <StackPanel x:Name="panelOK" Orientation="Horizontal" HorizontalAlignment="Right" Visibility="Collapsed">
+                <Button Content="OK" Margin="5" Width="32" Click="YesBtnClick"/>
+            </StackPanel>
+            <StackPanel x:Name="panelYesNo" Orientation="Horizontal" HorizontalAlignment="Right" Visibility="Collapsed">
+                <Button Content="{x:Static res:Resources.text_yes}" Margin="5" Width="32" Click="YesBtnClick"/>
+                <Button Content="{x:Static res:Resources.text_no}" Margin="5" Width="32" Click="NoBtnClick"/>
+            </StackPanel>
+            <StackPanel x:Name="panelYesNoCancel" Orientation="Horizontal" HorizontalAlignment="Right" Visibility="Visible">
+                <Button Content="{x:Static res:Resources.text_yes}" Margin="5" Width="32" Click="YesBtnClick"/>
+                <Button Content="{x:Static res:Resources.text_no}" Margin="5" Width="32" Click="NoBtnClick"/>
+                <Button Content="{x:Static res:Resources.text_cancel}" Margin="5" Width="64" Click="CancelBtnClick"/>
+            </StackPanel>
+        </StackPanel>            
+    </Grid>
+</UserControl>

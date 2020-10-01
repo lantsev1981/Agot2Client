@@ -1,0 +1,89 @@
+﻿<UserControl x:Class="Agot2Client.ArrowView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Agot2Client"
+             mc:Ignorable="d">
+    
+    <Canvas>
+        <Path Fill="Blue" Visibility="Hidden">
+            <Path.Data>
+                <EllipseGeometry x:Name="ellipse" RadiusX="12" RadiusY="12"/>
+            </Path.Data>
+
+            <Path.Triggers>
+                <EventTrigger RoutedEvent="Path.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard TargetName="ellipse" TargetProperty="Center">
+                            <PointAnimationUsingPath Duration="{Binding LocalDuration}">
+                                <PointAnimationUsingPath.PathGeometry>
+                                    <PathGeometry Figures="{Binding Path}"/>
+                                </PointAnimationUsingPath.PathGeometry>
+                            </PointAnimationUsingPath>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Path.Triggers>
+        </Path>
+
+        <Path Stroke="Black" StrokeThickness="0" Data="{Binding PassedWayPath}">
+            <Path.Style>
+                <Style>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Model.ArrowType}" Value="March">
+                            <Setter Property="Path.Fill">
+                                <Setter.Value>
+                                    <LinearGradientBrush StartPoint="{Binding  LinearGradientBrushPoints[0]}" EndPoint="{Binding  LinearGradientBrushPoints[1]}">
+                                        <GradientStop Color="Transparent" Offset="0"/>
+                                        <GradientStop Color="White" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Setter.Value>
+                            </Setter>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding Model.ArrowType}" Value="Attack">
+                            <Setter Property="Path.Fill" >
+                                <Setter.Value>
+                                    <LinearGradientBrush StartPoint="{Binding  LinearGradientBrushPoints[0]}" EndPoint="{Binding  LinearGradientBrushPoints[1]}">
+                                        <GradientStop Color="Transparent" Offset="0"/>
+                                        <GradientStop Color="Red" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Setter.Value>
+                            </Setter>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding Model.ArrowType}" Value="Support">
+                            <Setter Property="Path.Fill" >
+                                <Setter.Value>
+                                    <LinearGradientBrush StartPoint="{Binding  LinearGradientBrushPoints[0]}" EndPoint="{Binding  LinearGradientBrushPoints[1]}">
+                                        <GradientStop Color="Transparent" Offset="0"/>
+                                        <GradientStop Color="#FF002193" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Setter.Value>
+                            </Setter>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding Model.ArrowType}" Value="Retreat">
+                            <Setter Property="Path.Fill">
+                                <Setter.Value>
+                                    <LinearGradientBrush  StartPoint="{Binding  LinearGradientBrushPoints[0]}" EndPoint="{Binding  LinearGradientBrushPoints[1]}">
+                                        <GradientStop Color="Transparent" Offset="0"/>
+                                        <GradientStop Color="Black" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Setter.Value>
+                            </Setter>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Path.Style>
+        </Path>
+
+        <!--test-->
+        <!--<Path x:Name="testPath"  StrokeThickness="10" Data="{Binding Path}">
+            <Path.Stroke>
+                <LinearGradientBrush  StartPoint="{Binding  LinearGradientBrushPoints[0]}" EndPoint="{Binding  LinearGradientBrushPoints[1]}">
+                    <GradientStop Color="Transparent" Offset="0"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </Path.Stroke>
+        </Path>-->
+    </Canvas>
+</UserControl>

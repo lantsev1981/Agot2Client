@@ -1,0 +1,2392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="actionType_Борьба_за_влияние" xml:space="preserve">
+    <value>Clash of Kings</value>
+  </data>
+  <data name="actionType_Нашествие_одичалых" xml:space="preserve">
+    <value>Wildlings Attack</value>
+  </data>
+  <data name="actionType_Ничего_не_происходит" xml:space="preserve">
+    <value>Nothing happens</value>
+  </data>
+  <data name="actionType_Оборона" xml:space="preserve">
+    <value>Defense Orders cannot be played</value>
+  </data>
+  <data name="actionType_Подмога" xml:space="preserve">
+    <value>Support Orders cannot be played</value>
+  </data>
+  <data name="actionType_Поход_1_специальный" xml:space="preserve">
+    <value>Special (starred) march orders cannot be played</value>
+  </data>
+  <data name="actionType_Сбор_власти" xml:space="preserve">
+    <value>Game of Thrones</value>
+  </data>
+  <data name="actionType_Сбор_войск" xml:space="preserve">
+    <value>Mustering</value>
+  </data>
+  <data name="actionType_Снабжение_войск" xml:space="preserve">
+    <value>Supply</value>
+  </data>
+  <data name="actionType_Усиление_власти" xml:space="preserve">
+    <value>Consolidate Power orders cannot be played</value>
+  </data>
+  <data name="dictionary_empty" xml:space="preserve">
+    <value>Spectator</value>
+  </data>
+  <data name="dictionary_game" xml:space="preserve">
+    <value>Game</value>
+  </data>
+  <data name="dictionary_home" xml:space="preserve">
+    <value>House</value>
+  </data>
+  <data name="dynamic_barbarianThreat" xml:space="preserve">
+    <value>Wildling threat is increased to {0}</value>
+  </data>
+  <data name="dynamic_batsCount" xml:space="preserve">
+    <value>Bids {0} ({1} power tokens remaining)</value>
+  </data>
+  <data name="dynamic_bladePower" xml:space="preserve">
+    <value>Valyrian Steel Blade ({0})</value>
+  </data>
+  <data name="dynamic_clashOfKings" xml:space="preserve">
+    <value>Joins the struggle for "{0}"</value>
+  </data>
+  <data name="dynamic_consolidatePower" xml:space="preserve">
+    <value>Consolidates power in "{0}" ({1} power tokens available)</value>
+  </data>
+  <data name="dynamic_consolidatePowerLoses" xml:space="preserve">
+    <value>Loses power in "{0}" ({1} power tokens available)</value>
+  </data>
+  <data name="dynamic_error" xml:space="preserve">
+    <value>{0}!{1}</value>
+  </data>
+  <data name="dynamic_errorStep" xml:space="preserve">
+    <value>Unable to perform step for House {0}: {1}</value>
+  </data>
+  <data name="dynamic_Exile" xml:space="preserve">
+    <value>{1} ({0}) into exile!</value>
+  </data>
+  <data name="dynamic_ExileEarlier" xml:space="preserve">
+    <value>{0}! You were expelled earlier.</value>
+  </data>
+  <data name="dynamic_gameOver" xml:space="preserve">
+    <value>Game over!</value>
+  </data>
+  <data name="dynamic_garrisonRemove" xml:space="preserve">
+    <value>Garrison in "{0}" is destroyed</value>
+  </data>
+  <data name="dynamic_heroRage" xml:space="preserve">
+    <value>{0} rage ({1})</value>
+  </data>
+  <data name="dynamic_hiLord" xml:space="preserve">
+    <value>{0}! We welcome You, Lord {1}.</value>
+  </data>
+  <data name="dynamic_homeCardDiscards" xml:space="preserve">
+    <value>Discards "{0}"</value>
+  </data>
+  <data name="dynamic_homeCardReturn" xml:space="preserve">
+    <value>Returns his house card "{0}" to his hand</value>
+  </data>
+  <data name="dynamic_homeCardSelect" xml:space="preserve">
+    <value>Selects a house card...</value>
+  </data>
+  <data name="dynamic_homeSupport" xml:space="preserve">
+    <value>Grants support to House "{0}"</value>
+  </data>
+  <data name="dynamic_kingClaim" xml:space="preserve">
+    <value>Holder of Iron Throne token breaks the tie</value>
+  </data>
+  <data name="dynamic_newGame" xml:space="preserve">
+    <value>{0} is calling the banners</value>
+  </data>
+  <data name="dynamic_newTurn" xml:space="preserve">
+    <value>Round #{0}</value>
+  </data>
+  <data name="dynamic_orderCancel" xml:space="preserve">
+    <value>Cancels the order in "{0}"</value>
+  </data>
+  <data name="dynamic_passwordDenied" xml:space="preserve">
+    <value>{0}! Restricted area. Password required.</value>
+  </data>
+  <data name="dynamic_planning" xml:space="preserve">
+    <value>Starts his "{0}"</value>
+  </data>
+  <data name="dynamic_powerEstablishes" xml:space="preserve">
+    <value>Gains control over "{0}"</value>
+  </data>
+  <data name="dynamic_powerLoses" xml:space="preserve">
+    <value>Loses control over "{0}"</value>
+  </data>
+  <data name="dynamic_raided" xml:space="preserve">
+    <value>Raids "{0}"</value>
+  </data>
+  <data name="dynamic_Renly_Baratheon" xml:space="preserve">
+    <value>Renly Baratheon: The unit did not take part in the combat or grant support, or is not a footman.</value>
+  </data>
+  <data name="dynamic_resetDeck" xml:space="preserve">
+    <value>Reshuffle the deck "{0} #{1}"</value>
+  </data>
+  <data name="dynamic_resetWildlingsDeck" xml:space="preserve">
+    <value>Reshuffle the deck "{0}"</value>
+  </data>
+  <data name="dynamic_retreatsCount" xml:space="preserve">
+    <value>The minimum number of routed units = {0}</value>
+  </data>
+  <data name="dynamic_samePC" xml:space="preserve">
+    <value>ATTENTION! These users play from the same PC: {0}</value>
+  </data>
+  <data name="dynamic_shipCouldDestroy" xml:space="preserve">
+    <value>Decides whether to sink captured fleet at "{0}"</value>
+  </data>
+  <data name="dynamic_shipDestroy" xml:space="preserve">
+    <value>The ship is sunk (maximum ship limit)</value>
+  </data>
+  <data name="dynamic_shipLost" xml:space="preserve">
+    <value>Ship is lost</value>
+  </data>
+  <data name="dynamic_shipTaken" xml:space="preserve">
+    <value>The ship is captured</value>
+  </data>
+  <data name="dynamic_supplyLimit" xml:space="preserve">
+    <value>Has to disband troops he can no longer supply with food</value>
+  </data>
+  <data name="dynamic_theEnd" xml:space="preserve">
+    <value>Takes {0} place</value>
+  </data>
+  <data name="dynamic_theEndWinner" xml:space="preserve">
+    <value>WINS</value>
+  </data>
+  <data name="dynamic_unitRemove0" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="dynamic_unitRemove1" xml:space="preserve">
+    <value>{0} {1} ({2})</value>
+  </data>
+  <data name="dynamic_vesterosEvent" xml:space="preserve">
+    <value>Westeros Event: "{0}"</value>
+  </data>
+  <data name="dynamic_voting" xml:space="preserve">
+    <value>Takes position #{1} on the track "{0}"</value>
+  </data>
+  <data name="dynamic_wildBuries" xml:space="preserve">
+    <value>Places Wildling card at the bottom of the Wildling deck</value>
+  </data>
+  <data name="dynamic_wildFail" xml:space="preserve">
+    <value>Night's Watch victory!</value>
+  </data>
+  <data name="dynamic_wildlingsAttack" xml:space="preserve">
+    <value>Wildlings attack with the power of {0}</value>
+  </data>
+  <data name="dynamic_wildlingsCategory0" xml:space="preserve">
+    <value>everyone else</value>
+  </data>
+  <data name="dynamic_wildlingsCategory1" xml:space="preserve">
+    <value>lowest bidder</value>
+  </data>
+  <data name="dynamic_wildlingsCategory2" xml:space="preserve">
+    <value>highest bidder</value>
+  </data>
+  <data name="dynamic_wildlingsResult" xml:space="preserve">
+    <value>{0}: category "{1}"</value>
+  </data>
+  <data name="dynamic_wildVictory" xml:space="preserve">
+    <value>Wildling victory!</value>
+  </data>
+  <data name="error_checkBlacklist" xml:space="preserve">
+    <value>Check blacklist</value>
+  </data>
+  <data name="error_checkHomeStatus" xml:space="preserve">
+    <value>Failed to check availability of the house:</value>
+  </data>
+  <data name="error_clearProfile" xml:space="preserve">
+    <value>Cannot reset your ratings.</value>
+  </data>
+  <data name="error_connection" xml:space="preserve">
+    <value>Failed to connect to the game server (link):</value>
+  </data>
+  <data name="error_createGame1" xml:space="preserve">
+    <value>Failed to create a new game:</value>
+  </data>
+  <data name="error_createGame2" xml:space="preserve">
+    <value>You are not allowed to create a game at the moment, since you are a creator or participant of a still unfinished game.</value>
+  </data>
+  <data name="error_criticalError" xml:space="preserve">
+    <value>Critical error</value>
+  </data>
+  <data name="error_decodeText" xml:space="preserve">
+    <value>Error decoding text!</value>
+  </data>
+  <data name="error_getLangs" xml:space="preserve">
+    <value>Failed to get the list of languages supported by the auto-translation system. Translation language set to default (en).</value>
+  </data>
+  <data name="error_getLinkAccount" xml:space="preserve">
+    <value>Failed to get the list of your accounts.</value>
+  </data>
+  <data name="error_inviteUser" xml:space="preserve">
+    <value>Failed to send the invitation:</value>
+  </data>
+  <data name="error_linkAccount" xml:space="preserve">
+    <value>The server denied the merging of accounts! Maybe you misspelled the password or the additional accountis used at the moment (account may not be used within the last 2 days).</value>
+  </data>
+  <data name="error_logEvent" xml:space="preserve">
+    <value>Failed to delete event: indexOf =</value>
+  </data>
+  <data name="error_notifyLoad" xml:space="preserve">
+    <value>Failed to link or run notification system:</value>
+  </data>
+  <data name="error_password" xml:space="preserve">
+    <value>Incorrect login or password!</value>
+  </data>
+  <data name="error_profileLoad" xml:space="preserve">
+    <value>Failed to update the profile:</value>
+  </data>
+  <data name="error_profileSave" xml:space="preserve">
+    <value>Failed to save your profile:</value>
+  </data>
+  <data name="error_profilesLoad" xml:space="preserve">
+    <value>Failed to load or update all profiles:</value>
+  </data>
+  <data name="error_profileUpdate1" xml:space="preserve">
+    <value>Failed to update your profile: Please contact the developer!</value>
+  </data>
+  <data name="error_profileUpdate2" xml:space="preserve">
+    <value>Failed to update your profile: service is not available, check the permissions of the application to access the internet, or try again later.</value>
+  </data>
+  <data name="error_propertyChanged" xml:space="preserve">
+    <value>Unable to display the elements:</value>
+  </data>
+  <data name="error_rateChange" xml:space="preserve">
+    <value>Failed to change the rating:</value>
+  </data>
+  <data name="error_sendMessage" xml:space="preserve">
+    <value>Unable to send message because the owner of the House is unknown.</value>
+  </data>
+  <data name="error_sendStep" xml:space="preserve">
+    <value>Failed to complete the step:</value>
+  </data>
+  <data name="error_specialUsers" xml:space="preserve">
+    <value>Failed to change the special list of players:</value>
+  </data>
+  <data name="error_syncSteps1" xml:space="preserve">
+    <value>Failed to synchronize the steps (link):</value>
+  </data>
+  <data name="error_syncSteps2" xml:space="preserve">
+    <value>Failed to synchronize the steps (server):</value>
+  </data>
+  <data name="error_syncSteps3" xml:space="preserve">
+    <value>Failed to synchronize steps (obsolete):</value>
+  </data>
+  <data name="error_syncUsers1" xml:space="preserve">
+    <value>Failed to synchronize the players (link):</value>
+  </data>
+  <data name="error_syncUsers2" xml:space="preserve">
+    <value>Failed to synchronize the players (server):</value>
+  </data>
+  <data name="error_translateLng" xml:space="preserve">
+    <value>Your language ({0}) is not supported by the system. Translation language set to default (en).</value>
+  </data>
+  <data name="error_undetectedLang" xml:space="preserve">
+    <value>Failed to recognize your language ({0}). Translation language set to default (en).</value>
+  </data>
+  <data name="error_unknownError" xml:space="preserve">
+    <value>Unknown error</value>
+  </data>
+  <data name="error_vkAuth" xml:space="preserve">
+    <value>The user is not identified. Try again.</value>
+  </data>
+  <data name="event_a_king_beyond_the_wall" xml:space="preserve">
+    <value>A King Beyond the Wall</value>
+  </data>
+  <data name="event_a_throne_of_blades" xml:space="preserve">
+    <value>A Throne of Blades</value>
+  </data>
+  <data name="event_clash_of_kings" xml:space="preserve">
+    <value>Clash of Kings</value>
+  </data>
+  <data name="event_crow_killers" xml:space="preserve">
+    <value>Crow Killers</value>
+  </data>
+  <data name="event_dark_wings_dark_words" xml:space="preserve">
+    <value>Dark Wings, Dark Words</value>
+  </data>
+  <data name="event_feast_for_crows" xml:space="preserve">
+    <value>Feast for Crows</value>
+  </data>
+  <data name="event_game_of_thrones" xml:space="preserve">
+    <value>Game of Thrones</value>
+  </data>
+  <data name="event_last_days_of_summer_1" xml:space="preserve">
+    <value>Last Days of Summer</value>
+  </data>
+  <data name="event_last_days_of_summer_2" xml:space="preserve">
+    <value>Last Days of Summer</value>
+  </data>
+  <data name="event_mammoth_riders" xml:space="preserve">
+    <value>Mammoth Riders</value>
+  </data>
+  <data name="event_massing_on_the_milkwater" xml:space="preserve">
+    <value>Massing on the Milkwater</value>
+  </data>
+  <data name="event_mustering" xml:space="preserve">
+    <value>Mustering</value>
+  </data>
+  <data name="event_preemptive_raid" xml:space="preserve">
+    <value>Preemptive Raid</value>
+  </data>
+  <data name="event_put_to_the_sword" xml:space="preserve">
+    <value>Put to the Sword</value>
+  </data>
+  <data name="event_rains_of_autumn" xml:space="preserve">
+    <value>Rains of Autumn</value>
+  </data>
+  <data name="event_rattleshirts_raiders" xml:space="preserve">
+    <value>Rattleshirt's Raiders</value>
+  </data>
+  <data name="event_sea_of_storms" xml:space="preserve">
+    <value>Sea of Storms</value>
+  </data>
+  <data name="event_silence_at_the_wall" xml:space="preserve">
+    <value>Silence at the Wall</value>
+  </data>
+  <data name="event_skinchanger_scout" xml:space="preserve">
+    <value>Skinchanger Scout</value>
+  </data>
+  <data name="event_storm_of_swords" xml:space="preserve">
+    <value>Storm of Swords</value>
+  </data>
+  <data name="event_supply" xml:space="preserve">
+    <value>Supply</value>
+  </data>
+  <data name="event_the_horde_descends" xml:space="preserve">
+    <value>The Horde Descends</value>
+  </data>
+  <data name="event_web_of_lies" xml:space="preserve">
+    <value>Web of Lies</value>
+  </data>
+  <data name="event_wildlings_attack" xml:space="preserve">
+    <value>Wildlings Attack</value>
+  </data>
+  <data name="event_winter_is_coming_1" xml:space="preserve">
+    <value>Winter is Coming</value>
+  </data>
+  <data name="event_winter_is_coming_2" xml:space="preserve">
+    <value>Winter is Coming</value>
+  </data>
+  <data name="gameType_continues" xml:space="preserve">
+    <value>The battle continues</value>
+  </data>
+  <data name="gameType_findUser" xml:space="preserve">
+    <value>Need a new hero</value>
+  </data>
+  <data name="gameType_new" xml:space="preserve">
+    <value>Calling the banners</value>
+  </data>
+  <data name="gameType_over" xml:space="preserve">
+    <value>Game over</value>
+  </data>
+  <data name="hero_Алистер_Флорент" xml:space="preserve">
+    <value>Alester Florent</value>
+  </data>
+  <data name="hero_Арео_Хота" xml:space="preserve">
+    <value>Areo Hotah</value>
+  </data>
+  <data name="hero_Арианна_Мартелл" xml:space="preserve">
+    <value>Arianne Martell</value>
+  </data>
+  <data name="hero_Аша_Грейджой" xml:space="preserve">
+    <value>Asha Greyjoy</value>
+  </data>
+  <data name="hero_Бейлон_Грейджой" xml:space="preserve">
+    <value>Balon Greyjoy</value>
+  </data>
+  <data name="hero_Большой_Джон_Амбер" xml:space="preserve">
+    <value>Greation Umber</value>
+  </data>
+  <data name="hero_Бриенна_из_Тарта" xml:space="preserve">
+    <value>Brienne of Tarth</value>
+  </data>
+  <data name="hero_Бринден_Чёрная_Рыба" xml:space="preserve">
+    <value>The Blackfish</value>
+  </data>
+  <data name="hero_Виктарион_Грейджой" xml:space="preserve">
+    <value>Victarion Greyjoy</value>
+  </data>
+  <data name="hero_Герольд_Тёмная_Звезда" xml:space="preserve">
+    <value>Darkstar</value>
+  </data>
+  <data name="hero_Дагмер_Битый_Рот" xml:space="preserve">
+    <value>Dagmar Cleftjaw</value>
+  </data>
+  <data name="hero_Доран_Мартелл" xml:space="preserve">
+    <value>Doran Martell</value>
+  </data>
+  <data name="hero_Кейтилин_Старк" xml:space="preserve">
+    <value>Catelyn Stark</value>
+  </data>
+  <data name="hero_Королева_Шипов" xml:space="preserve">
+    <value>Queen of Thorns</value>
+  </data>
+  <data name="hero_Маргери_Тирелл" xml:space="preserve">
+    <value>Margaery Tyrell</value>
+  </data>
+  <data name="hero_Мейс_Тирелл" xml:space="preserve">
+    <value>Mace Tyrell</value>
+  </data>
+  <data name="hero_Мелисандра" xml:space="preserve">
+    <value>Melisandre</value>
+  </data>
+  <data name="hero_Нимерия_Сэнд" xml:space="preserve">
+    <value>Nymeria Sand</value>
+  </data>
+  <data name="hero_Обара_Сэнд" xml:space="preserve">
+    <value>Obara Sand</value>
+  </data>
+  <data name="hero_Оберин_Красная_Гадюка" xml:space="preserve">
+    <value>The Red Viper</value>
+  </data>
+  <data name="hero_Пёс" xml:space="preserve">
+    <value>The Hound</value>
+  </data>
+  <data name="hero_Пестряк" xml:space="preserve">
+    <value>Patchface</value>
+  </data>
+  <data name="hero_Ренли_Баратеон" xml:space="preserve">
+    <value>Renly Baratheon</value>
+  </data>
+  <data name="hero_Робб_Старк" xml:space="preserve">
+    <value>Robb Stark</value>
+  </data>
+  <data name="hero_Русе_Болтон" xml:space="preserve">
+    <value>Roose Bolton</value>
+  </data>
+  <data name="hero_Рэндилл_Тарли" xml:space="preserve">
+    <value>Randyll Tarly</value>
+  </data>
+  <data name="hero_Салладор_Саан" xml:space="preserve">
+    <value>Salladhor Saan</value>
+  </data>
+  <data name="hero_Сер_Гарлан_Тирелл" xml:space="preserve">
+    <value>Ser Garlan Tyrell</value>
+  </data>
+  <data name="hero_Сер_Грегор_Клиган" xml:space="preserve">
+    <value>Ser Gregor Clegane</value>
+  </data>
+  <data name="hero_Сер_Давос_Сиворт" xml:space="preserve">
+    <value>Ser Davos Seaworth</value>
+  </data>
+  <data name="hero_Сер_Джейме_Ланнистер" xml:space="preserve">
+    <value>Ser Jaime Lannister</value>
+  </data>
+  <data name="hero_Сер_Киван_Ланнистер" xml:space="preserve">
+    <value>Ser Kevan Lannister</value>
+  </data>
+  <data name="hero_Сер_Лорас_Тирелл" xml:space="preserve">
+    <value>Ser Loras Tyrell</value>
+  </data>
+  <data name="hero_Сер_Родрик_Кассель" xml:space="preserve">
+    <value>Ser Rodrick Cassel</value>
+  </data>
+  <data name="hero_Серсея_Ланнистер" xml:space="preserve">
+    <value>Cersei Lannister</value>
+  </data>
+  <data name="hero_Станис_Баратеон" xml:space="preserve">
+    <value>Stannis Baratheon</value>
+  </data>
+  <data name="hero_Тайвин_Ланнистер" xml:space="preserve">
+    <value>Tywin Lannister</value>
+  </data>
+  <data name="hero_Теон_Грейджой" xml:space="preserve">
+    <value>Theon Greyjoy</value>
+  </data>
+  <data name="hero_Тирион_Ланнистер" xml:space="preserve">
+    <value>Tyrion Lannister</value>
+  </data>
+  <data name="hero_Эддард_Старк" xml:space="preserve">
+    <value>Eddard Stark</value>
+  </data>
+  <data name="hero_Эйерон_Сыровласый" xml:space="preserve">
+    <value>Aeron Damphair</value>
+  </data>
+  <data name="hero_Эурон_Вороний_Глаз" xml:space="preserve">
+    <value>Euron Crows Eye</value>
+  </data>
+  <data name="hint_absoluteSortUsers" xml:space="preserve">
+    <value>Sort players by "Absolute" (default). "Absolute" is an average value of all ratings.</value>
+  </data>
+  <data name="hint_addBlackList" xml:space="preserve">
+    <value>Add to blacklist. Makes this player unable to join a game with you. Notifies you when joining a game with them. Function is available for players with "Knight" title or higher.</value>
+  </data>
+  <data name="hint_addFavoriteList" xml:space="preserve">
+    <value>Add to "Selected List". Allows you to receive messages via the notification system about their actions (online, offline, plays, leaves a game, joins a game). Function is available for players with "Merchant" title or higher.</value>
+  </data>
+  <data name="hint_battleCard" xml:space="preserve">
+    <value>Click to switch to "Cards" menu.</value>
+  </data>
+  <data name="hint_battleTab" xml:space="preserve">
+    <value>Last or current combat</value>
+  </data>
+  <data name="hint_blade" xml:space="preserve">
+    <value>Blade was not used in this round</value>
+  </data>
+  <data name="hint_brainSortUsers" xml:space="preserve">
+    <value>Sort players by "Mind" rating (victory rate in finished games)</value>
+  </data>
+  <data name="hint_chatTab" xml:space="preserve">
+    <value>Public chat</value>
+  </data>
+  <data name="hint_clearLike" xml:space="preserve">
+    <value>Clear like</value>
+  </data>
+  <data name="hint_closeTab" xml:space="preserve">
+    <value>Minimize menu</value>
+  </data>
+  <data name="hint_defence" xml:space="preserve">
+    <value>Defense order</value>
+  </data>
+  <data name="hint_donate" xml:space="preserve">
+    <value>Support the creator, receive a "Title" and special abilities.</value>
+  </data>
+  <data name="hint_findUsers" xml:space="preserve">
+    <value>Use this field to search for players who are not in a leader list. Type the search text and press Enter to start the search.</value>
+  </data>
+  <data name="hint_game" xml:space="preserve">
+    <value>Join the game. The game could last up to 6 hours. You would pay the "Iron price" for leaving the game.</value>
+  </data>
+  <data name="hint_gameChatTab" xml:space="preserve">
+    <value>Game chat</value>
+  </data>
+  <data name="hint_gameUsersTab" xml:space="preserve">
+    <value>List of players and observers</value>
+  </data>
+  <data name="hint_garrison" xml:space="preserve">
+    <value>Stronghold is defended by garrison</value>
+  </data>
+  <data name="hint_goodGame" xml:space="preserve">
+    <value>All ratings counted</value>
+  </data>
+  <data name="hint_homeCardTab" xml:space="preserve">
+    <value>House cards</value>
+  </data>
+  <data name="hint_honorSortUsers" xml:space="preserve">
+    <value>Sort players by "Honor" rating (ratio of finished to overall games count).</value>
+  </data>
+  <data name="hint_horizontalMap" xml:space="preserve">
+    <value>Center the map and orient it horizontally</value>
+  </data>
+  <data name="hint_ignoreHonor" xml:space="preserve">
+    <value>The game was abandoned, but Westeros proclaims amnesty. All ratings are ignored.</value>
+  </data>
+  <data name="hint_ignoreMind" xml:space="preserve">
+    <value>Player replacement. Rating "Honor" counted, and "Mind" will be counted if you wish.</value>
+  </data>
+  <data name="hint_like" xml:space="preserve">
+    <value>Like user</value>
+  </data>
+  <data name="hint_likeSortUsers" xml:space="preserve">
+    <value>Sort players by "Charm" rating (difference of likes and dislikes)</value>
+  </data>
+  <data name="hint_linkAccounts" xml:space="preserve">
+    <value>Click to merge the account "{0}"</value>
+  </data>
+  <data name="hint_linkPassword" xml:space="preserve">
+    <value>Enter other password for this account</value>
+  </data>
+  <data name="hint_log" xml:space="preserve">
+    <value>See details in event list</value>
+  </data>
+  <data name="hint_marchOrder" xml:space="preserve">
+    <value>March order</value>
+  </data>
+  <data name="hint_meetUsers" xml:space="preserve">
+    <value>List of players you played with in chosen game. Do not forget to "like" or "dislike" players who deserve it. Your decision will influence their "Charm" rating. Anonymous voting!</value>
+  </data>
+  <data name="hint_mindZero" xml:space="preserve">
+    <value>Game abandoned. Rating "Honor" and "Mind" counted.</value>
+  </data>
+  <data name="hint_mute" xml:space="preserve">
+    <value>To drown the growns. Mutes player's chat messages until client reboot. Function is available for players with "Knight" title or higher.</value>
+  </data>
+  <data name="hint_newGame" xml:space="preserve">
+    <value>Settings for new game. Choose an interesting game title, so that it is easier to find it in the game list. Set a minimum rating for players if you wish to create a harder and more interesting game.</value>
+  </data>
+  <data name="hint_onlineUsers" xml:space="preserve">
+    <value>Show players online. Function is available for players with "Farmer" title or higher.</value>
+  </data>
+  <data name="hint_passRate" xml:space="preserve">
+    <value>Click to add result to "Mind" rating (cannot be undone).</value>
+  </data>
+  <data name="hint_password" xml:space="preserve">
+    <value>Enter password before joining or creating private game</value>
+  </data>
+  <data name="hint_privateGame" xml:space="preserve">
+    <value>Private game</value>
+  </data>
+  <data name="hint_randomCard" xml:space="preserve">
+    <value>Tide of battle</value>
+  </data>
+  <data name="hint_reconectGame" xml:space="preserve">
+    <value>Restart the game. This function is not needed under normal conditions. Use in extreme case only, e.g. if you are sure that it's your turn but the button "Complete step" is not visible.</value>
+  </data>
+  <data name="hint_screenShot" xml:space="preserve">
+    <value>Make a screenshot of the game board and save in "..\Screenshot" folder.</value>
+  </data>
+  <data name="hint_sendInvite" xml:space="preserve">
+    <value>Send an invitation (notification). Function is available for players with "Merchant" title or higher.</value>
+  </data>
+  <data name="hint_settings" xml:space="preserve">
+    <value>Settings. Include adjust the level of sounds, language choice, merging accounts, reset statistics.
+Available players with the title of "Farmer" and above!</value>
+  </data>
+  <data name="hint_skullGame" xml:space="preserve">
+    <value>Game with "skulls" on the Tide of Battle cards.</value>
+  </data>
+  <data name="hint_sms" xml:space="preserve">
+    <value>Send a message</value>
+  </data>
+  <data name="hint_smsCreator" xml:space="preserve">
+    <value>Send a message to "Creator" on VKontakte.</value>
+  </data>
+  <data name="hint_smsVK" xml:space="preserve">
+    <value>Send a massage to user on VKontakte.</value>
+  </data>
+  <data name="hint_status" xml:space="preserve">
+    <value>Profile status (online/offline). Function is available for players with "Farmer" title or higher!</value>
+  </data>
+  <data name="hint_stopGame" xml:space="preserve">
+    <value>Leave the game. ATTENTION! Leaving a started and unfinished game will influence your "Honor" rating. If you want to watch another game, start another client.</value>
+  </data>
+  <data name="hint_supportAttak" xml:space="preserve">
+    <value>Houses supporting the attacker</value>
+  </data>
+  <data name="hint_supportCancel" xml:space="preserve">
+    <value>Refuse to support somebody</value>
+  </data>
+  <data name="hint_supportDefence" xml:space="preserve">
+    <value>Houses supporting the defender</value>
+  </data>
+  <data name="hint_supportUnknow" xml:space="preserve">
+    <value>Houses without decision on support</value>
+  </data>
+  <data name="hint_timerTab" xml:space="preserve">
+    <value>Upon completion of the timer you will be excluded from the game party!</value>
+  </data>
+  <data name="hint_translate" xml:space="preserve">
+    <value>Translate to your local language</value>
+  </data>
+  <data name="hint_unLike" xml:space="preserve">
+    <value>Dislike user</value>
+  </data>
+  <data name="hint_updateUsers" xml:space="preserve">
+    <value>Refresh profile list. Only players with more than 48 hours experience and 10 finished games are in list. Players not participating in a game for a week are ignored! Use "Player search (filter)" to search for other players. List limited to 100 entries.</value>
+  </data>
+  <data name="hint_userGames" xml:space="preserve">
+    <value>Show a list of your games. Click on a game to rate users you have played with.</value>
+  </data>
+  <data name="hint_userProfileTab" xml:space="preserve">
+    <value>Your profile</value>
+  </data>
+  <data name="hint_usersTab" xml:space="preserve">
+    <value>Achievements</value>
+  </data>
+  <data name="hint_userUpdate" xml:space="preserve">
+    <value>Renew your profile manually</value>
+  </data>
+  <data name="hint_verticalMap" xml:space="preserve">
+    <value>Centers the map and locates it vertically</value>
+  </data>
+  <data name="hint_vesteros" xml:space="preserve">
+    <value>Shows average (total) rating and position in rankings for all players. The "Houses" tab shows winning statistics for each house.</value>
+  </data>
+  <data name="hint_vesterosCardTab" xml:space="preserve">
+    <value>Westeros cards</value>
+  </data>
+  <data name="hint_viewGame" xml:space="preserve">
+    <value>Watch the game</value>
+  </data>
+  <data name="homeType_Баратеон" xml:space="preserve">
+    <value>Baratheon</value>
+  </data>
+  <data name="homeType_Грейджой" xml:space="preserve">
+    <value>Greyjoy</value>
+  </data>
+  <data name="homeType_Ланнистер" xml:space="preserve">
+    <value>Lannister</value>
+  </data>
+  <data name="homeType_Мартелл" xml:space="preserve">
+    <value>Martell</value>
+  </data>
+  <data name="homeType_Старк" xml:space="preserve">
+    <value>Stark</value>
+  </data>
+  <data name="homeType_Тирелл" xml:space="preserve">
+    <value>Tyrell</value>
+  </data>
+  <data name="image_a_king_beyond_the_wall" xml:space="preserve">
+    <value>/Image/VesterosCard/en/1F67FC24-0F8B-40DA-95F2-904F5A783245.png</value>
+  </data>
+  <data name="image_a_throne_of_blades" xml:space="preserve">
+    <value>/Image/VesterosCard/en/244AF531-89B8-4550-A288-F5E9476AF58C.png</value>
+  </data>
+  <data name="image_clash_of_kings" xml:space="preserve">
+    <value>/Image/VesterosCard/en/1C76A8E3-887C-4221-B6AF-DB04C700BFE8.png</value>
+  </data>
+  <data name="image_crow_killers" xml:space="preserve">
+    <value>/Image/VesterosCard/en/68B86F0D-736A-48C7-9039-A427F616D773.png</value>
+  </data>
+  <data name="image_dark_wings_dark_words" xml:space="preserve">
+    <value>/Image/VesterosCard/en/6F13EA17-5D65-4A8E-BBBD-C05105C1FAC8.png</value>
+  </data>
+  <data name="image_feast_for_crows" xml:space="preserve">
+    <value>/Image/VesterosCard/en/1A682C77-9AE2-4BCB-9346-3F103F743B41.png</value>
+  </data>
+  <data name="image_game_of_thrones" xml:space="preserve">
+    <value>/Image/VesterosCard/en/CE03E9A1-4B64-4372-9160-7C1F78B7E734.png</value>
+  </data>
+  <data name="image_last_days_of_summer_1" xml:space="preserve">
+    <value>/Image/VesterosCard/en/EE09317A-4B62-4A19-A1FF-8FA22C1E9EAD.png</value>
+  </data>
+  <data name="image_last_days_of_summer_2" xml:space="preserve">
+    <value>/Image/VesterosCard/en/8851F7CE-1AD9-4A39-8D51-215865892C18.png</value>
+  </data>
+  <data name="image_mammoth_riders" xml:space="preserve">
+    <value>/Image/VesterosCard/en/28540A09-C86A-407D-BF27-5CCB5D62E269.png</value>
+  </data>
+  <data name="image_map" xml:space="preserve">
+    <value>/Image/map_en.jpg</value>
+  </data>
+  <data name="image_massing_on_the_milkwater" xml:space="preserve">
+    <value>/Image/VesterosCard/en/95F74531-EA32-4377-9DF5-85815B095EFD.png</value>
+  </data>
+  <data name="image_mustering" xml:space="preserve">
+    <value>/Image/VesterosCard/en/5EFE71DD-83D5-4AC0-962C-205C7C3DD84D.png</value>
+  </data>
+  <data name="image_preemptive_raid" xml:space="preserve">
+    <value>/Image/VesterosCard/en/6153F487-8CE5-40CF-AA2B-98F1751CB36C.png</value>
+  </data>
+  <data name="image_put_to_the_sword" xml:space="preserve">
+    <value>/Image/VesterosCard/en/3CB42653-6E23-4D1D-BF08-C44E715C3FFB.png</value>
+  </data>
+  <data name="image_rains_of_autumn" xml:space="preserve">
+    <value>/Image/VesterosCard/en/1FF1AE31-6492-4B17-9336-EDEB4E245883.png</value>
+  </data>
+  <data name="image_rattleshirts_raiders" xml:space="preserve">
+    <value>/Image/VesterosCard/en/E65C1F90-487F-4977-8734-2CEF4AB76A55.png</value>
+  </data>
+  <data name="image_sea_of_storms" xml:space="preserve">
+    <value>/Image/VesterosCard/en/6455BBD0-515E-40C3-9348-21155134D27F.png</value>
+  </data>
+  <data name="image_silence_at_the_wall" xml:space="preserve">
+    <value>/Image/VesterosCard/en/5F70E7A3-0D39-4561-B928-1C0DA2694C88.png</value>
+  </data>
+  <data name="image_skinchanger_scout" xml:space="preserve">
+    <value>/Image/VesterosCard/en/0673B3DD-B0F2-49CA-BB6B-107179A52F0D.png</value>
+  </data>
+  <data name="image_storm_of_swords" xml:space="preserve">
+    <value>/Image/VesterosCard/en/34F1DEB6-141D-472A-B654-9F11B93E7FAA.png</value>
+  </data>
+  <data name="image_supply" xml:space="preserve">
+    <value>/Image/VesterosCard/en/F905AA6A-8662-46FF-8465-B41FB19F3A14.png</value>
+  </data>
+  <data name="image_the_horde_descends" xml:space="preserve">
+    <value>/Image/VesterosCard/en/AF22FEDF-F5BA-42F2-8815-0EE36D77104B.png</value>
+  </data>
+  <data name="image_web_of_lies" xml:space="preserve">
+    <value>/Image/VesterosCard/en/A103CB57-729F-4758-A3A7-A12AC7204860.png</value>
+  </data>
+  <data name="image_wildlings_attack" xml:space="preserve">
+    <value>/Image/VesterosCard/en/539DA0F1-29D3-4A84-9987-101679C887E4.png</value>
+  </data>
+  <data name="image_winter_is_coming_1" xml:space="preserve">
+    <value>/Image/VesterosCard/en/393DE3D7-3AD2-4BEA-BCC3-DECC8C040756.png</value>
+  </data>
+  <data name="image_winter_is_coming_2" xml:space="preserve">
+    <value>/Image/VesterosCard/en/544FE0BD-288B-4981-B536-18C0517D71FA.png</value>
+  </data>
+  <data name="image_Алистер_Флорент" xml:space="preserve">
+    <value>/Image/HomeCard/en/alester_florent.png</value>
+  </data>
+  <data name="image_Арео_Хота" xml:space="preserve">
+    <value>/Image/HomeCard/en/areo_hotah.png</value>
+  </data>
+  <data name="image_Арианна_Мартелл" xml:space="preserve">
+    <value>/Image/HomeCard/en/arianne_martell.png</value>
+  </data>
+  <data name="image_Аша_Грейджой" xml:space="preserve">
+    <value>/Image/HomeCard/en/asha_greyjoy.png</value>
+  </data>
+  <data name="image_Бейлон_Грейджой" xml:space="preserve">
+    <value>/Image/HomeCard/en/balon_greyjoy.png</value>
+  </data>
+  <data name="image_Большой_Джон_Амбер" xml:space="preserve">
+    <value>/Image/HomeCard/en/greation_umber.png</value>
+  </data>
+  <data name="image_Бриенна_из_Тарта" xml:space="preserve">
+    <value>/Image/HomeCard/en/brienne_of_tarth.png</value>
+  </data>
+  <data name="image_Бринден_Чёрная_Рыба" xml:space="preserve">
+    <value>/Image/HomeCard/en/the_blackfish.png</value>
+  </data>
+  <data name="image_Виктарион_Грейджой" xml:space="preserve">
+    <value>/Image/HomeCard/en/victarion_greyjoy.png</value>
+  </data>
+  <data name="image_Герольд_Тёмная_Звезда" xml:space="preserve">
+    <value>/Image/HomeCard/en/darkstar.png</value>
+  </data>
+  <data name="image_Дагмер_Битый_Рот" xml:space="preserve">
+    <value>/Image/HomeCard/en/dagmar_cleftjaw.png</value>
+  </data>
+  <data name="image_Доран_Мартелл" xml:space="preserve">
+    <value>/Image/HomeCard/en/doran_martell.png</value>
+  </data>
+  <data name="image_Кейтилин_Старк" xml:space="preserve">
+    <value>/Image/HomeCard/en/catelyn_stark.png</value>
+  </data>
+  <data name="image_Королева_Шипов" xml:space="preserve">
+    <value>/Image/HomeCard/en/queen_of_thorns.png</value>
+  </data>
+  <data name="image_Маргери_Тирелл" xml:space="preserve">
+    <value>/Image/HomeCard/en/margaery_tyrell.png</value>
+  </data>
+  <data name="image_Мейс_Тирелл" xml:space="preserve">
+    <value>/Image/HomeCard/en/mace_tyrell.png</value>
+  </data>
+  <data name="image_Мелисандра" xml:space="preserve">
+    <value>/Image/HomeCard/en/melisandre.png</value>
+  </data>
+  <data name="image_Нимерия_Сэнд" xml:space="preserve">
+    <value>/Image/HomeCard/en/nymeria_sand.png</value>
+  </data>
+  <data name="image_Обара_Сэнд" xml:space="preserve">
+    <value>/Image/HomeCard/en/obara_sand.png</value>
+  </data>
+  <data name="image_Оберин_Красная_Гадюка" xml:space="preserve">
+    <value>/Image/HomeCard/en/the_red_viper.png</value>
+  </data>
+  <data name="image_Пёс" xml:space="preserve">
+    <value>/Image/HomeCard/en/the_hound.png</value>
+  </data>
+  <data name="image_Пестряк" xml:space="preserve">
+    <value>/Image/HomeCard/en/patchface.png</value>
+  </data>
+  <data name="image_Ренли_Баратеон" xml:space="preserve">
+    <value>/Image/HomeCard/en/renly_baratheon.png</value>
+  </data>
+  <data name="image_Робб_Старк" xml:space="preserve">
+    <value>/Image/HomeCard/en/robb_stark.png</value>
+  </data>
+  <data name="image_Русе_Болтон" xml:space="preserve">
+    <value>/Image/HomeCard/en/roose_bolton.png</value>
+  </data>
+  <data name="image_Рэндилл_Тарли" xml:space="preserve">
+    <value>/Image/HomeCard/en/randyll_tarly.png</value>
+  </data>
+  <data name="image_Салладор_Саан" xml:space="preserve">
+    <value>/Image/HomeCard/en/salladhor_saan.png</value>
+  </data>
+  <data name="image_Сер_Гарлан_Тирелл" xml:space="preserve">
+    <value>/Image/HomeCard/en/ser_garlan_tyrell.png</value>
+  </data>
+  <data name="image_Сер_Грегор_Клиган" xml:space="preserve">
+    <value>/Image/HomeCard/en/ser_gregor_clegane.png</value>
+  </data>
+  <data name="image_Сер_Давос_Сиворт" xml:space="preserve">
+    <value>/Image/HomeCard/en/ser_davos_seaworth.png</value>
+  </data>
+  <data name="image_Сер_Джейме_Ланнистер" xml:space="preserve">
+    <value>/Image/HomeCard/en/ser_jaime_lannister.png</value>
+  </data>
+  <data name="image_Сер_Киван_Ланнистер" xml:space="preserve">
+    <value>/Image/HomeCard/en/ser_kevan_lannister.png</value>
+  </data>
+  <data name="image_Сер_Лорас_Тирелл" xml:space="preserve">
+    <value>/Image/HomeCard/en/ser_loras_tyrell.png</value>
+  </data>
+  <data name="image_Сер_Родрик_Кассель" xml:space="preserve">
+    <value>/Image/HomeCard/en/ser_rodrick_cassel.png</value>
+  </data>
+  <data name="image_Серсея_Ланнистер" xml:space="preserve">
+    <value>/Image/HomeCard/en/cersei_lannister.png</value>
+  </data>
+  <data name="image_Станис_Баратеон" xml:space="preserve">
+    <value>/Image/HomeCard/en/stannis_baratheon.png</value>
+  </data>
+  <data name="image_Тайвин_Ланнистер" xml:space="preserve">
+    <value>/Image/HomeCard/en/tywin_lannister.png</value>
+  </data>
+  <data name="image_Теон_Грейджой" xml:space="preserve">
+    <value>/Image/HomeCard/en/theon_greyjoy.png</value>
+  </data>
+  <data name="image_Тирион_Ланнистер" xml:space="preserve">
+    <value>/Image/HomeCard/en/tyrion_lannister.png</value>
+  </data>
+  <data name="image_Эддард_Старк" xml:space="preserve">
+    <value>/Image/HomeCard/en/eddard_stark.png</value>
+  </data>
+  <data name="image_Эйерон_Сыровласый" xml:space="preserve">
+    <value>/Image/HomeCard/en/aeron_damphair.png</value>
+  </data>
+  <data name="image_Эурон_Вороний_Глаз" xml:space="preserve">
+    <value>/Image/HomeCard/en/euron_crows_eye.png</value>
+  </data>
+  <data name="notify_connectionGame" xml:space="preserve">
+    <value>You cannot connect to the game at the moment, because you are a member of another unfinished game and don't have the title "Lord" or experience of more than 48 hours.</value>
+  </data>
+  <data name="notify_connectionGame2" xml:space="preserve">
+    <value>There are no Houses available or you already used this attempt in this game.</value>
+  </data>
+  <data name="notify_inviteUser" xml:space="preserve">
+    <value>The message has not been sent! This player's notification system is disabled.</value>
+  </data>
+  <data name="notify_Loading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="notify_mapRender" xml:space="preserve">
+    <value>Drawing map...</value>
+  </data>
+  <data name="notify_stepSyncProgress" xml:space="preserve">
+    <value>Syncing steps...</value>
+  </data>
+  <data name="orderType_Набег_0" xml:space="preserve">
+    <value>Raid</value>
+  </data>
+  <data name="orderType_Набег_0_специальный" xml:space="preserve">
+    <value>Special Raid</value>
+  </data>
+  <data name="orderType_Оборона_1" xml:space="preserve">
+    <value>Defence +1</value>
+  </data>
+  <data name="orderType_Оборона_2_специальный" xml:space="preserve">
+    <value>Defense +2</value>
+  </data>
+  <data name="orderType_Подмога_0" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="orderType_Подмога_1_специальный" xml:space="preserve">
+    <value>Support +1</value>
+  </data>
+  <data name="orderType_Поход_0" xml:space="preserve">
+    <value>March</value>
+  </data>
+  <data name="orderType_Поход_1_специальный" xml:space="preserve">
+    <value>March +1</value>
+  </data>
+  <data name="orderType_Поход__1" xml:space="preserve">
+    <value>March -1</value>
+  </data>
+  <data name="orderType_Усиление_власти_0" xml:space="preserve">
+    <value>Consolidate Power</value>
+  </data>
+  <data name="orderType_Усиление_власти_0_специальный" xml:space="preserve">
+    <value>Special Consolidate Power</value>
+  </data>
+  <data name="rageEffect_1" xml:space="preserve">
+    <value> = +{0} fortress icons</value>
+  </data>
+  <data name="rageEffect_10" xml:space="preserve">
+    <value>Defense order x2</value>
+  </data>
+  <data name="rageEffect_11" xml:space="preserve">
+    <value>opponent's House card combat strength = 0</value>
+  </data>
+  <data name="rageEffect_12" xml:space="preserve">
+    <value>ship strength x2</value>
+  </data>
+  <data name="rageEffect_13" xml:space="preserve">
+    <value>footmen power x2</value>
+  </data>
+  <data name="rageEffect_14" xml:space="preserve">
+    <value>all but Baratheon ship strength = 0</value>
+  </data>
+  <data name="rageEffect_15" xml:space="preserve">
+    <value>opponent discards a card</value>
+  </data>
+  <data name="rageEffect_16" xml:space="preserve">
+    <value>removes enemy order</value>
+  </data>
+  <data name="rageEffect_17" xml:space="preserve">
+    <value>promotes to knight</value>
+  </data>
+  <data name="rageEffect_18" xml:space="preserve">
+    <value>no effect</value>
+  </data>
+  <data name="rageEffect_19" xml:space="preserve">
+    <value>change Tides of Battle card</value>
+  </data>
+  <data name="rageEffect_2" xml:space="preserve">
+    <value> = +{0} sword icon</value>
+  </data>
+  <data name="rageEffect_20" xml:space="preserve">
+    <value>Enemy has no House cards left</value>
+  </data>
+  <data name="rageEffect_21" xml:space="preserve">
+    <value>Changes the influence of the Wild</value>
+  </data>
+  <data name="rageEffect_22" xml:space="preserve">
+    <value>blocks house card "{0}"</value>
+  </data>
+  <data name="rageEffect_23" xml:space="preserve">
+    <value>removes enemy order "{0}"</value>
+  </data>
+  <data name="rageEffect_24" xml:space="preserve">
+    <value>discards the opponent's House card "{0}"</value>
+  </data>
+  <data name="rageEffect_25" xml:space="preserve">
+    <value>escapes</value>
+  </data>
+  <data name="rageEffect_3" xml:space="preserve">
+    <value>consolidates power</value>
+  </data>
+  <data name="rageEffect_4" xml:space="preserve">
+    <value>lossless</value>
+  </data>
+  <data name="rageEffect_5" xml:space="preserve">
+    <value>regrouping of troops</value>
+  </data>
+  <data name="rageEffect_6" xml:space="preserve">
+    <value>destroy 1 footmen</value>
+  </data>
+  <data name="rageEffect_7" xml:space="preserve">
+    <value>drives enemy back</value>
+  </data>
+  <data name="rageEffect_8" xml:space="preserve">
+    <value>updates the deck</value>
+  </data>
+  <data name="rageEffect_9" xml:space="preserve">
+    <value> = +1 combat strength</value>
+  </data>
+  <data name="ratingType_honor" xml:space="preserve">
+    <value>Honor</value>
+  </data>
+  <data name="ratingType_like" xml:space="preserve">
+    <value>Charm</value>
+  </data>
+  <data name="ratingType_mind" xml:space="preserve">
+    <value>Mind</value>
+  </data>
+  <data name="ratingType_total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="settings_Новое_сообщение" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="settings_Новый_ход" xml:space="preserve">
+    <value>Step</value>
+  </data>
+  <data name="settings_Таймер" xml:space="preserve">
+    <value>Timer</value>
+  </data>
+  <data name="stepType_Борьба_за_влияние" xml:space="preserve">
+    <value>Struggle for Influence</value>
+  </data>
+  <data name="stepType_Валирийский_меч" xml:space="preserve">
+    <value>Valyrian Steel Blade</value>
+  </data>
+  <data name="stepType_Доран_Мартелл" xml:space="preserve">
+    <value>Doran Martell</value>
+  </data>
+  <data name="stepType_Железный_трон" xml:space="preserve">
+    <value>Iron Throne</value>
+  </data>
+  <data name="stepType_Замысел" xml:space="preserve">
+    <value>Planning phase</value>
+  </data>
+  <data name="stepType_Королева_Шипов" xml:space="preserve">
+    <value>Queen of Thorns</value>
+  </data>
+  <data name="stepType_Король_за_Стеной" xml:space="preserve">
+    <value>A King Beyond the Wall</value>
+  </data>
+  <data name="stepType_Мейс_Тирелл" xml:space="preserve">
+    <value>Mace Tyrell</value>
+  </data>
+  <data name="stepType_Набег" xml:space="preserve">
+    <value>Raid</value>
+  </data>
+  <data name="stepType_Наездники_на_мамонтах" xml:space="preserve">
+    <value>Mammoth Riders</value>
+  </data>
+  <data name="stepType_Наездники_на_мамонтах_роспуск_войск" xml:space="preserve">
+    <value>Mammoth Riders (disbanding of troops)</value>
+  </data>
+  <data name="stepType_Наступление_орды" xml:space="preserve">
+    <value>The Horde Descends</value>
+  </data>
+  <data name="stepType_Наступление_орды_Усиление_власти" xml:space="preserve">
+    <value>The Horde Descends (mustering)</value>
+  </data>
+  <data name="stepType_Неожиданный_шаг" xml:space="preserve">
+    <value>The unexpected move</value>
+  </data>
+  <data name="stepType_Отступление" xml:space="preserve">
+    <value>Retreat</value>
+  </data>
+  <data name="stepType_Передовой_отряд" xml:space="preserve">
+    <value>Preemptive Raid</value>
+  </data>
+  <data name="stepType_Пестряк" xml:space="preserve">
+    <value>Patchface</value>
+  </data>
+  <data name="stepType_Победа" xml:space="preserve">
+    <value>Victory</value>
+  </data>
+  <data name="stepType_Подмога" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="stepType_Посыльный_ворон" xml:space="preserve">
+    <value>Messenger Raven</value>
+  </data>
+  <data name="stepType_Поход" xml:space="preserve">
+    <value>March</value>
+  </data>
+  <data name="stepType_Разведка_за_стеной" xml:space="preserve">
+    <value>Peek Top Wilding Card</value>
+  </data>
+  <data name="stepType_Ренли_Баратеон" xml:space="preserve">
+    <value>Renly Baratheon</value>
+  </data>
+  <data name="stepType_Робб_Старк" xml:space="preserve">
+    <value>Robb Stark</value>
+  </data>
+  <data name="stepType_Роспуск_войск" xml:space="preserve">
+    <value>Disband troops</value>
+  </data>
+  <data name="stepType_Сбор_на_Молоководной" xml:space="preserve">
+    <value>Massing on the Milkwater</value>
+  </data>
+  <data name="stepType_Серсея_Ланнистер" xml:space="preserve">
+    <value>Cersei Lannister</value>
+  </data>
+  <data name="stepType_Событие_Вестероса" xml:space="preserve">
+    <value>Event of Westeros</value>
+  </data>
+  <data name="stepType_Сражение" xml:space="preserve">
+    <value>Battle</value>
+  </data>
+  <data name="stepType_Тирион_Ланнистер" xml:space="preserve">
+    <value>Tyrion Lannister</value>
+  </data>
+  <data name="stepType_Убийцы_ворон" xml:space="preserve">
+    <value>Crow Killers</value>
+  </data>
+  <data name="stepType_Усиление_власти" xml:space="preserve">
+    <value>Consolidate Power</value>
+  </data>
+  <data name="stepType_Усиление_власти_Вестерос" xml:space="preserve">
+    <value>Mustering</value>
+  </data>
+  <data name="stepType_Эйерон_Сыровласый" xml:space="preserve">
+    <value>Aeron Damphair</value>
+  </data>
+  <data name="terrain_Айронвуд" xml:space="preserve">
+    <value>Yronwood</value>
+  </data>
+  <data name="terrain_Арбор" xml:space="preserve">
+    <value>The Arbor</value>
+  </data>
+  <data name="terrain_Белая_Гавань" xml:space="preserve">
+    <value>White Harbor</value>
+  </data>
+  <data name="terrain_Близнецы" xml:space="preserve">
+    <value>The Twins</value>
+  </data>
+  <data name="terrain_Вдовий_Дозор" xml:space="preserve">
+    <value>Widow's Watch</value>
+  </data>
+  <data name="terrain_Винтерфел" xml:space="preserve">
+    <value>Winterfell</value>
+  </data>
+  <data name="terrain_Восточное_Летнее_море" xml:space="preserve">
+    <value>East Summer Sea</value>
+  </data>
+  <data name="terrain_Губительные_Валы" xml:space="preserve">
+    <value>Shipbreaker Bay</value>
+  </data>
+  <data name="terrain_Дорнские_марки" xml:space="preserve">
+    <value>Dornish Marches</value>
+  </data>
+  <data name="terrain_Дорнское_море" xml:space="preserve">
+    <value>Sea of Dorne</value>
+  </data>
+  <data name="terrain_Драконий_Камень" xml:space="preserve">
+    <value>Dragonstone</value>
+  </data>
+  <data name="terrain_Дрожащее_море" xml:space="preserve">
+    <value>The Shivering Sea</value>
+  </data>
+  <data name="terrain_Закатное_море" xml:space="preserve">
+    <value>Sunset Sea</value>
+  </data>
+  <data name="terrain_Залив_Железных_Людей" xml:space="preserve">
+    <value>Ironman's Bay</value>
+  </data>
+  <data name="terrain_Западное_Летнее_море" xml:space="preserve">
+    <value>West Summer Sea</value>
+  </data>
+  <data name="terrain_Звездопад" xml:space="preserve">
+    <value>Starfall</value>
+  </data>
+  <data name="terrain_Золотой_пролив" xml:space="preserve">
+    <value>The Golden Sound</value>
+  </data>
+  <data name="terrain_Каменная_Септа" xml:space="preserve">
+    <value>Stoney Sept</value>
+  </data>
+  <data name="terrain_Каменный_берег" xml:space="preserve">
+    <value>The Stoney Shore</value>
+  </data>
+  <data name="terrain_Кархолд" xml:space="preserve">
+    <value>Karhold</value>
+  </data>
+  <data name="terrain_Клешня" xml:space="preserve">
+    <value>Crackclaw Point</value>
+  </data>
+  <data name="terrain_Королевская_гавань" xml:space="preserve">
+    <value>King's Landing</value>
+  </data>
+  <data name="terrain_Королевский_лес" xml:space="preserve">
+    <value>Kingswood</value>
+  </data>
+  <data name="terrain_Костяной_путь" xml:space="preserve">
+    <value>The Boneway</value>
+  </data>
+  <data name="terrain_Кремень" xml:space="preserve">
+    <value>Flint's Finger</value>
+  </data>
+  <data name="terrain_Ланиспорт" xml:space="preserve">
+    <value>Lannisport</value>
+  </data>
+  <data name="terrain_Ледовый_залив" xml:space="preserve">
+    <value>Bay of Ice</value>
+  </data>
+  <data name="terrain_Лунные_горы" xml:space="preserve">
+    <value>The Mountains of the Moon</value>
+  </data>
+  <data name="terrain_Орлиное_Гнездо" xml:space="preserve">
+    <value>The Eyrie</value>
+  </data>
+  <data name="terrain_Пайк" xml:space="preserve">
+    <value>Pyke</value>
+  </data>
+  <data name="terrain_Персты" xml:space="preserve">
+    <value>The Fingers</value>
+  </data>
+  <data name="terrain_Порт_Белой_Гавани" xml:space="preserve">
+    <value>Port of White Harbor</value>
+  </data>
+  <data name="terrain_Порт_Винтерфела" xml:space="preserve">
+    <value>Port of Winterfell</value>
+  </data>
+  <data name="terrain_Порт_Драконьего_Каменя" xml:space="preserve">
+    <value>Port of Dragonstone</value>
+  </data>
+  <data name="terrain_Порт_Ланиспорта" xml:space="preserve">
+    <value>Port of Lannisport</value>
+  </data>
+  <data name="terrain_Порт_Пайка" xml:space="preserve">
+    <value>Port of Pyke</value>
+  </data>
+  <data name="terrain_Порт_Солнечного_Копья" xml:space="preserve">
+    <value>Port of Sunspear</value>
+  </data>
+  <data name="terrain_Порт_Староместа" xml:space="preserve">
+    <value>Port of Oldtown</value>
+  </data>
+  <data name="terrain_Порт_Штормового_Предела" xml:space="preserve">
+    <value>Port of Storm's End</value>
+  </data>
+  <data name="terrain_Приморские_марки" xml:space="preserve">
+    <value>Searoad Marches</value>
+  </data>
+  <data name="terrain_Принцев_перевал" xml:space="preserve">
+    <value>Prince's Pass</value>
+  </data>
+  <data name="terrain_Пролив_Редвин" xml:space="preserve">
+    <value>Redwyne Straits</value>
+  </data>
+  <data name="terrain_Простор" xml:space="preserve">
+    <value>The Reach</value>
+  </data>
+  <data name="terrain_Риверан" xml:space="preserve">
+    <value>Riverrun</value>
+  </data>
+  <data name="terrain_Ров_Кейлин" xml:space="preserve">
+    <value>Moat Calin</value>
+  </data>
+  <data name="terrain_Сероводье" xml:space="preserve">
+    <value>Greywater Watch</value>
+  </data>
+  <data name="terrain_Сигард" xml:space="preserve">
+    <value>Seagard</value>
+  </data>
+  <data name="terrain_Солёный_берег" xml:space="preserve">
+    <value>Salt Shore</value>
+  </data>
+  <data name="terrain_Солнечное_Копьё" xml:space="preserve">
+    <value>Sunspear</value>
+  </data>
+  <data name="terrain_Старомест" xml:space="preserve">
+    <value>Oldtown</value>
+  </data>
+  <data name="terrain_Три_Башни" xml:space="preserve">
+    <value>Three Towers</value>
+  </data>
+  <data name="terrain_Узкое_море" xml:space="preserve">
+    <value>The Narrow Sea</value>
+  </data>
+  <data name="terrain_Хайгарден" xml:space="preserve">
+    <value>Highgarden</value>
+  </data>
+  <data name="terrain_Харенхол" xml:space="preserve">
+    <value>Harrenhal</value>
+  </data>
+  <data name="terrain_Чёрный_замок" xml:space="preserve">
+    <value>Castle Black</value>
+  </data>
+  <data name="terrain_Черноводная" xml:space="preserve">
+    <value>Blackwater</value>
+  </data>
+  <data name="terrain_Черноводный_залив" xml:space="preserve">
+    <value>Blackwater Bay</value>
+  </data>
+  <data name="terrain_Штормовой_Предел" xml:space="preserve">
+    <value>Storm's End</value>
+  </data>
+  <data name="text_accessDenied" xml:space="preserve">
+    <value>Access denied!</value>
+  </data>
+  <data name="text_accessDenied1" xml:space="preserve">
+    <value>Access denied! You are in the blacklist of one of the players.</value>
+  </data>
+  <data name="text_accessDenied2" xml:space="preserve">
+    <value>One of the players is on your blacklist. Do you still want to join?</value>
+  </data>
+  <data name="text_accessDenied3" xml:space="preserve">
+    <value>Only players with the title of "Lord" and with more than 48 hours experience can run multiple clients at the same time.</value>
+  </data>
+  <data name="text_apiSelect" xml:space="preserve">
+    <value>Select the authorization method</value>
+  </data>
+  <data name="text_attackPower" xml:space="preserve">
+    <value>Attack Strength</value>
+  </data>
+  <data name="text_barbarianBury" xml:space="preserve">
+    <value>Place at bottom</value>
+  </data>
+  <data name="text_barbarianLeave" xml:space="preserve">
+    <value>Leave at top</value>
+  </data>
+  <data name="text_barbarianStrength" xml:space="preserve">
+    <value>Wildlings strength «{0}»</value>
+  </data>
+  <data name="text_battle" xml:space="preserve">
+    <value>Battle for «{0}»</value>
+  </data>
+  <data name="text_battleTab" xml:space="preserve">
+    <value>Battle</value>
+  </data>
+  <data name="text_cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="text_chatTab" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="text_clearRating" xml:space="preserve">
+    <value>Are you sure you want to clear your rating? Your games will be marked as obsolete, and all likes and dislikes are removed. Your relationship with other players will be saved.</value>
+  </data>
+  <data name="text_clientStep" xml:space="preserve">
+    <value>Your step "{0}"</value>
+  </data>
+  <data name="text_closeApp" xml:space="preserve">
+    <value>The application will be closed!</value>
+  </data>
+  <data name="text_confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="text_confirm_text" xml:space="preserve">
+    <value>Attention! Only owners of the box edition of "A Game of Thrones: The Board Game (Second Edition)" may log in. By using this product, you agree that you have acquired the licensed version of the board game.</value>
+  </data>
+  <data name="text_defancePower" xml:space="preserve">
+    <value>Defense Strength</value>
+  </data>
+  <data name="text_deleteEvent" xml:space="preserve">
+    <value>- delete this event</value>
+  </data>
+  <data name="text_deleteEvents" xml:space="preserve">
+    <value>- delete this event and all the events below</value>
+  </data>
+  <data name="text_disconnect" xml:space="preserve">
+    <value>Disconnect:</value>
+  </data>
+  <data name="text_donateComment" xml:space="preserve">
+    <value>Comment: {0}</value>
+  </data>
+  <data name="text_error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="text_eventsTab" xml:space="preserve">
+    <value>Events</value>
+  </data>
+  <data name="text_exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="text_findUsers" xml:space="preserve">
+    <value>Find user (filter)</value>
+  </data>
+  <data name="text_gameDate" xml:space="preserve">
+    <value>Game date</value>
+  </data>
+  <data name="text_gameEndTime" xml:space="preserve">
+    <value>Game End Time:</value>
+  </data>
+  <data name="text_gameStartTime" xml:space="preserve">
+    <value>Game Beginning Time:</value>
+  </data>
+  <data name="text_help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="text_homeCardSelect" xml:space="preserve">
+    <value>- selects the House card for the current battle</value>
+  </data>
+  <data name="text_homeSelect" xml:space="preserve">
+    <value>Choose a House!</value>
+  </data>
+  <data name="text_homeSelectContract" xml:space="preserve">
+    <value>Players titled "Lord" may choose the House which they lead to victory. Other players have to let the gods of Westeros decide. Unavailable Houses are colorless; click on a House to check its availability.</value>
+  </data>
+  <data name="text_homeSelectWarning" xml:space="preserve">
+    <value>ATTENTION! You cannot change your House once you've made your choice.</value>
+  </data>
+  <data name="text_homesTab" xml:space="preserve">
+    <value>Houses</value>
+  </data>
+  <data name="text_lastCardBarbarian" xml:space="preserve">
+    <value>Wildling card last played</value>
+  </data>
+  <data name="text_lastDonateInfo" xml:space="preserve">
+    <value>The latest payment of amount of {0}₽ was made on {1:MM\/dd\/yyyy HH:mm}</value>
+  </data>
+  <data name="text_leaveGame" xml:space="preserve">
+    <value>Leave the party?|Yes - You will be expelled instantly from the party.|No - You will have {0} second to return to the party.|Cancel - Continue Game of Thrones.</value>
+  </data>
+  <data name="text_linkAccountCompleted" xml:space="preserve">
+    <value>Action with your account completed successfully.</value>
+  </data>
+  <data name="text_login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="text_minTotalRatio" xml:space="preserve">
+    <value>Min. rating (Total)</value>
+  </data>
+  <data name="text_msgInput" xml:space="preserve">
+    <value>Type your message here</value>
+  </data>
+  <data name="text_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="text_NewGame" xml:space="preserve">
+    <value>New game</value>
+  </data>
+  <data name="text_no" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="text_noSupport" xml:space="preserve">
+    <value>Neutrality</value>
+  </data>
+  <data name="text_notify" xml:space="preserve">
+    <value>Notify</value>
+  </data>
+  <data name="text_notUseBlade" xml:space="preserve">
+    <value>Not Use Blade</value>
+  </data>
+  <data name="text_onlineOnly" xml:space="preserve">
+    <value>Online only</value>
+  </data>
+  <data name="text_orderFree" xml:space="preserve">
+    <value>Not all troops have received orders.|Complete the planning phase?</value>
+  </data>
+  <data name="text_password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="text_profileTab" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="text_quotes" xml:space="preserve">
+    <value>quotes.en.txt</value>
+  </data>
+  <data name="text_randomPower" xml:space="preserve">
+    <value>Tides of Battle card strength</value>
+  </data>
+  <data name="text_ratingsCondition" xml:space="preserve">
+    <value>Minimum rating required:</value>
+  </data>
+  <data name="text_ratingTab" xml:space="preserve">
+    <value>Ratings</value>
+  </data>
+  <data name="text_saveError" xml:space="preserve">
+    <value>Save error code?</value>
+  </data>
+  <data name="text_scrollEvents" xml:space="preserve">
+    <value>- scroll the list of events (up to 20)</value>
+  </data>
+  <data name="text_selectedOrder" xml:space="preserve">
+    <value>Selected order: "{0}".</value>
+  </data>
+  <data name="text_skull" xml:space="preserve">
+    <value>Additional casualties (Skulls)</value>
+  </data>
+  <data name="text_sloganBaratheon" xml:space="preserve">
+    <value>OURS IS THE FURY</value>
+  </data>
+  <data name="text_sloganGreyjoy" xml:space="preserve">
+    <value>WE DO NOT SOW</value>
+  </data>
+  <data name="text_sloganLannister" xml:space="preserve">
+    <value>HEAR ME ROAR</value>
+  </data>
+  <data name="text_sloganMartell" xml:space="preserve">
+    <value>UNBOWED, UNBENT, UNBROKEN</value>
+  </data>
+  <data name="text_sloganRandom" xml:space="preserve">
+    <value>ONLY THOSE WHO ATTEMPT THE ABSURD CAN ACHIEVE THE IMPOSSIBLE</value>
+  </data>
+  <data name="text_sloganStark" xml:space="preserve">
+    <value>WINTER IS COMING</value>
+  </data>
+  <data name="text_sloganTyrell" xml:space="preserve">
+    <value>GROWING STRONG</value>
+  </data>
+  <data name="text_soundSettings" xml:space="preserve">
+    <value>Sound settings</value>
+  </data>
+  <data name="text_specialPassword" xml:space="preserve">
+    <value>Enter your special password</value>
+  </data>
+  <data name="text_specialPasswordAttention" xml:space="preserve">
+    <value>ATTENTION! Do not use your password from VKontakte or Facebook!</value>
+  </data>
+  <data name="text_specialPasswordText" xml:space="preserve">
+    <value>Your access key was changed, you have to enter your special password to accept this change. If this password is required for the first time, then use any password and REMEMBER IT! You will need it if you sign in from a different computer, or your social profile changes.</value>
+  </data>
+  <data name="text_stepPerform" xml:space="preserve">
+    <value>Perform Step</value>
+  </data>
+  <data name="text_supplyLimit" xml:space="preserve">
+    <value>supply limit</value>
+  </data>
+  <data name="text_donate" xml:space="preserve">
+    <value>Donate...</value>
+  </data>
+  <data name="text_supportUser" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="text_uriError" xml:space="preserve">
+    <value>Sorry, we couldn't go to this URL:</value>
+  </data>
+  <data name="text_useBlade" xml:space="preserve">
+    <value>How to use the Blade?</value>
+  </data>
+  <data name="text_userBet" xml:space="preserve">
+    <value>Your bid: </value>
+  </data>
+  <data name="text_userEndGameCount" xml:space="preserve">
+    <value>Games finished:</value>
+  </data>
+  <data name="text_userExperienceDay" xml:space="preserve">
+    <value>Experience (days):</value>
+  </data>
+  <data name="text_userExperienceHour" xml:space="preserve">
+    <value>Experience (hours):</value>
+  </data>
+  <data name="text_userGameCount" xml:space="preserve">
+    <value>Games (total):</value>
+  </data>
+  <data name="text_userGames" xml:space="preserve">
+    <value>Your Games</value>
+  </data>
+  <data name="text_userHomeRate" xml:space="preserve">
+    <value>By Houses:</value>
+  </data>
+  <data name="text_userPower" xml:space="preserve">
+    <value>Power tokens available:</value>
+  </data>
+  <data name="text_usersContract" xml:space="preserve">
+    <value>The players' ratings and the Westeros statistics are calculated based on their activity during the last three months.</value>
+  </data>
+  <data name="text_usersMeet" xml:space="preserve">
+    <value>Users you've been playing with</value>
+  </data>
+  <data name="text_usersTab" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="text_useSpecialization" xml:space="preserve">
+    <value>Use ability?</value>
+  </data>
+  <data name="text_vesteros" xml:space="preserve">
+    <value>Westeros</value>
+  </data>
+  <data name="text_vesterosCardSelect" xml:space="preserve">
+    <value>Choose an event</value>
+  </data>
+  <data name="text_vesterosSthanks" xml:space="preserve">
+    <value>Westeros is grateful!</value>
+  </data>
+  <data name="text_vkAuthReset" xml:space="preserve">
+    <value>Back to the authorization page</value>
+  </data>
+  <data name="text_vkid" xml:space="preserve">
+    <value>Your profile: {0} {1}</value>
+  </data>
+  <data name="text_voting" xml:space="preserve">
+    <value>Bidding for «{0}»</value>
+  </data>
+  <data name="text_warning" xml:space="preserve">
+    <value>Attention!</value>
+  </data>
+  <data name="text_wildlings" xml:space="preserve">
+    <value>Wildlings</value>
+  </data>
+  <data name="text_yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="text_yourAccounts" xml:space="preserve">
+    <value>Your accounts?</value>
+  </data>
+  <data name="titleType_Архимейстер" xml:space="preserve">
+    <value>Archmaester</value>
+  </data>
+  <data name="titleType_Бездомный" xml:space="preserve">
+    <value>Homeless</value>
+  </data>
+  <data name="titleType_корольВестероса" xml:space="preserve">
+    <value>King of Westeros</value>
+  </data>
+  <data name="titleType_Крестьянин" xml:space="preserve">
+    <value>Farmer</value>
+  </data>
+  <data name="titleType_Купец" xml:space="preserve">
+    <value>Merchant</value>
+  </data>
+  <data name="titleType_Лорд" xml:space="preserve">
+    <value>Lord</value>
+  </data>
+  <data name="titleType_лордКомандующий" xml:space="preserve">
+    <value>Lord Commander</value>
+  </data>
+  <data name="titleType_мастерНадЗаконами" xml:space="preserve">
+    <value>Master of Laws</value>
+  </data>
+  <data name="titleType_мастерНадМонетой" xml:space="preserve">
+    <value>Master of Coin</value>
+  </data>
+  <data name="titleType_мастерНадШептунами" xml:space="preserve">
+    <value>Master of whisperers</value>
+  </data>
+  <data name="titleType_Мейстер" xml:space="preserve">
+    <value>Maester</value>
+  </data>
+  <data name="titleType_Мейстер_Бард" xml:space="preserve">
+    <value>Bard Maester</value>
+  </data>
+  <data name="titleType_Мейстер_Толмач" xml:space="preserve">
+    <value>Translator Maester</value>
+  </data>
+  <data name="titleType_Рыцарь" xml:space="preserve">
+    <value>Knight</value>
+  </data>
+  <data name="titleType_Создатель" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="unitRemoveType_destroyed" xml:space="preserve">
+    <value>destroyed</value>
+  </data>
+  <data name="unitRemoveType_disbanding0" xml:space="preserve">
+    <value>disbanding</value>
+  </data>
+  <data name="unitRemoveType_disbanding1" xml:space="preserve">
+    <value>sunk</value>
+  </data>
+  <data name="unitRemoveType_finished" xml:space="preserve">
+    <value>finished</value>
+  </data>
+  <data name="unitRemoveType_noRetreats" xml:space="preserve">
+    <value>path of retreat is cut off</value>
+  </data>
+  <data name="unitRemoveType_retreats" xml:space="preserve">
+    <value>retreats</value>
+  </data>
+  <data name="unitRemoveType_thrown" xml:space="preserve">
+    <value>destroyed</value>
+  </data>
+  <data name="unitType_Корабль" xml:space="preserve">
+    <value>Ship</value>
+  </data>
+  <data name="unitType_Осадная_башня" xml:space="preserve">
+    <value>Siege tower</value>
+  </data>
+  <data name="unitType_Пеший_воин" xml:space="preserve">
+    <value>Footman</value>
+  </data>
+  <data name="unitType_Рыцарь" xml:space="preserve">
+    <value>Knight</value>
+  </data>
+  <data name="validation_consolidate1" xml:space="preserve">
+    <value>Violation of rules: You have exceeded the number of mustering points.</value>
+  </data>
+  <data name="validation_consolidate2" xml:space="preserve">
+    <value>Violation of rules: Land forces can only be mustered on the territory of the order.</value>
+  </data>
+  <data name="validation_consolidate3" xml:space="preserve">
+    <value>Violation of rules: Ships can only be mustered in sea territories or ports adjacent to the territory of the order.</value>
+  </data>
+  <data name="validation_consolidate4" xml:space="preserve">
+    <value>Violation of rules: The sea territory is controlled by another player.</value>
+  </data>
+  <data name="validation_consolidate5" xml:space="preserve">
+    <value>Violation of rules: Troops can only be upgraded on the territory of the order.</value>
+  </data>
+  <data name="validation_consolidate6" xml:space="preserve">
+    <value>Violation of rules: Only footmen can be upgraded.</value>
+  </data>
+  <data name="validation_consolidate7" xml:space="preserve">
+    <value>Violation of rules: Cannot upgrade to a footman.</value>
+  </data>
+  <data name="validation_consolidate8" xml:space="preserve">
+    <value>Violation of rules: You cannot change between land and sea units.</value>
+  </data>
+  <data name="validation_homeCard" xml:space="preserve">
+    <value>Violation of rules: You have to choose a house card.</value>
+  </data>
+  <data name="validation_homeCard2" xml:space="preserve">
+    <value>Violation of rules: House card not available.</value>
+  </data>
+  <data name="validation_lordFalse" xml:space="preserve">
+    <value>The defender's resistance has not been overcome: Your strength {0}, their strength {1}.</value>
+  </data>
+  <data name="validation_lordTrue" xml:space="preserve">
+    <value>The defender's resistance has been broken: your strength {0}, their strength {1}.</value>
+  </data>
+  <data name="validation_march" xml:space="preserve">
+    <value>Violation of rules: It is not possible to conduct multiple attacks.</value>
+  </data>
+  <data name="validation_move1" xml:space="preserve">
+    <value>Violation of rules: Ships can only move on water.</value>
+  </data>
+  <data name="validation_move10" xml:space="preserve">
+    <value>Violation of rules: Cannot retreat to an area controlled by the enemy.</value>
+  </data>
+  <data name="validation_move2" xml:space="preserve">
+    <value>Violation of rules: Land forces can only move on land and over ships.</value>
+  </data>
+  <data name="validation_move3" xml:space="preserve">
+    <value>Violation of rules: Ships can only move one field.</value>
+  </data>
+  <data name="validation_move4" xml:space="preserve">
+    <value>Violation of rules: No legal option for this troop movement found.</value>
+  </data>
+  <data name="validation_move5" xml:space="preserve">
+    <value>Violation of rules: Max. 3 ships per port.</value>
+  </data>
+  <data name="validation_move6" xml:space="preserve">
+    <value>Violation of rules: You cannot enter enemy ports.</value>
+  </data>
+  <data name="validation_move7" xml:space="preserve">
+    <value>Violation of rules: Max. 4 units in any one area.</value>
+  </data>
+  <data name="validation_move8" xml:space="preserve">
+    <value>Violation of rules: Retreat is only possible in one direction.</value>
+  </data>
+  <data name="validation_move9" xml:space="preserve">
+    <value>Violation of rules: Cannot retreat into the land from where the attack was started.</value>
+  </data>
+  <data name="validation_order" xml:space="preserve">
+    <value>Violation of rules: You must choose an executable order.</value>
+  </data>
+  <data name="validation_power" xml:space="preserve">
+    <value>Violation of rules: You can only rearrange Houses with the same bid.</value>
+  </data>
+  <data name="validation_ranly1" xml:space="preserve">
+    <value>Violation of rules: You can only select footmen.</value>
+  </data>
+  <data name="validation_ranly2" xml:space="preserve">
+    <value>Violation of rules: The unit did not participate in the battle.</value>
+  </data>
+  <data name="validation_supply" xml:space="preserve">
+    <value>Violation of rules: You have exceeded the supply limit!</value>
+  </data>
+  <data name="validation_Track" xml:space="preserve">
+    <value>Violation of rules: You must choose an influence track.</value>
+  </data>
+  <data name="voting_Вотчины" xml:space="preserve">
+    <value>Valyrian Steel Blade</value>
+  </data>
+  <data name="voting_Железный_трон" xml:space="preserve">
+    <value>Iron Throne</value>
+  </data>
+  <data name="voting_Королевский_двор" xml:space="preserve">
+    <value>Messenger Raven</value>
+  </data>
+  <data name="voting_Одичалые" xml:space="preserve">
+    <value>Wildlings Attack</value>
+  </data>
+  <data name="dynamic_title1" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="dynamic_title2" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="text_publicDonate" xml:space="preserve">
+    <value>Publicly?</value>
+  </data>
+  <data name="actionType_Набег" xml:space="preserve">
+    <value>Raid Orders cannot be played</value>
+  </data>
+  <data name="awardsType_AllHouseVictory" xml:space="preserve">
+    <value>Won with all Houses</value>
+  </data>
+  <data name="text_awards" xml:space="preserve">
+    <value>Awards</value>
+  </data>
+  <data name="awardsType_MaxDurationHours" xml:space="preserve">
+    <value>Longest playing time</value>
+  </data>
+  <data name="dynamic_MaxEfficiency" xml:space="preserve">
+    <value>Highest victory rate for "{0}"</value>
+  </data>
+  <data name="dynamic_MaxTotalVictory1" xml:space="preserve">
+    <value>Maximum number of victories</value>
+  </data>
+  <data name="dynamic_MaxTotalVictory2" xml:space="preserve">
+    <value>Maximum number of victories for {0}</value>
+  </data>
+  <data name="text_awardsType1" xml:space="preserve">
+    <value>Temporary awards</value>
+  </data>
+  <data name="text_updatingProfile" xml:space="preserve">
+    <value>Updating player profiles...</value>
+  </data>
+  <data name="gameType_classic" xml:space="preserve">
+    <value>Classic ({0} players)</value>
+  </data>
+  <data name="gameType_dragon" xml:space="preserve">
+    <value>Dance with Dragons</value>
+  </data>
+  <data name="text_gameType" xml:space="preserve">
+    <value>Game type</value>
+  </data>
+  <data name="hero_dragon_Stannis_Baratheon" xml:space="preserve">
+    <value>Stannis Baratheon</value>
+  </data>
+  <data name="image_dragon_Stannis_Baratheon" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Stannis_Baratheon.png</value>
+  </data>
+  <data name="homeType_dragon_Баратеон" xml:space="preserve">
+    <value>Baratheon</value>
+  </data>
+  <data name="hero_dragon_Bastard_of_Nightsong" xml:space="preserve">
+    <value>Bastard of Nightsong</value>
+  </data>
+  <data name="hero_dragon_Ser_Axell_Florent" xml:space="preserve">
+    <value>Ser Axell Florent</value>
+  </data>
+  <data name="hero_dragon_Ser_Davos_Seaworth" xml:space="preserve">
+    <value>Ser Davos Seaworth</value>
+  </data>
+  <data name="image_dragon_Bastard_of_Nightsong" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Bastard_of_Nightsong.png</value>
+  </data>
+  <data name="image_dragon_Ser_Axell_Florent" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Ser_Axell_Florent.png</value>
+  </data>
+  <data name="image_dragon_Ser_Davos_Seaworth" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Ser_Davos_Seaworth.png</value>
+  </data>
+  <data name="hero_dragon_Jon_Snow" xml:space="preserve">
+    <value>Jon Snow</value>
+  </data>
+  <data name="hero_dragon_Mance_Rayder" xml:space="preserve">
+    <value>Mance Rayder</value>
+  </data>
+  <data name="hero_dragon_Melisandre" xml:space="preserve">
+    <value>Melisandre</value>
+  </data>
+  <data name="image_dragon_Jon_Snow" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Jon_Snow.png</value>
+  </data>
+  <data name="image_dragon_Mance_Rayder" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Mance_Rayder.png</value>
+  </data>
+  <data name="image_dragon_Melisandre" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Melisandre.png</value>
+  </data>
+  <data name="rageEffect_26" xml:space="preserve">
+    <value>To increase the impact of Wild</value>
+  </data>
+  <data name="rageEffect_27" xml:space="preserve">
+    <value>To reduce the impact of Wild</value>
+  </data>
+  <data name="stepType_dragon_Jon_Snow" xml:space="preserve">
+    <value>Jon Snow</value>
+  </data>
+  <data name="stepType_dragon_Melisandre" xml:space="preserve">
+    <value>Melisandre</value>
+  </data>
+  <data name="hero_dragon_Cersei_Lannister" xml:space="preserve">
+    <value>Cersei Lannister</value>
+  </data>
+  <data name="hero_dragon_Daven_Lannister" xml:space="preserve">
+    <value>Daven Lannister</value>
+  </data>
+  <data name="hero_dragon_Qyburn" xml:space="preserve">
+    <value>Qyburn</value>
+  </data>
+  <data name="hero_dragon_Ser_Addam_Marbrand" xml:space="preserve">
+    <value>Ser Addam Marbrand</value>
+  </data>
+  <data name="hero_dragon_Ser_Ilyn_Payne" xml:space="preserve">
+    <value>Ser Ilyn Payne</value>
+  </data>
+  <data name="hero_dragon_Ser_Jaime_Lannister" xml:space="preserve">
+    <value>Ser Jaime Lannister</value>
+  </data>
+  <data name="hero_dragon_Ser_Kevan_Lannister" xml:space="preserve">
+    <value>Ser Kevan Lannister</value>
+  </data>
+  <data name="homeType_dragon_Ланнистер" xml:space="preserve">
+    <value>Lannister</value>
+  </data>
+  <data name="image_dragon_Cersei_Lannister" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Cersei_Lannister.png</value>
+  </data>
+  <data name="image_dragon_Daven_Lannister" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Daven_Lannister.png</value>
+  </data>
+  <data name="image_dragon_Qyburn" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Qyburn.png</value>
+  </data>
+  <data name="image_dragon_Ser_Addam_Marbrand" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Ser_Addam_Marbrand.png</value>
+  </data>
+  <data name="image_dragon_Ser_Ilyn_Payne" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Ser_Ilyn_Payne.png</value>
+  </data>
+  <data name="image_dragon_Ser_Jaime_Lannister" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Ser_Jaime_Lannister.png</value>
+  </data>
+  <data name="image_dragon_Ser_Kevan_Lannister" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Ser_Kevan_Lannister.png</value>
+  </data>
+  <data name="stepType_dragon_Qyburn" xml:space="preserve">
+    <value>Qyburn</value>
+  </data>
+  <data name="stepType_dragon_Ser_Ilyn_Payne" xml:space="preserve">
+    <value>Ser Ilyn Payne</value>
+  </data>
+  <data name="rageEffect_28" xml:space="preserve">
+    <value>knight strength +1</value>
+  </data>
+  <data name="hero_dragon_Black_Walder" xml:space="preserve">
+    <value>Black Walder</value>
+  </data>
+  <data name="hero_dragon_Damon_Dance_For_Me" xml:space="preserve">
+    <value>Damon Dance-For-Me</value>
+  </data>
+  <data name="hero_dragon_Ramsay_Bolton" xml:space="preserve">
+    <value>Ramsay Bolton</value>
+  </data>
+  <data name="hero_dragon_Reek" xml:space="preserve">
+    <value>Reek</value>
+  </data>
+  <data name="hero_dragon_Roose_Bolton" xml:space="preserve">
+    <value>Roose Bolton</value>
+  </data>
+  <data name="hero_dragon_Steelshanks_Walton" xml:space="preserve">
+    <value>Steelshanks Walton</value>
+  </data>
+  <data name="hero_dragon_Walder_Frey" xml:space="preserve">
+    <value>Walder Frey</value>
+  </data>
+  <data name="homeType_dragon_Болтон" xml:space="preserve">
+    <value>Bolton</value>
+  </data>
+  <data name="image_dragon_Black_Walder" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Black_Walder.png</value>
+  </data>
+  <data name="image_dragon_Damon_Dance_For_Me" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Damon_Dance-For-Me.png</value>
+  </data>
+  <data name="image_dragon_Ramsay_Bolton" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Ramsay_Bolton.png</value>
+  </data>
+  <data name="image_dragon_Reek" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Reek.png</value>
+  </data>
+  <data name="image_dragon_Roose_Bolton" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Roose_Bolton.png</value>
+  </data>
+  <data name="image_dragon_Steelshanks_Walton" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Steelshanks_Walton.png</value>
+  </data>
+  <data name="image_dragon_Walder_Frey" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Walder_Frey.png</value>
+  </data>
+  <data name="stepType_dragon_Reek" xml:space="preserve">
+    <value>Reek</value>
+  </data>
+  <data name="rageEffect_0" xml:space="preserve">
+    <value>luring support</value>
+  </data>
+  <data name="hero_dragon_Ser_Jon_Fossoway" xml:space="preserve">
+    <value>Ser Jon Fossoway</value>
+  </data>
+  <data name="hero_dragon_Mace_Tyrell" xml:space="preserve">
+    <value>Mace Tyrell</value>
+  </data>
+  <data name="hero_dragon_Margaery_Tyrell" xml:space="preserve">
+    <value>Margaery Tyrell</value>
+  </data>
+  <data name="hero_dragon_Paxter_Redwyne" xml:space="preserve">
+    <value>Paxter Redwyne</value>
+  </data>
+  <data name="hero_dragon_Queen_of_Thorns" xml:space="preserve">
+    <value>Queen of Thorns</value>
+  </data>
+  <data name="hero_dragon_Randyll_Tarly" xml:space="preserve">
+    <value>Randyll Tarly</value>
+  </data>
+  <data name="hero_dragon_Willas_Tyrell" xml:space="preserve">
+    <value>Willas Tyrell</value>
+  </data>
+  <data name="image_dragon_Ser_Jon_Fossoway" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Ser_Jon_Fossoway.png</value>
+  </data>
+  <data name="image_dragon_Mace_Tyrell" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Mace_Tyrell.png</value>
+  </data>
+  <data name="image_dragon_Margaery_Tyrell" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Margaery_Tyrell.png</value>
+  </data>
+  <data name="image_dragon_Paxter_Redwyne" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Paxter_Redwyne.png</value>
+  </data>
+  <data name="image_dragon_Queen_of_Thorns" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Queen_of_Thorns.png</value>
+  </data>
+  <data name="image_dragon_Randyll_Tarly" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Randyll_Tarly.png</value>
+  </data>
+  <data name="image_dragon_Willas_Tyrell" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Willas_Tyrell.png</value>
+  </data>
+  <data name="homeType_dragon_Тирелл" xml:space="preserve">
+    <value>Tyrell</value>
+  </data>
+  <data name="rageEffect_29" xml:space="preserve">
+    <value>the final combat strength of your opponent = 2</value>
+  </data>
+  <data name="rageEffect_30" xml:space="preserve">
+    <value>ignoring said</value>
+  </data>
+  <data name="hero_dragon_Areo_Hotah" xml:space="preserve">
+    <value>Areo Hotah</value>
+  </data>
+  <data name="hero_dragon_Bastard_of_Godsgrace" xml:space="preserve">
+    <value>Bastard of Godsgrace</value>
+  </data>
+  <data name="hero_dragon_Big_Man" xml:space="preserve">
+    <value>Big Man</value>
+  </data>
+  <data name="hero_dragon_Doran_Martell" xml:space="preserve">
+    <value>Doran Martell</value>
+  </data>
+  <data name="hero_dragon_Nymeria_Sand" xml:space="preserve">
+    <value>Nymeria Sand</value>
+  </data>
+  <data name="hero_dragon_Quentyn_Martell" xml:space="preserve">
+    <value>Quentyn Martell</value>
+  </data>
+  <data name="hero_dragon_Ser_Gerris_Drinkwater" xml:space="preserve">
+    <value>Ser Gerris Drinkwater</value>
+  </data>
+  <data name="homeType_dragon_Мартелл" xml:space="preserve">
+    <value>Martell</value>
+  </data>
+  <data name="image_dragon_Areo_Hotah" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Areo_Hotah.png</value>
+  </data>
+  <data name="image_dragon_Bastard_of_Godsgrace" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Bastard_of_Godsgrace.png</value>
+  </data>
+  <data name="image_dragon_Big_Man" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Big_Man.png</value>
+  </data>
+  <data name="image_dragon_Doran_Martell" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Doran_Martell.png</value>
+  </data>
+  <data name="image_dragon_Nymeria_Sand" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Nymeria_Sand.png</value>
+  </data>
+  <data name="image_dragon_Quentyn_Martell" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Quentyn_Martell.png</value>
+  </data>
+  <data name="image_dragon_Ser_Gerris_Drinkwater" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Ser_Gerris_Drinkwater.png</value>
+  </data>
+  <data name="rageEffect_31" xml:space="preserve">
+    <value>hero strength = {0}</value>
+  </data>
+  <data name="stepType_dragon_Ser_Gerris_Drinkwater" xml:space="preserve">
+    <value>Ser Gerris Drinkwater</value>
+  </data>
+  <data name="hero_dragon_Aeron_Damphair" xml:space="preserve">
+    <value>Aeron Damphair</value>
+  </data>
+  <data name="hero_dragon_Asha_Greyjoy" xml:space="preserve">
+    <value>Asha Greyjoy</value>
+  </data>
+  <data name="hero_dragon_Euron_Crows_Eye" xml:space="preserve">
+    <value>Euron Crow's Eye</value>
+  </data>
+  <data name="hero_dragon_Qarl_the_Maid" xml:space="preserve">
+    <value>Qarl the Maid</value>
+  </data>
+  <data name="hero_dragon_Rodrik_the_Reader" xml:space="preserve">
+    <value>Rodrik the Reader</value>
+  </data>
+  <data name="hero_dragon_Ser_Harras_Harlaw" xml:space="preserve">
+    <value>Ser Harras Harlaw</value>
+  </data>
+  <data name="hero_dragon_Victarion_Greyjoy" xml:space="preserve">
+    <value>Victarion Greyjoy</value>
+  </data>
+  <data name="homeType_dragon_Грейджой" xml:space="preserve">
+    <value>Greyjoy</value>
+  </data>
+  <data name="image_dragon_Aeron_Damphair" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Aeron_Damphair.png</value>
+  </data>
+  <data name="image_dragon_Asha_Greyjoy" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Asha_Greyjoy.png</value>
+  </data>
+  <data name="image_dragon_Euron_Crows_Eye" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Euron_Crow's_Eye.png</value>
+  </data>
+  <data name="image_dragon_Qarl_the_Maid" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Qarl_the_Maid.png</value>
+  </data>
+  <data name="image_dragon_Rodrik_the_Reader" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Rodrik_the_Reader.png</value>
+  </data>
+  <data name="image_dragon_Ser_Harras_Harlaw" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Ser_Harras_Harlaw.png</value>
+  </data>
+  <data name="image_dragon_Victarion_Greyjoy" xml:space="preserve">
+    <value>/Image/HomeCard/daragon/en/Victarion_Greyjoy.png</value>
+  </data>
+  <data name="stepType_dragon_Aeron_Damphair" xml:space="preserve">
+    <value>Aeron Damphair</value>
+  </data>
+  <data name="stepType_dragon_Rodrik_the_Reader" xml:space="preserve">
+    <value>Rodrik the Reader</value>
+  </data>
+  <data name="settings_Главная_тема" xml:space="preserve">
+    <value>Main title</value>
+  </data>
+  <data name="text_screenPost" xml:space="preserve">
+    <value>Post an entry?</value>
+  </data>
+  <data name="titleType_Ghost" xml:space="preserve">
+    <value>Wild</value>
+  </data>
+  <data name="text_browserCache" xml:space="preserve">
+    <value>If you encounter errors during authorization, verify that you have installed the version iexplorer 7, 9, 10 or 11. Also need to clean the cache of the browser. Clear the cache?</value>
+  </data>
+  <data name="text_addTime" xml:space="preserve">
+    <value>Added time per step (sec)</value>
+  </data>
+  <data name="text_maxTime" xml:space="preserve">
+    <value>Max step time (sec)</value>
+  </data>
+  <data name="text_textPost" xml:space="preserve">
+    <value>Add a description?</value>
+  </data>
+  <data name="text_postCanceled" xml:space="preserve">
+    <value>You have not given permission for publication on your wall!</value>
+  </data>
+  <data name="text_postComplete" xml:space="preserve">
+    <value>The post published!</value>
+  </data>
+  <data name="dynamic_leftGame" xml:space="preserve">
+    <value>{1} ({0}) left the game! Remained {2} attempts to return.</value>
+  </data>
+  <data name="text_MyLangOnly" xml:space="preserve">
+    <value>Include the language barrier</value>
+  </data>
+  <data name="text_withoutChange" xml:space="preserve">
+    <value>The mode of death</value>
+  </data>
+  <data name="text_withoutChangeDesc" xml:space="preserve">
+    <value>After home is capitulated and not change player, his forces are replaced by garrisons.</value>
+  </data>
+  <data name="text_IsGarrisonUp" xml:space="preserve">
+    <value>With the strengthening of garrisons</value>
+  </data>
+  <data name="text_IsGarrisonUpDesc" xml:space="preserve">
+    <value>Each round the strength of the garrison is increased by +1</value>
+  </data>
+  <data name="gameType_homerules_classic_1" xml:space="preserve">
+    <value>Homerules for Classic (5 players with Martell)</value>
+  </data>
+  <data name="text_email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="text_registration_info" xml:space="preserve">
+    <value>Enter your email and password. This information will be used for the internal authorization in case of refusal of authorization through social networks. Email is also required to recover your password.</value>
+  </data>
+  <data name="text_openFile" xml:space="preserve">
+    <value>Open file</value>
+  </data>
+  <data name="awardsType_SerLoras" xml:space="preserve">
+    <value>Anti-award "Mark of Ser Loras". Awarded for escaping from the game party.</value>
+  </data>
+  <data name="awardsType_SerLorasMax" xml:space="preserve">
+    <value>Anti-award "Close friend of Ser Loras". Awarded for the highest number escaping from the game party . </value>
+  </data>
+  <data name="text_returnToGame" xml:space="preserve">
+    <value>Return to the game</value>
+  </data>
+  <data name="text_NoTimer" xml:space="preserve">
+    <value>Long game. Available only for password-protected game. Leave from the game 2 days after the last entry into game. The closure of the game with no players in the remaining houses. Time spent in the game in the rating is not taken into account.</value>
+  </data>
+  <data name="text_RequestSupport" xml:space="preserve">
+    <value>Request support?</value>
+  </data>
+  <data name="dynamic_RequestSupport2" xml:space="preserve">
+    <value>Request for support...</value>
+  </data>
+  <data name="dynamic_RequestSupport3" xml:space="preserve">
+    <value>Refuses to support!</value>
+  </data>
+  <data name="dynamic_RequestSupport4" xml:space="preserve">
+    <value>Request for support!</value>
+  </data>
+  <data name="stepType_RequestSupport" xml:space="preserve">
+    <value>Support request</value>
+  </data>
+</root>

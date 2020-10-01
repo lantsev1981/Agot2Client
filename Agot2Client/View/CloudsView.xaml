@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="Agot2Client.CloudsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" SizeChanged="UserControl_SizeChanged"
+             x:Name="root">
+
+    <UserControl.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.SizeChanged">
+            <BeginStoryboard >
+                <Storyboard> <!--<Storyboard Storyboard.DesiredFrameRate="{Binding AppPreferences.FrameRate, ElementName=window}">-->
+                        <DoubleAnimation x:Name="cloudsAnimation" Storyboard.TargetName="cloud1XPos" Storyboard.TargetProperty="X" From="-1313"  To="{Binding ElementName=root,Path=ActualWidth}"  Duration="0:3:0" RepeatBehavior="Forever"/>
+                    <DoubleAnimation Storyboard.TargetName="cloud2XPos" Storyboard.TargetProperty="X" From="-1229"  To="{Binding ElementName=root,Path=ActualWidth}"  Duration="0:2:0" SpeedRatio="{Binding ElementName=cloudsAnimation,Path=SpeedRatio}" RepeatBehavior="Forever" />
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </UserControl.Triggers>
+
+    <Grid>
+        <Image Source="/Image/back.jpg" Stretch="UniformToFill"/>
+
+        <Canvas>
+            <Image x:Name="cloud1" Source="/Image/cload1.png" Canvas.Top="14" Height="678" Width="1313">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <TranslateTransform x:Name="cloud1XPos"/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="cloud2" Source="/Image/cload2.png" Canvas.Top="445" Height="924"  Width="1229">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <TranslateTransform x:Name="cloud2XPos"/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Canvas>
+    </Grid>
+
+</UserControl>

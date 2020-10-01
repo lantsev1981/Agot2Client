@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="Agot2Client.BarbarianView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:res="clr-namespace:Agot2Client.Properties"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <!--Разведка за стеной-->
+    <Grid>
+        <Grid.Style>
+            <Style>
+                <Setter Property="Grid.Visibility" Value="Collapsed"/>
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding ClientInfo.ClientGame.ClientStep.WCFStep.StepType}" Value="Разведка_за_стеной">
+                        <Setter Property="Grid.Visibility" Value="Visible"/>
+                    </DataTrigger>
+                </Style.Triggers>
+            </Style>
+        </Grid.Style>
+
+        <Grid Style="{StaticResource infoGrid}"/>
+        <StackPanel VerticalAlignment="Center" Grid.Row="1">
+            <TextBlock Style="{StaticResource textStyle}"
+                       Text="{x:Static res:Resources.stepType_Разведка_за_стеной}" 
+                       TextAlignment="Center" TextWrapping="Wrap" FontSize="36" 
+                       HorizontalAlignment="Center" Margin="2.5"/>            
+            <Image Source="{Binding ClientInfo.ClientGame.NextBarbarian}" Stretch="Uniform" Margin="2.5" MaxHeight="450"/>            
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="{x:Static res:Resources.text_barbarianBury}" Margin="2.5" FontSize="24" Click="YesButton_Click"/>
+                <Button Content="{x:Static res:Resources.text_barbarianLeave}" Margin="2.5" FontSize="24" Click="NoButton_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>

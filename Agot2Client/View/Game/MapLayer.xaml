@@ -1,0 +1,223 @@
+﻿<UserControl x:Class="Agot2Client.MapLayer"
+             xmlns:local="clr-namespace:Agot2Client"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:res="clr-namespace:Agot2Client.Properties"
+             mc:Ignorable="d"              
+             d:DesignWidth="300">
+    <Grid>
+        <Image x:Name="MapLayerImage" Source="{Binding MapImgPath}" HorizontalAlignment="Left" VerticalAlignment="Top" Tag="{Binding WorldAngle}"/>
+        
+        <Image Source="/Image/turn-marker.png" Height="75" Width="75" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="{Binding ElementName=MapLayerImage, Path=Tag}"/>
+                    <TranslateTransform X="{Binding ClientGame.ViewGameInfo.TurnPosition.X}" Y="{Binding ClientGame.ViewGameInfo.TurnPosition.Y}"/>
+                    <TranslateTransform X="-37.5" Y="-37.5"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+
+        <Image Source="/Image/barbarian.png" Height="128" Width="128" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="{Binding ElementName=MapLayerImage, Path= Tag}"/>
+                    <TranslateTransform X="{Binding ClientGame.ViewGameInfo.BarbarianPosition.X}" Y="{Binding ClientGame.ViewGameInfo.BarbarianPosition.Y}"/>
+                    <TranslateTransform X="-64" Y="-64"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+
+        <Image Source="/Image/3-4_player.jpg" Height="120" HorizontalAlignment="Left" VerticalAlignment="Top"
+               Visibility="{Binding ClientGame.RavenOverlayVisability }">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform X="{Binding ClientGame.ViewGameInfo.RavenOverlayPosition.X}" Y="{Binding ClientGame.ViewGameInfo.RavenOverlayPosition.Y}"/>
+                    <TranslateTransform X="-86" Y="-60"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+
+        <!--Положения игроков на треках-->
+        <ItemsControl ItemsSource="{Binding ClientGame.ViewGameUserInfo}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Image Source="{Binding Step.ExtGameUser.ExtHomeType.VictoryImageName}" Height="75" Width="75" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <TransformGroup>
+                                <RotateTransform Angle="{Binding ElementName=MapLayerImage, Path= Tag}"/>
+                                <TranslateTransform X="{Binding VictoryPosition.X}" Y="{Binding VictoryPosition.Y}"/>
+                                <TranslateTransform X="-37.5" Y="-37.5"/>
+                            </TransformGroup>
+                        </Image.RenderTransform>
+                    </Image>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <ItemsControl ItemsSource="{Binding ClientGame.ViewGameUserInfo}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Image Source="{Binding Step.ExtGameUser.ExtHomeType.SupplyImageName}"
+                           Height="50" Width="50" 
+                           HorizontalAlignment="Left" VerticalAlignment="Top"
+                           RenderTransformOrigin="0.5,0.5"
+                           Stretch="Uniform">
+                        <Image.RenderTransform>
+                            <TransformGroup>
+                                <RotateTransform Angle="{Binding ElementName=MapLayerImage, Path= Tag}"/>
+                                <TranslateTransform X="{Binding SupplyPosition.X}" Y="{Binding SupplyPosition.Y}"/>
+                                <TranslateTransform X="-25" Y="-25"/>
+                            </TransformGroup>
+                        </Image.RenderTransform>
+                    </Image>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <ItemsControl ItemsSource="{Binding ClientGame.ViewGameUserInfo}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <local:ThroneTrackViewItem/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <ItemsControl ItemsSource="{Binding ClientGame.ViewGameUserInfo}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <local:BladeTrackViewItem/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <ItemsControl ItemsSource="{Binding ClientGame.ViewGameUserInfo}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <local:RavenTrackViewItem/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <ItemsControl ItemsSource="{Binding WorldData.Terrain}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <local:TerrainView />
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <!--Стрелки-->
+        <ItemsControl ItemsSource="{Binding ClientGame.CurrentArrows}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Canvas/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <local:ArrowView />
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+        <!--+++++-->
+
+        <ItemsControl ItemsSource="{Binding ClientGame.ViewPowerCounter}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <local:PowerCounterView/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <ItemsControl ItemsSource="{Binding ClientGame.ViewGameInfo.ExtGarrison}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <local:GarrisonView/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <ItemsControl ItemsSource="{Binding ClientGame.ViewOrder}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <local:OrderView/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <ItemsControl ItemsSource="{Binding WorldData.Symbolic}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <local:SymbolicView/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <ItemsControl ItemsSource="{Binding ClientGame.ViewUnit}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <local:UnitView/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+    </Grid>
+</UserControl>

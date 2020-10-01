@@ -1,0 +1,151 @@
+﻿<UserControl x:Class="Agot2Client.VotingView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:res="clr-namespace:Agot2Client.Properties"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Style>
+        <Style>
+            <Setter Property="Grid.Visibility" Value="Collapsed"/>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding ClientInfo.ClientGame.ClientStep.WCFStep.StepType}" Value="Борьба_за_влияние">
+                    <Setter Property="Grid.Visibility" Value="Visible"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding ClientInfo.ClientGame.ClientStep.WCFStep.StepType}" Value="dragon_Aeron_Damphair">
+                    <Setter Property="Grid.Visibility" Value="Visible"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Style>
+
+    <Grid Style="{StaticResource infoGrid}">
+        <Grid Background="#1B1C24" HorizontalAlignment="Center" VerticalAlignment="Center" MinWidth="400">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <StackPanel>
+                <!--<StackPanel>
+                    <StackPanel.Style>
+                        <Style>
+                            <Setter Property="Grid.Visibility" Value="Collapsed"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding ClientInfo.ClientGame.ClientStep.WCFStep.Voting.Target}" Value="Вотчины">
+                                    <Setter Property="Grid.Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </StackPanel.Style>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Style="{StaticResource textStyle}"
+                           FontSize="32" TextWrapping="Wrap"
+                           Margin="5" TextAlignment="Center"
+                           Text="{x:Static res:Resources.text_voting}" />
+                        <TextBlock Style="{StaticResource textStyle}"
+                           FontSize="32" TextWrapping="Wrap"
+                           Margin="5" TextAlignment="Center"
+                           Text="{x:Static res:Resources.voting_Железный_трон}" />
+                    </StackPanel>
+                    <ItemsControl ItemsSource="{Binding ClientInfo.ClientGame.ViewGameUserInfo}" HorizontalAlignment="Center">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <StackPanel Orientation="Horizontal"/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="2">
+                                    <Image Source="{Binding Step.ExtGameUser.ExtHomeType.ImageName}" Height="60" MinWidth="60"/>
+                                    <TextBlock  Style="{StaticResource textStyle}"
+                                            FontWeight="Bold" FontSize="36"
+                                            HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center"
+                                            Margin="2">
+                                        <TextBlock.Text>
+                                            <MultiBinding  StringFormat="{}{0}|{1}">
+                                                <Binding Path="ThroneVoting"/>
+                                                <Binding Path="Step.ExtGameUserInfo.WCFGameUserInfo.Power"/>
+                                            </MultiBinding>
+                                        </TextBlock.Text>
+                                    </TextBlock>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
+
+                <StackPanel>
+                    <StackPanel.Style>
+                        <Style>
+                            <Setter Property="Grid.Visibility" Value="Collapsed"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding ClientInfo.ClientGame.ClientStep.WCFStep.Voting.Target}" Value="Королевский_двор">
+                                    <Setter Property="Grid.Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </StackPanel.Style>
+                    <TextBlock Style="{StaticResource textStyle}"
+                           FontSize="32" TextWrapping="Wrap"
+                           Margin="5" TextAlignment="Center"
+                           Text="{x:Static res:Resources.voting_Вотчины}" />
+                    <ItemsControl ItemsSource="{Binding ClientInfo.ClientGame.ViewGameUserInfo}" HorizontalAlignment="Center">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <StackPanel Orientation="Horizontal"/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="2">
+                                    <Image Source="{Binding Step.ExtGameUser.ExtHomeType.ImageName}" Height="60" MinWidth="60"/>
+                                    <TextBlock  Style="{StaticResource textStyle}"
+                                            FontWeight="Bold" FontSize="36"
+                                            HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center"
+                                            Margin="2">
+                                        <TextBlock.Text>
+                                            <MultiBinding  StringFormat="{}{0}|{1}">
+                                                <Binding Path="BladeVoting"/>
+                                                <Binding Path="Step.ExtGameUserInfo.WCFGameUserInfo.Power"/>
+                                            </MultiBinding>
+                                        </TextBlock.Text>
+                                    </TextBlock>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>-->
+
+                <StackPanel Margin="0,25,0,0">
+                    <TextBlock Style="{StaticResource textStyle}" FontSize="32" Margin="5" TextWrapping="Wrap" Text="{Binding ClientInfo.ClientGame.ClientStep.VotingName}" TextAlignment="Center"/>
+                    <Grid>
+                        <Grid.Style>
+                            <Style>
+                                <Setter Property="Grid.Visibility" Value="Collapsed"/>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding ClientInfo.ClientGame.ClientStep.WCFStep.Voting.Target}" Value="Одичалые">
+                                        <Setter Property="Grid.Visibility" Value="Visible"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Grid.Style>
+                        <TextBlock FontSize="32" Margin="5" TextWrapping="Wrap" Text="{Binding ClientInfo.ClientGame.BarbarianStrength}" TextAlignment="Center"/>
+                    </Grid>
+                    <Slider Margin="5" Value="{Binding ClientInfo.ClientGame.ClientStep.WCFStep.Voting.PowerCount, UpdateSourceTrigger=PropertyChanged}" Minimum="0" Maximum="{Binding ClientInfo.ClientGame.ClientStep.ExtGameUserInfo.WCFGameUserInfo.Power}"/>
+                </StackPanel>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Grid.Row="1" Margin="5">
+                <TextBlock Text="{x:Static res:Resources.text_userBet}"/>
+                <TextBlock Text="{Binding ClientInfo.ClientGame.ClientStep.WCFStep.Voting.PowerCount}" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right"  Grid.Row="1" Margin="5">
+                <TextBlock Text="{x:Static res:Resources.text_userPower}"/>
+                <TextBlock Text="{Binding ClientInfo.ClientGame.ClientStep.ExtGameUserInfo.WCFGameUserInfo.Power}" />
+            </StackPanel>
+            <Button Content="OK" Margin="5" Width="75" Click="OKButton_Click"  HorizontalAlignment="Right" Grid.Row="2"/>
+        </Grid>
+    </Grid>
+</UserControl>

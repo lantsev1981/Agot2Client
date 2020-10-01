@@ -1,0 +1,1538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="actionType_Борьба_за_влияние" xml:space="preserve">
+    <value>Affrontement de rois</value>
+  </data>
+  <data name="actionType_Набег" xml:space="preserve">
+    <value>Les Ordres des Raids sont interdites.</value>
+  </data>
+  <data name="actionType_Нашествие_одичалых" xml:space="preserve">
+    <value>L'invasion des ensauvagés</value>
+  </data>
+  <data name="actionType_Ничего_не_происходит" xml:space="preserve">
+    <value>Rien ne se passe</value>
+  </data>
+  <data name="actionType_Оборона" xml:space="preserve">
+    <value>Les ordres de la défense sont interdits</value>
+  </data>
+  <data name="actionType_Подмога" xml:space="preserve">
+    <value>Les ordres de l'aide sont interdits</value>
+  </data>
+  <data name="actionType_Поход_1_специальный" xml:space="preserve">
+    <value>Les ordres spéciaux des campagnes sont interdits</value>
+  </data>
+  <data name="actionType_Сбор_власти" xml:space="preserve">
+    <value>Jeu de Trônes</value>
+  </data>
+  <data name="actionType_Сбор_войск" xml:space="preserve">
+    <value>Le Regroupement</value>
+  </data>
+  <data name="actionType_Снабжение_войск" xml:space="preserve">
+    <value>L'approvisionnemen</value>
+  </data>
+  <data name="actionType_Усиление_власти" xml:space="preserve">
+    <value>Les ordres de renforcer le pouvoir sont interdits</value>
+  </data>
+  <data name="awardsType_AllHouseVictory" xml:space="preserve">
+    <value>La victoire pour toutes les Maisons</value>
+  </data>
+  <data name="awardsType_MaxDurationHours" xml:space="preserve">
+    <value>Maximum du temps passé dans le jeu</value>
+  </data>
+  <data name="dictionary_empty" xml:space="preserve">
+    <value>L'observateur</value>
+  </data>
+  <data name="dictionary_game" xml:space="preserve">
+    <value>Le jeu</value>
+  </data>
+  <data name="dictionary_home" xml:space="preserve">
+    <value>La Maison</value>
+  </data>
+  <data name="dynamic_barbarianThreat" xml:space="preserve">
+    <value>L'augmentation de la menace ensauvagé jusqu'à {0}</value>
+  </data>
+  <data name="dynamic_batsCount" xml:space="preserve">
+    <value>Il mise  {0} le pouvoir accessible)</value>
+  </data>
+  <data name="dynamic_bladePower" xml:space="preserve">
+    <value>L'épée Valirijsky ({0})</value>
+  </data>
+  <data name="dynamic_clashOfKings" xml:space="preserve">
+    <value>Il rejoint la lutte pour "{0}"</value>
+  </data>
+  <data name="dynamic_consolidatePower" xml:space="preserve">
+    <value>Renforce le pouvoir à "{0}" (le pouvoir accessible {1})</value>
+  </data>
+  <data name="dynamic_consolidatePowerLoses" xml:space="preserve">
+    <value>Perdre le pouvoir à "{0}" (le pouvoir accessible {1})</value>
+  </data>
+  <data name="dynamic_errorStep" xml:space="preserve">
+    <value>L'erreur du traitement de la marche de la Maison {0} : {1}</value>
+  </data>
+  <data name="dynamic_Exile" xml:space="preserve">
+    <value>{1} ({0}) dans l'exil!</value>
+  </data>
+  <data name="dynamic_ExileEarlier" xml:space="preserve">
+    <value>{0}! Vous étiez expulsés auparavant.</value>
+  </data>
+  <data name="dynamic_gameOver" xml:space="preserve">
+    <value>Fin de partie!</value>
+  </data>
+  <data name="dynamic_garrisonRemove" xml:space="preserve">
+    <value>La garnison "{0}" détruit</value>
+  </data>
+  <data name="dynamic_heroRage" xml:space="preserve">
+    <value>la rage ({1})</value>
+  </data>
+  <data name="dynamic_hiLord" xml:space="preserve">
+    <value>{0}! Bienvenue, Lord! {1}.</value>
+  </data>
+  <data name="dynamic_homeCardDiscards" xml:space="preserve">
+    <value>Il rejette "{0}"</value>
+  </data>
+  <data name="dynamic_homeCardReturn" xml:space="preserve">
+    <value>Il rend la carte de la Maison "{0}"</value>
+  </data>
+  <data name="dynamic_homeCardSelect" xml:space="preserve">
+    <value>Il choisit la carte de la Maison...</value>
+  </data>
+  <data name="dynamic_homeSupport" xml:space="preserve">
+    <value> Il prête l'appui a la maison "{0}"</value>
+  </data>
+  <data name="dynamic_kingClaim" xml:space="preserve">
+    <value>Le Roi permet les prétentions</value>
+  </data>
+  <data name="dynamic_leftGame" xml:space="preserve">
+    <value>{1} ({0}) a quitté le jeu! Resté {2} tentatives de retour.</value>
+  </data>
+  <data name="dynamic_MaxEfficiency" xml:space="preserve">
+    <value>Taux de victoires le plus élevé: "{0}"</value>
+  </data>
+  <data name="dynamic_MaxTotalVictory1" xml:space="preserve">
+    <value>Le nombre maximum de victoires </value>
+  </data>
+  <data name="dynamic_MaxTotalVictory2" xml:space="preserve">
+    <value>Nombre de victoires le plus élevé: "{0}"</value>
+  </data>
+  <data name="dynamic_newGame" xml:space="preserve">
+    <value>{0} Il convoque les étendards</value>
+  </data>
+  <data name="dynamic_orderCancel" xml:space="preserve">
+    <value>Il annule l'ordre dans "{0}"</value>
+  </data>
+  <data name="dynamic_passwordDenied" xml:space="preserve">
+    <value>{0}! L'accès est limité par un mot de passe.</value>
+  </data>
+  <data name="dynamic_planning" xml:space="preserve">
+    <value>Il planifie "{0}"</value>
+  </data>
+  <data name="dynamic_powerEstablishes" xml:space="preserve">
+    <value>Établit le pouvoir sur "{0}"</value>
+  </data>
+  <data name="dynamic_powerLoses" xml:space="preserve">
+    <value>Il perd le pouvoir sur "{0}"</value>
+  </data>
+  <data name="dynamic_raided" xml:space="preserve">
+    <value>Il a fait l'incursion sur "{0}"</value>
+  </data>
+  <data name="dynamic_Renly_Baratheon" xml:space="preserve">
+    <value>Le détachement n'a pas participé à la bataille, ou n'a pas fourni d'aide, ou n'est pas piéton</value>
+  </data>
+  <data name="dynamic_resetDeck" xml:space="preserve">
+    <value>Battre les cartes "{0} №{1}"</value>
+  </data>
+  <data name="dynamic_resetWildlingsDeck" xml:space="preserve">
+    <value>Battre les cartes</value>
+  </data>
+  <data name="dynamic_retreatsCount" xml:space="preserve">
+    <value>Le nombre minimum de dérigeants = {0}</value>
+  </data>
+  <data name="dynamic_samePC" xml:space="preserve">
+    <value>ATTENTION! Ces utilisateurs jouent avec le même PC: {0}</value>
+  </data>
+  <data name="dynamic_shipCouldDestroy" xml:space="preserve">
+    <value>Il peut inonder la flotte prise à "{0}"</value>
+  </data>
+  <data name="dynamic_shipDestroy" xml:space="preserve">
+    <value>Le navire est inondé (la limite de la flotte)</value>
+  </data>
+  <data name="dynamic_shipLost" xml:space="preserve">
+    <value>Le navire est perdu</value>
+  </data>
+  <data name="dynamic_shipTaken" xml:space="preserve">
+    <value>Le navire est capturé</value>
+  </data>
+  <data name="dynamic_supplyLimit" xml:space="preserve">
+    <value>Il doit dissoudre les troupes, qui ne peut pas nourrir</value>
+  </data>
+  <data name="dynamic_theEnd" xml:space="preserve">
+    <value>Occupe {0} la place</value>
+  </data>
+  <data name="dynamic_theEndWinner" xml:space="preserve">
+    <value>Il remporte une victoire</value>
+  </data>
+  <data name="dynamic_vesterosEvent" xml:space="preserve">
+    <value>L'événement de Vesteros : "{0}"</value>
+  </data>
+  <data name="dynamic_voting" xml:space="preserve">
+    <value>Prend la position #{1} sur la piste "{0}"</value>
+  </data>
+  <data name="dynamic_wildBuries" xml:space="preserve">
+    <value>Il enterre les sauvages</value>
+  </data>
+  <data name="dynamic_wildFail" xml:space="preserve">
+    <value>La victoire de la Ronde de Nuit!</value>
+  </data>
+  <data name="dynamic_wildlingsAttack" xml:space="preserve">
+    <value>L'invasion de ensauvagés avec la force {0}</value>
+  </data>
+  <data name="dynamic_wildlingsCategory0" xml:space="preserve">
+    <value>tous les autres</value>
+  </data>
+  <data name="dynamic_wildlingsCategory1" xml:space="preserve">
+    <value>la plus bas mise</value>
+  </data>
+  <data name="dynamic_wildlingsCategory2" xml:space="preserve">
+    <value>la plus grand mise</value>
+  </data>
+  <data name="dynamic_wildlingsResult" xml:space="preserve">
+    <value>{0}: votre catégorie "{1}"</value>
+  </data>
+  <data name="dynamic_wildVictory" xml:space="preserve">
+    <value>Victoire de sauvages!</value>
+  </data>
+  <data name="error_checkBlacklist" xml:space="preserve">
+    <value>Vérification de la liste noire</value>
+  </data>
+  <data name="error_checkHomeStatus" xml:space="preserve">
+    <value>Impossible de vérifier la disponibilité de la maison:</value>
+  </data>
+  <data name="error_clearProfile" xml:space="preserve">
+    <value>Impossible de réinitialiser votre rating.</value>
+  </data>
+  <data name="error_connection" xml:space="preserve">
+    <value>Impossible de se connecter au jeu (lien):</value>
+  </data>
+  <data name="error_createGame1" xml:space="preserve">
+    <value>Impossible de créer un nouveau jeu:</value>
+  </data>
+  <data name="error_createGame2" xml:space="preserve">
+    <value>c'est interdit pour vous de créer le jeu au moment donné, puisque vous êtes le créateur ou le participant du jeu qui est encore inachevé.</value>
+  </data>
+  <data name="error_criticalError" xml:space="preserve">
+    <value>Erreur critique</value>
+  </data>
+  <data name="error_decodeText" xml:space="preserve">
+    <value>L'erreur du décodage du texte!</value>
+  </data>
+  <data name="error_getLangs" xml:space="preserve">
+    <value>Impossible d'obtenir la liste des langues prises en charge par le système de traduction automatique. Langue de la traduction par défaut (en).</value>
+  </data>
+  <data name="error_getLinkAccount" xml:space="preserve">
+    <value>Impossible d'obtenir une liste de vos comptes.</value>
+  </data>
+  <data name="error_inviteUser" xml:space="preserve">
+    <value>Impossible d'envoyer une invitation:</value>
+  </data>
+  <data name="error_linkAccount" xml:space="preserve">
+    <value>Le serveur a interdit la fusion des comptes! Probablement vous avez mal indiqué un mot de passe supplémentaire ou le compte est utilisé maintenant (n'utilisez pas votre compte pendant 2 jours).</value>
+  </data>
+  <data name="error_logEvent" xml:space="preserve">
+    <value>Impossible de supprimer l'événement: indexOf =</value>
+  </data>
+  <data name="error_notifyLoad" xml:space="preserve">
+    <value>Impossible de mettre un lien ou de démarrer un système de notification</value>
+  </data>
+  <data name="error_password" xml:space="preserve">
+    <value>Mot de passe incorrect!</value>
+  </data>
+  <data name="error_profileLoad" xml:space="preserve">
+    <value>Impossible de mettre à jour le profil:</value>
+  </data>
+  <data name="error_profileSave" xml:space="preserve">
+    <value>Impossible d'enregistrer votre profil:</value>
+  </data>
+  <data name="error_profilesLoad" xml:space="preserve">
+    <value>Impossible de télécharger ou de mettre à jour tous les profils</value>
+  </data>
+  <data name="error_profileUpdate1" xml:space="preserve">
+    <value>Impossible de télécharger ou de mettre à jour tous les profils: contactez le développeur!</value>
+  </data>
+  <data name="error_profileUpdate2" xml:space="preserve">
+    <value>Impossible de mettre à jour votre profil: service n'est pas disponible, vérifiez les autorisations de l'application pour accéder à internet, ou essayez encore plus tard.</value>
+  </data>
+  <data name="error_propertyChanged" xml:space="preserve">
+    <value>Impossible d'afficher les éléments:</value>
+  </data>
+  <data name="error_rateChange" xml:space="preserve">
+    <value>Impossible de changer le rating:</value>
+  </data>
+  <data name="error_sendMessage" xml:space="preserve">
+    <value>Impossible d'envoyer le message car le propriétaire de la "maison" est inconnu.</value>
+  </data>
+  <data name="error_sendStep" xml:space="preserve">
+    <value>Impossible de terminer la marche:</value>
+  </data>
+  <data name="error_specialUsers" xml:space="preserve">
+    <value>Impossible de modifier une liste de joueurs</value>
+  </data>
+  <data name="error_syncSteps1" xml:space="preserve">
+    <value>Impossible de synchroniser les marches (lien):</value>
+  </data>
+  <data name="error_syncSteps2" xml:space="preserve">
+    <value>Impossible de synchroniser les marches (server):</value>
+  </data>
+  <data name="error_syncSteps3" xml:space="preserve">
+    <value>Impossible de synchroniser les marches (Les données ont vieillis) :</value>
+  </data>
+  <data name="error_syncUsers1" xml:space="preserve">
+    <value>Impossible de synchroniser les joueurs (lien):</value>
+  </data>
+  <data name="error_syncUsers2" xml:space="preserve">
+    <value>Impossible de synchroniser les joueurs (server):</value>
+  </data>
+  <data name="error_translateLng" xml:space="preserve">
+    <value> Votre langue ({0}) n'est pas pris en charge par le système de traduction automatique. Langue de la traduction par défaut (en).</value>
+  </data>
+  <data name="error_undetectedLang" xml:space="preserve">
+    <value>Impossible de reconnaître votre langue ({0}). Langue de la traduction par défaut (en).</value>
+  </data>
+  <data name="error_unknownError" xml:space="preserve">
+    <value>Erreur inconnue</value>
+  </data>
+  <data name="error_vkAuth" xml:space="preserve">
+    <value>L'utilisateur n'est pas identifié. Recommencez l'opération.</value>
+  </data>
+  <data name="event_a_king_beyond_the_wall" xml:space="preserve">
+    <value>Le Roi par delà Mur</value>
+  </data>
+  <data name="event_a_throne_of_blades" xml:space="preserve">
+    <value>Le Trône de Lames</value>
+  </data>
+  <data name="event_clash_of_kings" xml:space="preserve">
+    <value>La Bataille des Rois</value>
+  </data>
+  <data name="event_crow_killers" xml:space="preserve">
+    <value>Tueur de corbeau</value>
+  </data>
+  <data name="event_dark_wings_dark_words" xml:space="preserve">
+    <value>Les Ailes noires, les Nouvelles Noires</value>
+  </data>
+  <data name="event_feast_for_crows" xml:space="preserve">
+    <value>Le Festin pour les Corbeaux</value>
+  </data>
+  <data name="event_game_of_thrones" xml:space="preserve">
+    <value>Le Jeu des Trônes</value>
+  </data>
+  <data name="event_last_days_of_summer_1" xml:space="preserve">
+    <value>Derniers jours de l'été</value>
+  </data>
+  <data name="event_last_days_of_summer_2" xml:space="preserve">
+    <value>Derniers jours de l'été</value>
+  </data>
+  <data name="event_mammoth_riders" xml:space="preserve">
+    <value>Les cavaliers sur les mammouths</value>
+  </data>
+  <data name="event_massing_on_the_milkwater" xml:space="preserve">
+    <value>La collecte sur Laiteau</value>
+  </data>
+  <data name="event_mustering" xml:space="preserve">
+    <value>Regroupement des troupes</value>
+  </data>
+  <data name="event_preemptive_raid" xml:space="preserve">
+    <value>Le détachement avancé</value>
+  </data>
+  <data name="event_put_to_the_sword" xml:space="preserve">
+    <value>Dévoués à l'épée</value>
+  </data>
+  <data name="event_rains_of_autumn" xml:space="preserve">
+    <value>Les pluies de l'automne</value>
+  </data>
+  <data name="event_rattleshirts_raiders" xml:space="preserve">
+    <value>Les Brigands Rattle Chemises</value>
+  </data>
+  <data name="event_sea_of_storms" xml:space="preserve">
+    <value>La mer des tempêtes</value>
+  </data>
+  <data name="event_silence_at_the_wall" xml:space="preserve">
+    <value>Le silence près du Mur</value>
+  </data>
+  <data name="event_skinchanger_scout" xml:space="preserve">
+    <value>L'éclaireur-loup-garou</value>
+  </data>
+  <data name="event_storm_of_swords" xml:space="preserve">
+    <value>Tempête d'épées</value>
+  </data>
+  <data name="event_supply" xml:space="preserve">
+    <value>L'approvisionnement</value>
+  </data>
+  <data name="event_the_horde_descends" xml:space="preserve">
+    <value>L'offensive de la horde</value>
+  </data>
+  <data name="event_web_of_lies" xml:space="preserve">
+    <value>Le tissu de mensonges</value>
+  </data>
+  <data name="event_wildlings_attack" xml:space="preserve">
+    <value>L'invasion des ensauvagés</value>
+  </data>
+  <data name="event_winter_is_coming_1" xml:space="preserve">
+    <value>L'hiver arrive</value>
+  </data>
+  <data name="event_winter_is_coming_2" xml:space="preserve">
+    <value>L'hiver arrive</value>
+  </data>
+  <data name="gameType_classic" xml:space="preserve">
+    <value>Classique ({0} joueurs)</value>
+  </data>
+  <data name="gameType_continues" xml:space="preserve">
+    <value>Le combat continue</value>
+  </data>
+  <data name="gameType_dragon" xml:space="preserve">
+    <value>La danse avec les dragons</value>
+  </data>
+  <data name="gameType_findUser" xml:space="preserve">
+    <value>Nous recherchons un nouveau héros</value>
+  </data>
+  <data name="gameType_new" xml:space="preserve">
+    <value>Nous convoquons les étendards</value>
+  </data>
+  <data name="gameType_over" xml:space="preserve">
+    <value>Le jeu est terminé</value>
+  </data>
+  <data name="hero_Большой_Джон_Амбер" xml:space="preserve">
+    <value>Grand Jon Umber</value>
+  </data>
+  <data name="hero_Бриенна_из_Тарта" xml:space="preserve">
+    <value>Brienne de Tarth</value>
+  </data>
+  <data name="hero_Бринден_Чёрная_Рыба" xml:space="preserve">
+    <value>Poisson noir</value>
+  </data>
+  <data name="hero_Герольд_Тёмная_Звезда" xml:space="preserve">
+    <value>Étoile Noire</value>
+  </data>
+  <data name="hero_Дагмер_Битый_Рот" xml:space="preserve">
+    <value>Dagmer Bouche brisé</value>
+  </data>
+  <data name="hero_Королева_Шипов" xml:space="preserve">
+    <value>La Reine Des Épines</value>
+  </data>
+  <data name="hero_Оберин_Красная_Гадюка" xml:space="preserve">
+    <value>La Vipère rouge</value>
+  </data>
+  <data name="hero_Пёс" xml:space="preserve">
+    <value>Le Chien</value>
+  </data>
+  <data name="hero_Пестряк" xml:space="preserve">
+    <value>Tache</value>
+  </data>
+  <data name="hero_Эйерон_Сыровласый" xml:space="preserve">
+    <value>Aeron Les Cheveux Mouillés</value>
+  </data>
+  <data name="hero_Эурон_Вороний_Глаз" xml:space="preserve">
+    <value>Euron  Oeil de corbeau</value>
+  </data>
+  <data name="hint_absoluteSortUsers" xml:space="preserve">
+    <value>Il trie les joueurs de "l'Absolu" (par défaut). L'absolu est la valeur moyenne de toutes les ratings.</value>
+  </data>
+  <data name="hint_addBlackList" xml:space="preserve">
+    <value>Ajouter aux "Listes noires". Bloque au joueur l'accès aux partis avec vous, il prévient à l'entrée au parti avec un tel joueur. Accessiblement aux joueurs par le titre "le Chevalier" et est plus haut.</value>
+  </data>
+  <data name="hint_addFavoriteList" xml:space="preserve">
+    <value>Ajouter à la liste des "Favoris". Vous permet de recevoir des messages via le système de notification, de ses actions (online, offline, il joue,il quitte le jeu, il prend de la place). Disponible aux joueurs avec le titre de "Marchand" et au-dessus.
+</value>
+  </data>
+  <data name="hint_battleCard" xml:space="preserve">
+    <value>Cliquez pour naviguer dans le menu "Cartes"</value>
+  </data>
+  <data name="hint_battleTab" xml:space="preserve">
+    <value>L'actuel ou le dernier combat</value>
+  </data>
+  <data name="hint_blade" xml:space="preserve">
+    <value>L'épée dans cette tournée n'a pas été utilisé
+</value>
+  </data>
+  <data name="hint_brainSortUsers" xml:space="preserve">
+    <value>Trier les joueurs par "Stratège" (Taux de victoires sur le nombre de parties complétées)</value>
+  </data>
+  <data name="hint_chatTab" xml:space="preserve">
+    <value>Chat général</value>
+  </data>
+  <data name="hint_clearLike" xml:space="preserve">
+    <value>Annulation de la décision</value>
+  </data>
+  <data name="hint_closeTab" xml:space="preserve">
+    <value>Minimiser le menu</value>
+  </data>
+  <data name="hint_defence" xml:space="preserve">
+    <value>L'ordre de la défense</value>
+  </data>
+  <data name="hint_donate" xml:space="preserve">
+    <value>Soutenir le développeur, obtenir le "Titre" et les possibilités spéciales!</value>
+  </data>
+  <data name="hint_findUsers" xml:space="preserve">
+    <value>Utilisez ce champ pour la recherche de joueurs qui ne figurent pas dans le tableau des leaders. Pour lancer une recherche, tapez le texte à rechercher et appuyez "Enter".</value>
+  </data>
+  <data name="hint_game" xml:space="preserve">
+    <value>Jouer. Le jeu peut durer jusqu'à 6 heures! Vous paierez la sortie du jeu "le prix De fer"!</value>
+  </data>
+  <data name="hint_gameChatTab" xml:space="preserve">
+    <value>Le chat de partie</value>
+  </data>
+  <data name="hint_gameUsersTab" xml:space="preserve">
+    <value>La liste des joueurs et observateurs</value>
+  </data>
+  <data name="hint_garrison" xml:space="preserve">
+    <value>La forteresse est protégée par la garnison</value>
+  </data>
+  <data name="hint_goodGame" xml:space="preserve">
+    <value>Tout le rating est considéré.</value>
+  </data>
+  <data name="hint_homeCardTab" xml:space="preserve">
+    <value>Cartes De Maisons</value>
+  </data>
+  <data name="hint_honorSortUsers" xml:space="preserve">
+    <value>Trier les joueurs par "Honneur" (ratio entre le nombre de parties terminées et commencées)</value>
+  </data>
+  <data name="hint_horizontalMap" xml:space="preserve">
+    <value>Utilisez cette option pour centrer la carte et dispose de son horizontalement</value>
+  </data>
+  <data name="hint_ignoreHonor" xml:space="preserve">
+    <value>Le jeu est abandonné, mais Vesteros a annoncé une amnistie. Tout le rating est ignoré.</value>
+  </data>
+  <data name="hint_ignoreMind" xml:space="preserve">
+    <value>Le remplacement du joueur. La cote "l'Honneur" est prise en considération, "la Raison" sera comptée à votre désir.</value>
+  </data>
+  <data name="hint_like" xml:space="preserve">
+    <value>Louer le joueur</value>
+  </data>
+  <data name="hint_likeSortUsers" xml:space="preserve">
+    <value>Trier les joueurs par "Charme" (différence entre le nombre de "J'aime" et "Je n'aime pas")</value>
+  </data>
+  <data name="hint_linkAccounts" xml:space="preserve">
+    <value>Cliquez pour la fusion du compte avec «{0}»</value>
+  </data>
+  <data name="hint_linkPassword" xml:space="preserve">
+    <value>Tapez un mot de passe supplémentaire de ce compte</value>
+  </data>
+  <data name="hint_log" xml:space="preserve">
+    <value>Voir les détails dans le journal des événements</value>
+  </data>
+  <data name="hint_marchOrder" xml:space="preserve">
+    <value>L'ordre de la campagne</value>
+  </data>
+  <data name="hint_meetUsers" xml:space="preserve">
+    <value>Liste des Seigneurs avec lesquels vous avez joué dans le jeu choisi. N'oubliez pas de faire "j'aime" ou 'j n'aime pas' a joueurs qui ont reussi dans qch. Votre décision influera sur le classement 'Charme'. Le vote est anonyme!</value>
+  </data>
+  <data name="hint_mindZero" xml:space="preserve">
+    <value>Le jeu est abandonnée. Le classement de "l'Honneur" et "Esprit" est considérée.</value>
+  </data>
+  <data name="hint_mute" xml:space="preserve">
+    <value>Étouffer les gémissements. Supprime les messages d'un joueur dans le jeu du chat avant de redémarrer le client. Disponible aux joueurs pour le titre de "Chevalier" et au-dessus!</value>
+  </data>
+  <data name="hint_newGame" xml:space="preserve">
+    <value>Établissez les réglages du nouveau jeu. Inventez des noms intéressants, on peut plus vite trouver ainsi votre jeu de la liste! Établissez les ratings de passage au jeu si voulez faire le jeu plus complexe et intéressant</value>
+  </data>
+  <data name="hint_onlineUsers" xml:space="preserve">
+    <value>Montrer en ligne les joueurs. Disponible aux joueurs par le titre "le Paysan" et est plus haut!</value>
+  </data>
+  <data name="hint_passRate" xml:space="preserve">
+    <value>Appelez pour prendre en considération le rating ' la Raison ' (au retour n'est pas passible).</value>
+  </data>
+  <data name="hint_password" xml:space="preserve">
+    <value>Entrez le mot de passe avant de pouvoir se connecter ou créer le jeu fermé</value>
+  </data>
+  <data name="hint_privateGame" xml:space="preserve">
+    <value>La patrie privée</value>
+  </data>
+  <data name="hint_randomCard" xml:space="preserve">
+    <value>
+Courant de bataille
+</value>
+  </data>
+  <data name="hint_reconectGame" xml:space="preserve">
+    <value>Rechargez la partie. Dans des circonstances normales, cette fonctionnalité n'est pas nécessaire. Utilisez cette fonction uniquement dans des cas extrêmes. Par exemple, si vous êtes sûr que c'est votre tour de jouer, mais le bouton de "faire la course" ne s'affiche pas.</value>
+  </data>
+  <data name="hint_screenShot" xml:space="preserve">
+    <value>Crée une capture d'écran du terrain de jeu, et le place dans le dossier ..\Screenshot. Lors de la victoire de la capture d'écran est générée automatiquement</value>
+  </data>
+  <data name="hint_sendInvite" xml:space="preserve">
+    <value>Envoyer une invitation (notification). Disponible aux joueurs avecle titre de "Marchand" et au-dessus.</value>
+  </data>
+  <data name="hint_settings" xml:space="preserve">
+    <value>Paramètres. Ils incluent: niveau du son, choix de la langue, fusion de comptes, réinitialisation des statistiques.
+Accessible aux joueurs portant le titre "Paysan" et supérieur.</value>
+  </data>
+  <data name="hint_skullGame" xml:space="preserve">
+    <value>Jeu avec des "crânes" sur de cartes Courant de Bataille.</value>
+  </data>
+  <data name="hint_sms" xml:space="preserve">
+    <value>Envoyer un message</value>
+  </data>
+  <data name="hint_smsCreator" xml:space="preserve">
+    <value>Envoyer un message a "Créateur" sur VKontakte</value>
+  </data>
+  <data name="hint_smsVK" xml:space="preserve">
+    <value>Envoyer un message sur VKontakte</value>
+  </data>
+  <data name="hint_status" xml:space="preserve">
+    <value>Le statut de votre profil (online|offline). Disponible aux joueurs pour le titre de "Paysan" et au-dessus!</value>
+  </data>
+  <data name="hint_stopGame" xml:space="preserve">
+    <value>Quitter le parti. L'ATTENTION! La sortie du parti commencé et ne pas encore terminé se fera sentir votre "Honneur". Si vous voulez regarder un autre parti ou jouer à 2 parallèlement, lancez le deuxième client.</value>
+  </data>
+  <data name="hint_supportAttak" xml:space="preserve">
+    <value>Ces maisons seront soutenir l'attaque</value>
+  </data>
+  <data name="hint_supportCancel" xml:space="preserve">
+    <value>Refuser le soutien a tout</value>
+  </data>
+  <data name="hint_supportDefence" xml:space="preserve">
+    <value>Ces maisons soutiendront le défendant</value>
+  </data>
+  <data name="hint_supportUnknow" xml:space="preserve">
+    <value>Ces maisons sont encore indécis avec renforts</value>
+  </data>
+  <data name="hint_timerTab" xml:space="preserve">
+    <value>À la fin du chronomètre, vous serez exclu de la fête!</value>
+  </data>
+  <data name="hint_translate" xml:space="preserve">
+    <value>Traduire dans votre langue locale</value>
+  </data>
+  <data name="hint_unLike" xml:space="preserve">
+    <value>J n'aime pas' a joueur</value>
+  </data>
+  <data name="hint_updateUsers" xml:space="preserve">
+    <value>Renouveler les profils. Par défaut dans la liste se trouvent les joueurs ayant l'expérience de 48 heures et 10 jeux terminés. Si le joueur ne manifestait pas l'activité plus de 7 jours, il est ignoré! Pour la recherche des autres joueurs se servez du champ ' la Recherche le joueur (filtre) '. La liste a la restriction à 100 inscriptions.</value>
+  </data>
+  <data name="hint_userGames" xml:space="preserve">
+    <value>Affiche la liste de vos jeux. Cliquez sur le jeu pour voir et d'évaluer les joueurs avec lesquels vous avez rencontré</value>
+  </data>
+  <data name="hint_userProfileTab" xml:space="preserve">
+    <value>Votre profil</value>
+  </data>
+  <data name="hint_usersTab" xml:space="preserve">
+    <value>Les accomplissements
+</value>
+  </data>
+  <data name="hint_userUpdate" xml:space="preserve">
+    <value>Il renouvelle à la main votre profil</value>
+  </data>
+  <data name="hint_verticalMap" xml:space="preserve">
+    <value>Utilisez cette option pour centrer la carte et dispose verticalement</value>
+  </data>
+  <data name="hint_vesteros" xml:space="preserve">
+    <value>Reflète la moyenne (général) indicateurs de rating et de statistiques de tous les joueurs. La section "à la maison" reflète les statistiques de victoires d'une des maisons de Vesteros</value>
+  </data>
+  <data name="hint_vesterosCardTab" xml:space="preserve">
+    <value>Les Événements De Vesteros</value>
+  </data>
+  <data name="hint_viewGame" xml:space="preserve">
+    <value>Regarder la partie</value>
+  </data>
+  <data name="notify_connectionGame" xml:space="preserve">
+    <value>Il vous est interdit de se connecter au jeu en ce moment, parce que vous êtes une partie de jeu inachevée et n'avez pas le titre de "Seigneur" ou l'expérience de plus de 48 heures</value>
+  </data>
+  <data name="notify_connectionGame2" xml:space="preserve">
+    <value>Il n'y a pas de "maisons" accessibles ou vous utilisiez déjà la tentative dans ce jeu.</value>
+  </data>
+  <data name="notify_inviteUser" xml:space="preserve">
+    <value>Le message n'est pas envoyé! Le système de notification de ce joueur est désactivée.</value>
+  </data>
+  <data name="notify_Loading" xml:space="preserve">
+    <value>Chargement...</value>
+  </data>
+  <data name="notify_mapRender" xml:space="preserve">
+    <value>Le dessin de la carte...</value>
+  </data>
+  <data name="notify_stepSyncProgress" xml:space="preserve">
+    <value>Synchronisation des marches...</value>
+  </data>
+  <data name="orderType_Набег_0" xml:space="preserve">
+    <value>Le raid</value>
+  </data>
+  <data name="orderType_Набег_0_специальный" xml:space="preserve">
+    <value>Le raid spécial</value>
+  </data>
+  <data name="orderType_Оборона_1" xml:space="preserve">
+    <value>Défense +1</value>
+  </data>
+  <data name="orderType_Оборона_2_специальный" xml:space="preserve">
+    <value>Défense +2</value>
+  </data>
+  <data name="orderType_Подмога_0" xml:space="preserve">
+    <value>L'aide</value>
+  </data>
+  <data name="orderType_Подмога_1_специальный" xml:space="preserve">
+    <value>L'aide +1</value>
+  </data>
+  <data name="orderType_Поход_0" xml:space="preserve">
+    <value>La marche</value>
+  </data>
+  <data name="orderType_Поход_1_специальный" xml:space="preserve">
+    <value>La marche +1</value>
+  </data>
+  <data name="orderType_Поход__1" xml:space="preserve">
+    <value>La marche -1</value>
+  </data>
+  <data name="orderType_Усиление_власти_0" xml:space="preserve">
+    <value>Le renforcement du pouvoir</value>
+  </data>
+  <data name="orderType_Усиление_власти_0_специальный" xml:space="preserve">
+    <value>Le renforcement du pouvoir spécial</value>
+  </data>
+  <data name="rageEffect_0" xml:space="preserve">
+    <value>Il embauche le soutien
+</value>
+  </data>
+  <data name="rageEffect_1" xml:space="preserve">
+    <value> = +{0} le signe de la forteresse</value>
+  </data>
+  <data name="rageEffect_10" xml:space="preserve">
+    <value>l'ordre de défense x2</value>
+  </data>
+  <data name="rageEffect_11" xml:space="preserve">
+    <value>La force du héros de l'adversaire = 0</value>
+  </data>
+  <data name="rageEffect_12" xml:space="preserve">
+    <value>La force des navires x2</value>
+  </data>
+  <data name="rageEffect_13" xml:space="preserve">
+    <value>La force de l'infanterie x2</value>
+  </data>
+  <data name="rageEffect_14" xml:space="preserve">
+    <value>La force des navires de l'adversaire = 0</value>
+  </data>
+  <data name="rageEffect_15" xml:space="preserve">
+    <value>Enlève la carte de l'adversaire</value>
+  </data>
+  <data name="rageEffect_16" xml:space="preserve">
+    <value>Supprime l'ordre de l'adversaire</value>
+  </data>
+  <data name="rageEffect_17" xml:space="preserve">
+    <value>Il arme chevalier</value>
+  </data>
+  <data name="rageEffect_18" xml:space="preserve">
+    <value>pas d'effet</value>
+  </data>
+  <data name="rageEffect_19" xml:space="preserve">
+    <value>change de la carte de Courant de Bataille.</value>
+  </data>
+  <data name="rageEffect_2" xml:space="preserve">
+    <value> = +{0} le signe de l'épée</value>
+  </data>
+  <data name="rageEffect_20" xml:space="preserve">
+    <value>l'adversaire sans héros</value>
+  </data>
+  <data name="rageEffect_21" xml:space="preserve">
+    <value>Change l'impact des Sauvageons</value>
+  </data>
+  <data name="rageEffect_22" xml:space="preserve">
+    <value>bloque le héros "{0}"</value>
+  </data>
+  <data name="rageEffect_23" xml:space="preserve">
+    <value>Supprime l'ordre de l'adversaire "{0}"</value>
+  </data>
+  <data name="rageEffect_24" xml:space="preserve">
+    <value>Enlève le héros de l'adversaire "{0}"</value>
+  </data>
+  <data name="rageEffect_25" xml:space="preserve">
+    <value>il s'échappe</value>
+  </data>
+  <data name="rageEffect_26" xml:space="preserve">
+    <value>Augmenter l'impact des Sauvageons</value>
+  </data>
+  <data name="rageEffect_27" xml:space="preserve">
+    <value>Réduire l'impact des Sauvageons</value>
+  </data>
+  <data name="rageEffect_28" xml:space="preserve">
+    <value>Force des chevaliers +1</value>
+  </data>
+  <data name="rageEffect_29" xml:space="preserve">
+    <value>La force de combat finale de votre adversaire = 2</value>
+  </data>
+  <data name="rageEffect_3" xml:space="preserve">
+    <value>il consolide le pouvoir</value>
+  </data>
+  <data name="rageEffect_30" xml:space="preserve">
+    <value>Il ignore ce qui a été dit</value>
+  </data>
+  <data name="rageEffect_31" xml:space="preserve">
+    <value>Force du héros = {0}</value>
+  </data>
+  <data name="rageEffect_4" xml:space="preserve">
+    <value>Sans pertes</value>
+  </data>
+  <data name="rageEffect_5" xml:space="preserve">
+    <value>Le regroupement des troupes</value>
+  </data>
+  <data name="rageEffect_6" xml:space="preserve">
+    <value>-1 le combattant à pied</value>
+  </data>
+  <data name="rageEffect_7" xml:space="preserve">
+    <value>il repousse l'adversaire</value>
+  </data>
+  <data name="rageEffect_8" xml:space="preserve">
+    <value>Il renouvelle le jeu</value>
+  </data>
+  <data name="rageEffect_9" xml:space="preserve">
+    <value> = +1 en force</value>
+  </data>
+  <data name="ratingType_honor" xml:space="preserve">
+    <value>L'honneur</value>
+  </data>
+  <data name="ratingType_like" xml:space="preserve">
+    <value>Le charme</value>
+  </data>
+  <data name="ratingType_mind" xml:space="preserve">
+    <value>L'esprit</value>
+  </data>
+  <data name="ratingType_total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="settings_Главная_тема" xml:space="preserve">
+    <value>Titre principal</value>
+  </data>
+  <data name="settings_Новое_сообщение" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="settings_Новый_ход" xml:space="preserve">
+    <value>Marche</value>
+  </data>
+  <data name="settings_Таймер" xml:space="preserve">
+    <value>La minuterie</value>
+  </data>
+  <data name="stepType_Борьба_за_влияние" xml:space="preserve">
+    <value>La lutte pour l'influence</value>
+  </data>
+  <data name="stepType_Валирийский_меч" xml:space="preserve">
+    <value>L'épée de Valyrie</value>
+  </data>
+  <data name="stepType_Железный_трон" xml:space="preserve">
+    <value>Le trône de Fer</value>
+  </data>
+  <data name="stepType_Замысел" xml:space="preserve">
+    <value>Phase de planification</value>
+  </data>
+  <data name="stepType_Королева_Шипов" xml:space="preserve">
+    <value>La Reine Des Épines</value>
+  </data>
+  <data name="stepType_Король_за_Стеной" xml:space="preserve">
+    <value>Le Roi par delà Mur</value>
+  </data>
+  <data name="stepType_Набег" xml:space="preserve">
+    <value>Le Raid</value>
+  </data>
+  <data name="stepType_Наездники_на_мамонтах" xml:space="preserve">
+    <value>Les cavaliers sur les mammouths</value>
+  </data>
+  <data name="stepType_Наездники_на_мамонтах_роспуск_войск" xml:space="preserve">
+    <value>Les cavaliers sur les mammouths (la dissolution des troupes)</value>
+  </data>
+  <data name="stepType_Наступление_орды" xml:space="preserve">
+    <value>L'offensive de la horde</value>
+  </data>
+  <data name="stepType_Наступление_орды_Усиление_власти" xml:space="preserve">
+    <value>L'offensive de la horde (la convocation des troupes)</value>
+  </data>
+  <data name="stepType_Неожиданный_шаг" xml:space="preserve">
+    <value>La marche inattendue</value>
+  </data>
+  <data name="stepType_Отступление" xml:space="preserve">
+    <value>La retraite</value>
+  </data>
+  <data name="stepType_Передовой_отряд" xml:space="preserve">
+    <value>Le détachement avancé</value>
+  </data>
+  <data name="stepType_Пестряк" xml:space="preserve">
+    <value>Tache</value>
+  </data>
+  <data name="stepType_Победа" xml:space="preserve">
+    <value>Victoire</value>
+  </data>
+  <data name="stepType_Подмога" xml:space="preserve">
+    <value>L'aide</value>
+  </data>
+  <data name="stepType_Посыльный_ворон" xml:space="preserve">
+    <value>Le corbeau messager</value>
+  </data>
+  <data name="stepType_Поход" xml:space="preserve">
+    <value>La Campagne</value>
+  </data>
+  <data name="stepType_Разведка_за_стеной" xml:space="preserve">
+    <value>L'espionnage au-delà du mur</value>
+  </data>
+  <data name="stepType_Роспуск_войск" xml:space="preserve">
+    <value>La dissolution des troupes</value>
+  </data>
+  <data name="stepType_Сбор_на_Молоководной" xml:space="preserve">
+    <value>La collecte sur Laiteau</value>
+  </data>
+  <data name="stepType_Событие_Вестероса" xml:space="preserve">
+    <value>L'Événement De Vesteros</value>
+  </data>
+  <data name="stepType_Сражение" xml:space="preserve">
+    <value>La bataille</value>
+  </data>
+  <data name="stepType_Убийцы_ворон" xml:space="preserve">
+    <value>Tueurs de corbeau</value>
+  </data>
+  <data name="stepType_Усиление_власти" xml:space="preserve">
+    <value>Le renforcement du pouvoir</value>
+  </data>
+  <data name="stepType_Усиление_власти_Вестерос" xml:space="preserve">
+    <value>La convocation des troupes</value>
+  </data>
+  <data name="stepType_Эйерон_Сыровласый" xml:space="preserve">
+    <value>Aeron Les Cheveux Mouillés</value>
+  </data>
+  <data name="terrain_Порт_Белой_Гавани" xml:space="preserve">
+    <value>Le port du Port Blanc</value>
+  </data>
+  <data name="terrain_Порт_Винтерфела" xml:space="preserve">
+    <value>Port de Winterfell</value>
+  </data>
+  <data name="terrain_Порт_Драконьего_Каменя" xml:space="preserve">
+    <value>Le port de la Pierre du Dragon</value>
+  </data>
+  <data name="terrain_Порт_Ланиспорта" xml:space="preserve">
+    <value>Port de Lannisport</value>
+  </data>
+  <data name="terrain_Порт_Пайка" xml:space="preserve">
+    <value>Port de Pyke</value>
+  </data>
+  <data name="terrain_Порт_Солнечного_Копья" xml:space="preserve">
+    <value>Le port de la Lance Solaire</value>
+  </data>
+  <data name="terrain_Порт_Староместа" xml:space="preserve">
+    <value>Port de la Vieille Ville</value>
+  </data>
+  <data name="terrain_Порт_Штормового_Предела" xml:space="preserve">
+    <value>Le port de la Limite De tempête</value>
+  </data>
+  <data name="text_accessDenied" xml:space="preserve">
+    <value>L'accès est interdit!</value>
+  </data>
+  <data name="text_accessDenied1" xml:space="preserve">
+    <value>L'accès est interdit! Vous vous trouvez dans les listes noires d'un des joueurs.</value>
+  </data>
+  <data name="text_accessDenied2" xml:space="preserve">
+    <value>Un des joueurs se trouve dans vos listes noires. Continuer l'entrée ?</value>
+  </data>
+  <data name="text_accessDenied3" xml:space="preserve">
+    <value>Seulement les joueurs avec le titre "le Lord" et avec l'expérience plus de 48 heures peuvent avoir quelques clients simultanément.</value>
+  </data>
+  <data name="text_addTime" xml:space="preserve">
+    <value>Temps additionné par tour</value>
+  </data>
+  <data name="text_apiSelect" xml:space="preserve">
+    <value>Choisissez le moyen d'autorisation</value>
+  </data>
+  <data name="text_attackPower" xml:space="preserve">
+    <value>La force de l'attaque</value>
+  </data>
+  <data name="text_awards" xml:space="preserve">
+    <value>Prix</value>
+  </data>
+  <data name="text_awardsType1" xml:space="preserve">
+    <value>Prix temporaires</value>
+  </data>
+  <data name="text_barbarianBury" xml:space="preserve">
+    <value>Enterrer</value>
+  </data>
+  <data name="text_barbarianLeave" xml:space="preserve">
+    <value>Laisser</value>
+  </data>
+  <data name="text_barbarianStrength" xml:space="preserve">
+    <value>La force d'ensauvagés «{0}»</value>
+  </data>
+  <data name="text_battle" xml:space="preserve">
+    <value>La bataille pour «{0}»</value>
+  </data>
+  <data name="text_battleTab" xml:space="preserve">
+    <value>La bataille</value>
+  </data>
+  <data name="text_browserCache" xml:space="preserve">
+    <value>Si vous rencontrez des erreurs durant l'autorisation, verifiez que vous avez bien installé Internet Explorer 7, 9, 10 ou 11. Vous devez également supprimer le cache du navigateur. Voulez-vous supprimer le cache?</value>
+  </data>
+  <data name="text_cancel" xml:space="preserve">
+    <value>l'annulation</value>
+  </data>
+  <data name="text_clearRating" xml:space="preserve">
+    <value>Êtes-vous sûr que vous voulez dégager votre rating? Vos jeux seront marqués comme obsolètes, et et tous les "j'aime ""j'aime pas" sont supprimés. Vos relations avec les autres joueurs seront enregistrées.</value>
+  </data>
+  <data name="text_clientStep" xml:space="preserve">
+    <value>Votre marche : "{0}"</value>
+  </data>
+  <data name="text_closeApp" xml:space="preserve">
+    <value>L'application sera fermée!</value>
+  </data>
+  <data name="text_confirm" xml:space="preserve">
+    <value>Je confirme</value>
+  </data>
+  <data name="text_confirm_text" xml:space="preserve">
+    <value>Attention ! Seulement les propriétaires de l'édition de boîte "Jeu de Trônes : Le Jeu de Plateau (la Deuxième Édition)" peut se connecter. En utilisant ce produit, vous confirmez que vous avez acquis la version agréée du Jeu de Plateau</value>
+  </data>
+  <data name="text_defancePower" xml:space="preserve">
+    <value>La force de la défense</value>
+  </data>
+  <data name="text_deleteEvent" xml:space="preserve">
+    <value>- supprime cet événement.</value>
+  </data>
+  <data name="text_deleteEvents" xml:space="preserve">
+    <value>Enlève la et tous les événements inférieurs.</value>
+  </data>
+  <data name="text_disconnect" xml:space="preserve">
+    <value>Débranche:</value>
+  </data>
+  <data name="text_donateComment" xml:space="preserve">
+    <value>Commentaire: {0}</value>
+  </data>
+  <data name="text_error" xml:space="preserve">
+    <value>Erreur</value>
+  </data>
+  <data name="text_eventsTab" xml:space="preserve">
+    <value>Evénements</value>
+  </data>
+  <data name="text_exit" xml:space="preserve">
+    <value>La sortie</value>
+  </data>
+  <data name="text_findUsers" xml:space="preserve">
+    <value>La recherche le joueur (filtre)</value>
+  </data>
+  <data name="text_gameDate" xml:space="preserve">
+    <value>La date de partie</value>
+  </data>
+  <data name="text_gameEndTime" xml:space="preserve">
+    <value>La fin :</value>
+  </data>
+  <data name="text_gameStartTime" xml:space="preserve">
+    <value>Début:</value>
+  </data>
+  <data name="text_gameType" xml:space="preserve">
+    <value>Type de jeu</value>
+  </data>
+  <data name="text_help" xml:space="preserve">
+    <value>L'aide</value>
+  </data>
+  <data name="text_homeCardSelect" xml:space="preserve">
+    <value>- Choisit la carte de la Maison pour la bataille en cours.</value>
+  </data>
+  <data name="text_homeSelect" xml:space="preserve">
+    <value>Choisissez "la Maison"!</value>
+  </data>
+  <data name="text_homeSelectContract" xml:space="preserve">
+    <value>Les joueurs avec le titre "le Lord" peuvent choisir "la Maison" qui amènera à la victoire. Les autres peuvent confier le choix a Vesteros. "Les Maisons" inaccessibles sont décolorées pour reverifier son accessibilité, cliquez</value>
+  </data>
+  <data name="text_homeSelectWarning" xml:space="preserve">
+    <value>ATTENTION! Le changement à la maison est interdite. En sortant de jeux vous ne pourriez pas retourner
+</value>
+  </data>
+  <data name="text_homesTab" xml:space="preserve">
+    <value>Maisons</value>
+  </data>
+  <data name="text_lastCardBarbarian" xml:space="preserve">
+    <value>Cette carte Ensauvagé était jouée comme dernière</value>
+  </data>
+  <data name="text_lastDonateInfo" xml:space="preserve">
+    <value>Le dernier versement sur la somme {0} ₽ est fait {1:dd. MM.yyyy HH:mm}</value>
+  </data>
+  <data name="text_leaveGame" xml:space="preserve">
+    <value>Quitter le parti ? | oui - Vous serez instantanément exclus du parti. | Non - vous aurez {0} seconde pour le retour au parti. | la suppression - nous continuons le jeu des trônes.</value>
+  </data>
+  <data name="text_linkAccountCompleted" xml:space="preserve">
+    <value>L'action avec votre compte est terminée avec succès.</value>
+  </data>
+  <data name="text_login" xml:space="preserve">
+    <value>L'identifiant</value>
+  </data>
+  <data name="text_maxTime" xml:space="preserve">
+    <value>Temps maximum par tour</value>
+  </data>
+  <data name="text_minTotalRatio" xml:space="preserve">
+    <value>Le rating minimum (Total)</value>
+  </data>
+  <data name="text_msgInput" xml:space="preserve">
+    <value>Introduisez le texte du message</value>
+  </data>
+  <data name="text_name" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="text_NewGame" xml:space="preserve">
+    <value>Un nouveau jeu</value>
+  </data>
+  <data name="text_no" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="text_noSupport" xml:space="preserve">
+    <value>La neutralité</value>
+  </data>
+  <data name="text_notify" xml:space="preserve">
+    <value>La notification</value>
+  </data>
+  <data name="text_notUseBlade" xml:space="preserve">
+    <value>Ne pas utiliser</value>
+  </data>
+  <data name="text_onlineOnly" xml:space="preserve">
+    <value>Seulement Online</value>
+  </data>
+  <data name="text_orderFree" xml:space="preserve">
+    <value>Pas toutes les troupes ont reçu les ordres. | terminer le projet ?</value>
+  </data>
+  <data name="text_password" xml:space="preserve">
+    <value>Le mot de passe</value>
+  </data>
+  <data name="text_postCanceled" xml:space="preserve">
+    <value>Vous n'avez pas autorisé la publication sur votre mur !</value>
+  </data>
+  <data name="text_postComplete" xml:space="preserve">
+    <value>Le post a été publié!</value>
+  </data>
+  <data name="text_profileTab" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="text_publicDonate" xml:space="preserve">
+    <value>Publiquement?</value>
+  </data>
+  <data name="text_randomPower" xml:space="preserve">
+    <value>La force dela carte de Courant de Bataille.</value>
+  </data>
+  <data name="text_ratingsCondition" xml:space="preserve">
+    <value>Le rating minimale de passage</value>
+  </data>
+  <data name="text_ratingTab" xml:space="preserve">
+    <value>Le rating </value>
+  </data>
+  <data name="text_saveError" xml:space="preserve">
+    <value>Enregistrer un code d'erreur?</value>
+  </data>
+  <data name="text_screenPost" xml:space="preserve">
+    <value>Publier sur le mur ?</value>
+  </data>
+  <data name="text_scrollEvents" xml:space="preserve">
+    <value>- Le défilement de la liste des événements (en tout 20).</value>
+  </data>
+  <data name="text_selectedOrder" xml:space="preserve">
+    <value>On choisit l'ordre : "{0}".</value>
+  </data>
+  <data name="text_skull" xml:space="preserve">
+    <value>La cruauté (les crânes)</value>
+  </data>
+  <data name="text_sloganBaratheon" xml:space="preserve">
+    <value>LA NOTRE EST LA FUREUR</value>
+  </data>
+  <data name="text_sloganBolton" xml:space="preserve">
+    <value>NOS LAMES SONT POINTUES</value>
+  </data>
+  <data name="text_sloganGreyjoy" xml:space="preserve">
+    <value>NOUS NE SÈMENT PAS</value>
+  </data>
+  <data name="text_sloganLannister" xml:space="preserve">
+    <value>ENTENDEZ-MOI BRAILLER</value>
+  </data>
+  <data name="text_sloganMartell" xml:space="preserve">
+    <value>INVAINCUS, NON DISPOSITIONS, NON CASSÉES</value>
+  </data>
+  <data name="text_sloganRandom" xml:space="preserve">
+    <value>SEULEMENT CEUX QUI FONT LES TENTATIVES ABSURDES, POURRONT ATTEINDRE L'IMPOSSIBLE</value>
+  </data>
+  <data name="text_sloganStark" xml:space="preserve">
+    <value>L'HIVER ARRIVE</value>
+  </data>
+  <data name="text_sloganTyrell" xml:space="preserve">
+    <value>EN GRANDISSANT FORTE</value>
+  </data>
+  <data name="text_soundSettings" xml:space="preserve">
+    <value>Les paramètres du son</value>
+  </data>
+  <data name="text_specialPassword" xml:space="preserve">
+    <value>Introduisez le mot d'ordre supplémentaire!</value>
+  </data>
+  <data name="text_specialPasswordAttention" xml:space="preserve">
+    <value>ATTENTION: ne pas utiliser le mot de passe de "VKontakte" ou "FaceBook"!</value>
+  </data>
+  <data name="text_specialPasswordText" xml:space="preserve">
+    <value>Votre clé de l'accès était changée, il est nécessaire d'introduire le mot de passe supplémentaire pour l'application des changements. Si le mot de passe est demandé pour la première fois, introduisez n'importe quel et le RETENEZ! Si vous entrez dans le jeu d'un autre ordinateur ou votre profil dans le réseau social qui est change -  vous en aurez besoin</value>
+  </data>
+  <data name="text_stepPerform" xml:space="preserve">
+    <value>Accomplir la marche</value>
+  </data>
+  <data name="text_supplyLimit" xml:space="preserve">
+    <value>la limite de l'approvisionnement</value>
+  </data>
+  <data name="text_donate" xml:space="preserve">
+    <value>Sacrifier...</value>
+  </data>
+  <data name="text_supportUser" xml:space="preserve">
+    <value>Soutenir</value>
+  </data>
+  <data name="text_textPost" xml:space="preserve">
+    <value>Ajoutez une description?</value>
+  </data>
+  <data name="text_updatingProfile" xml:space="preserve">
+    <value>TTENDEZ S'IL VOUS PLAÎT! Mise à jour des profils de joueurs...</value>
+  </data>
+  <data name="text_uriError" xml:space="preserve">
+    <value>Désolé, nous n'avons pas pu aller à cette URL:</value>
+  </data>
+  <data name="text_useBlade" xml:space="preserve">
+    <value>Comment utiliser l'épée ?</value>
+  </data>
+  <data name="text_userBet" xml:space="preserve">
+    <value>Votre taux :</value>
+  </data>
+  <data name="text_userEndGameCount" xml:space="preserve">
+    <value>Jeux terminé:</value>
+  </data>
+  <data name="text_userExperienceDay" xml:space="preserve">
+    <value>L'expérience (jours):</value>
+  </data>
+  <data name="text_userExperienceHour" xml:space="preserve">
+    <value>L'expérience (heures):</value>
+  </data>
+  <data name="text_userGameCount" xml:space="preserve">
+    <value>Jeux (total):</value>
+  </data>
+  <data name="text_userGames" xml:space="preserve">
+    <value>Vos jeux</value>
+  </data>
+  <data name="text_userHomeRate" xml:space="preserve">
+    <value>Pour Maisons:</value>
+  </data>
+  <data name="text_userPower" xml:space="preserve">
+    <value>Le pouvoir accessible:</value>
+  </data>
+  <data name="text_usersContract" xml:space="preserve">
+    <value>Les ratings des joueurs et la statistique pour Vesteros se calcule à partir de l'intervalle temporaire à  trimestre</value>
+  </data>
+  <data name="text_usersMeet" xml:space="preserve">
+    <value>Les joueurs se rencontrent</value>
+  </data>
+  <data name="text_usersTab" xml:space="preserve">
+    <value>Les joueurs</value>
+  </data>
+  <data name="text_useSpecialization" xml:space="preserve">
+    <value>Utiliser la capacité ?</value>
+  </data>
+  <data name="text_vesterosCardSelect" xml:space="preserve">
+    <value>Choisissez l'événement</value>
+  </data>
+  <data name="text_vesterosSthanks" xml:space="preserve">
+    <value>Vesteros exprime la gratitude!</value>
+  </data>
+  <data name="text_vkAuthReset" xml:space="preserve">
+    <value>Retour à la page d'autorisation</value>
+  </data>
+  <data name="text_vkid" xml:space="preserve">
+    <value>Votre profil: {0} {1}</value>
+  </data>
+  <data name="text_voting" xml:space="preserve">
+    <value>appel d'offres pour «{0}»</value>
+  </data>
+  <data name="text_warning" xml:space="preserve">
+    <value>Attention!</value>
+  </data>
+  <data name="text_wildlings" xml:space="preserve">
+    <value>Les ensauvagés</value>
+  </data>
+  <data name="text_yes" xml:space="preserve">
+    <value>Oui</value>
+  </data>
+  <data name="text_yourAccounts" xml:space="preserve">
+    <value>Vos comptes?</value>
+  </data>
+  <data name="titleType_Архимейстер" xml:space="preserve">
+    <value>Archemaître</value>
+  </data>
+  <data name="titleType_Бездомный" xml:space="preserve">
+    <value>Le sans-logis</value>
+  </data>
+  <data name="titleType_корольВестероса" xml:space="preserve">
+    <value>Le Roi de Vesteros</value>
+  </data>
+  <data name="titleType_Крестьянин" xml:space="preserve">
+    <value>Le paysan</value>
+  </data>
+  <data name="titleType_Купец" xml:space="preserve">
+    <value>Le marchand</value>
+  </data>
+  <data name="titleType_Лорд" xml:space="preserve">
+    <value>Lord</value>
+  </data>
+  <data name="titleType_лордКомандующий" xml:space="preserve">
+    <value>Le Lord-Commandant</value>
+  </data>
+  <data name="titleType_мастерНадЗаконами" xml:space="preserve">
+    <value>Maître de lois</value>
+  </data>
+  <data name="titleType_мастерНадМонетой" xml:space="preserve">
+    <value>Maître de la Monnaie</value>
+  </data>
+  <data name="titleType_мастерНадШептунами" xml:space="preserve">
+    <value>Maître des Chuchoteurs</value>
+  </data>
+  <data name="titleType_Мейстер" xml:space="preserve">
+    <value>Maître </value>
+  </data>
+  <data name="titleType_Мейстер_Бард" xml:space="preserve">
+    <value>Maître Bard</value>
+  </data>
+  <data name="titleType_Мейстер_Толмач" xml:space="preserve">
+    <value>Meister Interprète</value>
+  </data>
+  <data name="titleType_Рыцарь" xml:space="preserve">
+    <value>Chevalier</value>
+  </data>
+  <data name="titleType_Создатель" xml:space="preserve">
+    <value>Le Créateur</value>
+  </data>
+  <data name="unitRemoveType_destroyed" xml:space="preserve">
+    <value>Détruit</value>
+  </data>
+  <data name="unitRemoveType_disbanding0" xml:space="preserve">
+    <value>il a été dissous</value>
+  </data>
+  <data name="unitRemoveType_disbanding1" xml:space="preserve">
+    <value>Il est inondé</value>
+  </data>
+  <data name="unitRemoveType_finished" xml:space="preserve">
+    <value>Il est achevé</value>
+  </data>
+  <data name="unitRemoveType_noRetreats" xml:space="preserve">
+    <value>le chemin est coupé</value>
+  </data>
+  <data name="unitRemoveType_retreats" xml:space="preserve">
+    <value>Il recule</value>
+  </data>
+  <data name="unitRemoveType_thrown" xml:space="preserve">
+    <value>Elle est jetée</value>
+  </data>
+  <data name="unitType_Корабль" xml:space="preserve">
+    <value>Le navire</value>
+  </data>
+  <data name="unitType_Осадная_башня" xml:space="preserve">
+    <value>La tour de siège</value>
+  </data>
+  <data name="unitType_Пеший_воин" xml:space="preserve">
+    <value>Le combattant à pied</value>
+  </data>
+  <data name="unitType_Рыцарь" xml:space="preserve">
+    <value>Chevalier</value>
+  </data>
+  <data name="validation_consolidate1" xml:space="preserve">
+    <value>La violation des règles : on excède la quantité de points de la collecte.</value>
+  </data>
+  <data name="validation_consolidate2" xml:space="preserve">
+    <value>La violation des règles : la collecte des troupes terrestres se réalise seulement sur le territoire de l'ordre.</value>
+  </data>
+  <data name="validation_consolidate3" xml:space="preserve">
+    <value>La violation des règles : la collecte des troupes maritimes se réalise dans la mer voisine ou dans le port.</value>
+  </data>
+  <data name="validation_consolidate4" xml:space="preserve">
+    <value>La violation des règles : la mer est contrôlée par un autre joueur.</value>
+  </data>
+  <data name="validation_consolidate5" xml:space="preserve">
+    <value>La violation des règles : l'amélioration des troupes se réalise seulement sur le territoire de l'ordre.</value>
+  </data>
+  <data name="validation_consolidate6" xml:space="preserve">
+    <value>La violation des règles : améliorer seulement les combattants à pied.</value>
+  </data>
+  <data name="validation_consolidate7" xml:space="preserve">
+    <value>La violation des règles : il est impossible d'améliorer jusqu'au combattant à pied.</value>
+  </data>
+  <data name="validation_consolidate8" xml:space="preserve">
+    <value>La violation des règles : il est impossible de changer l'arme.</value>
+  </data>
+  <data name="validation_homeCard" xml:space="preserve">
+    <value>La violation des règles : vous êtes engagés à choisir "la carte de la maison"!</value>
+  </data>
+  <data name="validation_homeCard2" xml:space="preserve">
+    <value>La violation des règles: "carte maison" se trouve dans le rejet.</value>
+  </data>
+  <data name="validation_lordFalse" xml:space="preserve">
+    <value>La résistance du lord n'est pas surmontée : votre force {0}, et la force du lord {1}</value>
+  </data>
+  <data name="validation_lordTrue" xml:space="preserve">
+    <value>La résistance du lord est brisée : votre force {0}, et la force du lord {1}</value>
+  </data>
+  <data name="validation_march" xml:space="preserve">
+    <value>La violation des règles : c'est interdit de faire quelques attaques simultanément!</value>
+  </data>
+  <data name="validation_move1" xml:space="preserve">
+    <value>La violation des règles : les navires dans l'eau</value>
+  </data>
+  <data name="validation_move10" xml:space="preserve">
+    <value>La violation des règles : c est interdit de reculer à autre terre </value>
+  </data>
+  <data name="validation_move2" xml:space="preserve">
+    <value>La violation des règles : les troupes terrestres marchent par terre.</value>
+  </data>
+  <data name="validation_move3" xml:space="preserve">
+    <value>La violation des règles : la distance de la marche des navires = 1.</value>
+  </data>
+  <data name="validation_move4" xml:space="preserve">
+    <value>La violation des règles : les variantes du déplacement de troupes ne sont pas trouvées.</value>
+  </data>
+  <data name="validation_move5" xml:space="preserve">
+    <value>La violation des règles : le maximum est 3 navires dans le port.</value>
+  </data>
+  <data name="validation_move6" xml:space="preserve">
+    <value>La violation des règles : c'est interdit d'aller a l'autres ports</value>
+  </data>
+  <data name="validation_move7" xml:space="preserve">
+    <value>La violation des règles : le maximum est 4 units dans un domaine.</value>
+  </data>
+  <data name="validation_move8" xml:space="preserve">
+    <value>La violation des règles : la dérogation est possible dans une direction.</value>
+  </data>
+  <data name="validation_move9" xml:space="preserve">
+    <value>La violation des règles : c'est interdit de reculer de la terre avec qui a commencé l'attaque.</value>
+  </data>
+  <data name="validation_order" xml:space="preserve">
+    <value>La violation des règles : vous êtes engagés à choisir "l'ordre" exécuté!</value>
+  </data>
+  <data name="validation_power" xml:space="preserve">
+    <value>La violation des règles: vous pouvez uniquement déplacer les "à la maison" avec le même taux.</value>
+  </data>
+  <data name="validation_ranly1" xml:space="preserve">
+    <value>La violation des règles : il peut choisir seulement le combattant à pied.</value>
+  </data>
+  <data name="validation_ranly2" xml:space="preserve">
+    <value>La violation des règles : l'unit ne participait pas à la bataille.</value>
+  </data>
+  <data name="validation_supply" xml:space="preserve">
+    <value>La violation des règles: vous avez dépassé le niveau de l'approvisionnement</value>
+  </data>
+  <data name="validation_Track" xml:space="preserve">
+    <value>La violation des règles : vous êtes engagés à choisir "la piste de l'influence" d'adversaire!</value>
+  </data>
+  <data name="voting_Вотчины" xml:space="preserve">
+    <value>L'épée de Valyrie</value>
+  </data>
+  <data name="voting_Железный_трон" xml:space="preserve">
+    <value>Le Trône de Fer</value>
+  </data>
+  <data name="voting_Королевский_двор" xml:space="preserve">
+    <value>Le corbeau messager</value>
+  </data>
+  <data name="voting_Одичалые" xml:space="preserve">
+    <value>L'invasion des ensauvagés</value>
+  </data>
+</root>

@@ -1,0 +1,69 @@
+﻿<UserControl x:Class="Agot2Client.WorldLayer"
+             xmlns:local="clr-namespace:Agot2Client"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:res="clr-namespace:Agot2Client.Properties"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <ScrollViewer VerticalScrollBarVisibility="Disabled">
+            <Viewbox Name="viewbox" SizeChanged="Viewbox_SizeChanged">
+                <Grid Name="mapLayerGrid"  VerticalAlignment="Top"  HorizontalAlignment="Left">
+                    <local:MapLayer x:Name="mapLayer" MinHeight="300" MinWidth="300" MouseWheel="MapLayerGrid_MouseWheel" MouseMove="MapLayerGrid_MouseMove"/>
+                </Grid>
+            </Viewbox>
+        </ScrollViewer>
+
+        <!--<StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top">
+            <Image Height="24" Width="24" Margin="2" Source="{Binding OnLineStatusImage}"/>
+        </StackPanel>-->
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Button  Height="24" Width="24" Margin="2.5" Click="StopButton_Click" ToolTip="{x:Static res:Resources.hint_stopGame}">
+                <Image Source="/Image/stop.png"/>
+            </Button>
+            <Button  Height="24" Width="24" Margin="2.5" Click="UpdateButton_Click" ToolTip="{x:Static res:Resources.hint_reconectGame}">
+                <Image Source="/Image/update.png"/>
+            </Button>
+            <StackPanel Name="StepScroll" Orientation="Horizontal">
+                <StackPanel.Style>
+                    <Style>
+                        <Setter Property="StackPanel.Visibility" Value="Visible"/>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding ClientGame.WCFGame.CloseTime}" Value="{x:Null}">
+                                <Setter Property="StackPanel.Visibility" Value="Collapsed"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </StackPanel.Style>
+                <Button Height="24" Click="PlayPause_Button_Click" Width="100" Margin="2.5" Focusable="False">
+                    <Button.Content>
+                        <Image Source="{Binding PlayPauseImageName}"/>
+                    </Button.Content>
+                </Button>
+                <Button Height="24" Click="NextViewKey_Button_Click" Width="100" Margin="2.5" Focusable="False">
+                    <Button.Content>
+                        <Image Source="/Image/blue_last.png"/>
+                    </Button.Content>
+                </Button>
+            </StackPanel>
+            <Button  Height="24" Width="24"  Click="Photo_Button_Click" Margin="2"  Focusable="False" ToolTip="{x:Static res:Resources.hint_screenShot}">
+                <Image Source="/Image/photo.png" />
+            </Button>
+            <Button  Height="24" Width="24"  Click="HomeButton2_Click" Margin="2"  Focusable="False" ToolTip="{x:Static res:Resources.hint_verticalMap}">
+                <Image Source="/Image/home.png" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <RotateTransform Angle="-90"/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+            </Button>
+            <Button  Height="24" Width="24"  Click="HomeButton_Click" Margin="2"  Focusable="False" ToolTip="{x:Static res:Resources.hint_horizontalMap}">
+                <Image Source="/Image/home.png"/>
+            </Button>
+        </StackPanel>
+    </Grid>
+</UserControl>

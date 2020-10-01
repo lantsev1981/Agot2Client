@@ -1,0 +1,74 @@
+﻿<UserControl x:Class="Agot2Client.ChatItemView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Agot2Client"
+             mc:Ignorable="d"
+             xmlns:res="clr-namespace:Agot2Client.Properties"
+             d:DesignHeight="300" d:DesignWidth="300"             
+             Padding="5" Background="#1AF5F5F5"
+             Visibility="{Binding GamePersonModel.User.ChatVisibility}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock TextWrapping="Wrap" 
+                   HorizontalAlignment="Left"
+                   FontSize="12" FontWeight="Bold"
+                   ToolTip="{x:Static res:Resources.hint_translate}"
+                   MouseLeftButtonUp="TextBlock_MouseLeftButtonUp"
+                   Grid.ColumnSpan="2">
+            <TextBlock.Style>
+                <Style BasedOn="{StaticResource TextBlock}">
+                    <Setter Property="TextBlock.Text" Value="{Binding GamePersonModel.User.TitleMin}"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding GamePersonModel.HomeType}" Value="{x:Null}">
+                            <Setter Property="TextBlock.Text" Value="{Binding GamePersonModel.User.Title}"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+        <TextBlock Text="{Binding Model.Time.LocalDateTime, StringFormat='HH:mm:ss'}"
+                   FontSize="10"
+                   HorizontalAlignment="Right" VerticalAlignment="Bottom"
+                   Grid.Column="2"/>
+
+        <Separator Grid.ColumnSpan="3" Grid.Row="1" VerticalAlignment="Top" Margin="0,2,0,0"/>
+        <!--<local:AvatarView DataContext="{Binding GamePersonModel.User}"  Grid.Row="1" VerticalAlignment="Top" Margin="0,5,5,0" Height="50" Width="50"/>
+        <Image Source="{Binding GamePersonModel.HomeType.ImageName}"
+                   Grid.Row="1" Margin="-5,-2,0,0"
+                   Height="25" Width="25" 
+                   HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Image.Style>
+                <Style>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding GamePersonModel.HomeType}" Value="{x:Null}">
+                            <Setter Property="UIElement.Visibility" Value="Collapsed"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Image.Style>
+        </Image>-->
+
+        <local:AvatarViewMin DataContext="{Binding GamePersonModel}"
+                             Grid.Row="1"  Margin="0,5,5,0"
+                             VerticalAlignment="Top" 
+                             Height="50" Width="50"/>
+
+        <TextBlock Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2"
+                   Margin="0,5,0,0"  
+                   Text="{Binding Model.Message}" 
+                   ToolTip="{x:Static res:Resources.hint_translate}"
+                   TextWrapping="Wrap"
+                   MouseLeftButtonUp="TextBlock_MouseLeftButtonUp_1"/>
+    </Grid>
+</UserControl>

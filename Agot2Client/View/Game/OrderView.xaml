@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="Agot2Client.OrderView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Agot2Client"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Opacity="{Binding Opacity}" 
+             MouseLeftButtonUp="UserControl_MouseLeftButtonUp"
+             MouseLeave="OrderView_MouseLeave">
+    <Grid Height="75" Width="75" HorizontalAlignment="Left" VerticalAlignment="Top"  RenderTransformOrigin="0.5,0.5">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <RotateTransform Angle="{Binding ElementName=MapLayerImage, Path= Tag}"/>
+                <TranslateTransform X="{Binding Position.X}" Y="{Binding Position.Y}"/>
+                <TranslateTransform X="-37.5" Y="-37.5"/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+
+        <Image Source="{Binding ImageName}" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Image Source="/Image/Order/raid.png" Height="37.5" Width="37.5" HorizontalAlignment="Left" VerticalAlignment="Top" MouseLeftButtonUp="RaidImage_MouseLeftButtonUp" Visibility="{Binding RaidVisibility}" />
+
+        <Popup Name="OrderTypePopup" Opened="OrderMenu_Opened" MouseLeave="OrderView_MouseLeave"  AllowsTransparency="True" Placement="RelativePoint" PopupAnimation="Fade">
+            <local:OrderTypeMenu2 x:Name="OrderTypeMenu"/>
+        </Popup>
+
+        <Popup Name="UnitTypePopup" Opened="OrderMenu_Opened" MouseLeave="OrderView_MouseLeave"  AllowsTransparency="True" Placement="RelativePoint" PopupAnimation="Fade">
+            <local:UnitTypeMenu2 x:Name="UnitTypeMenu"/>
+        </Popup>
+    </Grid>
+</UserControl>

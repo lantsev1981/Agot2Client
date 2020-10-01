@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="Agot2Client.RavenTrackViewItem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300"
+             HorizontalAlignment="Left"   Height="100" Width="100" VerticalAlignment="Top" 
+             AllowDrop="True" Drop="UserControl_Drop" MouseLeave="UserControl_MouseLeave" RenderTransformOrigin="0.5,0.5">
+    <UserControl.RenderTransform>
+        <TransformGroup>
+            <RotateTransform Angle="{Binding ElementName=MapLayerImage, Path= Tag}"/>
+            <TranslateTransform X="{Binding RavenPosition.X}" Y="{Binding RavenPosition.Y}"/>
+            <TranslateTransform X="-50" Y="-50"/>
+        </TransformGroup>
+    </UserControl.RenderTransform>
+    <Grid>
+        <Image Source="{Binding Step.ExtGameUser.ExtHomeType.InfluenceImageName}"/>
+        <Border CornerRadius="10" Background="#7F000000" 
+                Padding="10"  Margin="-5,-15"
+                HorizontalAlignment="Right" VerticalAlignment="Bottom">
+            <TextBlock  Style="{StaticResource textStyle}"
+                            FontSize="36"
+                            HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center"
+                            Text="{Binding RavenVoting}">
+            </TextBlock>
+        </Border>
+    </Grid>
+</UserControl>

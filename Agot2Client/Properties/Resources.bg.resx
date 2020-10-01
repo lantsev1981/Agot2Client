@@ -1,0 +1,1505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="actionType_Борьба_за_влияние" xml:space="preserve">
+    <value>Сблъсък на крале</value>
+  </data>
+  <data name="actionType_Набег" xml:space="preserve">
+    <value>Не могат да се дават заповеди за набег</value>
+  </data>
+  <data name="actionType_Нашествие_одичалых" xml:space="preserve">
+    <value>Атаката на Wildlings</value>
+  </data>
+  <data name="actionType_Ничего_не_происходит" xml:space="preserve">
+    <value>Нищо не се случва</value>
+  </data>
+  <data name="actionType_Оборона" xml:space="preserve">
+    <value>Поръчки за отбрана не могат да бъдат възпроизведени</value>
+  </data>
+  <data name="actionType_Подмога" xml:space="preserve">
+    <value>Поръчки за поддръжка не могат да бъдат възпроизведени</value>
+  </data>
+  <data name="actionType_Поход_1_специальный" xml:space="preserve">
+    <value>Не могат да се изпълняват специални поръчки (със звезди)</value>
+  </data>
+  <data name="actionType_Сбор_власти" xml:space="preserve">
+    <value>Игра на престоли</value>
+  </data>
+  <data name="actionType_Сбор_войск" xml:space="preserve">
+    <value>Събра</value>
+  </data>
+  <data name="actionType_Снабжение_войск" xml:space="preserve">
+    <value>захранване</value>
+  </data>
+  <data name="actionType_Усиление_власти" xml:space="preserve">
+    <value>Консолидирането на поръчки за захранване не може да се възпроизвежда</value>
+  </data>
+  <data name="awardsType_AllHouseVictory" xml:space="preserve">
+    <value>Спечелил с всички домове</value>
+  </data>
+  <data name="awardsType_MaxDurationHours" xml:space="preserve">
+    <value>Най-дълго време игра</value>
+  </data>
+  <data name="dictionary_empty" xml:space="preserve">
+    <value>зрител</value>
+  </data>
+  <data name="dictionary_game" xml:space="preserve">
+    <value>игра</value>
+  </data>
+  <data name="dictionary_home" xml:space="preserve">
+    <value>къща</value>
+  </data>
+  <data name="dynamic_barbarianThreat" xml:space="preserve">
+    <value>Wildling заплахата се увеличава до {0}</value>
+  </data>
+  <data name="dynamic_batsCount" xml:space="preserve">
+    <value>Оферти {0} ({1} останалите символи за захранване)</value>
+  </data>
+  <data name="dynamic_bladePower" xml:space="preserve">
+    <value>Валерианско стоманено острие ({0})</value>
+  </data>
+  <data name="dynamic_clashOfKings" xml:space="preserve">
+    <value>Присъединява се към борбата за "{0}"</value>
+  </data>
+  <data name="dynamic_consolidatePower" xml:space="preserve">
+    <value>Консолидира мощността в „{0}“ ({1} наличните токени за захранване)</value>
+  </data>
+  <data name="dynamic_consolidatePowerLoses" xml:space="preserve">
+    <value>Намалява мощността в „{0}“ ({1} наличните токени за захранване)</value>
+  </data>
+  <data name="dynamic_errorStep" xml:space="preserve">
+    <value>Стъпка за Къща {0} не може да се изпълни: {1}</value>
+  </data>
+  <data name="dynamic_Exile" xml:space="preserve">
+    <value>{1} ({0}) в изгнание!</value>
+  </data>
+  <data name="dynamic_ExileEarlier" xml:space="preserve">
+    <value>{0}! Вие бяхте изключени по-рано.</value>
+  </data>
+  <data name="dynamic_gameOver" xml:space="preserve">
+    <value>Играта свърши!</value>
+  </data>
+  <data name="dynamic_garrisonRemove" xml:space="preserve">
+    <value>Гаризонът в "{0}" е унищожен</value>
+  </data>
+  <data name="dynamic_heroRage" xml:space="preserve">
+    <value>{0} ярост ({1})</value>
+  </data>
+  <data name="dynamic_hiLord" xml:space="preserve">
+    <value>{0}! Приветстваме ви, Господи.</value>
+  </data>
+  <data name="dynamic_homeCardDiscards" xml:space="preserve">
+    <value>Отхвърля "{0}"</value>
+  </data>
+  <data name="dynamic_homeCardReturn" xml:space="preserve">
+    <value>Връща своята домашна карта "{0}" в ръката си</value>
+  </data>
+  <data name="dynamic_homeCardSelect" xml:space="preserve">
+    <value>Избира домашна карта ...</value>
+  </data>
+  <data name="dynamic_homeSupport" xml:space="preserve">
+    <value>Предоставя подкрепа на Къща "{0}"</value>
+  </data>
+  <data name="dynamic_kingClaim" xml:space="preserve">
+    <value>Притежателят на Железния Трон жетон нарушава връзката</value>
+  </data>
+  <data name="dynamic_leftGame" xml:space="preserve">
+    <value>{1} ({0}) напусна играта! Остава {2} опити да се върне.</value>
+  </data>
+  <data name="dynamic_MaxEfficiency" xml:space="preserve">
+    <value>Най-висок коефицент победи за "{0}"</value>
+  </data>
+  <data name="dynamic_MaxTotalVictory1" xml:space="preserve">
+    <value>Най-висок брой победи за "{0}"</value>
+  </data>
+  <data name="dynamic_MaxTotalVictory2" xml:space="preserve">
+    <value>Най-висок брой победи за "{0}"</value>
+  </data>
+  <data name="dynamic_newGame" xml:space="preserve">
+    <value>{0} извиква банерите</value>
+  </data>
+  <data name="dynamic_newTurn" xml:space="preserve">
+    <value>Кръгла # {0}</value>
+  </data>
+  <data name="dynamic_orderCancel" xml:space="preserve">
+    <value>Отменя поръчката в „{0}“</value>
+  </data>
+  <data name="dynamic_passwordDenied" xml:space="preserve">
+    <value>{0}! Ограничен район. Изисква се парола.</value>
+  </data>
+  <data name="dynamic_planning" xml:space="preserve">
+    <value>Стартира "{0}"</value>
+  </data>
+  <data name="dynamic_powerEstablishes" xml:space="preserve">
+    <value>Получава контрол върху „{0}“</value>
+  </data>
+  <data name="dynamic_powerLoses" xml:space="preserve">
+    <value>Губи контрол над "{0}"</value>
+  </data>
+  <data name="dynamic_raided" xml:space="preserve">
+    <value>Рейдове "{0}"</value>
+  </data>
+  <data name="dynamic_Renly_Baratheon" xml:space="preserve">
+    <value>Това не е лакей.</value>
+  </data>
+  <data name="dynamic_resetDeck" xml:space="preserve">
+    <value>Препрограмирайте палубата "{0} # {1}"</value>
+  </data>
+  <data name="dynamic_resetWildlingsDeck" xml:space="preserve">
+    <value>Препрограмирайте палубата "{0}"</value>
+  </data>
+  <data name="dynamic_retreatsCount" xml:space="preserve">
+    <value>Минималният брой маршрутизирани единици = {0}</value>
+  </data>
+  <data name="dynamic_samePC" xml:space="preserve">
+    <value>ВНИМАНИЕ! Тези потребители играят от един и същ компютър: {0}</value>
+  </data>
+  <data name="dynamic_shipCouldDestroy" xml:space="preserve">
+    <value>Решава дали да заснеме флот за улавяне при "{0}"</value>
+  </data>
+  <data name="dynamic_shipDestroy" xml:space="preserve">
+    <value>Корабът е потънал (максималната граница на кораба)</value>
+  </data>
+  <data name="dynamic_shipLost" xml:space="preserve">
+    <value>Корабът е загубен</value>
+  </data>
+  <data name="dynamic_shipTaken" xml:space="preserve">
+    <value>Корабът е заловен</value>
+  </data>
+  <data name="dynamic_supplyLimit" xml:space="preserve">
+    <value>Кокошки не разпускат войски</value>
+  </data>
+  <data name="dynamic_theEnd" xml:space="preserve">
+    <value>Заема място {0}</value>
+  </data>
+  <data name="dynamic_vesterosEvent" xml:space="preserve">
+    <value>Събитие Westeros: "{0}"</value>
+  </data>
+  <data name="dynamic_voting" xml:space="preserve">
+    <value>Заема позиция № {1} на пистата "{0}"</value>
+  </data>
+  <data name="dynamic_wildBuries" xml:space="preserve">
+    <value>Карта на дивата природа</value>
+  </data>
+  <data name="dynamic_wildFail" xml:space="preserve">
+    <value>Победа на Нощната стража!</value>
+  </data>
+  <data name="dynamic_wildlingsAttack" xml:space="preserve">
+    <value>Атаката на Wildlings със силата на {0}</value>
+  </data>
+  <data name="dynamic_wildlingsCategory0" xml:space="preserve">
+    <value>всички останали</value>
+  </data>
+  <data name="dynamic_wildlingsCategory1" xml:space="preserve">
+    <value>най-ниската цена</value>
+  </data>
+  <data name="dynamic_wildlingsCategory2" xml:space="preserve">
+    <value>най-висока цена</value>
+  </data>
+  <data name="dynamic_wildlingsResult" xml:space="preserve">
+    <value>{0}: категория "{1}"</value>
+  </data>
+  <data name="dynamic_wildVictory" xml:space="preserve">
+    <value>Победата на Wildling!</value>
+  </data>
+  <data name="error_checkBlacklist" xml:space="preserve">
+    <value>Проверете черния списък</value>
+  </data>
+  <data name="error_checkHomeStatus" xml:space="preserve">
+    <value>Неуспех при проверка на наличността на къщата:</value>
+  </data>
+  <data name="error_clearProfile" xml:space="preserve">
+    <value>Вашият рейтинг не може да бъде актуализиран</value>
+  </data>
+  <data name="error_connection" xml:space="preserve">
+    <value>Неуспешно свързване с сървъра за игри (връзка):</value>
+  </data>
+  <data name="error_createGame1" xml:space="preserve">
+    <value>Неуспешно създаване на нова игра:</value>
+  </data>
+  <data name="error_createGame2" xml:space="preserve">
+    <value>Тъй като все още сте игра недовършена игра.</value>
+  </data>
+  <data name="error_criticalError" xml:space="preserve">
+    <value>Критична грешка</value>
+  </data>
+  <data name="error_decodeText" xml:space="preserve">
+    <value>Грешка при декодирането на текст!</value>
+  </data>
+  <data name="error_getLangs" xml:space="preserve">
+    <value>Неуспешен опит да се извлече списъка с езици поддържани от системата за автоматичен превод. Стандартният език за превод е настроен (en).</value>
+  </data>
+  <data name="error_getLinkAccount" xml:space="preserve">
+    <value>Неуспешен опит да се извлече списъка на вашите акаунти.</value>
+  </data>
+  <data name="error_inviteUser" xml:space="preserve">
+    <value>Изпращането на поканата не бе успешно:</value>
+  </data>
+  <data name="error_linkAccount" xml:space="preserve">
+    <value>Сървърът не успя да слее акаунтите! Може би сте въвели грешна парола или другият акаунт се използва в момента(акаунтът няма да може да се ползва в следващите два дни).</value>
+  </data>
+  <data name="error_logEvent" xml:space="preserve">
+    <value>Изтриването на събитие не бе успешно: indexOf =</value>
+  </data>
+  <data name="error_notifyLoad" xml:space="preserve">
+    <value>Неуспешно свързване или стартиране на системата за известия:</value>
+  </data>
+  <data name="error_password" xml:space="preserve">
+    <value>Неправилна парола!</value>
+  </data>
+  <data name="error_profileLoad" xml:space="preserve">
+    <value>Профилът не бе актуализиран неуспешно:</value>
+  </data>
+  <data name="error_profileSave" xml:space="preserve">
+    <value>Профилът ви не бе запазен неуспешно:</value>
+  </data>
+  <data name="error_profilesLoad" xml:space="preserve">
+    <value>Неуспешно изтегляне или актуализиране на всички профили:</value>
+  </data>
+  <data name="error_profileUpdate1" xml:space="preserve">
+    <value>Неуспешно обновяване на потребителския ви профил: Моля, свържете се с програмиста!</value>
+  </data>
+  <data name="error_profileUpdate2" xml:space="preserve">
+    <value>Неуспешно обновяване на профила: услугата не е налична, проверете разрешенията на апликацията да се свърше с интернет или опитай отново по-късно.</value>
+  </data>
+  <data name="error_propertyChanged" xml:space="preserve">
+    <value>Елементите не могат да се покажат:</value>
+  </data>
+  <data name="error_rateChange" xml:space="preserve">
+    <value>Промяната на рейтинга не бе успешна:</value>
+  </data>
+  <data name="error_sendMessage" xml:space="preserve">
+    <value>Не е известно.</value>
+  </data>
+  <data name="error_sendStep" xml:space="preserve">
+    <value>Неуспешно завършване на стъпката:</value>
+  </data>
+  <data name="error_specialUsers" xml:space="preserve">
+    <value>Промяната в списъка на играчите не бе успешна:</value>
+  </data>
+  <data name="error_syncSteps1" xml:space="preserve">
+    <value>Неуспешно синхронизиране на стъпките (връзката):</value>
+  </data>
+  <data name="error_syncSteps2" xml:space="preserve">
+    <value>Неуспешно синхронизиране на стъпките (сървър):</value>
+  </data>
+  <data name="error_syncSteps3" xml:space="preserve">
+    <value>Неуспешно синхронизиране на стъпки (остарели):</value>
+  </data>
+  <data name="error_syncUsers1" xml:space="preserve">
+    <value>Неуспешно синхронизиране на играчите (връзка):</value>
+  </data>
+  <data name="error_syncUsers2" xml:space="preserve">
+    <value>Неуспешно синхронизиране на плейърите (сървъра):</value>
+  </data>
+  <data name="error_translateLng" xml:space="preserve">
+    <value>Вашият език ({0}) не се поддържа от системата. Стандартният език за превод е настроен (en).</value>
+  </data>
+  <data name="error_undetectedLang" xml:space="preserve">
+    <value>Системата не успя да разпознае вашия език ({0}).
+Стандартният език за превод е настроен (en).</value>
+  </data>
+  <data name="error_unknownError" xml:space="preserve">
+    <value>Неизвестна грешка</value>
+  </data>
+  <data name="error_vkAuth" xml:space="preserve">
+    <value>Потребителят не е идентифициран. Опитайте отново.</value>
+  </data>
+  <data name="event_a_king_beyond_the_wall" xml:space="preserve">
+    <value>Цар отвъд стената</value>
+  </data>
+  <data name="event_a_throne_of_blades" xml:space="preserve">
+    <value>Трон от остриета</value>
+  </data>
+  <data name="event_clash_of_kings" xml:space="preserve">
+    <value>Сблъсък на крале</value>
+  </data>
+  <data name="event_crow_killers" xml:space="preserve">
+    <value>Убиеци на врата</value>
+  </data>
+  <data name="event_dark_wings_dark_words" xml:space="preserve">
+    <value>Тъмни криле, тъмни думи</value>
+  </data>
+  <data name="event_feast_for_crows" xml:space="preserve">
+    <value>Празник за врани</value>
+  </data>
+  <data name="event_game_of_thrones" xml:space="preserve">
+    <value>Игра на престоли</value>
+  </data>
+  <data name="event_last_days_of_summer_1" xml:space="preserve">
+    <value>Последни летни дни</value>
+  </data>
+  <data name="event_last_days_of_summer_2" xml:space="preserve">
+    <value>Последни летни дни</value>
+  </data>
+  <data name="event_mammoth_riders" xml:space="preserve">
+    <value>Ездачите на мамути</value>
+  </data>
+  <data name="event_massing_on_the_milkwater" xml:space="preserve">
+    <value>Масиране на млечната вода</value>
+  </data>
+  <data name="event_mustering" xml:space="preserve">
+    <value>Събра</value>
+  </data>
+  <data name="event_preemptive_raid" xml:space="preserve">
+    <value>Предварително нападение</value>
+  </data>
+  <data name="event_put_to_the_sword" xml:space="preserve">
+    <value>Сложи меч</value>
+  </data>
+  <data name="event_rains_of_autumn" xml:space="preserve">
+    <value>Есенни дъждове</value>
+  </data>
+  <data name="event_rattleshirts_raiders" xml:space="preserve">
+    <value>Нападателите на Rattleshirt</value>
+  </data>
+  <data name="event_sea_of_storms" xml:space="preserve">
+    <value>Море от бури</value>
+  </data>
+  <data name="event_silence_at_the_wall" xml:space="preserve">
+    <value>Мълчание при Стената</value>
+  </data>
+  <data name="event_skinchanger_scout" xml:space="preserve">
+    <value>Скаутър</value>
+  </data>
+  <data name="event_storm_of_swords" xml:space="preserve">
+    <value>Буря от мечове</value>
+  </data>
+  <data name="event_supply" xml:space="preserve">
+    <value>захранване</value>
+  </data>
+  <data name="event_the_horde_descends" xml:space="preserve">
+    <value>Ордата се спуска</value>
+  </data>
+  <data name="event_web_of_lies" xml:space="preserve">
+    <value>Мрежа от лъжи</value>
+  </data>
+  <data name="event_wildlings_attack" xml:space="preserve">
+    <value>Атаката на Wildlings</value>
+  </data>
+  <data name="event_winter_is_coming_1" xml:space="preserve">
+    <value>Зимата идва</value>
+  </data>
+  <data name="event_winter_is_coming_2" xml:space="preserve">
+    <value>Зимата идва</value>
+  </data>
+  <data name="gameType_classic" xml:space="preserve">
+    <value>Класическа ({0} играчи)</value>
+  </data>
+  <data name="gameType_continues" xml:space="preserve">
+    <value>Битката продължава</value>
+  </data>
+  <data name="gameType_dragon" xml:space="preserve">
+    <value>Танц с Дракони</value>
+  </data>
+  <data name="gameType_findUser" xml:space="preserve">
+    <value>Нуждаете се от нов герой</value>
+  </data>
+  <data name="gameType_new" xml:space="preserve">
+    <value>Извикване на банери</value>
+  </data>
+  <data name="gameType_over" xml:space="preserve">
+    <value>Играта свърши</value>
+  </data>
+  <data name="hero_Большой_Джон_Амбер" xml:space="preserve">
+    <value>Greater umber</value>
+  </data>
+  <data name="hero_Бриенна_из_Тарта" xml:space="preserve">
+    <value>Брайън от Тарт</value>
+  </data>
+  <data name="hero_Бринден_Чёрная_Рыба" xml:space="preserve">
+    <value>Черната рибка</value>
+  </data>
+  <data name="hero_Королева_Шипов" xml:space="preserve">
+    <value>Царица от тръни</value>
+  </data>
+  <data name="hero_Оберин_Красная_Гадюка" xml:space="preserve">
+    <value>Червената усойница</value>
+  </data>
+  <data name="hero_Пёс" xml:space="preserve">
+    <value>Хрътката</value>
+  </data>
+  <data name="hint_absoluteSortUsers" xml:space="preserve">
+    <value>Сортирайте играчите по "Абсолютно" (по подразбиране). "Абсолютна" е средна стойност за всички рейтинги.</value>
+  </data>
+  <data name="hint_addBlackList" xml:space="preserve">
+    <value>Добавяне към черен списък. Не можете да се присъедините към игра с вас. Уведомява ви, когато се присъедините към игра с тях. Функцията е достъпна за играчи със заглавие "Knight" или по-висока.</value>
+  </data>
+  <data name="hint_addFavoriteList" xml:space="preserve">
+    <value>Добавяне към „Избрани списъци“. Позволява ви да получавате съобщения (онлайн, офлайн, играе, оставя игра, да се присъединява към игра). Функцията е достъпна за играчи със заглавие "Търговец" или по-висока.</value>
+  </data>
+  <data name="hint_battleCard" xml:space="preserve">
+    <value>Кликнете, за да преминете към менюто "Карти".</value>
+  </data>
+  <data name="hint_battleTab" xml:space="preserve">
+    <value>Последна или текуща битка</value>
+  </data>
+  <data name="hint_blade" xml:space="preserve">
+    <value>Блейд не беше използван в този кръг</value>
+  </data>
+  <data name="hint_brainSortUsers" xml:space="preserve">
+    <value>Подреди играчи по рейтинг "Ум" (коефицент победи в завършени игри)</value>
+  </data>
+  <data name="hint_chatTab" xml:space="preserve">
+    <value>Обществен чат</value>
+  </data>
+  <data name="hint_clearLike" xml:space="preserve">
+    <value>Ясно е като</value>
+  </data>
+  <data name="hint_closeTab" xml:space="preserve">
+    <value>Намаляване на менюто</value>
+  </data>
+  <data name="hint_defence" xml:space="preserve">
+    <value>Защита</value>
+  </data>
+  <data name="hint_donate" xml:space="preserve">
+    <value>Подкрепете създателя, получавате "Заглавие" и специални способности.</value>
+  </data>
+  <data name="hint_findUsers" xml:space="preserve">
+    <value>Използвайте това поле за списък с играчи. Въведете началото на търсенето.</value>
+  </data>
+  <data name="hint_game" xml:space="preserve">
+    <value>Присъединете се към играта. Играта може да продължи до 6 часа. Вие ще платите цената за напускане на играта.</value>
+  </data>
+  <data name="hint_gameChatTab" xml:space="preserve">
+    <value>Чат в играта</value>
+  </data>
+  <data name="hint_gameUsersTab" xml:space="preserve">
+    <value>Списък на играчите и наблюдателите</value>
+  </data>
+  <data name="hint_garrison" xml:space="preserve">
+    <value>Крепостта е защитена от гарнизон</value>
+  </data>
+  <data name="hint_goodGame" xml:space="preserve">
+    <value>Всички рейтинги са преброени</value>
+  </data>
+  <data name="hint_homeCardTab" xml:space="preserve">
+    <value>Домашни карти</value>
+  </data>
+  <data name="hint_honorSortUsers" xml:space="preserve">
+    <value>Подреди играчи по рейтинг "Чест" (коефицент на брой завършени игри на този акаунт)</value>
+  </data>
+  <data name="hint_horizontalMap" xml:space="preserve">
+    <value>Центрирайте картата и я ориентирайте хоризонтално</value>
+  </data>
+  <data name="hint_ignoreHonor" xml:space="preserve">
+    <value>Играта беше изоставена, но Westeros обявява амнистия. Всички рейтинги се игнорират.</value>
+  </data>
+  <data name="hint_ignoreMind" xml:space="preserve">
+    <value>Замяна на плейъра. Оценката "Чест" е преброена и "Mind" ще бъде преброено, ако желаете.</value>
+  </data>
+  <data name="hint_like" xml:space="preserve">
+    <value>Подобно на потребителя</value>
+  </data>
+  <data name="hint_likeSortUsers" xml:space="preserve">
+    <value>Подреди играчи по рейтинг "Чар" (разлика между лайкове и дислайкове)</value>
+  </data>
+  <data name="hint_linkAccounts" xml:space="preserve">
+    <value>Избери за да слееш акаунт "{0}"</value>
+  </data>
+  <data name="hint_linkPassword" xml:space="preserve">
+    <value>Въведи друга парола за този акаунт</value>
+  </data>
+  <data name="hint_log" xml:space="preserve">
+    <value>Вижте подробности в списъка със събития</value>
+  </data>
+  <data name="hint_marchOrder" xml:space="preserve">
+    <value>Заповед за март</value>
+  </data>
+  <data name="hint_meetUsers" xml:space="preserve">
+    <value>Списък на играчите, с които сте играли в избрана игра. Не забравяйте да „харесвате“ или „не харесвате“ играчи, които го заслужават. Вашето решение ще повлияе на техния рейтинг "Charm". Анонимно гласуване!</value>
+  </data>
+  <data name="hint_mindZero" xml:space="preserve">
+    <value>Играта е изоставена. Оценяват се "Чест" и "Ум".</value>
+  </data>
+  <data name="hint_mute" xml:space="preserve">
+    <value>За да удави възрастните. Заглушава съобщенията за чат на играча, докато клиентът не се върне</value>
+  </data>
+  <data name="hint_newGame" xml:space="preserve">
+    <value>Настройки за нова игра. По-лесно е да се намери играта. Ако искате да създадете по-трудна и по-интересна игра.</value>
+  </data>
+  <data name="hint_onlineUsers" xml:space="preserve">
+    <value>Показване на играчи онлайн. Функцията е достъпна за играчи със заглавие "Фермер" или по-висока.</value>
+  </data>
+  <data name="hint_passRate" xml:space="preserve">
+    <value>Кликнете, за да добавите резултат към рейтинг "Mind" (не може да бъде отменен).</value>
+  </data>
+  <data name="hint_password" xml:space="preserve">
+    <value>Въведете парола преди да се присъедините или създадете лична игра</value>
+  </data>
+  <data name="hint_privateGame" xml:space="preserve">
+    <value>Частна игра</value>
+  </data>
+  <data name="hint_randomCard" xml:space="preserve">
+    <value>Прилив на битка</value>
+  </data>
+  <data name="hint_reconectGame" xml:space="preserve">
+    <value>Рестартирайте играта. Тази функция не е необходима при нормални условия. Използвайте само в екстремни случаи, напр. Но бутонът “Complete step” не се вижда.</value>
+  </data>
+  <data name="hint_screenShot" xml:space="preserve">
+    <value>Направете снимка на дъската и запишете в папката ".. Screenshot".</value>
+  </data>
+  <data name="hint_sendInvite" xml:space="preserve">
+    <value>Изпратете покана (известие). Функцията е достъпна за играчи със заглавие "Търговец" или по-висока.</value>
+  </data>
+  <data name="hint_settings" xml:space="preserve">
+    <value>Настройки. Включи настройки на силата на звука, избор на език, сливане на акаунти, рестартиране на статистиката.
+Достъпно за играчи с титлата "Фермер" и нагоре!</value>
+  </data>
+  <data name="hint_skullGame" xml:space="preserve">
+    <value>Игра с "черепи" на картите Tide of Battle.</value>
+  </data>
+  <data name="hint_sms" xml:space="preserve">
+    <value>Изпращане на съобщение</value>
+  </data>
+  <data name="hint_smsCreator" xml:space="preserve">
+    <value>Изпрати съобщение до "Създател" на ВКонтакте.</value>
+  </data>
+  <data name="hint_smsVK" xml:space="preserve">
+    <value>Изпрати масаж на потребителя на VKontakte.</value>
+  </data>
+  <data name="hint_status" xml:space="preserve">
+    <value>Състояние на потребителския профил (онлайн / офлайн). Функцията е достъпна за играчи със заглавие "Фермер" или по-висока!</value>
+  </data>
+  <data name="hint_stopGame" xml:space="preserve">
+    <value>Напусни играта. ВНИМАНИЕ! Оставете рейтинг "Чест". Ако искате да стартирате друг клиент.</value>
+  </data>
+  <data name="hint_supportAttak" xml:space="preserve">
+    <value>Къщи, поддържащи нападателя</value>
+  </data>
+  <data name="hint_supportCancel" xml:space="preserve">
+    <value>Откажете да подкрепяте някого</value>
+  </data>
+  <data name="hint_supportDefence" xml:space="preserve">
+    <value>Къщи, подкрепящи защитника</value>
+  </data>
+  <data name="hint_supportUnknow" xml:space="preserve">
+    <value>Къщи без решение за подкрепа</value>
+  </data>
+  <data name="hint_timerTab" xml:space="preserve">
+    <value>При завършване на таймера ще бъдете изключен от партито!</value>
+  </data>
+  <data name="hint_translate" xml:space="preserve">
+    <value>Преведи на своя местен език</value>
+  </data>
+  <data name="hint_unLike" xml:space="preserve">
+    <value>Не харесва потребителя</value>
+  </data>
+  <data name="hint_updateUsers" xml:space="preserve">
+    <value>Обнови списъка с профили. Само игри с повече от 48 часа опит и 10 завършени игри са в списъка. Играчите се игнорират! Използвайте „Търсене на играч (филтър)“, за да търсите други играчи. Списъкът е ограничен до 100 записа.</value>
+  </data>
+  <data name="hint_userGames" xml:space="preserve">
+    <value>Показване на списък с игрите. Кликнете върху игра, за да оцените потребителите, с които сте играли.</value>
+  </data>
+  <data name="hint_userProfileTab" xml:space="preserve">
+    <value>Вашият профил</value>
+  </data>
+  <data name="hint_usersTab" xml:space="preserve">
+    <value>Постижения</value>
+  </data>
+  <data name="hint_userUpdate" xml:space="preserve">
+    <value>Подновете профила си ръчно</value>
+  </data>
+  <data name="hint_verticalMap" xml:space="preserve">
+    <value>Центрира картата и я поставя вертикално</value>
+  </data>
+  <data name="hint_vesteros" xml:space="preserve">
+    <value>Показва среден (общ) рейтинг и позиция в класацията за всички играчи. В раздела "Къщи" е показана статистиката за печелившите за всяка къща.</value>
+  </data>
+  <data name="hint_vesterosCardTab" xml:space="preserve">
+    <value>Westeros карти</value>
+  </data>
+  <data name="hint_viewGame" xml:space="preserve">
+    <value>Гледайте играта</value>
+  </data>
+  <data name="notify_connectionGame" xml:space="preserve">
+    <value>Не можете да имате заглавието „Господ“ или опит от повече от 48 часа.</value>
+  </data>
+  <data name="notify_connectionGame2" xml:space="preserve">
+    <value>Няма налични къщи или вече сте използвали в тази игра.</value>
+  </data>
+  <data name="notify_inviteUser" xml:space="preserve">
+    <value>Съобщението не е изпратено! Системата за уведомяване на този плейър е деактивирана.</value>
+  </data>
+  <data name="notify_Loading" xml:space="preserve">
+    <value>Зарежда се ...</value>
+  </data>
+  <data name="notify_mapRender" xml:space="preserve">
+    <value>Картата се изчертава ...</value>
+  </data>
+  <data name="notify_stepSyncProgress" xml:space="preserve">
+    <value>Стъпките за синхронизиране ...</value>
+  </data>
+  <data name="orderType_Набег_0" xml:space="preserve">
+    <value>нападение</value>
+  </data>
+  <data name="orderType_Набег_0_специальный" xml:space="preserve">
+    <value>Специален рейд</value>
+  </data>
+  <data name="orderType_Оборона_1" xml:space="preserve">
+    <value>Защита +1</value>
+  </data>
+  <data name="orderType_Оборона_2_специальный" xml:space="preserve">
+    <value>Защита +2</value>
+  </data>
+  <data name="orderType_Подмога_0" xml:space="preserve">
+    <value>подкрепа</value>
+  </data>
+  <data name="orderType_Подмога_1_специальный" xml:space="preserve">
+    <value>Поддръжка +1</value>
+  </data>
+  <data name="orderType_Поход_0" xml:space="preserve">
+    <value>март</value>
+  </data>
+  <data name="orderType_Поход_1_специальный" xml:space="preserve">
+    <value>Март +1</value>
+  </data>
+  <data name="orderType_Поход__1" xml:space="preserve">
+    <value>Март -1</value>
+  </data>
+  <data name="orderType_Усиление_власти_0" xml:space="preserve">
+    <value>Консолидирайте властта</value>
+  </data>
+  <data name="orderType_Усиление_власти_0_специальный" xml:space="preserve">
+    <value>Специална Консолидирана Сила</value>
+  </data>
+  <data name="rageEffect_0" xml:space="preserve">
+    <value>примамване на подкрепа</value>
+  </data>
+  <data name="rageEffect_1" xml:space="preserve">
+    <value> = + {0} икони на крепостта</value>
+  </data>
+  <data name="rageEffect_10" xml:space="preserve">
+    <value>Защита на поръчката x2</value>
+  </data>
+  <data name="rageEffect_11" xml:space="preserve">
+    <value>бойна сила на противниковата карта = 0</value>
+  </data>
+  <data name="rageEffect_12" xml:space="preserve">
+    <value>сила на кораба x2</value>
+  </data>
+  <data name="rageEffect_13" xml:space="preserve">
+    <value>мощност на лагерите x2</value>
+  </data>
+  <data name="rageEffect_14" xml:space="preserve">
+    <value>всички освен кораба на Баратеон = 0</value>
+  </data>
+  <data name="rageEffect_15" xml:space="preserve">
+    <value>опонентът отхвърля карта</value>
+  </data>
+  <data name="rageEffect_16" xml:space="preserve">
+    <value>премахва реда на врага</value>
+  </data>
+  <data name="rageEffect_17" xml:space="preserve">
+    <value>насърчава до рицар</value>
+  </data>
+  <data name="rageEffect_18" xml:space="preserve">
+    <value>няма ефект</value>
+  </data>
+  <data name="rageEffect_19" xml:space="preserve">
+    <value>сменяйте приливите и отливите на бойна карта</value>
+  </data>
+  <data name="rageEffect_2" xml:space="preserve">
+    <value> = + {0} икона на меча</value>
+  </data>
+  <data name="rageEffect_20" xml:space="preserve">
+    <value>Enemy няма останали карти</value>
+  </data>
+  <data name="rageEffect_21" xml:space="preserve">
+    <value>Промяна на влиянието на Диваците</value>
+  </data>
+  <data name="rageEffect_22" xml:space="preserve">
+    <value>блокира домашната карта "{0}"</value>
+  </data>
+  <data name="rageEffect_23" xml:space="preserve">
+    <value>премахва поръчката на врага "{0}"</value>
+  </data>
+  <data name="rageEffect_24" xml:space="preserve">
+    <value>изхвърля домашната карта на противника "{0}"</value>
+  </data>
+  <data name="rageEffect_25" xml:space="preserve">
+    <value>бягства</value>
+  </data>
+  <data name="rageEffect_26" xml:space="preserve">
+    <value>Да увеличиш влиянието на Диваците</value>
+  </data>
+  <data name="rageEffect_27" xml:space="preserve">
+    <value>Да намалиш влиянието на Диваците</value>
+  </data>
+  <data name="rageEffect_28" xml:space="preserve">
+    <value>сила на рицаря +1</value>
+  </data>
+  <data name="rageEffect_29" xml:space="preserve">
+    <value>крайната бойна сила на вашия опонент = 2</value>
+  </data>
+  <data name="rageEffect_3" xml:space="preserve">
+    <value>консолидира властта</value>
+  </data>
+  <data name="rageEffect_30" xml:space="preserve">
+    <value>игнорирай казаното</value>
+  </data>
+  <data name="rageEffect_31" xml:space="preserve">
+    <value>сила на героя = {0}</value>
+  </data>
+  <data name="rageEffect_4" xml:space="preserve">
+    <value>без загуба на качество</value>
+  </data>
+  <data name="rageEffect_5" xml:space="preserve">
+    <value>прегрупиране на войските</value>
+  </data>
+  <data name="rageEffect_6" xml:space="preserve">
+    <value>унищожи 1 пешаци</value>
+  </data>
+  <data name="rageEffect_7" xml:space="preserve">
+    <value>избутва врага</value>
+  </data>
+  <data name="rageEffect_8" xml:space="preserve">
+    <value>актуализира палубата</value>
+  </data>
+  <data name="rageEffect_9" xml:space="preserve">
+    <value> = +1 бойна сила</value>
+  </data>
+  <data name="ratingType_honor" xml:space="preserve">
+    <value>чест</value>
+  </data>
+  <data name="ratingType_like" xml:space="preserve">
+    <value>чар</value>
+  </data>
+  <data name="ratingType_mind" xml:space="preserve">
+    <value>ум</value>
+  </data>
+  <data name="ratingType_total" xml:space="preserve">
+    <value>общо</value>
+  </data>
+  <data name="settings_Главная_тема" xml:space="preserve">
+    <value>Заглавие</value>
+  </data>
+  <data name="settings_Новое_сообщение" xml:space="preserve">
+    <value>съобщение</value>
+  </data>
+  <data name="settings_Новый_ход" xml:space="preserve">
+    <value>стъпка</value>
+  </data>
+  <data name="settings_Таймер" xml:space="preserve">
+    <value>часовник</value>
+  </data>
+  <data name="stepType_Борьба_за_влияние" xml:space="preserve">
+    <value>Борба за влияние</value>
+  </data>
+  <data name="stepType_Валирийский_меч" xml:space="preserve">
+    <value>Валерианско стоманено острие</value>
+  </data>
+  <data name="stepType_Железный_трон" xml:space="preserve">
+    <value>Железен трон</value>
+  </data>
+  <data name="stepType_Замысел" xml:space="preserve">
+    <value>Етап на планиране</value>
+  </data>
+  <data name="stepType_Королева_Шипов" xml:space="preserve">
+    <value>Царица от тръни</value>
+  </data>
+  <data name="stepType_Король_за_Стеной" xml:space="preserve">
+    <value>Цар отвъд стената</value>
+  </data>
+  <data name="stepType_Набег" xml:space="preserve">
+    <value>нападение</value>
+  </data>
+  <data name="stepType_Наездники_на_мамонтах" xml:space="preserve">
+    <value>Ездачите на мамути</value>
+  </data>
+  <data name="stepType_Наездники_на_мамонтах_роспуск_войск" xml:space="preserve">
+    <value>Mammoth Riders (разпускане на войски)</value>
+  </data>
+  <data name="stepType_Наступление_орды" xml:space="preserve">
+    <value>Ордата се спуска</value>
+  </data>
+  <data name="stepType_Наступление_орды_Усиление_власти" xml:space="preserve">
+    <value>Ордата слиза (събиране)</value>
+  </data>
+  <data name="stepType_Неожиданный_шаг" xml:space="preserve">
+    <value>Неочакваното движение</value>
+  </data>
+  <data name="stepType_Отступление" xml:space="preserve">
+    <value>отстъпление</value>
+  </data>
+  <data name="stepType_Передовой_отряд" xml:space="preserve">
+    <value>Предварително нападение</value>
+  </data>
+  <data name="stepType_Победа" xml:space="preserve">
+    <value>победа</value>
+  </data>
+  <data name="stepType_Подмога" xml:space="preserve">
+    <value>подкрепа</value>
+  </data>
+  <data name="stepType_Посыльный_ворон" xml:space="preserve">
+    <value>Пратеник гарван</value>
+  </data>
+  <data name="stepType_Поход" xml:space="preserve">
+    <value>март</value>
+  </data>
+  <data name="stepType_Разведка_за_стеной" xml:space="preserve">
+    <value>Виж най-дивата карта</value>
+  </data>
+  <data name="stepType_Роспуск_войск" xml:space="preserve">
+    <value>Разпуснете войските</value>
+  </data>
+  <data name="stepType_Сбор_на_Молоководной" xml:space="preserve">
+    <value>Масиране на млечната вода</value>
+  </data>
+  <data name="stepType_Событие_Вестероса" xml:space="preserve">
+    <value>Събитие на westeros</value>
+  </data>
+  <data name="stepType_Сражение" xml:space="preserve">
+    <value>битка</value>
+  </data>
+  <data name="stepType_Убийцы_ворон" xml:space="preserve">
+    <value>Убиеци на врата</value>
+  </data>
+  <data name="stepType_Усиление_власти" xml:space="preserve">
+    <value>Консолидирайте властта</value>
+  </data>
+  <data name="stepType_Усиление_власти_Вестерос" xml:space="preserve">
+    <value>Събра</value>
+  </data>
+  <data name="terrain_Порт_Белой_Гавани" xml:space="preserve">
+    <value>Пристанище на бяло пристанище</value>
+  </data>
+  <data name="terrain_Порт_Винтерфела" xml:space="preserve">
+    <value>Пристанище на зимата</value>
+  </data>
+  <data name="terrain_Порт_Драконьего_Каменя" xml:space="preserve">
+    <value>Пристанище на драконстон</value>
+  </data>
+  <data name="terrain_Порт_Ланиспорта" xml:space="preserve">
+    <value>Пристанище Ланиспорт</value>
+  </data>
+  <data name="terrain_Порт_Пайка" xml:space="preserve">
+    <value>Пристанище на пике</value>
+  </data>
+  <data name="terrain_Порт_Солнечного_Копья" xml:space="preserve">
+    <value>Пристанище на слънцето</value>
+  </data>
+  <data name="terrain_Порт_Староместа" xml:space="preserve">
+    <value>Пристанище Олдтаун</value>
+  </data>
+  <data name="terrain_Порт_Штормового_Предела" xml:space="preserve">
+    <value>Край на пристанището на бурята</value>
+  </data>
+  <data name="text_accessDenied" xml:space="preserve">
+    <value>Достъпът е отказан!</value>
+  </data>
+  <data name="text_accessDenied1" xml:space="preserve">
+    <value>Достъпът е отказан! Вие сте в черния списък на един от играчите.</value>
+  </data>
+  <data name="text_accessDenied2" xml:space="preserve">
+    <value>Един от играчите е в черния списък. Все още ли искате да се присъедините?</value>
+  </data>
+  <data name="text_accessDenied3" xml:space="preserve">
+    <value>Ако загубите заглавието</value>
+  </data>
+  <data name="text_addTime" xml:space="preserve">
+    <value>Добавено време на стъпка</value>
+  </data>
+  <data name="text_apiSelect" xml:space="preserve">
+    <value>Изберете метода за упълномощаване</value>
+  </data>
+  <data name="text_attackPower" xml:space="preserve">
+    <value>Сила на атака</value>
+  </data>
+  <data name="text_awards" xml:space="preserve">
+    <value>Награди</value>
+  </data>
+  <data name="text_awardsType1" xml:space="preserve">
+    <value>Временни награди</value>
+  </data>
+  <data name="text_barbarianBury" xml:space="preserve">
+    <value>Място на дъното</value>
+  </data>
+  <data name="text_barbarianLeave" xml:space="preserve">
+    <value>Оставете отгоре</value>
+  </data>
+  <data name="text_barbarianStrength" xml:space="preserve">
+    <value>Сила на Wildlings "{0}"</value>
+  </data>
+  <data name="text_battle" xml:space="preserve">
+    <value>Битка за "{0}"</value>
+  </data>
+  <data name="text_battleTab" xml:space="preserve">
+    <value>битка</value>
+  </data>
+  <data name="text_browserCache" xml:space="preserve">
+    <value>Iexplorer 7, 9, 10 или 11. Ако по време на оторизацията срещнете грешки, проверете дали сте инсталирали. Изчистване на кеша?</value>
+  </data>
+  <data name="text_cancel" xml:space="preserve">
+    <value>Отказ</value>
+  </data>
+  <data name="text_chatTab" xml:space="preserve">
+    <value>Чат</value>
+  </data>
+  <data name="text_clearRating" xml:space="preserve">
+    <value>Сигурни ли сте, че искате да изчистите рейтинга си? Вашите игри ще бъдат маркирани като неактуални и всички лайкове и дислайкове ще бъдат премахнати. Вашите отношения с другите играчи ще бъдат запазени.</value>
+  </data>
+  <data name="text_clientStep" xml:space="preserve">
+    <value>Вашата стъпка "{0}"</value>
+  </data>
+  <data name="text_closeApp" xml:space="preserve">
+    <value>Приложението ще бъде затворено!</value>
+  </data>
+  <data name="text_confirm" xml:space="preserve">
+    <value>потвърждавам</value>
+  </data>
+  <data name="text_confirm_text" xml:space="preserve">
+    <value>Внимание! Само съвет от престоли: Играта на дъската (второ издание) може да влезе. Лицензираната версия на настолната игра.</value>
+  </data>
+  <data name="text_defancePower" xml:space="preserve">
+    <value>Силите на отбраната</value>
+  </data>
+  <data name="text_deleteEvent" xml:space="preserve">
+    <value>- изтрийте това събитие</value>
+  </data>
+  <data name="text_deleteEvents" xml:space="preserve">
+    <value>- изтрийте това събитие и всички събития по-долу</value>
+  </data>
+  <data name="text_disconnect" xml:space="preserve">
+    <value>Изключете:</value>
+  </data>
+  <data name="text_donateComment" xml:space="preserve">
+    <value>Коментар: {0}</value>
+  </data>
+  <data name="text_error" xml:space="preserve">
+    <value>грешка</value>
+  </data>
+  <data name="text_eventsTab" xml:space="preserve">
+    <value>Събития</value>
+  </data>
+  <data name="text_exit" xml:space="preserve">
+    <value>изход</value>
+  </data>
+  <data name="text_findUsers" xml:space="preserve">
+    <value>Намиране на потребител (филтър)</value>
+  </data>
+  <data name="text_gameDate" xml:space="preserve">
+    <value>Дата на играта</value>
+  </data>
+  <data name="text_gameEndTime" xml:space="preserve">
+    <value>Време за край на играта:</value>
+  </data>
+  <data name="text_gameStartTime" xml:space="preserve">
+    <value>Начално време на играта:</value>
+  </data>
+  <data name="text_gameType" xml:space="preserve">
+    <value>Вид игра</value>
+  </data>
+  <data name="text_help" xml:space="preserve">
+    <value>Помощ</value>
+  </data>
+  <data name="text_homeCardSelect" xml:space="preserve">
+    <value>- изберете картата за текущата битка</value>
+  </data>
+  <data name="text_homeSelect" xml:space="preserve">
+    <value>Изберете къща!</value>
+  </data>
+  <data name="text_homeSelectContract" xml:space="preserve">
+    <value>Играчите, озаглавени "Господ", могат да изберат това, което води до победа. Боговете на Вестерос решават. Къщите са безцветни; кликнете върху къща, за да проверите нейната наличност.</value>
+  </data>
+  <data name="text_homeSelectWarning" xml:space="preserve">
+    <value>ВНИМАНИЕ! След като направите своя избор.</value>
+  </data>
+  <data name="text_homesTab" xml:space="preserve">
+    <value>Къщи</value>
+  </data>
+  <data name="text_lastCardBarbarian" xml:space="preserve">
+    <value>Последната игра на Wildling карта</value>
+  </data>
+  <data name="text_lastDonateInfo" xml:space="preserve">
+    <value>Последното плащане на сумата от {0}₽ е направено на {1:MM\/dd\/yyyy HH:mm}</value>
+  </data>
+  <data name="text_leaveGame" xml:space="preserve">
+    <value>Да напуснеш партито?|Ще - бъдеш експулсиран незабавно от партията.|Не - ще имате {0} секунди, за да се върне в партията.|Правила-продължи да играе престола.</value>
+  </data>
+  <data name="text_linkAccountCompleted" xml:space="preserve">
+    <value>Действието е извършено успешно на Вашия акаунт</value>
+  </data>
+  <data name="text_login" xml:space="preserve">
+    <value>логин</value>
+  </data>
+  <data name="text_maxTime" xml:space="preserve">
+    <value>Максимално време за стъпка</value>
+  </data>
+  <data name="text_minTotalRatio" xml:space="preserve">
+    <value>Мин. рейтинг (Общо)</value>
+  </data>
+  <data name="text_msgInput" xml:space="preserve">
+    <value>Въведете съобщението си тук</value>
+  </data>
+  <data name="text_name" xml:space="preserve">
+    <value>име</value>
+  </data>
+  <data name="text_NewGame" xml:space="preserve">
+    <value>Нова игра</value>
+  </data>
+  <data name="text_no" xml:space="preserve">
+    <value>не</value>
+  </data>
+  <data name="text_noSupport" xml:space="preserve">
+    <value>неутралност</value>
+  </data>
+  <data name="text_notify" xml:space="preserve">
+    <value>Уведоми</value>
+  </data>
+  <data name="text_notUseBlade" xml:space="preserve">
+    <value>Не използвайте Blade</value>
+  </data>
+  <data name="text_onlineOnly" xml:space="preserve">
+    <value>Само онлайн</value>
+  </data>
+  <data name="text_orderFree" xml:space="preserve">
+    <value>Не всички ли войски са получили поръчки Завършете фазата на планиране?</value>
+  </data>
+  <data name="text_password" xml:space="preserve">
+    <value>парола</value>
+  </data>
+  <data name="text_postCanceled" xml:space="preserve">
+    <value>Не сте дали разрешение за вашата стена!</value>
+  </data>
+  <data name="text_postComplete" xml:space="preserve">
+    <value>Публикацията е публикувана!</value>
+  </data>
+  <data name="text_profileTab" xml:space="preserve">
+    <value>профил</value>
+  </data>
+  <data name="text_publicDonate" xml:space="preserve">
+    <value>Публично?</value>
+  </data>
+  <data name="text_randomPower" xml:space="preserve">
+    <value>Приливите и отливите на бойната карта</value>
+  </data>
+  <data name="text_ratingsCondition" xml:space="preserve">
+    <value>Изисква се минимален рейтинг:</value>
+  </data>
+  <data name="text_ratingTab" xml:space="preserve">
+    <value>Оценки</value>
+  </data>
+  <data name="text_saveError" xml:space="preserve">
+    <value>Запазване на кода за грешка?</value>
+  </data>
+  <data name="text_screenPost" xml:space="preserve">
+    <value>Публикуване на запис?</value>
+  </data>
+  <data name="text_scrollEvents" xml:space="preserve">
+    <value>- превъртане на списъка с събития (до 20)</value>
+  </data>
+  <data name="text_selectedOrder" xml:space="preserve">
+    <value>Избрана поръчка: "{0}".</value>
+  </data>
+  <data name="text_skull" xml:space="preserve">
+    <value>Допълнителни жертви (черепи)</value>
+  </data>
+  <data name="text_sloganBaratheon" xml:space="preserve">
+    <value>НАШИТЕ Е БЕЗЮМАТА</value>
+  </data>
+  <data name="text_sloganBolton" xml:space="preserve">
+    <value>НАШИТЕ ОСТРИЕТА СА ОСТРИ</value>
+  </data>
+  <data name="text_sloganGreyjoy" xml:space="preserve">
+    <value>НИЕ НЕ СЕЯМ</value>
+  </data>
+  <data name="text_sloganLannister" xml:space="preserve">
+    <value>Чуй ме мърморене</value>
+  </data>
+  <data name="text_sloganRandom" xml:space="preserve">
+    <value>САМО ТЕ, КОИТО СЛУЧВАТ АБСУРСА, могат да постигнат невъзможното</value>
+  </data>
+  <data name="text_sloganStark" xml:space="preserve">
+    <value>Зимата идва</value>
+  </data>
+  <data name="text_sloganTyrell" xml:space="preserve">
+    <value>РАСТЕЖ</value>
+  </data>
+  <data name="text_soundSettings" xml:space="preserve">
+    <value>Настройки на звука</value>
+  </data>
+  <data name="text_specialPassword" xml:space="preserve">
+    <value>Въведете специалната си парола</value>
+  </data>
+  <data name="text_specialPasswordAttention" xml:space="preserve">
+    <value>ВНИМАНИЕ! Не използвайте паролата си от VKontakte или Facebook!</value>
+  </data>
+  <data name="text_specialPasswordText" xml:space="preserve">
+    <value>Да приемем тази промяна. Ако тази парола се изисква за първи път, използвайте я! Ако компютърът ви трябва да бъде почистен</value>
+  </data>
+  <data name="text_stepPerform" xml:space="preserve">
+    <value>Извършете стъпка</value>
+  </data>
+  <data name="text_supplyLimit" xml:space="preserve">
+    <value>ограничение на доставките</value>
+  </data>
+  <data name="text_donate" xml:space="preserve">
+    <value>Дари...</value>
+  </data>
+  <data name="text_supportUser" xml:space="preserve">
+    <value>подкрепа</value>
+  </data>
+  <data name="text_textPost" xml:space="preserve">
+    <value>Добавете описание?</value>
+  </data>
+  <data name="text_updatingProfile" xml:space="preserve">
+    <value>МОЛЯ ИЗЧАКАЙТЕ! Профилите на играчите се обновяват...</value>
+  </data>
+  <data name="text_uriError" xml:space="preserve">
+    <value>За съжаление не можахме да преминем към този URL адрес:</value>
+  </data>
+  <data name="text_useBlade" xml:space="preserve">
+    <value>Как да използваме Blade?</value>
+  </data>
+  <data name="text_userBet" xml:space="preserve">
+    <value>Вашата оферта:</value>
+  </data>
+  <data name="text_userEndGameCount" xml:space="preserve">
+    <value>Играта приключи:</value>
+  </data>
+  <data name="text_userExperienceDay" xml:space="preserve">
+    <value>Опит (дни):</value>
+  </data>
+  <data name="text_userExperienceHour" xml:space="preserve">
+    <value>Опит (часове):</value>
+  </data>
+  <data name="text_userGameCount" xml:space="preserve">
+    <value>Игри (общо):</value>
+  </data>
+  <data name="text_userGames" xml:space="preserve">
+    <value>Вашите игри</value>
+  </data>
+  <data name="text_userHomeRate" xml:space="preserve">
+    <value>По къщи:</value>
+  </data>
+  <data name="text_userPower" xml:space="preserve">
+    <value>Налични токове за захранване:</value>
+  </data>
+  <data name="text_usersContract" xml:space="preserve">
+    <value>Рейтингите на играчите се основават на тяхната активност през последните три месеца.</value>
+  </data>
+  <data name="text_usersMeet" xml:space="preserve">
+    <value>Потребителите играят с</value>
+  </data>
+  <data name="text_usersTab" xml:space="preserve">
+    <value>Потребители</value>
+  </data>
+  <data name="text_useSpecialization" xml:space="preserve">
+    <value>Използвайте способността?</value>
+  </data>
+  <data name="text_vesterosCardSelect" xml:space="preserve">
+    <value>Изберете събитие</value>
+  </data>
+  <data name="text_vesterosSthanks" xml:space="preserve">
+    <value>Westeros е благодарен!</value>
+  </data>
+  <data name="text_vkAuthReset" xml:space="preserve">
+    <value>Назад към страницата за оторизация</value>
+  </data>
+  <data name="text_vkid" xml:space="preserve">
+    <value>Вашият профил: {0} {1}</value>
+  </data>
+  <data name="text_voting" xml:space="preserve">
+    <value>Офериране за "{0}"</value>
+  </data>
+  <data name="text_warning" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="text_yes" xml:space="preserve">
+    <value>да</value>
+  </data>
+  <data name="text_yourAccounts" xml:space="preserve">
+    <value>Вашите акаунти?</value>
+  </data>
+  <data name="titleType_Бездомный" xml:space="preserve">
+    <value>бездомен</value>
+  </data>
+  <data name="titleType_корольВестероса" xml:space="preserve">
+    <value>Крал на Уестерос</value>
+  </data>
+  <data name="titleType_Крестьянин" xml:space="preserve">
+    <value>фермер</value>
+  </data>
+  <data name="titleType_Купец" xml:space="preserve">
+    <value>търговец</value>
+  </data>
+  <data name="titleType_Лорд" xml:space="preserve">
+    <value>господар</value>
+  </data>
+  <data name="titleType_лордКомандующий" xml:space="preserve">
+    <value>Господин командир</value>
+  </data>
+  <data name="titleType_мастерНадЗаконами" xml:space="preserve">
+    <value>Майстор на законите</value>
+  </data>
+  <data name="titleType_мастерНадМонетой" xml:space="preserve">
+    <value>Майстор на монетата</value>
+  </data>
+  <data name="titleType_мастерНадШептунами" xml:space="preserve">
+    <value>Майстор на шепнерите</value>
+  </data>
+  <data name="titleType_Мейстер" xml:space="preserve">
+    <value>майстер</value>
+  </data>
+  <data name="titleType_Мейстер_Бард" xml:space="preserve">
+    <value>Мейстер-Бард</value>
+  </data>
+  <data name="titleType_Мейстер_Толмач" xml:space="preserve">
+    <value>Мейстер-Преводач</value>
+  </data>
+  <data name="titleType_Рыцарь" xml:space="preserve">
+    <value>рицар</value>
+  </data>
+  <data name="titleType_Создатель" xml:space="preserve">
+    <value>създател</value>
+  </data>
+  <data name="unitRemoveType_destroyed" xml:space="preserve">
+    <value>унищожен</value>
+  </data>
+  <data name="unitRemoveType_disbanding0" xml:space="preserve">
+    <value>разформироване</value>
+  </data>
+  <data name="unitRemoveType_disbanding1" xml:space="preserve">
+    <value>потънал</value>
+  </data>
+  <data name="unitRemoveType_finished" xml:space="preserve">
+    <value>завършен</value>
+  </data>
+  <data name="unitRemoveType_noRetreats" xml:space="preserve">
+    <value>пътят на отстъпление е отрязан</value>
+  </data>
+  <data name="unitRemoveType_retreats" xml:space="preserve">
+    <value>отстъпления</value>
+  </data>
+  <data name="unitRemoveType_thrown" xml:space="preserve">
+    <value>унищожен</value>
+  </data>
+  <data name="unitType_Корабль" xml:space="preserve">
+    <value>кораб</value>
+  </data>
+  <data name="unitType_Осадная_башня" xml:space="preserve">
+    <value>Обсадна кула</value>
+  </data>
+  <data name="unitType_Пеший_воин" xml:space="preserve">
+    <value>лакей</value>
+  </data>
+  <data name="unitType_Рыцарь" xml:space="preserve">
+    <value>рицар</value>
+  </data>
+  <data name="validation_consolidate1" xml:space="preserve">
+    <value>Нарушение на правилата: Превишил сте броя на точките за набиране.</value>
+  </data>
+  <data name="validation_consolidate2" xml:space="preserve">
+    <value>Нарушаване на правилата: Сухопътните войски могат да бъдат събирани само на територията на поръчката.</value>
+  </data>
+  <data name="validation_consolidate3" xml:space="preserve">
+    <value>Нарушаване на правилата: Корабите могат да се поръчват по реда на поръчката.</value>
+  </data>
+  <data name="validation_consolidate4" xml:space="preserve">
+    <value>Нарушаване на правилата:</value>
+  </data>
+  <data name="validation_consolidate5" xml:space="preserve">
+    <value>Нарушаване на правилата: Военните части могат да бъдат модернизирани.</value>
+  </data>
+  <data name="validation_consolidate6" xml:space="preserve">
+    <value>Нарушаване на правилата: Могат да се обновяват само лакеи.</value>
+  </data>
+  <data name="validation_consolidate7" xml:space="preserve">
+    <value>Нарушаване на правила: Не може да се надгради до лакей.</value>
+  </data>
+  <data name="validation_consolidate8" xml:space="preserve">
+    <value>Нарушаване на правила: Не можете да сменяте между сушата и морските единици.</value>
+  </data>
+  <data name="validation_homeCard" xml:space="preserve">
+    <value>Нарушаване на правила: Трябва да изберете карта за дома.</value>
+  </data>
+  <data name="validation_homeCard2" xml:space="preserve">
+    <value>Нарушаване на правилата: Къща не е налична.</value>
+  </data>
+  <data name="validation_lordFalse" xml:space="preserve">
+    <value>Съпротивата на защитника не е преодоляна: силата ви {0}, тяхната сила {1}.</value>
+  </data>
+  <data name="validation_lordTrue" xml:space="preserve">
+    <value>{0}, тяхната сила {1}.</value>
+  </data>
+  <data name="validation_march" xml:space="preserve">
+    <value>Нарушаване на правила: Не е възможно да се извършват множество атаки.</value>
+  </data>
+  <data name="validation_move1" xml:space="preserve">
+    <value>Нарушаване на правилата: Корабите могат да се движат само по вода.</value>
+  </data>
+  <data name="validation_move10" xml:space="preserve">
+    <value>Нарушаване на правила: Не може да се оттегли в зона, контролирана от врага.</value>
+  </data>
+  <data name="validation_move2" xml:space="preserve">
+    <value>Нарушаване на правилата: Сухопътни сили над сушата.</value>
+  </data>
+  <data name="validation_move3" xml:space="preserve">
+    <value>Нарушаване на правилата: Корабите могат да преместват само едно поле.</value>
+  </data>
+  <data name="validation_move4" xml:space="preserve">
+    <value>Нарушаване на правилата:</value>
+  </data>
+  <data name="validation_move5" xml:space="preserve">
+    <value>Нарушаване на правилата: Макс. 3 кораба на пристанище.</value>
+  </data>
+  <data name="validation_move6" xml:space="preserve">
+    <value>Нарушаване на правила: Не можете да влизате в вражеските портове.</value>
+  </data>
+  <data name="validation_move7" xml:space="preserve">
+    <value>Нарушаване на правилата: Макс. 4 единици във всяка една област.</value>
+  </data>
+  <data name="validation_move8" xml:space="preserve">
+    <value>Нарушаване на правилата: Отстъпът е възможен само в една посока.</value>
+  </data>
+  <data name="validation_move9" xml:space="preserve">
+    <value>Нарушаване на правилата: Не може да се оттегли в земята, откъдето е започнало нападението.</value>
+  </data>
+  <data name="validation_order" xml:space="preserve">
+    <value>Нарушаване на правила: Трябва да изберете изпълнима поръчка.</value>
+  </data>
+  <data name="validation_power" xml:space="preserve">
+    <value>Нарушаване на правилата: Можете да пренареждате само къщи с една и съща оферта.</value>
+  </data>
+  <data name="validation_ranly1" xml:space="preserve">
+    <value>Нарушаване на правилата: Можете да избирате само лакеи.</value>
+  </data>
+  <data name="validation_ranly2" xml:space="preserve">
+    <value>Не участвайте в битката.</value>
+  </data>
+  <data name="validation_supply" xml:space="preserve">
+    <value>Нарушение на правилата: Превишили сте лимита на доставка!</value>
+  </data>
+  <data name="validation_Track" xml:space="preserve">
+    <value>Нарушаване на правилата: Трябва да изберете път на влияние.</value>
+  </data>
+  <data name="voting_Вотчины" xml:space="preserve">
+    <value>Валерианско стоманено острие</value>
+  </data>
+  <data name="voting_Железный_трон" xml:space="preserve">
+    <value>Железен трон</value>
+  </data>
+  <data name="voting_Королевский_двор" xml:space="preserve">
+    <value>Пратеник гарван</value>
+  </data>
+  <data name="voting_Одичалые" xml:space="preserve">
+    <value>Атаката на Wildlings</value>
+  </data>
+</root>
