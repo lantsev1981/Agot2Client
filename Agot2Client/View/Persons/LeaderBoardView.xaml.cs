@@ -60,8 +60,8 @@ namespace Agot2Client
                         MainWindow.ClientInfo.GameSettings.CreatorLogin = MainWindow.GamePortal.User.Login;
                         if (GPUser.MinRateValues.ContainsKey("LikeRate"))
                         {
-                            App.Agot2.lobbyView.gameListView.newGameMenuView.LikeSlider.Minimum = GPUser.MinRateValues["LikeRate"];
-                            App.Agot2.lobbyView.gameListView.newGameMenuView.LikeSlider.Value = GPUser.MinRateValues["LikeRate"];
+                            // App.Agot2.lobbyView.gameListView.newGameMenuView.LikeSlider.Minimum = GPUser.MinRateValues["LikeRate"];
+                            // App.Agot2.lobbyView.gameListView.newGameMenuView.LikeSlider.Value = GPUser.MinRateValues["LikeRate"];
                         }
 
                         if (!UpdatingProfile.PlayIntro)

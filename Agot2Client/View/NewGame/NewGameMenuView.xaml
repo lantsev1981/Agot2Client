@@ -23,9 +23,9 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="90"/>
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
@@ -71,45 +71,45 @@
                      Grid.Column ="1"  Grid.Row="1"
                      Margin="0,5"/>
 
-            <TextBlock Style="{StaticResource textStyle}" 
-                       Grid.Column ="0" Grid.Row="2" 
-                       Text="{x:Static res:Resources.ratingType_mind}"
-                       Margin="0,0,20,0"/>
-            <TextBlock Style="{StaticResource textStyle}" 
-                       Grid.Column ="0" Grid.Row="2" 
-                       HorizontalAlignment="Right" VerticalAlignment="Center"
-                       Margin="0,0,5,0" 
-                       Text="{Binding ClientInfo.GameSettings.RateSettings.MindRate}"/>
-            <Slider Grid.Column ="1" Grid.Row="2" 
-                    Value="{Binding ClientInfo.GameSettings.RateSettings.MindRate, UpdateSourceTrigger=PropertyChanged}" 
-                    Minimum="0" Maximum="{Binding GamePortal.User.RateValues[MindRate]}"/>
-
-            <TextBlock Style="{StaticResource textStyle}" 
-                       Grid.Column ="0" Grid.Row="3" 
-                       Text="{x:Static res:Resources.ratingType_honor}"
-                       Margin="0,0,20,0"/>
-            <TextBlock Style="{StaticResource textStyle}" 
-                       Grid.Column ="0" Grid.Row="3" 
-                       HorizontalAlignment="Right" VerticalAlignment="Center" 
-                       Margin="0,0,5,0"  
-                       Text="{Binding ClientInfo.GameSettings.RateSettings.HonorRate}"/>
-            <Slider Grid.Column ="1" Grid.Row="3" 
-                    Value="{Binding ClientInfo.GameSettings.RateSettings.HonorRate, UpdateSourceTrigger=PropertyChanged}" 
-                    Minimum="0" Maximum="{Binding GamePortal.User.RateValues[HonorRate]}"/>
-
-            <TextBlock Style="{StaticResource textStyle}" 
-                       Grid.Column ="0" Grid.Row="4" 
-                       Text="{x:Static res:Resources.ratingType_like}"
-                       Margin="0,0,20,0"/>
-            <TextBlock Style="{StaticResource textStyle}"
-                       Grid.Column ="0" Grid.Row="4"  
-                       HorizontalAlignment="Right" VerticalAlignment="Center" 
-                       Margin="0,0,5,0"
-                       Text="{Binding ClientInfo.GameSettings.RateSettings.LikeRate}"/>
-            <Slider Name="LikeSlider" 
-                    Grid.Column ="1" Grid.Row="4" 
-                    Value="{Binding ClientInfo.GameSettings.RateSettings.LikeRate, UpdateSourceTrigger=PropertyChanged}"
-                    Maximum="{Binding GamePortal.User.RateValues[LikeRate]}"/>
+            <!-- <TextBlock Style="{StaticResource textStyle}"  -->
+            <!--            Grid.Column ="0" Grid.Row="2"  -->
+            <!--            Text="{x:Static res:Resources.ratingType_mind}" -->
+            <!--            Margin="0,0,20,0"/> -->
+            <!-- <TextBlock Style="{StaticResource textStyle}"  -->
+            <!--            Grid.Column ="0" Grid.Row="2"  -->
+            <!--            HorizontalAlignment="Right" VerticalAlignment="Center" -->
+            <!--            Margin="0,0,5,0"  -->
+            <!--            Text="{Binding ClientInfo.GameSettings.RateSettings.MindRate}"/> -->
+            <!-- <Slider Grid.Column ="1" Grid.Row="2"  -->
+            <!--         Value="{Binding ClientInfo.GameSettings.RateSettings.MindRate, UpdateSourceTrigger=PropertyChanged}"  -->
+            <!--         Minimum="0" Maximum="{Binding GamePortal.User.RateValues[MindRate]}"/> -->
+            <!-- -->
+            <!-- <TextBlock Style="{StaticResource textStyle}"  -->
+            <!--            Grid.Column ="0" Grid.Row="3"  -->
+            <!--            Text="{x:Static res:Resources.ratingType_honor}" -->
+            <!--            Margin="0,0,20,0"/> -->
+            <!-- <TextBlock Style="{StaticResource textStyle}"  -->
+            <!--            Grid.Column ="0" Grid.Row="3"  -->
+            <!--            HorizontalAlignment="Right" VerticalAlignment="Center"  -->
+            <!--            Margin="0,0,5,0"   -->
+            <!--            Text="{Binding ClientInfo.GameSettings.RateSettings.HonorRate}"/> -->
+            <!-- <Slider Grid.Column ="1" Grid.Row="3"  -->
+            <!--         Value="{Binding ClientInfo.GameSettings.RateSettings.HonorRate, UpdateSourceTrigger=PropertyChanged}"  -->
+            <!--         Minimum="0" Maximum="{Binding GamePortal.User.RateValues[HonorRate]}"/> -->
+            <!-- -->
+            <!-- <TextBlock Style="{StaticResource textStyle}"  -->
+            <!--            Grid.Column ="0" Grid.Row="4"  -->
+            <!--            Text="{x:Static res:Resources.ratingType_like}" -->
+            <!--            Margin="0,0,20,0"/> -->
+            <!-- <TextBlock Style="{StaticResource textStyle}" -->
+            <!--            Grid.Column ="0" Grid.Row="4"   -->
+            <!--            HorizontalAlignment="Right" VerticalAlignment="Center"  -->
+            <!--            Margin="0,0,5,0" -->
+            <!--            Text="{Binding ClientInfo.GameSettings.RateSettings.LikeRate}"/> -->
+            <!-- <Slider Name="LikeSlider"  -->
+            <!--         Grid.Column ="1" Grid.Row="4"  -->
+            <!--         Value="{Binding ClientInfo.GameSettings.RateSettings.LikeRate, UpdateSourceTrigger=PropertyChanged}" -->
+            <!--         Maximum="{Binding GamePortal.User.RateValues[LikeRate]}"/> -->
 
             <TextBlock Style="{StaticResource textStyle}"
                        Grid.Column ="0" Grid.Row="5" 
